@@ -1,0 +1,28 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;guilds.		   	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;
+;GUILDS;
+;;;;;;;;
+
+Guild guild1
+	building core_castle_building
+	levels	100 200 300
+
+;;;;;;;;;;
+;TRIGGERS;
+;;;;;;;;;;
+
+Trigger test1
+	WhenToTest GovernorBuildingCompleted
+
+	Condition FactionIsLocal
+
+	Guild guild1 s 10

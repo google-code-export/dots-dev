@@ -1,0 +1,27 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+
+accent English
+    factions england
+
+accent Scottish
+    factions scotland
+
+accent French
+    factions france
+
+accent German
+    factions hre, denmark, sweden, norway
+
+accent Mediterranean
+    factions milan, pisa, venice, sicily, papal_states, byzantium, aragon, spain, portugal, armenia, georgia, slave
+
+accent East_European
+    factions bohemia, hungary, poland, kiev, novgorod, lithuania
+
+accent Arabic
+    factions turks, seljuks, syria, moors, egypt
+
+accent Mongolian
+    factions cumans
+

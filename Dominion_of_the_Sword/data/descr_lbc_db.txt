@@ -1,0 +1,133 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;RTW leftover file	  ;
+;but still needed.	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+faction aragon
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction armenia
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction bohemia
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction byzantium
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction cumans
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction denmark
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction egypt
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction england
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction france
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction georgia
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction hre
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction hungary
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction kiev
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction lithuania
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction milan
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction moors
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction norway
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction novgorod
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction pisa
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction poland
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction portugal
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction scotland
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction seljuks
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction sicily
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction spain
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction sweden
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction syria
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction turks
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction venice
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction papal_states
+model roman_peasant			 40
+model roman_female_peasant   60
+
+faction slave
+model roman_peasant			 40
+model roman_female_peasant   60

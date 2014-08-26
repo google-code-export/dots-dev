@@ -1,0 +1,1232 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles    ;
+;rebel factions on the;
+;strat map.			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;;;;;;;;
+;DEFAULT TYPES;
+;;;;;;;;;;;;;;;
+
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				100
+description			gladiator_uprising
+unit				Peasants
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			brigands
+category			brigands
+chance				50
+description			brigands
+unit				Peasants
+					
+rebel_type			pirates
+category			pirates
+chance				50
+description			pirates
+unit				Peasants
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;REGIONAL REBEL FACTIONS;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+rebel_type			Pamplona_Rebels ; Kingdom of Navarre
+category			peasant_revolt 
+chance				3					
+description			Pamplona_Rebels_desc
+unit	Peasants
+
+rebel_type			Jaca_Rebels ; Kingdom of Aragon
+category			peasant_revolt 
+chance				3					
+description			Jaca_Rebels_desc
+unit	Peasants
+
+rebel_type			Tarsus_Rebels ; Cilicians
+category			peasant_revolt 
+chance				3					
+description			Tarsus_Rebels_desc
+unit	Peasants
+
+rebel_type			Antioch_Rebels ; Principality of Antioch
+category			peasant_revolt 
+chance				3					
+description			Antioch_Rebels_desc
+unit	Peasants
+
+rebel_type			Olomouc_Rebels ; Morawʃʃti pani
+category			peasant_revolt 
+chance				3					
+description			Olomouc_Rebels_desc
+unit	Peasants
+
+rebel_type			Prague_Rebels ; Czeʃʃti pani
+category			peasant_revolt 
+chance				3					
+description			Prague_Rebels_desc
+unit	Peasants
+
+rebel_type			Antalya_Rebels ; Theme of Carabisiani
+category			peasant_revolt 
+chance				3					
+description			Antalya_Rebels_desc
+unit	Peasants
+
+rebel_type			Durres_Rebels ; Albanian Clans
+category			peasant_revolt 
+chance				3					
+description			Durres_Rebels_desc
+unit	Peasants
+
+rebel_type			Edirne_Rebels ; Bulgarians
+category			peasant_revolt 
+chance				3					
+description			Edirne_Rebels_desc
+unit	Peasants
+
+rebel_type			Heraclion_Rebels ; Duchy of Candia
+category			peasant_revolt 
+chance				3					
+description			Heraclion_Rebels_desc
+unit	Peasants
+
+rebel_type			Kherson_Rebels ; Khazars
+category			peasant_revolt 
+chance				3					
+description			Kherson_Rebels_desc
+unit	Peasants
+
+rebel_type			Konya_Rebels ; Turkish Emirates
+category			peasant_revolt 
+chance				3					
+description			Konya_Rebels_desc
+unit	Peasants
+
+rebel_type			Larissa_Rebels ; Greek Rebels
+category			peasant_revolt 
+chance				3					
+description			Larissa_Rebels_desc
+unit	Peasants
+
+rebel_type			Nicopolis_Rebels ; Regnum Albaniae
+category			peasant_revolt 
+chance				3					
+description			Nicopolis_Rebels_desc
+unit	Peasants
+
+rebel_type			Nicosia_Rebels ; Despot of Cyprus
+category			peasant_revolt 
+chance				3					
+description			Nicosia_Rebels_desc
+unit	Peasants
+
+rebel_type			Patras_Rebels ; Despot of the Morea
+category			peasant_revolt 
+chance				3					
+description			Patras_Rebels_desc
+unit	Peasants
+
+rebel_type			Ras_Rebels ; Kneževina Srbija
+category			peasant_revolt 
+chance				3					
+description			Ras_Rebels_desc
+unit	Peasants
+
+rebel_type			Rhodes_Rebels ; Dodecanesians
+category			peasant_revolt 
+chance				3					
+description			Rhodes_Rebels_desc
+unit	Peasants
+
+rebel_type			Silistra_Rebels ; Miziyskie myatezhnitsi
+category			peasant_revolt 
+chance				3					
+description			Silistra_Rebels_desc
+unit	Peasants
+
+rebel_type			Sinop_Rebels ; Roman Nobles
+category			peasant_revolt 
+chance				3					
+description			Sinop_Rebels_desc
+unit	Peasants
+
+rebel_type			Skopje_Rebels ; Vtorо Bălgarskо Tsartsvo
+category			peasant_revolt 
+chance				3					
+description			Skopje_Rebels_desc
+unit	Peasants
+
+rebel_type			Thessalonica_Rebels ; Kingdom of Thessalonica
+category			peasant_revolt 
+chance				3					
+description			Thessalonica_Rebels_desc
+unit	Peasants
+
+rebel_type			Constantinople_Rebels ; Autokratōr Rhomaíōn
+category			peasant_revolt 
+chance				3					
+description			Constantinople_Rebels_desc
+unit	Peasants
+
+rebel_type			Baia_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Baia_Rebels_desc
+unit	Peasants
+
+rebel_type			Majar_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Majar_Rebels_desc
+unit	Peasants
+
+rebel_type			Targoviste_Rebels ; Vlachs
+category			peasant_revolt 
+chance				3					
+description			Targoviste_Rebels_desc
+unit	Peasants
+
+rebel_type			Sharukan_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Sharukan_Rebels_desc
+unit	Peasants
+
+rebel_type			Lund_Rebels ; Danish Rebels
+category			peasant_revolt 
+chance				3					
+description			Lund_Rebels_desc
+unit	Peasants
+
+rebel_type			Ribe_Rebels ; Danish Rebels
+category			peasant_revolt 
+chance				3					
+description			Ribe_Rebels_desc
+unit	Peasants
+
+rebel_type			Roskilde_Rebels ; Danish Rebels
+category			peasant_revolt 
+chance				3					
+description			Roskilde_Rebels_desc
+unit	Peasants
+
+rebel_type			Alexandria_Rebels ; Egyptian Caliphate
+category			peasant_revolt 
+chance				3					
+description			Alexandria_Rebels_desc
+unit	Peasants
+
+rebel_type			Barca_Rebels ; Berbers
+category			peasant_revolt 
+chance				3					
+description			Barca_Rebels_desc
+unit	Peasants
+
+rebel_type			Dongola_Rebels ; Kingdom of Makuria
+category			peasant_revolt 
+chance				3					
+description			Dongola_Rebels_desc
+unit	Peasants
+
+rebel_type			Mecca_Rebels ; Quraysh
+category			peasant_revolt 
+chance				3					
+description			Mecca_Rebels_desc
+unit	Peasants
+
+rebel_type			Minya_Rebels ; Egyptian Caliphate
+category			peasant_revolt 
+chance				3					
+description			Minya_Rebels_desc
+unit	Peasants
+
+rebel_type			Qift_Rebels ; Banu Kanz
+category			peasant_revolt 
+chance				3					
+description			Qift_Rebels_desc
+unit	Peasants
+
+rebel_type			Sanaa_Rebels ; Rasulids
+category			peasant_revolt 
+chance				3					
+description			Sanaa_Rebels_desc
+unit	Peasants
+
+rebel_type			Tennis_Rebels ; Mamluks
+category			peasant_revolt 
+chance				3					
+description			Tennis_Rebels_desc
+unit	Peasants
+
+rebel_type			Tripoli_Rebels ; Zenata
+category			peasant_revolt 
+chance				3					
+description			Tripoli_Rebels_desc
+unit	Peasants
+
+rebel_type			Cairo_Rebels ; Mamluks
+category			peasant_revolt 
+chance				3					
+description			Cairo_Rebels_desc
+unit	Peasants
+
+rebel_type			Norwich_Rebels ; Barons' Revolt
+category			peasant_revolt 
+chance				3					
+description			Norwich_Rebels_desc
+unit	Peasants
+
+rebel_type			Rouen_Rebels ; Duchy of Normandy
+category			peasant_revolt 
+chance				3					
+description			Rouen_Rebels_desc
+unit	Peasants
+
+rebel_type			York_Rebels ; Barons' Revolt
+category			peasant_revolt 
+chance				3					
+description			York_Rebels_desc
+unit	Peasants
+
+rebel_type			London_Rebels ; Barons' Revolt
+category			peasant_revolt 
+chance				3					
+description			London_Rebels_desc
+unit	Peasants
+
+rebel_type			Angers_Rebels ; County of Anjou
+category			peasant_revolt 
+chance				3					
+description			Angers_Rebels_desc
+unit	Peasants
+
+rebel_type			Bordeaux_Rebels ; Duchy of Acquitania
+category			peasant_revolt 
+chance				3					
+description			Bordeaux_Rebels_desc
+unit	Peasants
+
+rebel_type			Clermont_Rebels ; County of Auvergne
+category			peasant_revolt 
+chance				3					
+description			Clermont_Rebels_desc
+unit	Peasants
+
+rebel_type			Dijon_Rebels ; Duchy of Burgundy
+category			peasant_revolt 
+chance				3					
+description			Dijon_Rebels_desc
+unit	Peasants
+
+rebel_type			Ghent_Rebels ; Gravescap Vlaenderen
+category			peasant_revolt 
+chance				3					
+description			Ghent_Rebels_desc
+unit	Peasants
+
+rebel_type			Orleans_Rebels ; Duchy of Orleanais
+category			peasant_revolt 
+chance				3					
+description			Orleans_Rebels_desc
+unit	Peasants
+
+rebel_type			Poitiers_Rebels ; County of Poitou
+category			peasant_revolt 
+chance				3					
+description			Poitiers_Rebels_desc
+unit	Peasants
+
+rebel_type			Toulouse_Rebels ; County of Tolouse
+category			peasant_revolt 
+chance				3					
+description			Toulouse_Rebels_desc
+unit	Peasants
+
+rebel_type			Troyes_Rebels ; County of Champagne
+category			peasant_revolt 
+chance				3					
+description			Troyes_Rebels_desc
+unit	Peasants
+
+rebel_type			Paris_Rebels ; Parisian Robber Barons
+category			peasant_revolt 
+chance				3					
+description			Paris_Rebels_desc
+unit	Peasants
+
+rebel_type			Kutaisi_Rebels ; Georgian Rebels
+category			peasant_revolt 
+chance				3					
+description			Kutaisi_Rebels_desc
+unit	Peasants
+
+rebel_type			Bremen_Rebels ; Hartægedæm Sassen
+category			peasant_revolt 
+chance				3					
+description			Bremen_Rebels_desc
+unit	Peasants
+
+rebel_type			Cologne_Rebels ; Herzogentuom Niderluthringe
+category			peasant_revolt 
+chance				3					
+description			Cologne_Rebels_desc
+unit	Peasants
+
+rebel_type			Lyon_Rebels ; Duchy of Burgundy
+category			peasant_revolt 
+chance				3					
+description			Lyon_Rebels_desc
+unit	Peasants
+
+rebel_type			Magdeburg_Rebels ; Wendische Stammen
+category			peasant_revolt 
+chance				3					
+description			Magdeburg_Rebels_desc
+unit	Peasants
+
+rebel_type			Ravenna_Rebels ; Archbishopric of Ravenna
+category			peasant_revolt 
+chance				3					
+description			Ravenna_Rebels_desc
+unit	Peasants
+
+rebel_type			Trier_Rebels ; Herzogentuom Oberluthringe
+category			peasant_revolt 
+chance				3					
+description			Trier_Rebels_desc
+unit	Peasants
+
+rebel_type			Utrecht_Rebels ; Gravescap Hollant
+category			peasant_revolt 
+chance				3					
+description			Utrecht_Rebels_desc
+unit	Peasants
+
+rebel_type			Verona_Rebels ; Marca Veronensis et Aquileiensis 
+category			peasant_revolt 
+chance				3					
+description			Verona_Rebels_desc
+unit	Peasants
+
+rebel_type			Vienna_Rebels ; Herzogentuom Æsterriche
+category			peasant_revolt 
+chance				3					
+description			Vienna_Rebels_desc
+unit	Peasants
+
+rebel_type			Worms_Rebels ; Pfalenzgrõveshaft bæ Ræn
+category			peasant_revolt 
+chance				3					
+description			Worms_Rebels_desc
+unit	Peasants
+
+rebel_type			Gyulafehervar_Rebels ; Erdőelvi Fejedelemség (Voivoidship of Transylvania)
+category			peasant_revolt 
+chance				3					
+description			Gyulafehervar_Rebels_desc
+unit	Peasants
+
+rebel_type			Szekesfehervar_Rebels ; Magyar uruszági nemesek (Nobles of Hungary)
+category			peasant_revolt 
+chance				3					
+description			Szekesfehervar_Rebels_desc
+unit	Peasants
+
+rebel_type			Chernihiv_Rebels ; Principality of Chernigov
+category			peasant_revolt 
+chance				3					
+description			Chernihiv_Rebels_desc
+unit	Peasants
+
+rebel_type			Pereyaslavl_Rebels ; Principality of Pereyaslavl 
+category			peasant_revolt 
+chance				3					
+description			Pereyaslavl_Rebels_desc
+unit	Peasants
+
+rebel_type			Rostov_Rebels ; Great Rostov
+category			peasant_revolt 
+chance				3					
+description			Rostov_Rebels_desc
+unit	Peasants
+
+rebel_type			Ryazan_Rebels ; Principality of Ryazan
+category			peasant_revolt 
+chance				3					
+description			Ryazan_Rebels_desc
+unit	Peasants
+
+rebel_type			Smolensk_Rebels ; Principality of Smolensk 
+category			peasant_revolt 
+chance				3					
+description			Smolensk_Rebels_desc
+unit	Peasants
+
+rebel_type			Turov_Rebels ; Principality of Turov and Pinsk
+category			peasant_revolt 
+chance				3					
+description			Turov_Rebels_desc
+unit	Peasants
+
+rebel_type			Kiev_Rebels ; Principality of  Kiev
+category			peasant_revolt 
+chance				3					
+description			Kiev_Rebels_desc
+unit	Peasants
+
+rebel_type			Vilnius_Rebels ; Aukštaitian Rebels
+category			peasant_revolt 
+chance				3					
+description			Vilnius_Rebels_desc
+unit	Peasants
+
+rebel_type			Genoa_Rebels ; Republic of Genoa
+category			peasant_revolt 
+chance				3					
+description			Genoa_Rebels_desc
+unit	Peasants
+
+rebel_type			Turin_Rebels ; Grafschaft Savoyen 
+category			peasant_revolt 
+chance				3					
+description			Turin_Rebels_desc
+unit	Peasants
+
+rebel_type			Milan_Rebels ; Commune of Milan
+category			peasant_revolt 
+chance				3					
+description			Milan_Rebels_desc
+unit	Peasants
+
+rebel_type			Ceuta_Rebels ; Zenata
+category			peasant_revolt 
+chance				3					
+description			Ceuta_Rebels_desc
+unit	Peasants
+
+rebel_type			Fez_Rebels ; Masmuda
+category			peasant_revolt 
+chance				3					
+description			Fez_Rebels_desc
+unit	Peasants
+
+rebel_type			Sijilmasa_Rebels ; Zenata
+category			peasant_revolt 
+chance				3					
+description			Sijilmasa_Rebels_desc
+unit	Peasants
+
+rebel_type			Tlemcen_Rebels ; Zenata
+category			peasant_revolt 
+chance				3					
+description			Tlemcen_Rebels_desc
+unit	Peasants
+
+rebel_type			Marrakech_Rebels ; Masmuda
+category			peasant_revolt 
+chance				3					
+description			Marrakech_Rebels_desc
+unit	Peasants
+
+rebel_type			Kirkwall_Rebels ; Kingdom of the Isles/Regnum Insulae
+category			peasant_revolt 
+chance				3					
+description			Kirkwall_Rebels_desc
+unit	Peasants
+
+rebel_type			Skalholt_Rebels ; Þjóðveldið Ísland
+category			peasant_revolt 
+chance				3					
+description			Skalholt_Rebels_desc
+unit	Peasants
+
+rebel_type			Trondheim_Rebels ; Tronds
+category			peasant_revolt 
+chance				3					
+description			Trondheim_Rebels_desc
+unit	Peasants
+
+rebel_type			Bergen_Rebels ; Nordmenn af Viken 
+category			peasant_revolt 
+chance				3					
+description			Bergen_Rebels_desc
+unit	Peasants
+
+rebel_type			Pskov_Rebels ; Republic of Pskov
+category			peasant_revolt 
+chance				3					
+description			Pskov_Rebels_desc
+unit	Peasants
+
+rebel_type			Novgorod_Rebels ; Great Novgorod
+category			peasant_revolt 
+chance				3					
+description			Novgorod_Rebels_desc
+unit	Peasants
+
+rebel_type			Ancona_Rebels ; Communes of the Pentapolis
+category			peasant_revolt 
+chance				3					
+description			Ancona_Rebels_desc
+unit	Peasants
+
+rebel_type			Rome_Rebels ; Roman Noble Families
+category			peasant_revolt 
+chance				3					
+description			Rome_Rebels_desc
+unit	Peasants
+
+rebel_type			Bologna_Rebels ; Commune of Bologna
+category			peasant_revolt 
+chance				3					
+description			Bologna_Rebels_desc
+unit	Peasants
+
+rebel_type			Bonifacio_Rebels ; Terra di Comune
+category			peasant_revolt 
+chance				3					
+description			Bonifacio_Rebels_desc
+unit	Peasants
+
+rebel_type			Florence_Rebels ; Commune of Florence
+category			peasant_revolt 
+chance				3					
+description			Florence_Rebels_desc
+unit	Peasants
+
+rebel_type			Pisa_Rebels ; Republic of Pisa
+category			peasant_revolt 
+chance				3					
+description			Pisa_Rebels_desc
+unit	Peasants
+
+rebel_type			Krakow_Rebels ; Slavic Rebels
+category			peasant_revolt 
+chance				3					
+description			Krakow_Rebels_desc
+unit	Peasants
+
+rebel_type			Poznan_Rebels ; Duchy of Greater Poland 
+category			peasant_revolt 
+chance				3					
+description			Poznan_Rebels_desc
+unit	Peasants
+
+rebel_type			Wroclaw_Rebels ; Duchy of Silesia
+category			peasant_revolt 
+chance				3					
+description			Wroclaw_Rebels_desc
+unit	Peasants
+
+rebel_type			Plock_Rebels ; Duchy of Masovia
+category			peasant_revolt 
+chance				3					
+description			Plock_Rebels_desc
+unit	Peasants
+
+rebel_type			Coimbra_Rebels ; Condado de Coimbra
+category			peasant_revolt 
+chance				3					
+description			Coimbra_Rebels_desc
+unit	Peasants
+
+rebel_type			Elgin_Rebels ; Highland Scots
+category			peasant_revolt 
+chance				3					
+description			Elgin_Rebels_desc
+unit	Peasants
+
+rebel_type			Perth_Rebels ; Lowland Scots
+category			peasant_revolt 
+chance				3					
+description			Perth_Rebels_desc
+unit	Peasants
+
+rebel_type			Al_Ahsa_Rebels ; Uyunids 
+category			peasant_revolt 
+chance				3					
+description			Al_Ahsa_Rebels_desc
+unit	Peasants
+
+rebel_type			Ardabil_Rebels ; Oghuz Tribes
+category			peasant_revolt 
+chance				3					
+description			Ardabil_Rebels_desc
+unit	Peasants
+
+rebel_type			Baghdad_Rebels ; al-‘Abbāsīyūn
+category			peasant_revolt 
+chance				3					
+description			Baghdad_Rebels_desc
+unit	Peasants
+
+rebel_type			Chabahar_Rebels ; Ghaznavids
+category			peasant_revolt 
+chance				3					
+description			Chabahar_Rebels_desc
+unit	Peasants
+
+rebel_type			Gorgan_Rebels ; Turkmen
+category			peasant_revolt 
+chance				3					
+description			Gorgan_Rebels_desc
+unit	Peasants
+
+rebel_type			Hamadan_Rebels ; Kurds
+category			peasant_revolt 
+chance				3					
+description			Hamadan_Rebels_desc
+unit	Peasants
+
+rebel_type			Jend_Rebels ; Khwarezmians
+category			peasant_revolt 
+chance				3					
+description			Jend_Rebels_desc
+unit	Peasants
+
+rebel_type			Kerman_Rebels ; Buyids
+category			peasant_revolt 
+chance				3					
+description			Kerman_Rebels_desc
+unit	Peasants
+
+rebel_type			Marv_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Marv_Rebels_desc
+unit	Peasants
+
+rebel_type			Muscat_Rebels ; Rasulids
+category			peasant_revolt 
+chance				3					
+description			Muscat_Rebels_desc
+unit	Peasants
+
+rebel_type			Nishapur_Rebels ; Ghaznavids
+category			peasant_revolt 
+chance				3					
+description			Nishapur_Rebels_desc
+unit	Peasants
+
+rebel_type			Ray_Rebels ; Buwaihids
+category			peasant_revolt 
+chance				3					
+description			Ray_Rebels_desc
+unit	Peasants
+
+rebel_type			Shamakhi_Rebels ; Shirvanshahs
+category			peasant_revolt 
+chance				3					
+description			Shamakhi_Rebels_desc
+unit	Peasants
+
+rebel_type			Shiraz_Rebels ; Persians
+category			peasant_revolt 
+chance				3					
+description			Shiraz_Rebels_desc
+unit	Peasants
+
+rebel_type			Tbilisi_Rebels ; Kingdom of Alania
+category			peasant_revolt 
+chance				3					
+description			Tbilisi_Rebels_desc
+unit	Peasants
+
+rebel_type			Urgench_Rebels ; Khwarezmians
+category			peasant_revolt 
+chance				3					
+description			Urgench_Rebels_desc
+unit	Peasants
+
+rebel_type			Zaranj_Rebels ; Ghaznavids
+category			peasant_revolt 
+chance				3					
+description			Zaranj_Rebels_desc
+unit	Peasants
+
+rebel_type			Isfahan_Rebels ; Persians
+category			peasant_revolt 
+chance				3					
+description			Isfahan_Rebels_desc
+unit	Peasants
+
+rebel_type			Melfi_Rebels ; County of Apulia
+category			peasant_revolt 
+chance				3					
+description			Melfi_Rebels_desc
+unit	Peasants
+
+rebel_type			Taranto_Rebels ; Duchy of Apulia and Calabria
+category			peasant_revolt 
+chance				3					
+description			Taranto_Rebels_desc
+unit	Peasants
+
+rebel_type			Palermo_Rebels ; County of Sicily
+category			peasant_revolt 
+chance				3					
+description			Palermo_Rebels_desc
+unit	Peasants
+
+rebel_type			Aberffraw_Rebels ; Welsh Kingdoms
+category			peasant_revolt 
+chance				3					
+description			Aberffraw_Rebels_desc
+unit	Peasants
+
+rebel_type			Aden_Rebels ; Hemiyar Arabs
+category			peasant_revolt 
+chance				3					
+description			Aden_Rebels_desc
+unit	Peasants
+
+rebel_type			Aix_Rebels ; Kingdom of Arles
+category			peasant_revolt 
+chance				3					
+description			Aix_Rebels_desc
+unit	Peasants
+
+rebel_type			Aksum_Rebels ; Kingdom of Axum
+category			peasant_revolt 
+chance				3					
+description			Aksum_Rebels_desc
+unit	Peasants
+
+rebel_type			Augsburg_Rebels ; Herzogentuom Swõben
+category			peasant_revolt 
+chance				3					
+description			Augsburg_Rebels_desc
+unit	Peasants
+
+rebel_type			Awadaghust_Rebels ; Sanhaja
+category			peasant_revolt 
+chance				3					
+description			Awadaghust_Rebels_desc
+unit	Peasants
+
+rebel_type			Azov_Rebels ; Mordva and Mari Tribes
+category			peasant_revolt 
+chance				3					
+description			Azov_Rebels_desc
+unit	Peasants
+
+rebel_type			Badajoz_Rebels ; Taifa of Badajoz
+category			peasant_revolt 
+chance				3					
+description			Badajoz_Rebels_desc
+unit	Peasants
+
+rebel_type			Barcelona_Rebels ; County of Barcelona
+category			peasant_revolt 
+chance				3					
+description			Barcelona_Rebels_desc
+unit	Peasants
+
+rebel_type			Basel_Rebels ; Free County of Burgundy
+category			peasant_revolt 
+chance				3					
+description			Basel_Rebels_desc
+unit	Peasants
+
+rebel_type			Bejaia_Rebels ; Zenata
+category			peasant_revolt 
+chance				3					
+description			Bejaia_Rebels_desc
+unit	Peasants
+
+rebel_type			Berestie_Rebels ; Kingdom of Volhynia
+category			peasant_revolt 
+chance				3					
+description			Berestie_Rebels_desc
+unit	Peasants
+
+rebel_type			Bilar_Rebels ; Bulgars
+category			peasant_revolt 
+chance				3					
+description			Bilar_Rebels_desc
+unit	Peasants
+
+rebel_type			Bilma_Rebels ; Kanem
+category			peasant_revolt 
+chance				3					
+description			Bilma_Rebels_desc
+unit	Peasants
+
+rebel_type			Biograd_Rebels ; Hrvatsko Kraljevstvo (Kingdom of Croatia)
+category			peasant_revolt 
+chance				3					
+description			Biograd_Rebels_desc
+unit	Peasants
+
+rebel_type			Cagliari_Rebels ; Giudicati of Sardinia
+category			peasant_revolt 
+chance				3					
+description			Cagliari_Rebels_desc
+unit	Peasants
+
+rebel_type			Cherdyn_Rebels ; Great Perm
+category			peasant_revolt 
+chance				3					
+description			Cherdyn_Rebels_desc
+unit	Peasants
+
+rebel_type			Cordoba_Rebels ; Taifa of Cordoba
+category			peasant_revolt 
+chance				3					
+description			Cordoba_Rebels_desc
+unit	Peasants
+
+rebel_type			Derbent_Rebels ; Avar Khanate
+category			peasant_revolt 
+chance				3					
+description			Derbent_Rebels_desc
+unit	Peasants
+
+rebel_type			Dubrovnik_Rebels ; Republic of Ragusa
+category			peasant_revolt 
+chance				3					
+description			Dubrovnik_Rebels_desc
+unit	Peasants
+
+rebel_type			Erfurt_Rebels ; Lantgrõveschaft von Thuringe
+category			peasant_revolt 
+chance				3					
+description			Erfurt_Rebels_desc
+unit	Peasants
+
+rebel_type			Erzurum_Rebels ; Principality of Khachen
+category			peasant_revolt 
+chance				3					
+description			Erzurum_Rebels_desc
+unit	Peasants
+
+rebel_type			Fashir_Rebels ; Daju empire
+category			peasant_revolt 
+chance				3					
+description			Fashir_Rebels_desc
+unit	Peasants
+
+rebel_type			Fayd_Rebels ; Mrudah
+category			peasant_revolt 
+chance				3					
+description			Fayd_Rebels_desc
+unit	Peasants
+
+rebel_type			Gao_Rebels ; Gao Empire
+category			peasant_revolt 
+chance				3					
+description			Gao_Rebels_desc
+unit	Peasants
+
+rebel_type			Gdansk_Rebels ; Duchy of Pomerania
+category			peasant_revolt 
+chance				3					
+description			Gdansk_Rebels_desc
+unit	Peasants
+
+rebel_type			Granada_Rebels ; Taifa of Granada
+category			peasant_revolt 
+chance				3					
+description			Granada_Rebels_desc
+unit	Peasants
+
+rebel_type			Hijr_Rebels ; Banu Hanifa 
+category			peasant_revolt 
+chance				3					
+description			Hijr_Rebels_desc
+unit	Peasants
+
+rebel_type			Izmir_Rebels ; Nicaea 
+category			peasant_revolt 
+chance				3					
+description			Izmir_Rebels_desc
+unit	Peasants
+
+rebel_type			Kaliningrad_Rebels ; Prussian Tribes
+category			peasant_revolt 
+chance				3					
+description			Kaliningrad_Rebels_desc
+unit	Peasants
+
+rebel_type			Kayseri_Rebels ; Armenians
+category			peasant_revolt 
+chance				3					
+description			Kayseri_Rebels_desc
+unit	Peasants
+
+rebel_type			Kolmogory_Rebels ; Bjarmings
+category			peasant_revolt 
+chance				3					
+description			Kolmogory_Rebels_desc
+unit	Peasants
+
+rebel_type			Kumbi_Rebels ; Ghana Empire
+category			peasant_revolt 
+chance				3					
+description			Kumbi_Rebels_desc
+unit	Peasants
+
+rebel_type			Lubeck_Rebels ; Wendish Tribes
+category			peasant_revolt 
+chance				3					
+description			Lubeck_Rebels_desc
+unit	Peasants
+
+rebel_type			Lviv_Rebels ; Kingdom of Galych
+category			peasant_revolt 
+chance				3					
+description			Lviv_Rebels_desc
+unit	Peasants
+
+rebel_type			Mahdia_Rebels ; Masmuda
+category			peasant_revolt 
+chance				3					
+description			Mahdia_Rebels_desc
+unit	Peasants
+
+rebel_type			Murzuq_Rebels ; Kanem
+category			peasant_revolt 
+chance				3					
+description			Murzuq_Rebels_desc
+unit	Peasants
+
+rebel_type			Naples_Rebels ; Ducatus Neapolitanus
+category			peasant_revolt 
+chance				3					
+description			Naples_Rebels_desc
+unit	Peasants
+
+rebel_type			Palma_Rebels ; Kingdom of Majorca
+category			peasant_revolt 
+chance				3					
+description			Palma_Rebels_desc
+unit	Peasants
+
+rebel_type			Polotsk_Rebels ; Principality of Polotsk
+category			peasant_revolt 
+chance				3					
+description			Polotsk_Rebels_desc
+unit	Peasants
+
+rebel_type			Regensburg_Rebels ; Herzogentuom Beiern
+category			peasant_revolt 
+chance				3					
+description			Regensburg_Rebels_desc
+unit	Peasants
+
+rebel_type			Rennes_Rebels ; Duchy of Brittany
+category			peasant_revolt 
+chance				3					
+description			Rennes_Rebels_desc
+unit	Peasants
+
+rebel_type			Riga_Rebels ; Livonian Tribes
+category			peasant_revolt 
+chance				3					
+description			Riga_Rebels_desc
+unit	Peasants
+
+rebel_type			Saksin_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Saksin_Rebels_desc
+unit	Peasants
+
+rebel_type			Saragossa_Rebels ; Taifa of Saraqusta
+category			peasant_revolt 
+chance				3					
+description			Saragossa_Rebels_desc
+unit	Peasants
+
+rebel_type			Saraychyq_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Saraychyq_Rebels_desc
+unit	Peasants
+
+rebel_type			Seville_Rebels ; Taifa of Seville
+category			peasant_revolt 
+chance				3					
+description			Seville_Rebels_desc
+unit	Peasants
+
+rebel_type			Silves_Rebels ; Taifa of Silves
+category			peasant_revolt 
+chance				3					
+description			Silves_Rebels_desc
+unit	Peasants
+
+rebel_type			Sivas_Rebels ; Despot of Philadelphia
+category			peasant_revolt 
+chance				3					
+description			Sivas_Rebels_desc
+unit	Peasants
+
+rebel_type			Stettin_Rebels ; Wendish Tribes
+category			peasant_revolt 
+chance				3					
+description			Stettin_Rebels_desc
+unit	Peasants
+
+rebel_type			Takrur_Rebels ; Ghana Empire
+category			peasant_revolt 
+chance				3					
+description			Takrur_Rebels_desc
+unit	Peasants
+
+rebel_type			Tallin_Rebels ; Estonian Tribes
+category			peasant_revolt 
+chance				3					
+description			Tallin_Rebels_desc
+unit	Peasants
+
+rebel_type			Tartu_Rebels ; Žemaitėjės Seniūnėjė
+category			peasant_revolt 
+chance				3					
+description			Tartu_Rebels_desc
+unit	Peasants
+
+rebel_type			Toledo_Rebels ; Taifa of Toledo
+category			peasant_revolt 
+chance				3					
+description			Toledo_Rebels_desc
+unit	Peasants
+
+rebel_type			Tozeur_Rebels ; Hammadids 
+category			peasant_revolt 
+chance				3					
+description			Tozeur_Rebels_desc
+unit	Peasants
+
+rebel_type			Trabzon_Rebels ; Empire of Trebizond
+category			peasant_revolt 
+chance				3					
+description			Trabzon_Rebels_desc
+unit	Peasants
+
+rebel_type			Tuam_Rebels ; Irish Kingdoms
+category			peasant_revolt 
+chance				3					
+description			Tuam_Rebels_desc
+unit	Peasants
+
+rebel_type			Tuat_Rebels ; Bedouins
+category			peasant_revolt 
+chance				3					
+description			Tuat_Rebels_desc
+unit	Peasants
+
+rebel_type			Turku_Rebels ; Finnic Tribes
+category			peasant_revolt 
+chance				3					
+description			Turku_Rebels_desc
+unit	Peasants
+
+rebel_type			Ufa_Rebels ; Steppe Nomads
+category			peasant_revolt 
+chance				3					
+description			Ufa_Rebels_desc
+unit	Peasants
+
+rebel_type			Uppsala_Rebels ; Svear
+category			peasant_revolt 
+chance				3					
+description			Uppsala_Rebels_desc
+unit	Peasants
+
+rebel_type			Valencia_Rebels ; Taifa of Valencia
+category			peasant_revolt 
+chance				3					
+description			Valencia_Rebels_desc
+unit	Peasants
+
+rebel_type			Visby_Rebels ; Gotlännningar
+category			peasant_revolt 
+chance				3					
+description			Visby_Rebels_desc
+unit	Peasants
+
+rebel_type			Yangikent_Rebels ; Oghuz
+category			peasant_revolt 
+chance				3					
+description			Yangikent_Rebels_desc
+unit	Peasants
+
+rebel_type			Leon_Rebels ; Kingdom of Leon
+category			peasant_revolt 
+chance				3					
+description			Leon_Rebels_desc
+unit	Peasants
+
+rebel_type			Santiago_Rebels ; Kingdom of Galicia
+category			peasant_revolt 
+chance				3					
+description			Santiago_Rebels_desc
+unit	Peasants
+
+rebel_type			Burgos_Rebels ; Kingdom of Castille
+category			peasant_revolt 
+chance				3					
+description			Burgos_Rebels_desc
+unit	Peasants
+
+rebel_type			Linkoping_Rebels ; Götar
+category			peasant_revolt 
+chance				3					
+description			Linkoping_Rebels_desc
+unit	Peasants
+
+rebel_type			Skara_Rebels ; Götar
+category			peasant_revolt 
+chance				3					
+description			Skara_Rebels_desc
+unit	Peasants
+
+rebel_type			Aleppo_Rebels ; Syrians
+category			peasant_revolt 
+chance				3					
+description			Aleppo_Rebels_desc
+unit	Peasants
+
+rebel_type			Homs_Rebels ; Abbasid Caliphate
+category			peasant_revolt 
+chance				3					
+description			Homs_Rebels_desc
+unit	Peasants
+
+rebel_type			Jerusalem_Rebels ; Levantine Rebels
+category			peasant_revolt 
+chance				3					
+description			Jerusalem_Rebels_desc
+unit	Peasants
+
+rebel_type			Mosul_Rebels ; Beylik of Mosul
+category			peasant_revolt 
+chance				3					
+description			Mosul_Rebels_desc
+unit	Peasants
+
+rebel_type			Damascus_Rebels ; Bedouins
+category			peasant_revolt 
+chance				3					
+description			Damascus_Rebels_desc
+unit	Peasants
+
+rebel_type			Iznik_Rebels ; Nicaea 
+category			peasant_revolt 
+chance				3					
+description			Iznik_Rebels_desc
+unit	Peasants
+
+rebel_type			Venice_Rebels ; Venetian Patricians
+category			peasant_revolt 
+chance				3					
+description			Venice_Rebels_desc
+unit	Peasants

@@ -1,0 +1,117 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;missions.		   	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;;;
+;PAYBACKS;
+;;;;;;;;;;
+
+;>>> EMPTY PAYBACK <<<
+payback_list empty_payback
+{
+}
+
+;>>> PAYBACKS <<<
+
+payback_list papal_inquisition
+{
+	reward
+	{
+		inquisition_chance 1.0
+		null_payback	PAPAL_STANDING
+	}
+}
+
+payback_list papal_approval
+{
+	reward
+	{
+		inquisition_chance 1.0
+		null_payback	LARGE_PAPAL_STANDING
+	}
+	penalty
+	{
+		inquisition_chance 1.0
+		null_payback	PAPAL_STANDING
+	}
+}
+
+;;;;;;;;;;
+;MISSIONS;
+;;;;;;;;;;
+
+mission	assassinate_witch_heretic test
+{
+	POPE_MISSION
+	image_path_issued	pope_mission
+	image_path_expired	pope_disapproval
+	image_path_success	pope_approval
+	image_path_failed	pope_disapproval
+	duration	10
+	exclude_duration	25
+	score_modifier	1.2
+	max_score	100
+	difficulty_threshold	0.4
+	turn_start	3
+	paybacks
+	{
+		cash 1000 payback_id	papal_inquisition
+		cash 2000 payback_id	papal_approval
+	}
+	excommunicated_modifier 1.0
+	max_turns_distance 3
+	religion_modifiers
+	{
+		heretic 0.0
+		pagan 3.0
+	}
+}
+
+mission	convert
+{
+	COUNCIL_MISSION
+	image_path_issued	council_mission
+	image_path_expired	council_disapproval
+	image_path_success	council_approval
+	image_path_failed	council_disapproval
+	duration	5
+	score_modifier	1.1
+	max_score	100
+	paybacks
+	{
+		payback_id	papal_approval
+	}
+}
+
+mission	assassinate_witch_heretic test2
+{
+	POPE_MISSION
+	image_path_issued	pope_mission
+	image_path_expired	pope_disapproval
+	image_path_success	pope_approval
+	image_path_failed	pope_disapproval
+	duration	10
+	exclude_duration	25
+	score_modifier	1.2
+	max_score	100
+	difficulty_threshold	0.4
+	turn_start	3
+	paybacks
+	{
+		cash 2000 payback_id	papal_inquisition
+		cash 1000 payback_id	papal_approval
+	}
+	excommunicated_modifier 1.0
+	max_turns_distance 3
+	religion_modifiers
+	{
+		heretic 0.0
+		pagan 3.0
+	}
+}

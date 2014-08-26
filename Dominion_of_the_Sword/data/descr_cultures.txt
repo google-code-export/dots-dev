@@ -1,0 +1,400 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file defines the;
+;cultures and related ;
+;strat models.		  ;					 
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+symbol	data/models_strat/residences/symbol.CAS
+siege	data/models_strat/residences/siege_icon.CAS
+
+blockade			data/models_strat/residences/blockade_icon.CAS
+
+culture				southern_european
+portrait_mapping	southern_european
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/SE_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/SE_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/SE_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/SE_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/SE_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/SE_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/SE_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/SE_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/SE_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/SE_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/SE_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/SE_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/SE_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/SE_fort.CAS
+fishing_village		data/models_strat/residences/SE_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/SE_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/SE_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/SE_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/SE_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/SE_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/SE_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/SE_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				northern_european
+portrait_mapping	northern_european
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/NE_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/NE_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/NE_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/NE_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/NE_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/NE_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/NE_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/NE_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/NE_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/NE_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/NE_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/NE_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/NE_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/NE_fort.CAS
+fishing_village		data/models_strat/residences/NE_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/NE_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/NE_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/NE_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/NE_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/NE_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/NE_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/NE_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				central_european
+portrait_mapping	central_european
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/CE_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/CE_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/CE_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/CE_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/CE_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/CE_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/CE_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/CE_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/CE_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/CE_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/CE_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/CE_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/CE_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/CE_fort.CAS
+fishing_village		data/models_strat/residences/CE_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/CE_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/CE_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/CE_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/CE_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/CE_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/CE_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/CE_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				greek
+portrait_mapping	greek
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/GR_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/GR_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/GR_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/GR_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/GR_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/GR_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/GR_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/GR_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/GR_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/GR_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/GR_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/GR_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/GR_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/GR_fort.CAS
+fishing_village		data/models_strat/residences/GR_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/GR_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/GR_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/GR_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/GR_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/GR_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/GR_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/GR_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				eastern_european
+portrait_mapping	eastern_european
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/EE_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/EE_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/EE_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/EE_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/EE_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/EE_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/EE_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/EE_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/EE_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/EE_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/EE_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/EE_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/EE_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/EE_fort.CAS
+fishing_village		data/models_strat/residences/EE_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/EE_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/EE_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/EE_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/EE_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/EE_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/EE_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/EE_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				middle_eastern
+portrait_mapping	middle_eastern
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/ME_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/ME_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/ME_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/ME_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/ME_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/ME_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/ME_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/ME_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/ME_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/ME_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/ME_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/ME_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/ME_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/ME_fort.CAS
+fishing_village		data/models_strat/residences/ME_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/ME_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/ME_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/ME_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/ME_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/ME_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/ME_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/ME_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+culture				steppe
+portrait_mapping	steppe
+rebel_standard_index	{rebel_standard_index}
+{
+village
+{
+	normal				data/models_strat/residences/ST_village.CAS,		settlement_eastern_level_1
+	card				data/ui/southern_european/cities/ST_village_card.tga
+}
+town
+{
+	normal				data/models_strat/residences/ST_town.CAS,		settlement_eastern_level_2
+	card				data/ui/southern_european/cities/ST_town_card.tga
+}
+large_town
+{
+	normal				data/models_strat/residences/ST_large_town.CAS,		settlement_eastern_level_3
+	card				data/ui/southern_european/cities/ST_large_town_card.tga
+}
+city
+{
+	normal				data/models_strat/residences/ST_city.CAS,		settlement_eastern_level_4
+	card				data/ui/southern_european/cities/ST_city_card.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/ST_large_city.CAS,		settlement_eastern_level_5
+	card				data/ui/southern_european/cities/ST_large_city_card.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/ST_huge_city.CAS,		settlement_eastern_level_6
+	card				data/ui/southern_european/cities/ST_huge_city_card.tga
+}
+}
+fort				data/models_strat/residences/ST_fort.CAS,						fort_roman
+fort_cost			100
+fort_wall			data/models_strat/residences/ST_fort.CAS
+fishing_village		data/models_strat/residences/ST_port_village.CAS,				port_roman_level_1
+port_land			data/models_strat/residences/ST_sea_port_wall.CAS,				port_roman_level_2
+port_sea			data/models_strat/residences/ST_sea_port_buildings.CAS,
+port_land			data/models_strat/residences/ST_shipwright_wall.CAS,				port_roman_level_3
+port_sea			data/models_strat/residences/ST_shipwright_buildings.CAS,
+port_land			data/models_strat/residences/ST_dockyard_wall.CAS,				port_roman_level_4
+port_sea			data/models_strat/residences/ST_dockyard_buildings.CAS,
+watchtower			data/models_strat/residences/ST_watchtower.CAS,					watchtower_roman
+watchtower_cost		200
+spy				spy.tga				spy_info.tga			spy.tga			100	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	100	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	100	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	100	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	100	1	1
+priest			priest.tga		priest_info.tga			priest.tga	100	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

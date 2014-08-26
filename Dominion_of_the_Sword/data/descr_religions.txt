@@ -1,0 +1,73 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;the religions.		  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+religions
+{
+	buddhism
+	catholic
+	heretic
+	hussitism
+	judaism
+	oriental
+	orthodox
+	pagan
+	islam
+	shia
+}
+
+religion	buddhism
+{
+	pip_path	ui/pips/pip_buddhism.tga
+}
+
+religion	catholic
+{
+	pip_path	ui/pips/pip_catholic.tga
+}
+
+religion	heretic
+{
+	pip_path	ui/pips/pip_heretic.tga
+}
+
+religion	hussitism
+{
+	pip_path	ui/pips/pip_hussitism.tga
+}
+
+religion	judaism
+{
+	pip_path	ui/pips/pip_judaism.tga
+}
+
+religion	oriental
+{
+	pip_path	ui/pips/pip_oriental.tga
+}
+
+religion	orthodox
+{
+	pip_path	ui/pips/pip_orthodox.tga
+}
+
+religion	pagan
+{
+	pip_path	ui/pips/pip_pagan.tga
+}
+
+religion	islam
+{
+	pip_path	ui/pips/pip_islam.tga
+}
+
+religion	shia
+{
+	pip_path	ui/pips/pip_shia.tga
+}

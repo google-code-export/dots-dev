@@ -1,0 +1,5090 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;DOMINION OF THE SWORD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;MUSIC
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: priority 9999 randomdelay 0 pan .5 volume 0
+DEFAULT: dry_level 1.0 wet_level 0.0 fadeout 1
+DEFAULT: pref MUSIC STREAMED
+
+required_samples_cutoff 3
+
+;; music events timeout in seconds
+;; music state will change to the previous one if no events occured within the time out
+music_timeout   60
+music_retrigger 5
+
+;; music events fade time in seconds
+;; fading is used when the music changes from one state to another
+music_fade_in 0
+music_fade_out 3
+music_fade_out_timeout 10
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; Historical Battle Music
+
+event  Arabic_Tension
+		folder data/sounds/music
+            (Arabic_Tension_1)_Kebabka.mp3
+            (Arabic_Tension_2)_Starsand.mp3
+end
+
+event Mediterranean_Tension
+		folder data/sounds/music
+			(Mediterranean_Tension_1)_By_The_Marmara.mp3
+			(Mediterranean_Tension_2)_Secret_Sandals.mp3
+
+end
+
+event  Euro_Tension
+		folder data/sounds/music
+			(Euro_Tension_1)_BladeGrass.mp3
+			(Euro_Tension_2)_Call_Of_The_Sheep.mp3
+			(Euro_Tension_3)_Fear_Frozen.mp3
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEFAULT: streamed
+
+BANK: music_bank
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type england
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+				Old_Music_Middle_Ages.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Alruna_Galliarde_Le_Tout.mp3
+				Unknown_The_Medieval_Babes.mp3
+				Carmina_Burana_Clauso_Cronos.mp3
+				13th_century_Medieval_Music_Ductia.mp3
+				Ioculatores_Cest_la_fins.mp3
+				English_Dance_Miri_it_is.mp3
+				Anonymous_Fuw_les_in_the_frith.mp3
+				Anonymous_Edi_Beo_Thu_Hevene_Quene.mp3
+				Mediaeval_Baebes_Erthe_Upon_Erthe.mp3
+				English_Medieval_song_2.mp3
+				John_Dunstable_Quam_pulchra_es.mp3
+				RobinHood_andMaidMarian.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				English_Medieval_song1.mp3
+				Richard_Neville_Go_Hert.mp3
+				Sumer_is_icumen_in_The_Hilliard_Ensemble.mp3
+				Alruna_The_little_Barley_Corne.mp3
+				JohannesOckeghemAlmaRedemptorMater.mp3
+				Anonymous15thcenturyThereisnoroseofsuchvirtue.mp3
+				AnonymousLullylullaythoulittletinychild.mp3
+				Anonymous15thcenturyNowellNowelltidingstrue.mp3
+				AnonymousBrydonebrere.mp3
+				AgincourtCarol.mp3
+				Alentrantdeste.mp3
+				MedievalmusicJanunhonsprisbyRichardtheLionheart.mp3
+				Robins_m_aime.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				13th_century_Medieval_Music_Ductia.mp3
+				AnonymousBrydonebrere.mp3
+				Alentrantdeste.mp3
+
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				English_Medieval_song_2.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				AgincourtCarol1.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type scotland
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Harald_Foss_gjoglerdansen.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Carolans_Dream_played_on_celtic_harp.mp3
+				Kalenda_Maya_Dei_frearlause_menn.mp3
+				Puirt_a_beul.mp3
+				Sadhbh_Ni_Bhruinneallaigh_Liam_O_Maonlai.mp3
+				Gaelic_song_Slainte_na_neanach_Thaoba_a_Leithid.mp3
+				Scartaglen_Chuaigh_Me_Na_Rosann.mp3
+				Battle_of_Harlaw_1411.mp3
+				Scottish_Music_Bagpipes_Lost_song.mp3
+				Sileas_Puirt_a_Beul.mp3
+				Dark_Iniseoghain.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Scottish_Mouth_Music_Dolores_Keane_John_Faulkner.mp3
+				Unknown_balaam_short.mp3
+				Unknown_extelux_short.mp3
+				Waulking_song_Gaol_lse_gaol.mp3
+				Scottish_fiddle_Irish_Harp_Patsy_Reid_Declan_Hegarty.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				Alruna_Galliarde_Le_Tout.mp3
+				Unknown_The_Medieval_Babes.mp3
+				Carmina_Track5.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+				Scottish_fiddle_Irish_Harp_Patsy_Reid_Declan_Hegarty.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Battle_of_Harlaw_1411.mp3
+				Scartaglen_Chuaigh_Me_Na_Rosann.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Puirt_a_beul.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type france
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				MedievalFrenchSongbyGuillaumedeMachaut.mp3
+				Capella_Monacensis_Giaches_de_Wert_Un_jour_je.mp3
+				Pouis_Oubli.mp3
+				LaSexteEstampieReal.mp3
+				Marie_Claude_Moriarty_Belle_Qui_Tient_Ma_Vie.mp3
+				Tant_mabelis.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Ensemble_Galatia_Ortacag_Sarkilari.mp3
+				Asteria_Quant_la_doulce_jouvencelle.mp3
+				Raimbaut_de_Vaqueiras_Savis_e_fols_humils_et_ergulhos.mp3
+				Ioculatores_Cest_la_fins.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Medieval_Virelai_Music_Song_Douce_Dame_Jolie.mp3
+				13th_century_Medieval_Music_Ductia.mp3
+				Ambrosian_chant_Ecce_apertum_est_Templum_tabernaculi.mp3
+				Ambrosian_chant_Ecce_quam_bonum_et_jocundum.mp3
+				Ambrosian_chant_Tecum_principium_in_die_virtutis_tue.mp3
+				medieval_Bransle_de_Chevaux.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Medieval_music_Holloenek_Hungarica_Ai_vist_lo_lop.mp3
+				Gaucelm_Faidit_Jamais_nuill_temps.mp3
+				Jamais_nuill_temps_Gaucelm_Faidit.mp3
+				Marcabru_Lautrierjostunasebissa.mp3
+				Raimbaut_de_Vaqueiras_Ondas_do_Mar.mp3
+				Galinverna_adiu_adiu_douce_dame.mp3
+				Gaucelm_Faidit_Vos_que_semblatz_dels_corals.mp3
+				Raimbaut_de_Vaqueiras_Guerras_ni_platz_no_son_bos.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				Gaucelm_Faidit_Lo_rossinholet_salvatge.mp3
+				Marie_Claude_Moriarty_Belle_Qui_Tient_Ma_Vie.mp3
+				Music_for_a_Knight_A_lentrant_deste.mp3
+				Alruna_Galliarde_Le_Tout.mp3
+				Unknown_The_Medieval_Babes.mp3
+				Thibaut_de_Champagn_Seigneurs_sachiez_qui_or_ne_sen_ira.mp3
+				Wunnespil_Quant_je_sui_mis_au_retour.mp3
+				Carmina_Burana_Clauso_Cronos.mp3
+				La_Quinte_estampie_real.mp3
+				La_Tierche_estampie_real.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Robins_m_aime.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Wunnespil_Quant_je_sui_mis_au_retour.mp3
+				Marcabru_Lautrierjostunasebissa.mp3
+				Pouis_Oubli.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type norway
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Gjallarhorn_O_Vals.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Harald_Foss_gjoglerdansen.mp3
+            end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Kalenda_Maya_St_Olavs_kappsigling.mp3
+				Tone_Hulbaekmo_Kamma_no.mp3
+				Gamle_Gullbrand_Arve_Moen_Bergset.mp3
+				Kalenda_Maya_Kong_Gaud_og_ungan_Herredag.mp3
+				Kalenda_Maya_Villemann_og_Magnhild.mp3
+				Dominion_of_the_Sword_Olav_Liljeros.mp3
+				Kalenda_Maya_Magnushymnen.mp3
+				Ulv_Den_bergtagna.mp3
+				Bukkene_Bruse_Nystev_og_gamlestev.mp3
+				;Volund_Hamnden.mp3
+				Ulvens_Dottrar.mp3
+				Krauka_Sigurdskvadet.mp3
+				Dyravisur_Iceland_FolkSong.mp3
+				o_min_flaskan_frida.mp3
+				Heming_og_Gygri_Norwegian_middle_age_music.mp3
+				Arve_Moen_hoss_slapp_du_ivi_bekkjen.mp3
+				Krummavisur.mp3
+				Olafur_Liljuros.mp3
+				Harald_Foss_Stanford_bru.mp3
+				Harald_Foss_Eirik_Jarl.mp3
+				Gamle_Gullbrand_Arve_Moen_Bergset.mp3
+				Harald_Foss_gjoglerdansen.mp3
+				spurven_Norwegian_folk.mp3
+				Bukkene_Bruse_Nystev_og_gamlestev.mp3
+				Gravrost_Ridom_Ridom.mp3
+				Kalenda_Maya_Dei_frearlause_menn.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				Harald_Foss_Hildinakvadet.mp3
+
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Olafur_Liljuros.mp3
+				o_min_flaskan_frida.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hedningarna_Drafur_och_Gildur.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Krummavisur.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Krummavisur.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Krummavisur.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Kalenda_Maya_St_Olavs_kappsigling.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type sweden
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Gjallarhorn_O_Vals.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Harald_Foss_gjoglerdansen.mp3
+            end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Krauka_Krummivisa.mp3
+				krauka_lose.mp3
+				krauka_tension.mp3
+				Gjallarhorn_Herr_Olof.mp3
+				Gjallarhorn_Kulning.mp3
+				Dominion_of_the_Sword_Olav_Liljeros.mp3
+				Ulv_Den_bergtagna.mp3
+				Kalenda_Maya_De_tva_systrarna.mp3
+				Ulvens_Dottrar.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Percival_Eiforr.mp3
+				Gravrost_Ridom_Ridom.mp3
+				Vallatar_fran_gammelboning.mp3
+				Swedish_traditional_folksong_Nar_som_jag_var_pa_mitt_adertonde_ar.mp3
+				Elin_i_Hagen.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Vallatar_fran_gammelboning.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hedningarna_Drafur_och_Gildur.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; NORTHERN, EASTERN & WESTERN EUROPEAN MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type denmark
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Gjallarhorn_O_Vals.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Harald_Foss_gjoglerdansen.mp3
+            end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Krauka_Krummivisa.mp3
+				Krauka_Sigurdskvadet.mp3
+				krauka_lose.mp3
+				krauka_tension.mp3
+				Tone_Hulbaekmo_Kamma_no.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Gravrost_Ridom_Ridom.mp3
+				Ulv_Den_bergtagna.mp3
+				Gjallarhorn_Herr_Olof.mp3
+				;Volund_Fjaugen.mp3
+				Percival_Eiforr.mp3
+				Gamle_Gullbrand_Arve_Moen_Bergset.mp3
+				Krauka_Sigurdskvadet.mp3
+				Gjallarhorn_Kulning.mp3
+				;Volund_Hamnden.mp3
+				Vallatar_fran_gammelboning.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				Ulvens_Dottrar.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+				Gjendines_Banlat_folksong.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				krauka_tension.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hedningarna_Drafur_och_Gildur.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				krauka_lose.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type kiev
+
+;;; BATTLE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				turbodzen_tundra_ekspress.mp3
+				turbodzen_medveji_plyaski.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				turbodzen_provoda.mp3
+				turbodzen_duet.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Bereznichek_chastovoi.mp3
+				Maslenskaya.mp3
+				Priletal_tut_sizoi_golub.mp3
+				Staretz_i_Piatnitsa.mp3
+				;17_Trek17.mp3
+				VICTORY.mp3
+				Percival_Jomsborg_viking_and_slavic_music.mp3
+				;yuriy_strelnikov_st06.mp3
+				Vedan_Kolod_bedahb.mp3
+				Track03.mp3
+				5r_folk.mp3
+				01Vesna.mp3
+				water_wind_spring.mp3
+				Ty_riabinushka_raskudriavaia.mp3
+				Slavic_warriors.mp3
+				Uzh_i_ya_li_moloda_tonkopriaditsa_byla.mp3
+				Uzh_kak_po_mostu_mostochiku.mp3
+				V_chistom_poliushke_belyi_lion_1.mp3
+				Voznesenie_bylo_Gospodnee.mp3
+				Ancient_Russian_Liturgy_Russian_Orthodox_Chant.mp3
+				Russian_Orthodox_Chants.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Ancient_Russian_Liturgy_Russian_Orthodox_Chant.mp3
+				Russian_Orthodox_Chants.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				23_Trek23.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+music_type novgorod
+
+;;; BATTLE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				turbodzen_tundra_ekspress.mp3
+				turbodzen_medveji_plyaski.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				turbodzen_provoda.mp3
+				turbodzen_duet.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Bagpipes_Rucers_The_fighter.mp3
+				;Skyforger_Migla_Migla_Rasa_Rasa.mp3
+				Bagpipes_Abu_divi_Both_of_them.mp3
+				Bereznichek_chastovoi.mp3
+				5r_folk.mp3
+				Percival_Jomsborg_viking_and_slavic_music.mp3
+				Maslenskaya.mp3
+				01Vesna.mp3
+				;yuriy_strelnikov_st06.mp3
+				Priletal_tut_sizoi_golub.mp3
+				Staretz_i_Piatnitsa.mp3
+				VICTORY.mp3
+				water_wind_spring.mp3
+				Vedan_Kolod_bedahb.mp3
+				Track03.mp3
+				Ty_riabinushka_raskudriavaia.mp3
+				Slavic_warriors.mp3
+				;17_Trek17.mp3
+				Uzh_i_ya_li_moloda_tonkopriaditsa_byla.mp3
+				Uzh_kak_po_mostu_mostochiku.mp3
+				V_chistom_poliushke_belyi_lion_1.mp3
+				Voznesenie_bylo_Gospodnee.mp3
+				Ancient_Russian_Liturgy_Russian_Orthodox_Chant.mp3
+				Russian_Orthodox_Chants.mp3
+				;Bagpipes_Dudas_balss_Voice_of_bagpip.mp3
+				;Bagpipes_Lineni_muni_lineni_Flax.mp3
+				;bagpipes_Pimin_broj_Bear_in_mind_brother.mp3
+				Bagpipes_Rucers_The_fighter.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Ancient_Russian_Liturgy_Russian_Orthodox_Chant.mp3
+				Russian_Orthodox_Chants.mp3
+				Boris_Bazurov1.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				23_Trek23.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				water_wind_spring.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+music_type lithuania
+
+;;; BATTLE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Stary3.mp3
+				turbodzen_medveji_plyaski.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				turbodzen_provoda.mp3
+				turbodzen_duet.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Per_devynis_laukelius.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Per_devynis_laukelius.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Per_devynis_laukelius.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Ar_Ti_Pa_Goju.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Ar_Ti_Pa_Goju.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Ar_Ti_Pa_Goju.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Ar_Ti_Pa_Goju.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Stary1.mp3
+				Stary3.mp3
+				Slavic_warriors.mp3
+				water_wind_spring.mp3
+				Bagpipes_Rucers_The_fighter.mp3
+				Bagpipes_Abu_divi_Both_of_them.mp3
+				Slavic_warriors.mp3
+				kulgrinda_daancau_nuus_angzdriikiks.mp3
+				kulgrinda_daaudas.mp3
+				kulgrinda_o_kas_wakeei_ten.mp3
+				Ciutyta.mp3
+				IsmivediVedi.mp3
+				Dai_ko_tas_miestas.mp3
+				Kas_raeja.mp3
+				kas_rar_raka_par_dvareli.mp3
+				Ku_dumoji_apvijeli.mp3
+				Metaujela_Metaujo.mp3
+				uztekeja_saulala_raudona.mp3
+				aiz_daugavas_vara_darzs.mp3
+				mildas_dziesma_song_of_mild.mp3
+				lineni_mun_lineni_flax_my.mp3
+				Ar_Ti_Pa_Goju.mp3
+				ai_du_makaidu.mp3
+
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Bagpipes_Abu_divi_Both_of_them.mp3
+				aiz_daugavas_vara_darzs.mp3
+				ai_du_makaidu.mp3
+
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Sodauto_Ruta_Sodauto.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Per_devynis_laukelius.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				ai_du_makaidu.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				ai_du_makaidu.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				mildas_dziesma_song_of_mild.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				lineni_mun_lineni_flax_my.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				lineni_mun_lineni_flax_my.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				mildas_dziesma_song_of_mild.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+music_type bohemia
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				(Euro_Tension_1)_BladeGrass.mp3
+				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
+				(Euro_Tension_3)_Fear_Frozen.mp3
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				(Euro_Mobilize_1)_Sister_Davul.mp3
+				(Euro_Mobilize_2)_Solenka.mp3
+				(Euro_Mobilize_3)_This_is_it.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				(Euro_Battle_1)_Duke_of_Death.mp3
+			    (Euro_Battle_2)_Nothing_Left.mp3
+			    (Euro_Battle_3)_Crusaders.mp3
+            end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Hospodine_pomyluj_ny.mp3
+				Buoh_Vsemohuci.mp3
+				Svaty_Vaclave.mp3
+				Jezu_Kriste.mp3
+				Track2.mp3
+				Track3.mp3
+				Track4.mp3
+				Track5.mp3
+				Track6.mp3
+				Track7.mp3
+				Track8.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Percival_Eiforr.mp3
+				Track10.mp3
+				Track11.mp3
+				Track12.mp3
+				Navstiv_nas.mp3
+				Planktus_panny_Marie.mp3
+				Radujme.mp3
+				Uz_proroctvi_Daniele.mp3
+				Vizmez_pacholicka.mp3
+				TheKingdomofBohemiaProudtobeCzech.mp3
+				Gods_Warriors_Czech.mp3
+				Carmina_Track5.mp3
+				Carmina_Track6.mp3
+				Carmina_Track7.mp3
+				Carmina_Track9.mp3
+				Carmina_Track10.mp3
+				Old_Music_Middle_Ages.mp3
+				Old_Music_5_Middle_Ages.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Hospodine_pomyluj_ny.mp3
+				Buoh_Vsemohuci.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+music_type poland
+
+;;; FRONTEND
+
+		state MUSIC_FRONTEND
+			event
+				folder data/sounds/music
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+				Dominion_of_the_SwordEDITMinus_Hastings_Banda.mp3
+			end
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+				(Euro_Tension_1)_BladeGrass.mp3
+				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
+				(Euro_Tension_3)_Fear_Frozen.mp3
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				(Euro_Mobilize_1)_Sister_Davul.mp3
+				(Euro_Mobilize_2)_Solenka.mp3
+				(Euro_Mobilize_3)_This_is_it.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				(Euro_Battle_1)_Duke_of_Death.mp3
+			    (Euro_Battle_2)_Nothing_Left.mp3
+			    (Euro_Battle_3)_Crusaders.mp3
+            end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Bogurodzica.mp3
+				Gaude_Mater_Polonia.mp3
+				10_Bagarodzica.mp3
+				Jar_Gody.mp3
+				Track2.mp3
+				Slavic_warriors.mp3
+				Track3.mp3
+				Track4.mp3
+				Track5.mp3
+				Track6.mp3
+				Track7.mp3
+				Track8.mp3
+				Track10.mp3
+				Track11.mp3
+				Track12.mp3
+				OMariadulcorflorumMaryjo.mp3
+				EXSULTETPART1.mp3
+				Verba_buccinate_Mariam_laudate.mp3
+				O_najdrozszy_kwiatku.mp3
+				O_felix_haec_novitas.mp3
+				ExultethodieWeselasiewszyscy.mp3
+				Percival_Eiforr.mp3
+				Rynek_podziemny.mp3
+				SlavlandPiesBojana.mp3
+				Jar_krotki.mp3
+				Percival_Jomsborg_viking_and_slavic_music.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Gaude_Mater_Polonia.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type hre
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Sieclagendasderwinder.mp3
+				Winterdeinemail.mp3
+				Vreuteuchwolgemutenkind.mp3
+				Wieschonwirdenangerligensahn.mp3
+				Meiedeinlihterschein.mp3
+				Domandengumpelgampelsank.mp3
+				Mayedeinwunnewerdezeit.mp3
+				Doderliebesumer.mp3
+				Mannhortnichtmersussenschal.mp3
+				Mayenzeitoneneidt.mp3
+				Ichgesachdieheidenyesogestalt.mp3
+				Miristvonherczenlaide.mp3
+				Singeinguldeinhun.mp3
+				Sumerdeinersuzzenwunne.mp3
+				Medieval_Babes_So_Treiben_Wir_Den_Winter_Aus.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Faun_Karuna.mp3
+				Palastinalied.mp3
+				FaunNecheinMan.mp3
+				Willekomen_sumerweter_sueze.mp3
+				Under_der_linden_an_der_heide.mp3
+				Tempus_transit_gelidum_Vrowe_ih_pin_dir_undertan.mp3
+				Sic_mea_fata_canendo_solor.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Annus_novus_in_gaudio.mp3
+				O_vis_aeternitatis.mp3
+				PlanctusDavid_super_Saul_et_Ionatha.mp3
+				Promat_chorus_hodie.mp3
+				Ave_generosa_gloriosa_et_intacta_puella.mp3
+				Ave_Maria_o_auctrix_vitae.mp3
+				Fulget_dies_celebris.mp3
+				O_aeterne_Deus.mp3
+				O_felix_anima.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				O_frondens_virga_Instrumentastuck_nachderAntiphon.mp3
+				O_magne_Pater.mp3
+				O_quam_mirabilis.mp3
+				O_quanta_qualia.mp3
+				O_virtus_sapientiae.mp3
+				Track2.mp3
+				Track3.mp3
+				Track4.mp3
+				Track5.mp3
+				Track6.mp3
+				Track7.mp3
+				Track8.mp3
+				Track10.mp3
+				Track11.mp3
+				Track12.mp3
+				Carmina_Burana_In_Taberna_Quando_Sumus.mp3
+				CarminaBurana_ClausoCronos.mp3
+				Carmina_Track5.mp3
+				Carmina_Track6.mp3
+				Carmina_Track7.mp3
+				Carmina_Track9.mp3
+				Carmina_Track10.mp3
+				HRE.mp3
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+				HRE.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				HRE.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type hungary
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				;victory_mulatozas.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				;victory_mulatozas.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				;victory_mulatozas.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				vereseg_Kyrie_eleison.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Osi_zene_Eletorom_Ancient_Music_Joy_of_Life.mp3
+				Track2.mp3
+				Track3.mp3
+				Track4.mp3
+				Track5.mp3
+				En_edes_hazam.mp3
+				Track6.mp3
+				HUNGARY.mp3
+				Track7.mp3
+				Track8.mp3
+				Track10.mp3
+				Track11.mp3
+				Krisztus_feltamada.mp3
+				Schola_Hungarica_Alleluja_Senex.mp3
+				ScholaHungaricaSuscepimus.mp3
+				ScholaHungarica_Adornathalamum.mp3
+				Track12.mp3
+				TeDeumLaudamus.mp3
+				Schola_Hungarica_Osjusti.mp3
+				ScholaHungaricaDiffusa.mp3
+				Militaris_mobilize.mp3
+				Mivesek_lakodalma.mp3
+				Balassi_Balint.mp3
+				Hungarian_folk_music.mp3
+				Holloenek_Hungarica_Andronicus.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Schola_Hungarica_Domine_Ad_Adjuva_dum.mp3
+				Ungaresca_Giorgio_Mainerio.mp3
+				Old_Music_Middle_Ages.mp3
+				Old_Music_5_Middle_Ages.mp3
+
+			end
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5
+				folder data/sounds/music
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Osi_zene_Eletorom_Ancient_Music_Joy_of_Life.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Kyrie_eleison_Zurgo.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event looped
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_CAMPAIGN_DEFEAT
+			event looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; CREDITS
+
+	state MUSIC_CREDITS1 delay 3
+			event
+				folder data/sounds/music
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+			end
+
+	state MUSIC_CREDITS2
+			event
+				folder data/sounds/music
+				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
+				(Arabic_Battle_2)_Wind_Cuts.mp3
+				(Arabic_Lose_1)_Fly_Away.mp3
+				(Arabic_Mobilize_1)_High_Winds.mp3
+				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
+				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
+				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
+				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
+				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
+				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				(Arabic_Tension_1)_Kebabka.mp3
+				(Arabic_Tension_2)_Starsand.mp3
+				(Arabic_Win_1)_Balalip.mp3
+				(Euro_Battle_1)_Duke_of_Death.mp3
+				(Euro_Battle_2)_Nothing_Left.mp3
+				(Euro_Battle_3)_Crusaders.mp3
+				(Euro_Camp_Battle_1)_Destiny.mp3
+				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3
+				(Credits)_We_are_all_one.mp3
+				(Euro_Lose_1)_Duty.mp3
+				(Euro_Lose_2)_Spirit_Fingers.mp3
+				(Euro_Lose_3)_Did_they_have_to_die_today.mp3
+				(Euro_Mobilize_1)_Sister_Davul.mp3
+				(Euro_Mobilize_2)_Solenka.mp3
+				(Euro_Mobilize_3)_This_is_it.mp3
+				(Euro_Strat_Map_1)_Field_Of_Blood_01.mp3
+				(Euro_Strat_Map_1)_Field_Of_Blood_02.mp3
+				(Euro_Strat_Map_1)_Field_Of_Blood_03.mp3
+				(Euro_Strat_Map_1)_Field_Of_Blood_04.mp3
+				(Euro_Strat_Map_2)_Grey_Meadow_01.mp3
+				(Euro_Strat_Map_2)_Grey_Meadow_02.mp3
+				(Euro_Strat_Map_3)_Lilly_01.mp3
+				(Euro_Strat_Map_3)_Lilly_02.mp3
+				(Euro_Strat_Map_4)_Peter_The_Piper.mp3
+				(Euro_Tension_1)_BladeGrass.mp3
+				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
+				(Euro_Tension_3)_Fear_Frozen.mp3
+				(Euro_Win_1)_Going_Home.mp3
+				(Frontend_1)_Amen.mp3
+				(Mediterranean_Battle_1)_Lifted_To_The_Hotplate.mp3
+				(Mediterranean_Lose_1)_Cordone.mp3
+				(Mediterranean_Mobilize_1)_Mare_Nostrum.mp3
+				(Mediterranean_Mobilize_2)_Death_Lullaby.mp3
+				(Mediterranean_Mobilize_2)_Song_For_Toomba.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
+				(Mediterranean_Tension_1)_By_The_Marmara.mp3
+				(Mediterranean_Tension_2)_Secret_Sandals.mp3
+				(Mediterranean_Win_1)_Grab_Your_Castanets.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_01.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_02.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_03.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_04.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_05.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_06.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_07.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_08.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_09.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_10.mp3
+				(Euro_Strat_Map_5)_Devil's_Harp_11.mp3
+				(Euro_Loading_2)_The_Widow.mp3
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type venice
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Medieval_Italian_salta.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				Italian_dance_XIV_century_lamento_di_Tristano_e_rotta.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Saltarello_medievale.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				Les_Menestrels_Istampita_chominiciamento_di_gloia.mp3
+				Adiu_adiu_dous_dame_yolieFrancesco_Landini.mp3
+				Questa_fanciull_Amor_Francesco_Landini_Ars_nova.mp3
+				Les_Menestrels_Istampita_parlamento.mp3
+				medieval_Bransle_de_Chevaux.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Troppo_Perde_Tempo.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Pavana_el_Todesco_Renaissance_italian_music.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				;Joculatores_Upsaliensis_Gaudete.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				Galinverna_troppo_perde_ltempo.mp3
+				Capella_de_Ministrers_Lamento_di_Tristano_La_Rotta.mp3
+				Lamento_di_Tristano_Alla_Francesca.mp3
+				1400Quando_i_oselli_canta.mp3
+				;1400Constantia.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Medieval_Italian_salta.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type milan
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Medieval_Italian_salta.mp3
+				Italian_dance_XIV_century_lamento_di_Tristano_e_rotta.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Medieval_music_Holloenek_Hungarica_Ai_vist_lo_lop.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				medieval_Bransle_de_Chevaux.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				Adiu_adiu_dous_dame_yolieFrancesco_Landini.mp3
+				Questa_fanciull_Amor_Francesco_Landini_Ars_nova.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				Pavana_el_Todesco_Renaissance_italian_music.mp3
+				Jacopo_da_Bologna_Aquila_altera.mp3
+				Saltarello_medievale.mp3
+				Les_Menestrels_Istampita_chominiciamento_di_gloia.mp3
+				Les_Menestrels_Istampita_parlamento.mp3
+				Troppo_Perde_Tempo.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				;Unknown_kyrie_elason.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Jacopo_da_Bologna_Posando_sopra_un_acqua.mp3
+				;Medieval_music_Gaudete.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				FenicefuJacopodaBologna.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Ambrosian_chant_Ecce_apertum_est_Templum_tabernaculi.mp3
+				Ambrosian_chant_Ecce_quam_bonum_et_jocundum.mp3
+				Jacopo_da_Bologna_Oselleto_selvaggio.mp3
+				Ambrosian_chant_Tecum_principium_in_die_virtutis_tue.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				Galinverna_troppo_perde_ltempo.mp3
+				Capella_de_Ministrers_Lamento_di_Tristano_La_Rotta.mp3
+				Lamento_di_Tristano_Alla_Francesca.mp3
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Di_novo_e_giunto_un_chavalier_errante_JacopodaBologna.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				MILAN_GENOA.mp3
+				1400Quando_i_oselli_canta.mp3
+				;1400Constantia.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Jacopo_da_Bologna_Posando_sopra_un_acqua.mp3
+				Medieval_Italian_salta.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type pisa
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Medieval_Italian_salta.mp3
+				Italian_dance_XIV_century_lamento_di_Tristano_e_rotta.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				medieval_Bransle_de_Chevaux.mp3
+				Medieval_Dance_of_the_Trolls.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				Les_Menestrels_Istampita_chominiciamento_di_gloia.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Laudario_di_Cortona_p.mp3
+				Saltarello_medievale.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Les_Menestrels_Istampita_parlamento.mp3
+				Laudario_di_Cortona.mp3
+				Troppo_Perde_Tempo.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				Laude_Novella_best_song_ever.mp3
+				Pisa_Landini_Ballata_Non_avra_ma.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Francesco_Landini_Amor_Cal_Tuo_Ognor.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Ambrosian_chant_Ecce_apertum_est_Templum_tabernaculi.mp3
+				Ambrosian_chant_Ecce_quam_bonum_et_jocundum.mp3
+				Ambrosian_chant_Tecum_principium_in_die_virtutis_tue.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				Galinverna_troppo_perde_ltempo.mp3
+				Capella_de_Ministrers_Lamento_di_Tristano_La_Rotta.mp3
+				Lamento_di_Tristano_Alla_Francesca.mp3
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				cl_01_02.mp3
+				Pavana_el_Todesco_Renaissance_italian_music.mp3
+				cl_01_03.mp3
+				Francesco_Landini_Ochi_dolenti_miei.mp3
+				Francesco_Landini_Abbonda_di_virtu.mp3
+				Francesco_Landini_Nella_partita.mp3
+				Adiu_adiu_dous_dame_yolieFrancesco_Landini.mp3
+				Questa_fanciull_Amor_Francesco_Landini_Ars_nova.mp3
+				1400Quando_i_oselli_canta.mp3
+				;1400Constantia.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Jacopo_da_Bologna_Posando_sopra_un_acqua.mp3
+				Medieval_Italian_salta.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type sicily
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				en_ben_amar.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				1400Quando_i_oselli_canta.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Pavana_el_Todesco_Renaissance_italian_music.mp3
+				Congaudentes_jubilemus.mp3
+				In_hoc_anni_circulo.mp3
+				Montedoro.mp3
+				Saltarello_medievale.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				AnonymousXIIIcent.mp3
+				O_tempo_bono_Napoli_rinascimentale.mp3
+				Partanna_Richiami.mp3
+				Surat_Mariam.mp3
+				Medieval_Italian_salta.mp3
+				Laudario_di_Cortona.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Questa_fanciull_Amor_Francesco_Landini_Ars_nova.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				Galinverna_troppo_perde_ltempo.mp3
+				Dinaresade_short_version.mp3
+				Italian_dance_XIV_century_lamento_di_Tristano_e_rotta.mp3
+				Old_Music_5_Middle_Ages.mp3
+				Old_Music_Middle_Ages.mp3
+				1400Quando_i_oselli_canta.mp3
+				;1400Constantia.mp3
+				paubres_es_amorosa.mp3
+				a_lentrada_del_temps_clar.mp3
+				vilan_cortes.mp3
+				per_crist.mp3
+				don_soi_joios.mp3
+				;alla_societate.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				In_hoc_anni_circulo.mp3
+				;alla_societate.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				en_ben_amar.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				a_lentrada_del_temps_clar.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				don_soi_joios.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type spain
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Muineira_de_Chantada.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				AlAndaluz_Project_A_Virgen_mui_groriosa.mp3
+				Cantigas_de_Santa_Maria_N_100_Santa_Maria_Strella_Do_Dia.mp3
+				Medieval_Spain_Una_matica_de_ruda.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				mariam_matrem_virginem_attolite.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				medieval_Maria_Virgine_Alfons_X_Cantigas_de_St_Maria_Spain_XII.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Capella_Monacensis_Ortiz_Recercada.mp3
+				CANTIGA37_Miragres_fremosos_faz_por_nos.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Galician_medieval_music_instruments.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				RiuRiuChiu.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				Cantiga119.mp3
+				MEDIEVALMUSICGALICIA.mp3
+				Galician2_medieval_music_instruments.mp3
+				Cantigas_de_Santa_Maria_A_que_pera_parayso.mp3
+				Cantiga10_RosaDasRosas.mp3
+				Joculatores_Upsaliensis_Vesame_y_abracame.mp3
+				Alfonso_X_el_Sabio.mp3
+				Cantiga110_Tant_e_Santa_Maria.mp3
+				DanzaDeLasEspadas.mp3
+				Rotundellus.mp3
+				20_Saltarello.mp3
+				GALICIAAIDEUSSESABORAMEUAMIGO.mp3
+				GALICIA_ONDAS_DO_MAR_DE_VIGO.mp3
+				El_vino_como_sangre_de_gacela_sana_darj.mp3
+				Mandad_ei_comigo.mp3
+				Ondas_de_mar_de_Vigo_cantiga_de_amigo.mp3
+				Ai_Deus_se_sab_ora_meru_amigo.mp3
+				Ay_Ondas.mp3
+				Quantas_sabedes_amare_amigo.mp3
+				Mia_irmana_fremosa.mp3
+				No_confies_a_nadie_tu_secreto_sana_basit.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Cantigas_de_Santa_Maria_A_que_pera_parayso.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type portugal
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Cantigas_de_Santa_Maria_N_100_Santa_Maria_Strella_Do_Dia.mp3
+				Muineira_de_Chantada.mp3
+				AlAndaluz_Project_A_Virgen_mui_groriosa.mp3
+				Cantigas_de_Santa_Maria_N_100_Santa_Maria_Strella_Do_Dia.mp3
+				Medieval_Spain_Una_matica_de_ruda.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				Galician2_medieval_music_instruments.mp3
+				mariam_matrem_virginem_attolite.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				medieval_Maria_Virgine_Alfons_X_Cantigas_de_St_Maria_Spain_XII.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				CANTIGA37_Miragres_fremosos_faz_por_nos.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				MEDIEVALMUSICGALICIA.mp3
+				Galician_medieval_music_instruments.mp3
+				Alfonso_X_el_Sabio.mp3
+				GALICIAAIDEUSSESABORAMEUAMIGO.mp3
+				GALICIA_ONDAS_DO_MAR_DE_VIGO.mp3
+				El_vino_como_sangre_de_gacela_sana_darj.mp3
+				Mandad_ei_comigo.mp3
+				Ondas_de_mar_de_Vigo_cantiga_de_amigo.mp3
+				Ai_Deus_se_sab_ora_meru_amigo.mp3
+				Ay_Ondas.mp3
+				Quantas_sabedes_amare_amigo.mp3
+				Mia_irmana_fremosa.mp3
+				No_confies_a_nadie_tu_secreto_sana_basit.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				GALICIA_ONDAS_DO_MAR_DE_VIGO.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type aragon
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				roman_mobilise.mp3
+
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Medieval_Music_Vox_Vulgaris_La_Suite_Meurtriere.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				medieval_Maria_Virgine_Alfons_X_Cantigas_de_St_Maria_Spain_XII.mp3
+				(Credits)_Vox_Vulgaris_Cantiga_166.mp3
+				Medieval_music_Holloenek_Hungarica_Ai_vist_lo_lop.mp3
+				Cantigas_de_Santa_Maria_N_100_Santa_Maria_Strella_Do_Dia.mp3
+				;Alfonso_X_el_Sabio_Cantigas_de_Santa_Maria_Porque_trobar_Prologo.mp3
+				Muineira_de_Chantada.mp3
+				AlAndaluz_Project_A_Virgen_mui_groriosa.mp3
+				Medieval_Music_Vox_Vulgaris_Rokatanc.mp3
+				Cantigas_de_Santa_Maria_N_100_Santa_Maria_Strella_Do_Dia.mp3
+				;Alfonso_X_el_Sabio_Cantigas_de_Santa_Maria_Porque_trobar_Prologo.mp3
+				Medieval_Spain_Una_matica_de_ruda.mp3
+				Arlequin_La_Piva_dal_Carner.mp3
+				Cantiga10_RosaDasRosas.mp3
+				Ashley_Hutchings_Stantpipes_Trotto.mp3
+				Joculatores_Upsalienses_Par_Deus.mp3
+				Joculatores_Upsalienses_Pase_et_medio.mp3
+				medieval_Maria_Virgine_Alfons_X_Cantigas_de_St_Maria_Spain_XII.mp3
+				MINCE_PYE_La_Basse_Dance_de_Magdelena.mp3
+				MINCE_PYE_Medieval_Drum_Dance.mp3
+				Music_of_the_Mediterranean_3_Tempus_est_iocundum.mp3
+				Music_of_the_Mediterranean_Tempus_transit_gelidum.mp3
+				Kings_Singers_Vitrum_nostrum_gloriosum.mp3
+				Cantus_Firmus_Stella_splendens.mp3
+				Medievalhammereddulcimermusicbydizzi.mp3
+				CANTIGA37_Miragres_fremosos_faz_por_nos.mp3
+				Cuncti_simus_concanentes_Llibre_Vermell_deMontserrat.mp3
+				Joculatores_Upsalienses_Rey_Aquien.mp3
+				Chant_of_Benevento_Laudamus_te_Christe.mp3
+				Chant_of_Benevento_Pascha_Nostrum.mp3
+				Cantigas_de_Santa_Maria_A_que_pera_parayso.mp3
+				Cantiga110_Tant_e_Santa_Maria.mp3
+				Joculatores_Upsaliensis_Vesame_y_abracame.mp3
+				mariam_matrem_virginem_attolite.mp3
+				Alfonso_X_el_Sabio.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Cantus_Firmus_Stella_splendens.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Palastinalied.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_victory_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Battle_defeat_Euro.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; Greek ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type greek
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				02_My_fast_swallow.mp3
+				UnknownSUXISVILI.mp3
+				06_He_rode_a_mount.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				12_Traditional_Bulgaria_Devoiko_Devoiko.mp3
+				06_Traditional_Bulgaria_Malo_selo.mp3
+				SukhishvilebiTrack01.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				06_A_hunter_appears.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Greek_Orthodox_Christian_Byzantine_Music_in_AgSofia_Kabarnos.mp3
+				01_A_border_guard_we_are_building_a_castle.mp3
+				ByzantineMusicVasilefOuranie.mp3
+				TheGreatDoxology_MegaliDoxologia.mp3
+				HailGladdeningLight.mp3
+				FolkmusicfromThracia_Hadrianopolis.mp3
+				FolkmusicfromBulgaria.mp3
+				04PolyeleynaBulgarkata_JoanKukuzel_.mp3
+				AngelopoulosChoir_ByzantineChant.mp3
+				Byzantine_chant1.mp3
+				;Nevestinkooro.mp3
+				;01_Evening_bad_evening.mp3
+				07_The_youngmans_sleep_and_the_pretty_girl.mp3
+				05_All_are_behind_bars.mp3
+				07_Down_at_Aghiannis.mp3
+				08_Orias_castle.mp3
+				04_The_fall_of_Bosna.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				GreekOrthodoxChristianByzantine_Music3.mp3
+				05_All_are_behind_bars.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				04_Yannis_and_the_dragon.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type georgia
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				UnknownSUXISVILI.mp3
+				02_My_fast_swallow.mp3
+				06_He_rode_a_mount.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+                		SukhishvilebiTrack01.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				06_A_hunter_appears.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Georgian_Folk_Music_Kelaptari_Sagmiro.mp3
+				Qartuli_Xmebi_Shina.mp3
+				Qartuli_Xmebi_Shen_Khar_Venakhi.mp3
+				apxoto.mp3
+				Qartuli_Xmebi_Shavlego_Georgian.mp3
+				GEORGIA.mp3
+				Unknownmagnify.mp3
+				ENSEMBLE1.mp3
+				ENSEMBLE2.mp3
+				ENSEMBLE3.mp3
+				pshavi.mp3
+				MiscTrack10.mp3
+				AnchiskhatiChoirShobamanshenman.mp3
+				AnchiskhatiChoirSahshotmtiebisa.mp3
+				AnchiskhatiChoirRazhamslordanes.mp3
+				;01_Evening_bad_evening.mp3
+				07_The_youngmans_sleep_and_the_pretty_girl.mp3
+				05_All_are_behind_bars.mp3
+				07_Down_at_Aghiannis.mp3
+				08_Orias_castle.mp3
+				04_The_fall_of_Bosna.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				GEORGIA.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Georgiansog_brdzolis_kijina_mogvesma_mxedruli.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type armenia
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				UnknownSUXISVILI.mp3
+				02_My_fast_swallow.mp3
+				06_He_rode_a_mount.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+                		SukhishvilebiTrack01.mp3
+			end
+
+;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				06_A_hunter_appears.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Our_Es_Mayr_Im_Mother_where_are_you.mp3
+				Hayr_Mer_Ter_Voghormya.mp3
+				Armenian_Apostolic_Church_music.mp3
+				Folk_music_from_Armenia_by_Arany_Zoltan.mp3
+				ARMENIA.mp3
+				MuradianH_AmranGisher.mp3
+				CinnuSema.mp3
+				AnchiskhatiChoirShobamanshenman.mp3
+				AnchiskhatiChoirSahshotmtiebisa.mp3
+				sharakan_Havun_havun.mp3
+				AnchiskhatiChoirRazhamslordanes.mp3
+				;01_Evening_bad_evening.mp3
+				07_The_youngmans_sleep_and_the_pretty_girl.mp3
+				05_All_are_behind_bars.mp3
+				07_Down_at_Aghiannis.mp3
+				08_Orias_castle.mp3
+				04_The_fall_of_Bosna.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Our_Es_Mayr_Im_Mother_where_are_you.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				04_Yannis_and_the_dragon.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				03_Little_Constantine.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				02_The_King_throws_a_party.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type turks
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Dombra_Nogay_Marsi.mp3
+				Dombira.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				CinnuSema.mp3
+				SukhishvilebiTrack01.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Ensemble_des_femmes_d_Istanbul_Aksam_olur_kervan_cikar_yokusa.mp3
+				Ensemble_des_femmes_d_Istanbul_Hicaz_mandra.mp3
+				Istanbuladhan_sufimusicney.mp3
+				Ensemble_des_femmes_d_Istanbul_Kanun_Taksim.mp3
+				Traditional_music_of_Iran_Luri.mp3
+				Traditional_Persian_Music_Young_Generation.mp3
+				Dinaresade_short_version.mp3
+				Dombra_Nogay_Marsi.mp3
+				Ancient_Music_from_Persia.mp3
+				MEHRBANU_Tasnife_Janam_Janam_Zarbie_Afshari.mp3
+				Seljuk_Campaign_Winter.mp3
+				Music_of_the_Mediterranean_12_Sallalahu_ala_Muhammed.mp3
+				Masters_of_Persian_Music_Saz_va_Avaz.mp3
+				parvaneh_sho_parvaneh_sho.mp3
+				Ney.mp3
+				Neva_Pesrev_Fahte.mp3
+				Persian_Gorooh_e_Mastan_Concert_in_Vahdat_Hall_Part_1.mp3
+				Persian_Music_Santoor_Tonbak.mp3
+				Iranian_traditional_folk_song_kamancheh.mp3
+				Seljuk_Campaign_Winter_2.mp3
+				Aman_karpouz_kestim_yiyen_yok.mp3
+				Sari_chichek_Uzunhava.mp3
+				Mughla_zeybeghi.mp3
+				Kabartan_zeybeghi.mp3
+				Evlerinin_onu_mersin.mp3
+				Ey_bostanji.mp3
+				Ey_bostanji2.mp3
+				Giresun_karshilamasi.mp3
+				Araz_uste_booz_ust.mp3
+				Harmandali_zeybeghi.mp3
+				Kutahaya_nin_yinarlari.mp3
+				Soghutler_bashin_eghende.mp3
+				Haydar_Haydar.mp3
+				Zobalarinda_kuruda_meshe.mp3
+				Kara_erik.mp3
+				Anam_aghlar_bashujumda_otourour.mp3
+				Chalin_davullari.mp3
+				Hafiz_mektepten_gelir.mp3
+				Hicran_ile_dil_Mehmed_VI.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				RUM.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Seljuk_Battle_1.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type egypt
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_Ghareeb.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_We_Baadin_Omaal.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Dinaresade_short_version.mp3
+				Hamza_El_Din_La_Salam.mp3
+				Hamza_El_Din_Nagrishad.mp3
+				Hossam_Ramzy_Naimas_Hip_tabla_solo.mp3
+				Maulawi_Dervishes_Segah.mp3
+				Music_of_the_Mediterranean_12_Sallalahu_ala_Muhammed.mp3
+				Beautiful_Azan_from_Egypt.mp3
+				Musica_Ar.mp3
+				Samai_Chat_Araban.mp3
+				Samai_Bayati.mp3
+				Taqs_m_Maq_m_jam.mp3
+				Taqs_m_Maq_m_Mukh_lif.mp3
+				Taqs_m_Maq_m_S_ka.mp3
+				Taqs_m_Maq_m_Kurd.mp3
+				Taqs_m_Maq_m_Bayyat_Husayni.mp3
+				Taqs_m_Maq_m_Hijaz.mp3
+				Taqs_m_Maq_m_Lam_.mp3
+				Taqs_m_Maq_m_Sharq_Rast.mp3
+				Taqs_m_Maq_m_Saba.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Dinaresade_short_version.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hamza_El_Din_Nagrishad.mp3
+			end
+
+			state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type moors
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_Ghareeb.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_We_Baadin_Omaal.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				touareg_song.mp3
+				Touareg_song_2.mp3
+				Baba_Mimoun.mp3
+				Derbuka.mp3
+				La_musica_medieval_andalusi.mp3
+				Arab_Andalusian_Music_Murakkaz_Ah_Ya_Muddasin.mp3
+				Arab_Andalusian_Music_Quddam.mp3
+				touareg_song.mp3
+				Hamza_El_Din_Nagrishad.mp3
+				Les_Gnawas_d_Essaouira.mp3
+				Ooleya_Mint_Amartichitt.mp3
+				Dreams_in_sand.mp3
+				Dinaresade_short_version.mp3
+				Tuchiya_Quaim_ua_Nisf.mp3
+				Tawachi_Qudam.mp3
+				La_fuerza_que_tengo_Mchalia_on.mp3
+				Sana_for_la_fiesta_de_la_circuncision.mp3
+				Tasqsim_on_Laila_me_ha_quitado_la_cordura.mp3
+				Touchiya_on_Los_ojos_me_lloran_por_perder_a_mi_amada.mp3
+
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Dinaresade_short_version.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hamza_El_Din_Nagrishad.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type seljuks
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Dombra_Nogay_Marsi.mp3
+				Dombira.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				CinnuSema.mp3
+				SukhishvilebiTrack01.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Seljuk_Battle_1.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Seljuk_Battle_1.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Seljuk_Battle_1.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Traditional_music_of_Iran_Luri.mp3
+				Traditional_Persian_Music_Young_Generation.mp3
+				Dinaresade_short_version.mp3
+				Ancient_Music_from_Persia.mp3
+				Masters_of_Persian_Music_Saz_va_Avaz.mp3
+				parvaneh_sho_parvaneh_sho.mp3
+				Ney.mp3
+				MEHRBANU_Tasnife_Janam_Janam_Zarbie_Afshari.mp3
+				Veda_Seljuk_Campaign.mp3
+				Marjan_Vahdat.mp3
+				Musica_Ar.mp3
+				Neva_Pesrev_Fahte.mp3
+				Persian_Gorooh_e_Mastan_Concert_in_Vahdat_Hall_Part_1.mp3
+				Persian_Music_Santoor_Tonbak.mp3
+				Iranian_traditional_folk_song_kamancheh.mp3
+				Beautiful_Azan_from_Egypt.mp3
+				Aman_karpouz_kestim_yiyen_yok.mp3
+				Sari_chichek_Uzunhava.mp3
+				Mughla_zeybeghi.mp3
+				Kabartan_zeybeghi.mp3
+				Evlerinin_onu_mersin.mp3
+				Ey_bostanji.mp3
+				Ey_bostanji2.mp3
+				Giresun_karshilamasi.mp3
+				Seljuk_Campaign_Winter.mp3
+				Araz_uste_booz_ust.mp3
+				Harmandali_zeybeghi.mp3
+				Kutahaya_nin_yinarlari.mp3
+				Soghutler_bashin_eghende.mp3
+				Haydar_Haydar.mp3
+				Zobalarinda_kuruda_meshe.mp3
+				Kara_erik.mp3
+				Seljuk_Campaign_Winter_2.mp3
+				Anam_aghlar_bashujumda_otourour.mp3
+				Chalin_davullari.mp3
+				Hafiz_mektepten_gelir.mp3
+				Taqs_m_Maq_m_jam.mp3
+				Taqs_m_Maq_m_Mukh_lif.mp3
+				Taqs_m_Maq_m_S_ka.mp3
+				Taqs_m_Maq_m_Kurd.mp3
+				Taqs_m_Maq_m_Bayyat_Husayni.mp3
+				Taqs_m_Maq_m_Hijaz.mp3
+				Taqs_m_Maq_m_Lam_.mp3
+				Taqs_m_Maq_m_Sharq_Rast.mp3
+				Taqs_m_Maq_m_Saba.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				SELJUKS.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Seljuk_Battle_1.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Yururun.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type syria
+
+;;; BAttlE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_Ghareeb.mp3
+				UnknownSUXISVILI.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				Egyptian_percussion_We_Baadin_Omaal.mp3
+				SukhishvilebiTrack01.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Ooleya_Mint_Amartichitt.mp3
+				Al_Salam_al_rabi.mp3
+				Dinaresade_short_version.mp3
+				Musica_Ar.mp3
+				Maulawi_Dervishes_Segah.mp3
+				Adimi_el_salat_hamza_shakkur.mp3
+				Aman_karpouz_kestim_yiyen_yok.mp3
+				Sari_chichek_Uzunhava.mp3
+				Mughla_zeybeghi.mp3
+				Kabartan_zeybeghi.mp3
+				Evlerinin_onu_mersin.mp3
+				Ey_bostanji.mp3
+				CinnuSema.mp3
+				Ey_bostanji2.mp3
+				Giresun_karshilamasi.mp3
+				Araz_uste_booz_ust.mp3
+				Harmandali_zeybeghi.mp3
+				Kutahaya_nin_yinarlari.mp3
+				Soghutler_bashin_eghende.mp3
+				Haydar_Haydar.mp3
+				Zobalarinda_kuruda_meshe.mp3
+				Kara_erik.mp3
+				Anam_aghlar_bashujumda_otourour.mp3
+				Chalin_davullari.mp3
+				Hafiz_mektepten_gelir.mp3
+				Taqs_m_Maq_m_jam.mp3
+				Taqs_m_Maq_m_Mukh_lif.mp3
+				Taqs_m_Maq_m_S_ka.mp3
+				Taqs_m_Maq_m_Kurd.mp3
+				Taqs_m_Maq_m_Bayyat_Husayni.mp3
+				Taqs_m_Maq_m_Hijaz.mp3
+				Taqs_m_Maq_m_Lam_.mp3
+				Taqs_m_Maq_m_Sharq_Rast.mp3
+				Taqs_m_Maq_m_Saba.mp3
+				Samai_Chat_Araban.mp3
+				Samai_Bayati.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Dinaresade_short_version.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Hamza_El_Din_Nagrishad.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Toussi.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				Istanbuladhan_sufimusicney.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type steppe
+
+;;; BATTLE MAP
+
+		state MUSIC_BATTLE_TENSION
+			event
+				folder data/sounds/music
+
+			end
+
+		state MUSIC_BATTLE_MOBILIZE
+			event
+				folder data/sounds/music
+				turbodzen_tundra_ekspress.mp3
+				turbodzen_medveji_plyaski.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event
+				folder data/sounds/music
+				turbodzen_provoda.mp3
+				turbodzen_duet.mp3
+			end
+
+;;;; BATTLE MAP RESULT
+
+		state MUSIC_RESULT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+
+;;; CAMPMAP
+
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5
+				folder data/sounds/music
+				Huun_Huur_Tu_Prayer.mp3
+				AltaiKaiKaraSu.mp3
+				jalghan_ay_calgan_ay_yalghan_ay_yalan_ay.mp3
+				Mongolian_Archers_in_Warsaw.mp3
+				Kargyraa.mp3
+				Altai_Kai_Shunu_Baatyr.mp3
+				Altai_Kai_Kan.mp3
+				AltaiKai_Jepnm.mp3
+				ALTAY_BURKUTTERI.mp3
+				Altai_Kai_Jebpeh.mp3
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+				Altai_Kai_Baatyrdin_Sozoo.mp3
+				turbodzen_medveji_plyaski.mp3
+				Steppe_Kargyraa_Sevek_Aldyn_ool.mp3
+				Tuvan_Internationale.mp3
+              			08V_eto_vremya.mp3
+				Altai_Kai_Komyzim.mp3
+				turbodzen_duet.mp3
+			end
+
+		state MUSIC_CAMPAIGN_LOADING
+			event
+				folder data/sounds/music
+				Kargyraa.mp3
+				Huun_Huur_Tu_Prayer.mp3
+			end
+
+		state MUSIC_PREBATTLE_SCROLL
+			event
+				folder data/sounds/music
+				Huun_Huur_Tu_Prayer.mp3
+			end
+
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event
+				folder data/sounds/music
+				Jar_Gody.mp3
+
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event
+				folder data/sounds/music
+				PlainsOfTheElite_MongolianThroatSinging.mp3
+			end
+
+;;; CAMPAIGN RESULT
+
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+
+			end
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+
+			end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

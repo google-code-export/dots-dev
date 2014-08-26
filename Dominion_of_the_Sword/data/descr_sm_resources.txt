@@ -1,0 +1,183 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;trade resources.	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+mine				data/models_strat/resource_mine.CAS
+
+;Soap & Perfumes
+type				amber
+trade_value			10
+item				data/models_strat/resource_amber.CAS
+icon				data/ui/resources/resource_amber.tga
+
+;Horses
+type				camels
+trade_value			10
+item				data/models_strat/resource_camels.CAS
+icon				data/ui/resources/resource_camels.tga
+
+;Glass
+type				coal
+trade_value			10
+item				data/models_strat/resource_coal.CAS
+icon				data/ui/resources/resource_coal.tga
+
+;Hides
+type				cotton
+trade_value			10
+item				data/models_strat/resource_cotton.CAS
+icon				data/ui/resources/resource_cotton.tga
+
+;Livestock
+type				dogs
+trade_value			10
+item				data/models_strat/resource_dogs.CAS
+icon				data/ui/resources/resource_dogs.tga
+
+;Dyes
+type				dyes
+trade_value			10
+item				data/models_strat/resource_dyes.CAS
+icon				data/ui/resources/resource_dyes.tga
+
+;Exotic Fruits
+type				elephants
+trade_value			10
+item				data/models_strat/resource_elephants.CAS
+icon				data/ui/resources/resource_elephants.tga
+
+;Fish
+type				fish
+trade_value			10
+item				data/models_strat/resource_fish.CAS
+icon				data/ui/resources/resource_fish.tga
+
+;Furs
+type				furs
+trade_value			10
+item				data/models_strat/resource_furs.CAS
+icon				data/ui/resources/resource_furs.tga
+
+;Precious Metals
+type				gold
+trade_value			10
+item				data/models_strat/resource_gold.CAS
+icon				data/ui/resources/resource_gold.tga
+has_mine
+
+;Cereals
+type				grain
+trade_value			10
+item				data/models_strat/resource_grain.CAS
+icon				data/ui/resources/resource_grain.tga
+
+;Tarrifs & Taxes
+type				chocolate
+trade_value			10
+item				data/models_strat/resource_chocolate.CAS
+icon				data/ui/resources/resource_chocolate.tga
+
+;Weapons & Armour
+type				iron
+trade_value			10
+item				data/models_strat/resource_iron.CAS
+icon				data/ui/resources/resource_iron.tga
+
+;Ivory
+type				ivory
+trade_value			10
+item				data/models_strat/resource_ivory.CAS
+icon				data/ui/resources/resource_ivory.tga
+
+;Stone & Ceramics
+type				marble
+trade_value			10
+item				data/models_strat/resource_marble.CAS
+icon				data/ui/resources/resource_marble.tga
+has_mine
+
+;Silk
+type				silk
+trade_value			10
+item				data/models_strat/resource_silk.CAS
+icon				data/ui/resources/resource_silk.tga
+
+;Base Metals
+type				silver
+trade_value			10
+item				data/models_strat/resource_silver.CAS
+icon				data/ui/resources/resource_silver.tga
+has_mine
+
+;Slaves
+type				slaves
+trade_value			10
+item				data/models_strat/resource_slaves.CAS
+icon				data/ui/resources/resource_slaves.tga
+
+;Spices
+type				spices
+trade_value			10
+item				data/models_strat/resource_spices.CAS
+icon				data/ui/resources/resource_spices.tga
+
+;Sugar
+type				sugar
+trade_value			10
+item				data/models_strat/resource_sugar.CAS
+icon				data/ui/resources/resource_sugar.tga
+
+;Salt
+type				sulfur
+trade_value			10
+item				data/models_strat/resource_sulfur.CAS
+icon				data/ui/resources/resource_sulfur.tga
+has_mine
+
+;Textiles
+type				textiles
+trade_value			10
+item				data/models_strat/resource_textiles.CAS
+icon				data/ui/resources/resource_textiles.tga
+
+;Timber
+type				timber
+trade_value			10
+item				data/models_strat/resource_timber.CAS
+icon				data/ui/resources/resource_timber.tga
+
+;Gems & Amber
+type				tin
+trade_value			10
+item				data/models_strat/resource_tin.CAS
+icon				data/ui/resources/resource_tin.tga
+
+;Olive Oil
+type				tobacco
+trade_value			10
+item				data/models_strat/resource_tobacco.CAS
+icon				data/ui/resources/resource_tobacco.tga
+
+;Wine
+type				wine
+trade_value			10
+item				data/models_strat/resource_wine.CAS
+icon				data/ui/resources/resource_wine.tga
+
+;Wool
+type				wool
+trade_value			10
+item				data/models_strat/resource_wool.CAS
+icon				data/ui/resources/resource_wool.tga
+
+; DO NOT ADD THE FOLLOWING RESOURCE TO THE CAMPAIGN MAP. GENERIC RESOURCE USED TO REPRESENT GENERIC TRADE PIP IN TRADE SCROLL
+type				generic
+trade_value			0
+item				data/models_strat/resource_dogs.CAS	; NOT ACTUALLY USED
+icon				data/ui/resources/resource_trade_goods.tga

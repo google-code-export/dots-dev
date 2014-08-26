@@ -1,0 +1,413 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;traits (vices &	  ;
+;virtues).			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+Trait Immobility
+	Characters princess
+	Hidden
+	NoGoingBackLevel	1
+
+	Level immobility_lvl1
+		Description Hidden_desc
+		EffectsDescription Hidden_effects_desc
+		Threshold 1
+
+		Effect MovementPoints -100
+
+Trait First_Appearance
+	Characters all
+	Hidden
+	NoGoingBackLevel	1
+
+	Level first_appearance
+		Description Hidden_desc
+		EffectsDescription Hidden_effects_desc
+		Threshold 1
+
+
+Trait ExtremeFertility
+	Characters family, princess
+	Hidden
+	NoGoingBackLevel	1
+
+	Level extreme_fertility_lvl1
+		Description Hidden_desc
+		EffectsDescription Hidden_effects_desc
+		Threshold 1
+
+		Effect Fertility 7
+
+Trait Loyal
+	Characters family
+	Hidden
+	NoGoingBackLevel	1
+
+	Level loyal_lvl1
+		Description Hidden_desc
+		EffectsDescription Hidden_effects_desc
+		Threshold 1
+
+		Effect Loyalty 3
+
+Trait SmartFamily
+	Characters family
+	AntiTraits	IgnorantFamily
+
+	Level smart_family
+		Description smart_family_desc
+		EffectsDescription smart_family_effects_desc
+		Threshold 1
+
+		Effect Command 1
+		Effect Construction 2
+		Effect TaxCollection 2
+		Effect Farming 2
+		Effect Trading 2
+		Effect TrainingAgents 2
+		Effect TrainingUnits 2
+		Effect Piety -1
+
+Trait SmartPrincess
+	Characters princess
+	AntiTraits	IgnorantPrincess
+
+	Level smart_princess
+		Description smart_princess_desc
+		EffectsDescription smart_princess_effects_desc
+		Threshold 1
+
+		Effect Charm 1
+
+Trait SmartSpy
+	Characters spy
+	AntiTraits	IgnorantSpy
+
+	Level smart_spy
+		Description smart_spy_desc
+		EffectsDescription smart_spy_effects_desc
+		Threshold 1
+
+		Effect Subterfuge 1
+		Effect Sabotage 1
+
+Trait SmartAssassin
+	Characters assassin
+	AntiTraits	IgnorantAsassin
+
+	Level smart_assassin
+		Description smart_assassin_desc
+		EffectsDescription smart_assassin_effects_desc
+		Threshold 1
+
+		Effect Assassination 1
+		Effect PersonalSecurity 1
+
+Trait SmartDiplomat
+	Characters diplomat
+	AntiTraits	IgnorantDiplomat
+
+	Level smart_diplomat
+		Description smart_diplomat_desc
+		EffectsDescription smart_diplomat_effects_desc
+		Threshold 1
+
+		Effect Influence 1
+
+Trait SmartPriest
+	Characters priest
+	AntiTraits	IgnorantPriest
+
+	Level smart_priest
+		Description smart_priest_desc
+		EffectsDescription smart_priest_effects_desc
+		Threshold 1
+
+		Effect Piety -1
+		Effect Unorthodoxy 1
+
+Trait IgnorantFamily
+	Characters family
+	AntiTraits	SmartFamily
+
+	Level ignorant_family
+		Description ignorant_family_desc
+		EffectsDescription ignorant_family_effects_desc
+		Threshold 1
+
+		Effect Command -1
+		Effect Construction -2
+		Effect TaxCollection -2
+		Effect Farming -2
+		Effect Trading -2
+		Effect TrainingAgents -2
+		Effect TrainingUnits -2
+		Effect Piety 2
+
+Trait IgnorantPrincess
+	Characters princess
+	AntiTraits	SmartPrincess
+
+	Level ignorant_princess
+		Description ignorant_princess_desc
+		EffectsDescription ignorant_princess_effects_desc
+		Threshold 1
+
+		Effect Charm -1
+
+Trait IgnoranttSpy
+	Characters spy
+	AntiTraits	SmartSpy
+
+	Level ignorant_spy
+		Description ignorant_spy_desc
+		EffectsDescription ignorant_spy_effects_desc
+		Threshold 1
+
+		Effect Subterfuge -1
+		Effect Sabotage -1
+
+Trait IgnorantAssassin
+	Characters assassin
+	AntiTraits	SmartAssassin
+
+	Level ignorant_assassin
+		Description ignorant_assassin_desc
+		EffectsDescription ignorant_assassin_effects_desc
+		Threshold 1
+
+		Effect Assassination -1
+		Effect PersonalSecurity -1
+
+Trait IgnorantDiplomat
+	Characters diplomat
+	AntiTraits	SmartDiplomat
+
+	Level ignorant_diplomat
+		Description ignorant_diplomat_desc
+		EffectsDescription ignorant_diplomat_effects_desc
+		Threshold 1
+
+		Effect Influence -1
+
+Trait IgnorantPriest
+	Characters priest
+	AntiTraits	SmartPriest
+
+	Level ignorant_priest
+		Description ignorant_priest_desc
+		EffectsDescription ignorant_priest_effects_desc
+		Threshold 1
+
+		Effect Piety +2
+		Effect Unorthodoxy -1
+
+Trait Strong
+	Characters all
+	AntiTraits	Weak
+
+	Level strong
+		Description strong_desc
+		EffectsDescription strong_effects_desc
+		Threshold 1
+
+		Effect Health 1
+
+Trait Weak
+	Characters all
+	AntiTraits	Strong
+
+	Level weak
+		Description weak_desc
+		EffectsDescription weak_effects_desc
+		Threshold 1
+
+		Effect Health 1
+
+Trait Homosexual
+	Characters family, princess
+
+	Level homosexual
+		Description homosexual_desc
+		EffectsDescription homosexual_effects_desc
+		Threshold 1
+
+		Effect Fertility -5
+
+Trait Sexuality
+	Characters family, priest
+
+	Level deviant
+		Description deviant_desc
+		EffectsDescription deviant_effects_desc
+		Threshold 1
+
+		Effect Piety -1
+
+	Level pervert
+		Description pervert_desc
+		EffectsDescription pervert_effects_desc
+		Threshold 2
+
+		Effect Piety -2
+
+;--------;
+;TRIGGERS;
+;--------;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Initialization trigger - Witch
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger psf_initialization_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = princess
+		and	FactionType slave
+
+	Affects	Immobility 1 Chance 100
+	Affects	First_Appearance 1 Chance 100
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Named characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger family_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition IsGeneral
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	ExtremeFertility 1 Chance 100
+	Affects	Loyal 1 Chance 100
+	Affects	SmartFamily 1 Chance 2
+	Affects	IgnorantFamily 1 Chance 2
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	Homosexual 1 Chance 4
+	Affects	Sexuality 1 Chance 2
+	Affects	Sexuality 1 Chance 2
+	Affects	PhysicalDefectFamily 1 Chance 2
+	Affects	PhysicalPerfectFamily 1 Chance 2
+	Affects	Tall 1 Chance 8
+	Affects	Giant 1 Chance 1
+	Affects	Short 1 Chance 8
+	Affects	Powerful 1 Chance 2
+	Affects	Strong_in_body 1 Chance 5
+	Affects	Weak_in_body 1 Chance 5
+	Affects	Feeble 1 Chance 2
+	Affects	SexualAppetitePos 1 Chance 10
+	Affects	SexualAppetitePos 2 Chance 2
+	Affects	SexualAppetitePos 3 Chance 1
+	Affects	SexualAppetiteNeg 1 Chance 10
+	Affects	SexualAppetiteNeg 2 Chance 5
+	Affects	SexualAppetiteNeg 3 Chance 2
+	Affects	WeightPos 1 Chance 5
+	Affects	WeightNeg 1 Chance 5
+	Affects	TiredPos 1 Chance 5
+	Affects	TiredPos 2 Chance 1
+	Affects	TiredNeg 1 Chance 5
+	Affects	TiredNeg 2 Chance 1
+	Affects	TemperamentPos 1 Chance 5
+	Affects	TemperamentNeg 1 Chance 5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Assassin characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger assassin_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = assassin
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	SmartAssassin 1 Chance 2
+	Affects	IgnorantAssassin 2 Chance 2
+	Affects	PhysicalDefectAssassin 1 Chance 2
+	Affects	PhysicalPerfectAssassin 1 Chance 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Spy characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger spy_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = spy
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	SmartSpy 1 Chance 2
+	Affects	IgnorantSpy 1 Chance 2
+	Affects	PhysicalDefectSpy 1 Chance 2
+	Affects	PhysicalPerfectSpy 1 Chance 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Princess characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger princess_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = princess
+		and	not FactionType slave
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	ExtremeFertility 1 Chance 100
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	Homosexual 1 Chance 4
+	Affects	SmartPrincess 1 Chance 2
+	Affects	IgnorantPrincess 1 Chance 2
+	Affects	PhysicalDefectPrincess 1 Chance 2
+	Affects	PhysicalPerfectPrincess 1 Chance 2
+	Affects	SexualAppetitePosPrincess 1 Chance 10
+	Affects	SexualAppetitePosPrincess 2 Chance 2
+	Affects	SexualAppetitePosPrincess 3 Chance 1
+	Affects	SexualAppetiteNegPrincess 1 Chance 10
+	Affects	SexualAppetiteNegPrincess 2 Chance 5
+	Affects	SexualAppetiteNegPrincess 3 Chance 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Priest characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger priest_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = priest
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	Sexuality 1 Chance 2
+	Affects	Sexuality 1 Chance 2
+	Affects	SmartPriest 1 Chance 2
+	Affects	IgnorantPriest 1 Chance 2
+	Affects	PhysicalDefectPriest 1 Chance 2
+	Affects	PhysicalPerfectPriest 1 Chance 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Diplomats characters init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger diplomats_init_trigger
+	WhenToTest CharacterTurnStart
+
+	Condition AgentType = diplomat
+		and	Trait  First_Appearance = 0
+
+	Affects	First_Appearance 1 Chance 100
+	Affects	Strong 1 Chance 10
+	Affects	Weak 1 Chance 10
+	Affects	SmartDiplomat 1 Chance 2
+	Affects	IgnorantDiplomat 1 Chance 2
+	Affects	PhysicalDefectDiplo 1 Chance 2
+	Affects	PhysicalPerfectDiplo 1 Chance 2

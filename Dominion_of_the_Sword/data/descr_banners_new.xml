@@ -1,0 +1,445 @@
+<!--
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;battlemap banners.   ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+-->	
+<Banners>
+	<Settings>
+		<General Scale="1.0" MinSizeDistance="114" PastMinDistanceScale="0.0074" DebugSizes="0">
+			<!--Scale - scale applied to all banners-->
+			<!--MinSizeDistance - banners further away then this distance use PastMinDistanceScale to control their screen size-->
+		</General>
+		<RoutingColour R="255" G="255" B="255"/>
+		<OutOfControlColour R="255" G="0" B="0"/>
+		<NauseaColour R="0" G="255" B="0"/>
+		<SelectedBanner Overbrighten="255" BouncingAmplitude="0.15" BoundingFrequency="6">
+			<!--Overbrighten 0-255 value: 0 - black, 128 - no overbright, 255 - double overbright-->
+			<!--BoundingScale: 1.0 - no scale, larger number - bigger banner-->
+		</SelectedBanner>
+		<Fading Time="1.5" Distance="10"><!--Times are in seconds, Distance in meters--></Fading>
+		<Waves>
+			<Wave WindSpeed="1.0">
+				<Wave0 Amplitude="0.7" Speed="7" FrequencyX="-1.0" FrequencyY="0.35"/>
+				<Wave1 Amplitude="0.4" Speed="2.5" FrequencyX="-0.15" FrequencyY="1.0"/>
+				<Wave2 Amplitude="0.05" Speed="8" FrequencyX="-1.0" FrequencyY="0.0"/>
+				<Wave3 Amplitude="0.1" Speed="8" FrequencyX="0.0" FrequencyY="1.0"/>
+			</Wave>
+		</Waves>
+		<MainSelectSize Width="2.5" Height="3" OffsetX="1.5" OffsetY="7.0"/>
+		<GeneralSelectSize Width="2.5" Height="3" OffsetX="0.0" OffsetY="7.0"/>
+	</Settings>
+	<FactionBanners>
+		<!--textures should contain factions Ally0, Ally1, Ally2 and Enemy0, Enemy1, Enemy2, Enemy3 - these are used for multiplayer-->
+		<Banner Name="FactionBanner_TEST" MainMesh="data\banners\test_banner\new_banner_test_main.mesh" MiniMesh="data\banners\test_banner\new_banner_test_experience.mesh" GeneralMesh="data\banners\test_banner\new_banner_test_main.mesh" BuildingMesh="data\banners\test_banner\new_banner_test_main.mesh" EffectOffsetX="0.0" EffectOffsetY="6.0" EffectOffsetZ="0.0">
+			<Textures>
+				<Texture Faction="England" DiffuseMap="banners\test_banner\test_textures\test_banner_all.texture" TranslucencyMap="banners\test_banner\test_textures\test_banner_all_trans.texture"/>
+				<Texture Faction="Ally0" DiffuseMap="banners\test_banner\test_textures\test_banner_all.texture" TranslucencyMap="banners\test_banner\test_textures\test_banner_all_trans.texture"/>
+				<Texture Faction="Enemy0" DiffuseMap="banners\test_banner\test_textures\test_banner_all.texture" TranslucencyMap="banners\test_banner\test_textures\test_banner_all_trans.texture"/>
+			</Textures>
+		</Banner>
+		<Banner Name="main_spear" MainMesh="data\banners\main_spear.mesh" MiniMesh="data\banners\mini_spear.mesh" GeneralMesh="data\banners\main_general.mesh" BuildingMesh="data\banners\main_spear.mesh" EffectOffsetX="0.0" EffectOffsetY="8.1" EffectOffsetZ="-0.1">
+			<Textures>
+				<Texture Faction="aragon" DiffuseMap="banners\textures\Faction_banner_aragon.texture" TranslucencyMap="banners\textures\Faction_banner_aragon_trans.texture"/>
+				<Texture Faction="armenia" DiffuseMap="banners\textures\Faction_banner_armenia.texture" TranslucencyMap="banners\textures\Faction_banner_armenia_trans.texture"/>
+				<Texture Faction="bohemia" DiffuseMap="banners\textures\Faction_banner_bohemia.texture" TranslucencyMap="banners\textures\Faction_banner_bohemia_trans.texture"/>
+				<Texture Faction="byzantium" DiffuseMap="banners\textures\Faction_banner_byzantium.texture" TranslucencyMap="banners\textures\Faction_banner_byzantium_trans.texture"/>
+				<Texture Faction="cumans" DiffuseMap="banners\textures\Faction_banner_cumans.texture" TranslucencyMap="banners\textures\Faction_banner_cumans_trans.texture"/>
+				<Texture Faction="denmark" DiffuseMap="banners\textures\Faction_banner_denmark.texture" TranslucencyMap="banners\textures\Faction_banner_denmark_trans.texture"/>
+				<Texture Faction="egypt" DiffuseMap="banners\textures\Faction_banner_egypt.texture" TranslucencyMap="banners\textures\Faction_banner_egypt_trans.texture"/>
+				<Texture Faction="england" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+				<Texture Faction="france" DiffuseMap="banners\textures\Faction_banner_france.texture" TranslucencyMap="banners\textures\Faction_banner_france_trans.texture"/>
+				<Texture Faction="georgia" DiffuseMap="banners\textures\Faction_banner_georgia.texture" TranslucencyMap="banners\textures\Faction_banner_georgia_trans.texture"/>
+				<Texture Faction="hre" DiffuseMap="banners\textures\Faction_banner_hre.texture" TranslucencyMap="banners\textures\Faction_banner_hre_trans.texture"/>
+				<Texture Faction="hungary" DiffuseMap="banners\textures\Faction_banner_hungary.texture" TranslucencyMap="banners\textures\Faction_banner_hungary_trans.texture"/>
+				<Texture Faction="kiev" DiffuseMap="banners\textures\Faction_banner_kiev.texture" TranslucencyMap="banners\textures\Faction_banner_kiev_trans.texture"/>
+				<Texture Faction="lithuania" DiffuseMap="banners\textures\Faction_banner_lithuania.texture" TranslucencyMap="banners\textures\Faction_banner_lithuania_trans.texture"/>
+				<Texture Faction="milan" DiffuseMap="banners\textures\Faction_banner_milan.texture" TranslucencyMap="banners\textures\Faction_banner_milan_trans.texture"/>
+				<Texture Faction="moors" DiffuseMap="banners\textures\Faction_banner_moors.texture" TranslucencyMap="banners\textures\Faction_banner_moors_trans.texture"/>
+				<Texture Faction="norway" DiffuseMap="banners\textures\Faction_banner_norway.texture" TranslucencyMap="banners\textures\Faction_banner_norway_trans.texture"/>
+				<Texture Faction="novgorod" DiffuseMap="banners\textures\Faction_banner_novgorod.texture" TranslucencyMap="banners\textures\Faction_banner_novgorod_trans.texture"/>
+				<Texture Faction="pisa" DiffuseMap="banners\textures\Faction_banner_pisa.texture" TranslucencyMap="banners\textures\Faction_banner_pisa_trans.texture"/>
+				<Texture Faction="poland" DiffuseMap="banners\textures\Faction_banner_poland.texture" TranslucencyMap="banners\textures\Faction_banner_poland_trans.texture"/>
+				<Texture Faction="portugal" DiffuseMap="banners\textures\Faction_banner_portugal.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
+				<Texture Faction="scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
+				<Texture Faction="seljuks" DiffuseMap="banners\textures\Faction_banner_seljuks.texture" TranslucencyMap="banners\textures\Faction_banner_seljuks_trans.texture"/>
+				<Texture Faction="sicily" DiffuseMap="banners\textures\Faction_banner_sicily.texture" TranslucencyMap="banners\textures\Faction_banner_sicily_trans.texture"/>
+				<Texture Faction="spain" DiffuseMap="banners\textures\Faction_banner_spain.texture" TranslucencyMap="banners\textures\Faction_banner_spain_trans.texture"/>
+				<Texture Faction="sweden" DiffuseMap="banners\textures\Faction_banner_sweden.texture" TranslucencyMap="banners\textures\Faction_banner_sweden_trans.texture"/>
+				<Texture Faction="syria" DiffuseMap="banners\textures\Faction_banner_syria.texture" TranslucencyMap="banners\textures\Faction_banner_syria_trans.texture"/>
+				<Texture Faction="turks" DiffuseMap="banners\textures\Faction_banner_turks.texture" TranslucencyMap="banners\textures\Faction_banner_turks_trans.texture"/>
+				<Texture Faction="venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
+				<Texture Faction="papal_states" DiffuseMap="banners\textures\Faction_banner_papal_states.texture" TranslucencyMap="banners\textures\Faction_banner_papal_states_trans.texture"/>
+				<Texture Faction="slave" DiffuseMap="banners\textures\Faction_banner_slave.texture" TranslucencyMap="banners\textures\Faction_banner_slave_trans.texture"/>
+				<Texture Faction="Rebels" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally0" DiffuseMap="banners\textures\Faction_banner_ally0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally1" DiffuseMap="banners\textures\Faction_banner_ally1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally2" DiffuseMap="banners\textures\Faction_banner_ally2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally3" DiffuseMap="banners\textures\Faction_banner_ally3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally4" DiffuseMap="banners\textures\Faction_banner_ally4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally5" DiffuseMap="banners\textures\Faction_banner_ally5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy0" DiffuseMap="banners\textures\Faction_banner_enemy0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy1" DiffuseMap="banners\textures\Faction_banner_enemy1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy2" DiffuseMap="banners\textures\Faction_banner_enemy2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy3" DiffuseMap="banners\textures\Faction_banner_enemy3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy4" DiffuseMap="banners\textures\Faction_banner_enemy4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy5" DiffuseMap="banners\textures\Faction_banner_enemy5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy6" DiffuseMap="banners\textures\Faction_banner_enemy6.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Slave" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+			</Textures>
+		</Banner>
+		<Banner Name="main_infantry" MainMesh="data\banners\main_infantry.mesh" MiniMesh="data\banners\mini_infantry.mesh" GeneralMesh="data\banners\main_general.mesh" BuildingMesh="data\banners\main_spear.mesh" EffectOffsetX="0.0" EffectOffsetY="8.9" EffectOffsetZ="-0.1">
+			<Textures>
+				<Texture Faction="aragon" DiffuseMap="banners\textures\Faction_banner_aragon.texture" TranslucencyMap="banners\textures\Faction_banner_aragon_trans.texture"/>
+				<Texture Faction="armenia" DiffuseMap="banners\textures\Faction_banner_armenia.texture" TranslucencyMap="banners\textures\Faction_banner_armenia_trans.texture"/>
+				<Texture Faction="bohemia" DiffuseMap="banners\textures\Faction_banner_bohemia.texture" TranslucencyMap="banners\textures\Faction_banner_bohemia_trans.texture"/>
+				<Texture Faction="byzantium" DiffuseMap="banners\textures\Faction_banner_byzantium.texture" TranslucencyMap="banners\textures\Faction_banner_byzantium_trans.texture"/>
+				<Texture Faction="cumans" DiffuseMap="banners\textures\Faction_banner_cumans.texture" TranslucencyMap="banners\textures\Faction_banner_cumans_trans.texture"/>
+				<Texture Faction="denmark" DiffuseMap="banners\textures\Faction_banner_denmark.texture" TranslucencyMap="banners\textures\Faction_banner_denmark_trans.texture"/>
+				<Texture Faction="egypt" DiffuseMap="banners\textures\Faction_banner_egypt.texture" TranslucencyMap="banners\textures\Faction_banner_egypt_trans.texture"/>
+				<Texture Faction="england" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+				<Texture Faction="france" DiffuseMap="banners\textures\Faction_banner_france.texture" TranslucencyMap="banners\textures\Faction_banner_france_trans.texture"/>
+				<Texture Faction="georgia" DiffuseMap="banners\textures\Faction_banner_georgia.texture" TranslucencyMap="banners\textures\Faction_banner_georgia_trans.texture"/>
+				<Texture Faction="hre" DiffuseMap="banners\textures\Faction_banner_hre.texture" TranslucencyMap="banners\textures\Faction_banner_hre_trans.texture"/>
+				<Texture Faction="hungary" DiffuseMap="banners\textures\Faction_banner_hungary.texture" TranslucencyMap="banners\textures\Faction_banner_hungary_trans.texture"/>
+				<Texture Faction="kiev" DiffuseMap="banners\textures\Faction_banner_kiev.texture" TranslucencyMap="banners\textures\Faction_banner_kiev_trans.texture"/>
+				<Texture Faction="lithuania" DiffuseMap="banners\textures\Faction_banner_lithuania.texture" TranslucencyMap="banners\textures\Faction_banner_lithuania_trans.texture"/>
+				<Texture Faction="milan" DiffuseMap="banners\textures\Faction_banner_milan.texture" TranslucencyMap="banners\textures\Faction_banner_milan_trans.texture"/>
+				<Texture Faction="moors" DiffuseMap="banners\textures\Faction_banner_moors.texture" TranslucencyMap="banners\textures\Faction_banner_moors_trans.texture"/>
+				<Texture Faction="norway" DiffuseMap="banners\textures\Faction_banner_norway.texture" TranslucencyMap="banners\textures\Faction_banner_norway_trans.texture"/>
+				<Texture Faction="novgorod" DiffuseMap="banners\textures\Faction_banner_novgorod.texture" TranslucencyMap="banners\textures\Faction_banner_novgorod_trans.texture"/>
+				<Texture Faction="pisa" DiffuseMap="banners\textures\Faction_banner_pisa.texture" TranslucencyMap="banners\textures\Faction_banner_pisa_trans.texture"/>
+				<Texture Faction="poland" DiffuseMap="banners\textures\Faction_banner_poland.texture" TranslucencyMap="banners\textures\Faction_banner_poland_trans.texture"/>
+				<Texture Faction="portugal" DiffuseMap="banners\textures\Faction_banner_portugal.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
+				<Texture Faction="scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
+				<Texture Faction="seljuks" DiffuseMap="banners\textures\Faction_banner_seljuks.texture" TranslucencyMap="banners\textures\Faction_banner_seljuks_trans.texture"/>
+				<Texture Faction="sicily" DiffuseMap="banners\textures\Faction_banner_sicily.texture" TranslucencyMap="banners\textures\Faction_banner_sicily_trans.texture"/>
+				<Texture Faction="spain" DiffuseMap="banners\textures\Faction_banner_spain.texture" TranslucencyMap="banners\textures\Faction_banner_spain_trans.texture"/>
+				<Texture Faction="sweden" DiffuseMap="banners\textures\Faction_banner_sweden.texture" TranslucencyMap="banners\textures\Faction_banner_sweden_trans.texture"/>
+				<Texture Faction="syria" DiffuseMap="banners\textures\Faction_banner_syria.texture" TranslucencyMap="banners\textures\Faction_banner_syria_trans.texture"/>
+				<Texture Faction="turks" DiffuseMap="banners\textures\Faction_banner_turks.texture" TranslucencyMap="banners\textures\Faction_banner_turks_trans.texture"/>
+				<Texture Faction="venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
+				<Texture Faction="papal_states" DiffuseMap="banners\textures\Faction_banner_papal_states.texture" TranslucencyMap="banners\textures\Faction_banner_papal_states_trans.texture"/>
+				<Texture Faction="slave" DiffuseMap="banners\textures\Faction_banner_slave.texture" TranslucencyMap="banners\textures\Faction_banner_slave_trans.texture"/>
+				<Texture Faction="Rebels" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally0" DiffuseMap="banners\textures\Faction_banner_ally0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally1" DiffuseMap="banners\textures\Faction_banner_ally1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally2" DiffuseMap="banners\textures\Faction_banner_ally2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally3" DiffuseMap="banners\textures\Faction_banner_ally3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally4" DiffuseMap="banners\textures\Faction_banner_ally4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally5" DiffuseMap="banners\textures\Faction_banner_ally5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy0" DiffuseMap="banners\textures\Faction_banner_enemy0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy1" DiffuseMap="banners\textures\Faction_banner_enemy1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy2" DiffuseMap="banners\textures\Faction_banner_enemy2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy3" DiffuseMap="banners\textures\Faction_banner_enemy3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy4" DiffuseMap="banners\textures\Faction_banner_enemy4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy5" DiffuseMap="banners\textures\Faction_banner_enemy5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy6" DiffuseMap="banners\textures\Faction_banner_enemy6.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Slave" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+			</Textures>
+		</Banner>
+		<Banner Name="main_cavalry" MainMesh="data\banners\main_cavalry.mesh" MiniMesh="data\banners\mini_cavalry.mesh" GeneralMesh="data\banners\main_general.mesh" BuildingMesh="data\banners\main_spear.mesh" EffectOffsetX="0.0" EffectOffsetY="8.1" EffectOffsetZ="0.0">
+			<Textures>
+
+				<Texture Faction="aragon" DiffuseMap="banners\textures\Faction_banner_aragon.texture" TranslucencyMap="banners\textures\Faction_banner_aragon_trans.texture"/>
+				<Texture Faction="armenia" DiffuseMap="banners\textures\Faction_banner_armenia.texture" TranslucencyMap="banners\textures\Faction_banner_armenia_trans.texture"/>
+				<Texture Faction="bohemia" DiffuseMap="banners\textures\Faction_banner_bohemia.texture" TranslucencyMap="banners\textures\Faction_banner_bohemia_trans.texture"/>
+				<Texture Faction="byzantium" DiffuseMap="banners\textures\Faction_banner_byzantium.texture" TranslucencyMap="banners\textures\Faction_banner_byzantium_trans.texture"/>
+				<Texture Faction="cumans" DiffuseMap="banners\textures\Faction_banner_cumans.texture" TranslucencyMap="banners\textures\Faction_banner_cumans_trans.texture"/>
+				<Texture Faction="denmark" DiffuseMap="banners\textures\Faction_banner_denmark.texture" TranslucencyMap="banners\textures\Faction_banner_denmark_trans.texture"/>
+				<Texture Faction="egypt" DiffuseMap="banners\textures\Faction_banner_egypt.texture" TranslucencyMap="banners\textures\Faction_banner_egypt_trans.texture"/>
+				<Texture Faction="england" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+				<Texture Faction="france" DiffuseMap="banners\textures\Faction_banner_france.texture" TranslucencyMap="banners\textures\Faction_banner_france_trans.texture"/>
+				<Texture Faction="georgia" DiffuseMap="banners\textures\Faction_banner_georgia.texture" TranslucencyMap="banners\textures\Faction_banner_georgia_trans.texture"/>
+				<Texture Faction="hre" DiffuseMap="banners\textures\Faction_banner_hre.texture" TranslucencyMap="banners\textures\Faction_banner_hre_trans.texture"/>
+				<Texture Faction="hungary" DiffuseMap="banners\textures\Faction_banner_hungary.texture" TranslucencyMap="banners\textures\Faction_banner_hungary_trans.texture"/>
+				<Texture Faction="kiev" DiffuseMap="banners\textures\Faction_banner_kiev.texture" TranslucencyMap="banners\textures\Faction_banner_kiev_trans.texture"/>
+				<Texture Faction="lithuania" DiffuseMap="banners\textures\Faction_banner_lithuania.texture" TranslucencyMap="banners\textures\Faction_banner_lithuania_trans.texture"/>
+				<Texture Faction="milan" DiffuseMap="banners\textures\Faction_banner_milan.texture" TranslucencyMap="banners\textures\Faction_banner_milan_trans.texture"/>
+				<Texture Faction="moors" DiffuseMap="banners\textures\Faction_banner_moors.texture" TranslucencyMap="banners\textures\Faction_banner_moors_trans.texture"/>
+				<Texture Faction="norway" DiffuseMap="banners\textures\Faction_banner_norway.texture" TranslucencyMap="banners\textures\Faction_banner_norway_trans.texture"/>
+				<Texture Faction="novgorod" DiffuseMap="banners\textures\Faction_banner_novgorod.texture" TranslucencyMap="banners\textures\Faction_banner_novgorod_trans.texture"/>
+				<Texture Faction="pisa" DiffuseMap="banners\textures\Faction_banner_pisa.texture" TranslucencyMap="banners\textures\Faction_banner_pisa_trans.texture"/>
+				<Texture Faction="poland" DiffuseMap="banners\textures\Faction_banner_poland.texture" TranslucencyMap="banners\textures\Faction_banner_poland_trans.texture"/>
+				<Texture Faction="portugal" DiffuseMap="banners\textures\Faction_banner_portugal.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
+				<Texture Faction="scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
+				<Texture Faction="seljuks" DiffuseMap="banners\textures\Faction_banner_seljuks.texture" TranslucencyMap="banners\textures\Faction_banner_seljuks_trans.texture"/>
+				<Texture Faction="sicily" DiffuseMap="banners\textures\Faction_banner_sicily.texture" TranslucencyMap="banners\textures\Faction_banner_sicily_trans.texture"/>
+				<Texture Faction="spain" DiffuseMap="banners\textures\Faction_banner_spain.texture" TranslucencyMap="banners\textures\Faction_banner_spain_trans.texture"/>
+				<Texture Faction="sweden" DiffuseMap="banners\textures\Faction_banner_sweden.texture" TranslucencyMap="banners\textures\Faction_banner_sweden_trans.texture"/>
+				<Texture Faction="syria" DiffuseMap="banners\textures\Faction_banner_syria.texture" TranslucencyMap="banners\textures\Faction_banner_syria_trans.texture"/>
+				<Texture Faction="turks" DiffuseMap="banners\textures\Faction_banner_turks.texture" TranslucencyMap="banners\textures\Faction_banner_turks_trans.texture"/>
+				<Texture Faction="venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
+				<Texture Faction="papal_states" DiffuseMap="banners\textures\Faction_banner_papal_states.texture" TranslucencyMap="banners\textures\Faction_banner_papal_states_trans.texture"/>
+				<Texture Faction="slave" DiffuseMap="banners\textures\Faction_banner_slave.texture" TranslucencyMap="banners\textures\Faction_banner_slave_trans.texture"/>
+				<Texture Faction="Rebels" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally0" DiffuseMap="banners\textures\Faction_banner_ally0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally1" DiffuseMap="banners\textures\Faction_banner_ally1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally2" DiffuseMap="banners\textures\Faction_banner_ally2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally3" DiffuseMap="banners\textures\Faction_banner_ally3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally4" DiffuseMap="banners\textures\Faction_banner_ally4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally5" DiffuseMap="banners\textures\Faction_banner_ally5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy0" DiffuseMap="banners\textures\Faction_banner_enemy0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy1" DiffuseMap="banners\textures\Faction_banner_enemy1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy2" DiffuseMap="banners\textures\Faction_banner_enemy2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy3" DiffuseMap="banners\textures\Faction_banner_enemy3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy4" DiffuseMap="banners\textures\Faction_banner_enemy4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy5" DiffuseMap="banners\textures\Faction_banner_enemy5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy6" DiffuseMap="banners\textures\Faction_banner_enemy6.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Slave" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+			</Textures>
+		</Banner>
+		<Banner Name="main_missile" MainMesh="data\banners\main_missile.mesh" MiniMesh="data\banners\mini_missile.mesh" GeneralMesh="data\banners\main_general.mesh" BuildingMesh="data\banners\main_spear.mesh" EffectOffsetX="0.0" EffectOffsetY="8.1" EffectOffsetZ="0.0">
+			<Textures>
+				<Texture Faction="aragon" DiffuseMap="banners\textures\Faction_banner_aragon.texture" TranslucencyMap="banners\textures\Faction_banner_aragon_trans.texture"/>
+				<Texture Faction="armenia" DiffuseMap="banners\textures\Faction_banner_armenia.texture" TranslucencyMap="banners\textures\Faction_banner_armenia_trans.texture"/>
+				<Texture Faction="bohemia" DiffuseMap="banners\textures\Faction_banner_bohemia.texture" TranslucencyMap="banners\textures\Faction_banner_bohemia_trans.texture"/>
+				<Texture Faction="byzantium" DiffuseMap="banners\textures\Faction_banner_byzantium.texture" TranslucencyMap="banners\textures\Faction_banner_byzantium_trans.texture"/>
+				<Texture Faction="cumans" DiffuseMap="banners\textures\Faction_banner_cumans.texture" TranslucencyMap="banners\textures\Faction_banner_cumans_trans.texture"/>
+				<Texture Faction="denmark" DiffuseMap="banners\textures\Faction_banner_denmark.texture" TranslucencyMap="banners\textures\Faction_banner_denmark_trans.texture"/>
+				<Texture Faction="egypt" DiffuseMap="banners\textures\Faction_banner_egypt.texture" TranslucencyMap="banners\textures\Faction_banner_egypt_trans.texture"/>
+				<Texture Faction="england" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+				<Texture Faction="france" DiffuseMap="banners\textures\Faction_banner_france.texture" TranslucencyMap="banners\textures\Faction_banner_france_trans.texture"/>
+				<Texture Faction="georgia" DiffuseMap="banners\textures\Faction_banner_georgia.texture" TranslucencyMap="banners\textures\Faction_banner_georgia_trans.texture"/>
+				<Texture Faction="hre" DiffuseMap="banners\textures\Faction_banner_hre.texture" TranslucencyMap="banners\textures\Faction_banner_hre_trans.texture"/>
+				<Texture Faction="hungary" DiffuseMap="banners\textures\Faction_banner_hungary.texture" TranslucencyMap="banners\textures\Faction_banner_hungary_trans.texture"/>
+				<Texture Faction="kiev" DiffuseMap="banners\textures\Faction_banner_kiev.texture" TranslucencyMap="banners\textures\Faction_banner_kiev_trans.texture"/>
+				<Texture Faction="lithuania" DiffuseMap="banners\textures\Faction_banner_lithuania.texture" TranslucencyMap="banners\textures\Faction_banner_lithuania_trans.texture"/>
+				<Texture Faction="milan" DiffuseMap="banners\textures\Faction_banner_milan.texture" TranslucencyMap="banners\textures\Faction_banner_milan_trans.texture"/>
+				<Texture Faction="moors" DiffuseMap="banners\textures\Faction_banner_moors.texture" TranslucencyMap="banners\textures\Faction_banner_moors_trans.texture"/>
+				<Texture Faction="norway" DiffuseMap="banners\textures\Faction_banner_norway.texture" TranslucencyMap="banners\textures\Faction_banner_norway_trans.texture"/>
+				<Texture Faction="novgorod" DiffuseMap="banners\textures\Faction_banner_novgorod.texture" TranslucencyMap="banners\textures\Faction_banner_novgorod_trans.texture"/>
+				<Texture Faction="pisa" DiffuseMap="banners\textures\Faction_banner_pisa.texture" TranslucencyMap="banners\textures\Faction_banner_pisa_trans.texture"/>
+				<Texture Faction="poland" DiffuseMap="banners\textures\Faction_banner_poland.texture" TranslucencyMap="banners\textures\Faction_banner_poland_trans.texture"/>
+				<Texture Faction="portugal" DiffuseMap="banners\textures\Faction_banner_portugal.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
+				<Texture Faction="scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
+				<Texture Faction="seljuks" DiffuseMap="banners\textures\Faction_banner_seljuks.texture" TranslucencyMap="banners\textures\Faction_banner_seljuks_trans.texture"/>
+				<Texture Faction="sicily" DiffuseMap="banners\textures\Faction_banner_sicily.texture" TranslucencyMap="banners\textures\Faction_banner_sicily_trans.texture"/>
+				<Texture Faction="spain" DiffuseMap="banners\textures\Faction_banner_spain.texture" TranslucencyMap="banners\textures\Faction_banner_spain_trans.texture"/>
+				<Texture Faction="sweden" DiffuseMap="banners\textures\Faction_banner_sweden.texture" TranslucencyMap="banners\textures\Faction_banner_sweden_trans.texture"/>
+				<Texture Faction="syria" DiffuseMap="banners\textures\Faction_banner_syria.texture" TranslucencyMap="banners\textures\Faction_banner_syria_trans.texture"/>
+				<Texture Faction="turks" DiffuseMap="banners\textures\Faction_banner_turks.texture" TranslucencyMap="banners\textures\Faction_banner_turks_trans.texture"/>
+				<Texture Faction="venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
+				<Texture Faction="papal_states" DiffuseMap="banners\textures\Faction_banner_papal_states.texture" TranslucencyMap="banners\textures\Faction_banner_papal_states_trans.texture"/>
+				<Texture Faction="slave" DiffuseMap="banners\textures\Faction_banner_slave.texture" TranslucencyMap="banners\textures\Faction_banner_slave_trans.texture"/>
+				<Texture Faction="Rebels" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally0" DiffuseMap="banners\textures\Faction_banner_ally0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally1" DiffuseMap="banners\textures\Faction_banner_ally1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally2" DiffuseMap="banners\textures\Faction_banner_ally2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally3" DiffuseMap="banners\textures\Faction_banner_ally3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally4" DiffuseMap="banners\textures\Faction_banner_ally4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Ally5" DiffuseMap="banners\textures\Faction_banner_ally5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy0" DiffuseMap="banners\textures\Faction_banner_enemy0.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy1" DiffuseMap="banners\textures\Faction_banner_enemy1.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy2" DiffuseMap="banners\textures\Faction_banner_enemy2.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy3" DiffuseMap="banners\textures\Faction_banner_enemy3.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy4" DiffuseMap="banners\textures\Faction_banner_enemy4.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy5" DiffuseMap="banners\textures\Faction_banner_enemy5.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Enemy6" DiffuseMap="banners\textures\Faction_banner_enemy6.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+				<Texture Faction="Slave" DiffuseMap="banners\textures\Faction_banner_rebels.texture" TranslucencyMap="banners\textures\Faction_banner_rebels_trans.texture"/>
+			</Textures>
+		</Banner>
+	</FactionBanners>
+	<UnitSpecificBanners>
+		<Banner Name="UnitBanner_TEST">
+			<MeshesAndTextures>
+				<MeshAndTexture Faction="England" Mesh="data\banners\main_spear.mesh" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Hospitaller">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\special_unit_hospitallers.mesh" DiffuseMap="banners\textures\special_unit_hospitaller.texture" TranslucencyMap="banners\textures\special_unit_hospitaller_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Teutonic">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\special_unit_teutonic.mesh" DiffuseMap="banners\textures\special_unit_teutonic.texture" TranslucencyMap="banners\textures\special_unit_teutonic_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Templars">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\special_unit_templars.mesh" DiffuseMap="banners\textures\special_unit_templars.texture" TranslucencyMap="banners\textures\special_unit_templars_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Santiago">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\special_unit_santiago.mesh" DiffuseMap="banners\textures\special_unit_santiago.texture" TranslucencyMap="banners\textures\special_unit_santiago_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="dragon_standard">
+			<MeshesAndTextures>
+				<MeshAndTexture Faction="turks" Mesh="data\banners\secondary_dragon_standard.mesh" DiffuseMap="banners\textures\dragon_standard.texture" TranslucencyMap="banners\textures\dragon_standard_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+	</UnitSpecificBanners>
+	<HolyBanners>
+		<Banner Name="HolyBanner_TEST">
+			<MeshesAndTextures>
+				<MeshAndTexture Faction="England" Mesh="data\banners\main_spear.mesh" DiffuseMap="banners\textures\Faction_banner_england.texture" TranslucencyMap="banners\textures\Faction_banner_england_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Crusade">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\holy_banner_crusade.mesh" DiffuseMap="banners\textures\holy_banner_crusade.texture" TranslucencyMap="banners\textures\holy_banner_crusade_trans.texture"/>
+				<MeshAndTexture Faction="egypt" Mesh="data\banners\holy_banner_jihad.mesh" DiffuseMap="banners\textures\holy_banner_jihad.texture" TranslucencyMap="banners\textures\holy_banner_jihad_trans.texture"/>
+				<MeshAndTexture Faction="moors" Mesh="data\banners\holy_banner_jihad.mesh" DiffuseMap="banners\textures\holy_banner_jihad.texture" TranslucencyMap="banners\textures\holy_banner_jihad_trans.texture"/>
+				<MeshAndTexture Faction="seljuks" Mesh="data\banners\holy_banner_jihad.mesh" DiffuseMap="banners\textures\holy_banner_jihad.texture" TranslucencyMap="banners\textures\holy_banner_jihad_trans.texture"/>
+				<MeshAndTexture Faction="syria" Mesh="data\banners\holy_banner_jihad.mesh" DiffuseMap="banners\textures\holy_banner_jihad.texture" TranslucencyMap="banners\textures\holy_banner_jihad_trans.texture"/>
+				<MeshAndTexture Faction="turks" Mesh="data\banners\holy_banner_jihad.mesh" DiffuseMap="banners\textures\holy_banner_jihad.texture" TranslucencyMap="banners\textures\holy_banner_jihad_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+		<Banner Name="Crusade_cavalry">
+			<MeshesAndTextures>
+			<MeshAndTexture Faction="aragon" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="bohemia" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="denmark" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="england" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="france" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="hre" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="hungary" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="milan" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="norway" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="pisa" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="poland" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="portugal" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="scotland" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="sicily" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="spain" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="sweden" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="venice" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="papal_states" Mesh="data\banners\holy_banner_crusade_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_crusade_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_crusade_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="egypt" Mesh="data\banners\holy_banner_jihad_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_jihad_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_jihad_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="moors" Mesh="data\banners\holy_banner_jihad_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_jihad_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_jihad_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="seljuks" Mesh="data\banners\holy_banner_jihad_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_jihad_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_jihad_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="syria" Mesh="data\banners\holy_banner_jihad_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_jihad_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_jihad_cavalry_trans.texture"/>
+			<MeshAndTexture Faction="turks" Mesh="data\banners\holy_banner_jihad_cavalry.mesh" DiffuseMap="banners\textures\holy_banner_jihad_cavalry.texture" TranslucencyMap="banners\textures\holy_banner_jihad_cavalry_trans.texture"/>
+			</MeshesAndTextures>
+		</Banner>
+	</HolyBanners>
+	<RoyalBanner Name="royal">
+		<!--Only single royal banner is supported-->
+		<MeshesAndTextures>
+		<MeshAndTexture Faction="aragon" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_aragon.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="armenia" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_armenia.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="bohemia" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_bohemia.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="byzantium" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_byzantium.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="cumans" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_cumans.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="denmark" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_denmark.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="egypt" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_egypt.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="england" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_england.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="france" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_france.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="georgia" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_georgia.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="hre" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_hre.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="hungary" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_hungary.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="kiev" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_kiev.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="lithuania" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_lithuania.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="milan" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_milan.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="moors" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_moors.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="norway" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_norway.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="novgorod" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_novgorod.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="pisa" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_pisa.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="poland" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_poland.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="portugal" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_portugal.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="scotland" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_scotland.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="seljuks" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_seljuks.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="sicily" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_sicily.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="spain" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_spain.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="sweden" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_sweden.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="syria" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_syria.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="turks" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_turks.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="venice" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_venice.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="papal_states" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_papal_states.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		<MeshAndTexture Faction="slave" Mesh="data\banners\main_royal.mesh" DiffuseMap="banners\textures\royal_banner_slave.texture" TranslucencyMap="banners\textures\royal_banner_trans.texture"/>
+		</MeshesAndTextures>
+	</RoyalBanner>
+</Banners>
