@@ -1,0 +1,199 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;victory conditions.  ;
+;                     ;
+;Created wth REBUILD  ;
+;Author: Resurrection ;
+;---------------------;
+
+aragon
+hold_regions Jaca_Province Barcelona_Province Pamplona_Province Saragossa_Province
+take_regions 10
+short_campaign hold_regions Jaca_Province
+take_regions 5
+
+armenia
+hold_regions Antioch_Province Erzurum_Province
+take_regions 10
+short_campaign hold_regions Antioch_Province
+take_regions 5
+
+bohemia
+hold_regions Prague_Province Olomouc_Province Wroclaw_Province Magdeburg_Province Vienna_Province
+take_regions 10
+short_campaign hold_regions Prague_Province
+take_regions 5
+
+byzantium
+hold_regions Adana_Province Antalya_Province Antioch_Province Constantinople_Province Dubrovnik_Province Durres_Province Edirne_Province Heraclion_Province Izmir_Province Iznik_Province Kayseri_Province Kherson_Province Konya_Province Larissa_Province Nicopolis_Province Nicosia_Province Patras_Province Ras_Province Rhodes_Province Silistra_Province Sinop_Province Sivas_Province Skopje_Province Taranto_Province Thessalonica_Province Trabzon_Province
+take_regions 26
+outlive turks
+short_campaign hold_regions Constantinople_Province
+take_regions 15
+outlive milan turks
+
+cumans
+hold_regions Sharukan_Province
+take_regions 15
+outlive kiev
+short_campaign hold_regions Sharukan_Province
+take_regions 7
+
+denmark
+hold_regions Roskilde_Province Ribe_Province Lund_Province Tallinn_Province Lubeck_Province 
+take_regions 10
+short_campaign hold_regions Roskilde_Province
+take_regions 5
+
+egypt
+hold_regions Aden_Province Al_Ahsa_Province Alexandria_Province Barca_Province Bilma_Province Cairo_Province Fayd_Province Hijr_Province Jerusalem_Province Mecca_Province Minya_Province Qift_Province Sanaa_Province Tennis_Province Tripoli_Province
+take_regions 15
+short_campaign hold_regions Cairo_Province Alexandria_Province Jerusalem_Province Mecca_Province
+take_regions 15
+
+england
+hold_regions London_Province Norwich_Province York_Province Aberffraw_Province Tuam_Province Rouen_Province Bordeaux_Province Angers_Province
+take_regions 15
+short_campaign hold_regions London_Province
+take_regions 10
+
+france
+hold_regions Angers_Province Bordeaux_Province Clermont_Province Dijon_Province Orleans_Province Paris_Province Poitiers_Province Rennes_Province Troyes_Province Aix_Province Lyon_Province Rouen_Province Toulouse_Province Ghent_Province
+take_regions 15
+short_campaign hold_regions Paris_Province
+take_regions 10
+
+georgia
+hold_regions Kutaisi_Province Tbilisi_Province
+take_regions 10
+short_campaign hold_regions Tbilisi_Province
+take_regions 5
+
+hre
+hold_regions Aix_Province Augsburg_Province Basel_Province Bremen_Province Cologne_Province Erfurt_Province Lyon_Province Magdeburg_Province Regensburg_Province Trier_Province Utrecht_Province Vienna_Province Worms_Province Kaliningrad_Province Milan_Province Bologna_Province Ancona_Province Verona_Province Ravenna_Province Turin_Province
+take_regions 20
+short_campaign hold_regions Rome_Province
+take_regions 10
+
+hungary
+hold_regions Gyulafehervar_Province Szekesfehervar_Province Biograd_Province
+take_regions 10
+short_campaign hold_regions Szekesfehervar_Province
+take_regions 5
+
+kiev
+hold_regions Berestie_Province Chernihiv_Province Kiev_Province Lviv_Province Pereyaslavl_Province Polotsk_Province Rostov_Province Ryazan_Province Smolensk_Province Turov_Province Novgorod_Province Pskov_Province
+take_regions 12
+short_campaign hold_regions Kiev_Province
+take_regions 6
+
+lithuania
+hold_regions Vilnius_Province Berestie_Province
+take_regions 10
+short_campaign hold_regions Vilnius_Province
+take_regions 5
+
+milan
+hold_regions Genoa_Province Milan_Province Turin_Province Bologna_Province Verona_Province Ravenna_Province Ancona_Province
+take_regions 10
+short_campaign hold_regions Milan_Province Genoa_Province
+take_regions 5
+
+moors
+hold_regions Badajoz_Province Bejaia_Province Ceuta_Province Cordoba_Province Fashir_Province Fez_Province Granada_Province Marrakech_Province Palma_Province Saragossa_Province Seville_Province Sijilmasa_Province Silves_Province Takrur_Province Tlemcen_Province Tozeur_Province Tuat_Province Valencia_Province
+take_regions 20
+short_campaign hold_regions Marrakech_Province
+take_regions 10
+
+norway
+hold_regions Bergen_Province Skalholt_Province Trondheim_Province Tuam_Province Kirkwall_Province
+take_regions 10
+short_campaign hold_regions Bergen_Province
+take_regions 5
+
+novgorod
+hold_regions Novgorod_Province Pskov_Province Kholmogory_Province
+take_regions 10
+short_campaign hold_regions Novgorod_Province
+take_regions 5
+
+pisa
+hold_regions Pisa_Province Florence_Province Bonifacio_Province Cagliari_Province
+take_regions 10
+short_campaign hold_regions Pisa_Province Florence_Province
+take_regions 5
+
+poland
+hold_regions Krakow_Province Plock_Province Poznan_Province Wroclaw_Province Stettin_Province Gdansk_Province Lviv_Province Berestie_Province
+take_regions 10
+short_campaign hold_regions Krakow_Province
+take_regions 5
+
+portugal
+hold_regions Coimbra_Province Badajoz_Province Silves_Province
+take_regions 10
+short_campaign hold_regions Coimbra_Province
+take_regions 5
+
+scotland
+hold_regions Elgin_Province Kirkwall_Province Perth_Province York_Province
+take_regions 10
+short_campaign hold_regions Perth_Province
+take_regions 5
+
+seljuks
+hold_regions Ardabil_Province Derbent_Province Gorgan_Province Hamadan_Province Isfahan_Province Jend_Province Kerman_Province Marv_Province Muscat_Province Nishapur_Province Ray_Province Shamakhi_Province Shiraz_Province Ufa_Province Urgench_Province Zaranj_Province Baghdad_Province Mecca_Province Jerusalem_Province Chabahar_Province
+take_regions 30
+short_campaign hold_regions Isfahan_Province Mecca_Province Jerusalem_Province
+take_regions 20
+
+sicily
+hold_regions Palermo_Province Naples_Province Melfi_Province Taranto_Province
+take_regions 10
+short_campaign hold_regions Naples_Province
+take_regions 5
+
+spain
+hold_regions Burgos_Province Leon_Province Santiago_Province Toledo_Province Cordoba_Province Valencia_Province Seville_Province
+take_regions 10
+short_campaign hold_regions Toledo_Province
+take_regions 5
+
+sweden
+hold_regions Linkoping_Province Skara_Province Uppsala_Province Visby_Province Turku_Province
+take_regions 10
+short_campaign hold_regions Skara_Province
+take_regions 5
+
+syria
+hold_regions Aleppo_Province Damascus_Province Homs_Province Mosul_Province Palermo_Province Jerusalem_Province Antioch_Province Mecca_Province
+take_regions 15
+short_campaign hold_regions Damascus_Province Mecca_Province Jerusalem_Province
+take_regions 10
+
+turks
+hold_regions Constantinople_Province
+take_regions 20
+outlive byzantium
+short_campaign hold_regions Constantinople_Province
+take_regions 10
+outlive milan byzantium
+
+venice
+hold_regions Venice_Province Biograd_Province Dubrovnik_Province Durres_Province Heraclion_Province Constantinople_Province Kherson_Province
+take_regions 10
+short_campaign hold_regions Venice_Province
+take_regions 5
+
+papal_states
+hold_regions Rome_Province
+take_regions 199
+short_campaign hold_regions Rome_Province
+take_regions 199
+
+slave
+take_regions 199
+short_campaign hold_regions
+take_regions 199

@@ -1,0 +1,1802 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file defines the;
+;regions on the map.  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+
+Pamplona_Province
+	Pamplona
+	aragon
+	Pamplona_Rebels
+	171 111 73
+	none
+	5
+	4
+	religions { buddhism 0 catholic 80 heretic 0 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 5 islam 11 shia 0 }
+Jaca_Province
+	Jaca
+	aragon
+	Jaca_Rebels
+	98 204 152
+	none
+	5
+	4
+	religions { buddhism 0 catholic 82 heretic 0 hussitism 0 judaism 3 oriental 0 orthodox 0 pagan 2 islam 13 shia 0 }
+Tarsus_Province
+	Tarsus
+	byzantium
+	Tarsus_Rebels
+	20 127 204
+	none
+	5
+	6
+	religions { buddhism 0 catholic 0 heretic 4 hussitism 0 judaism 5 oriental 30 orthodox 30 pagan 1 islam 25 shia 5 }
+Antioch_Province
+	Antioch
+	byzantium
+	Antioch_Rebels
+	222 83 74
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 4 hussitism 0 judaism 5 oriental 35 orthodox 35 pagan 1 islam 15 shia 5 }
+Olomouc_Province
+	Olomouc
+	bohemia
+	Olomouc_Rebels
+	231 126 62
+	none
+	5
+	5
+	religions { buddhism 0 catholic 84 heretic 2 hussitism 0 judaism 6 oriental 0 orthodox 0 pagan 8 islam 0 shia 0 }
+Prague_Province
+	Prague
+	bohemia
+	Prague_Rebels
+	236 64 112
+	none
+	5
+	5
+	religions { buddhism 0 catholic 78 heretic 3 hussitism 0 judaism 7 oriental 0 orthodox 0 pagan 12 islam 0 shia 0 }
+Antalya_Province
+	Antalya
+	byzantium
+	Antalya_Rebels
+	21 63 87
+	none
+	5
+	3
+	religions { buddhism 0 catholic 2 heretic 4 hussitism 0 judaism 2 oriental 5 orthodox 80 pagan 1 islam 5 shia 1 }
+Durres_Province
+	Durres
+	byzantium
+	Durres_Rebels
+	251 221 110
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 20 hussitism 0 judaism 10 oriental 10 orthodox 20 pagan 20 islam 0 shia 0 }
+Edirne_Province
+	Edirne
+	byzantium
+	Edirne_Rebels
+	172 9 34
+	none
+	5
+	6
+	religions { buddhism 0 catholic 5 heretic 15 hussitism 0 judaism 15 oriental 30 orthodox 40 pagan 5 islam 0 shia 0 }
+Heraclion_Province
+	Heraclion
+	byzantium
+	Heraclion_Rebels
+	201 7 107
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 0 oriental 0 orthodox 45 pagan 5 islam 40 shia 0 }
+Kherson_Province
+	Kherson
+	byzantium
+	Kherson_Rebels
+	240 127 0
+	none
+	5
+	6
+	religions { buddhism 0 catholic 0 heretic 3 hussitism 0 judaism 2 oriental 20 orthodox 50 pagan 25 islam 0 shia 0 }
+Konya_Province
+	Konya
+	byzantium
+	Konya_Rebels
+	150 8 243
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 1 oriental 20 orthodox 60 pagan 4 islam 9 shia 1 }
+Larissa_Province
+	Larissa
+	byzantium
+	Larissa_Rebels
+	54 76 68
+	none
+	5
+	4
+	religions { buddhism 0 catholic 2 heretic 5 hussitism 0 judaism 3 oriental 3 orthodox 84 pagan 1 islam 1 shia 1 }
+Nicopolis_Province
+	Nicopolis
+	byzantium
+	Nicopolis_Rebels
+	179 114 71
+	none
+	5
+	5
+	religions { buddhism 0 catholic 5 heretic 15 hussitism 0 judaism 5 oriental 25 orthodox 30 pagan 25 islam 0 shia 0 }
+Nicosia_Province
+	Nicosia
+	byzantium
+	Nicosia_Rebels
+	161 21 115
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 6 hussitism 0 judaism 3 oriental 10 orthodox 55 pagan 1 islam 20 shia 5 }
+Patras_Province
+	Patras
+	byzantium
+	Patras_Rebels
+	48 168 64
+	none
+	5
+	5
+	religions { buddhism 0 catholic 2 heretic 5 hussitism 0 judaism 3 oriental 3 orthodox 84 pagan 1 islam 1 shia 1 }
+Ras_Province
+	Ras
+	byzantium
+	Ras_Rebels
+	75 2 101
+	none
+	5
+	2
+	religions { buddhism 0 catholic 20 heretic 20 hussitism 0 judaism 10 oriental 10 orthodox 20 pagan 20 islam 0 shia 0 }
+Rhodes_Province
+	Rhodes
+	byzantium
+	Rhodes_Rebels
+	226 205 206
+	none
+	5
+	4
+	religions { buddhism 0 catholic 1 heretic 1 hussitism 0 judaism 2 oriental 3 orthodox 70 pagan 20 islam 1 shia 1 }
+Silistra_Province
+	Silistra
+	byzantium
+	Silistra_Rebels
+	12 74 14
+	none
+	5
+	5
+	religions { buddhism 0 catholic 1 heretic 20 hussitism 0 judaism 1 oriental 20 orthodox 43 pagan 15 islam 0 shia 0 }
+Sinop_Province
+	Sinop
+	byzantium
+	Sinop_Rebels
+	37 171 6
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 4 hussitism 0 judaism 5 oriental 25 orthodox 55 pagan 1 islam 5 shia 5 }
+Skopje_Province
+	Skopje
+	byzantium
+	Skopje_Rebels
+	42 99 141
+	none
+	5
+	5
+	religions { buddhism 0 catholic 10 heretic 20 hussitism 0 judaism 5 oriental 20 orthodox 25 pagan 15 islam 0 shia 0 }
+Thessalonica_Province
+	Thessalonica
+	byzantium
+	Thessalonica_Rebels
+	125 144 115
+	none
+	5
+	6
+	religions { buddhism 0 catholic 1 heretic 9 hussitism 0 judaism 5 oriental 10 orthodox 70 pagan 1 islam 2 shia 2 }
+Constantinople_Province
+	Constantinople
+	byzantium
+	Constantinople_Rebels
+	156 178 236
+	none
+	5
+	6
+	religions { buddhism 0 catholic 20 heretic 10 hussitism 0 judaism 5 oriental 30 orthodox 32 pagan 1 islam 1 shia 1 }
+Baia_Province
+	Baia
+	cumans
+	Baia_Rebels
+	221 92 53
+	none
+	5
+	3
+	religions { buddhism 0 catholic 5 heretic 5 hussitism 0 judaism 10 oriental 5 orthodox 5 pagan 60 islam 10 shia 0 }
+Majar_Province
+	Majar
+	cumans
+	Majar_Rebels
+	44 102 117
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 25 oriental 10 orthodox 5 pagan 50 islam 5 shia 0 }
+Targoviste_Province
+	Targoviste
+	cumans
+	Targoviste_Rebels
+	192 251 37
+	none
+	5
+	3
+	religions { buddhism 0 catholic 10 heretic 8 hussitism 0 judaism 2 oriental 0 orthodox 10 pagan 70 islam 0 shia 0 }
+Sharukan_Province
+	Sharukan
+	cumans
+	Sharukan_Rebels
+	246 174 119
+	none
+	5
+	6
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 45 oriental 10 orthodox 0 pagan 30 islam 10 shia 0 }
+Lund_Province
+	Lund
+	denmark
+	Lund_Rebels
+	234 58 83
+	none
+	5
+	5
+	religions { buddhism 0 catholic 68 heretic 3 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 25 islam 0 shia 0 }
+Ribe_Province
+	Ribe
+	denmark
+	Ribe_Rebels
+	158 162 57
+	none
+	5
+	3
+	religions { buddhism 0 catholic 68 heretic 8 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 22 islam 0 shia 0 }
+Roskilde_Province
+	Roskilde
+	denmark
+	Roskilde_Rebels
+	220 30 209
+	none
+	5
+	3
+	religions { buddhism 0 catholic 68 heretic 8 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 22 islam 0 shia 0 }
+Alexandria_Province
+	Alexandria
+	egypt
+	Alexandria_Rebels
+	227 161 8
+	none
+	5
+	5
+	religions { buddhism 0 catholic 5 heretic 4 hussitism 0 judaism 10 oriental 40 orthodox 10 pagan 1 islam 20 shia 10 }
+Barca_Province
+	Barca
+	egypt
+	Barca_Rebels
+	109 38 8
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 5 oriental 14 orthodox 11 pagan 4 islam 40 shia 25 }
+Dongola_Province
+	Dongola
+	armenia
+	Dongola_Rebels
+	196 77 118
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 6 hussitism 0 judaism 1 oriental 65 orthodox 0 pagan 25 islam 2 shia 1 }
+Mecca_Province
+	Mecca
+	egypt
+	Mecca_Rebels
+	51 2 196
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 5 oriental 5 orthodox 0 pagan 5 islam 45 shia 35 }
+Minya_Province
+	Minya
+	egypt
+	Minya_Rebels
+	252 70 78
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 5 oriental 65 orthodox 2 pagan 3 islam 15 shia 10 }
+Qift_Province
+	Qift
+	egypt
+	Qift_Rebels
+	19 82 182
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 3 oriental 55 orthodox 5 pagan 1 islam 20 shia 10 }
+Sanaa_Province
+	Sanaa
+	egypt
+	Sanaa_Rebels
+	233 4 79
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 5 oriental 30 orthodox 0 pagan 10 islam 0 shia 50 }
+Tennis_Province
+	Tennis
+	egypt
+	Tennis_Rebels
+	227 221 8
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 3 oriental 45 orthodox 5 pagan 1 islam 35 shia 10 }
+Tripoli_Province
+	Tripoli
+	egypt
+	Tripoli_Rebels
+	146 205 143
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 6 hussitism 0 judaism 3 oriental 7 orthodox 7 pagan 15 islam 55 shia 7 }
+Cairo_Province
+	Cairo
+	egypt
+	Cairo_Rebels
+	109 161 8
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 20 oriental 20 orthodox 10 pagan 4 islam 25 shia 20 }
+Norwich_Province
+	Norwich
+	england
+	Norwich_Rebels
+	146 225 181
+	none
+	5
+	5
+	religions { buddhism 0 catholic 74 heretic 0 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 20 islam 0 shia 0 }
+Rouen_Province
+	Rouen
+	england
+	Rouen_Rebels
+	249 228 112
+	none
+	5
+	5
+	religions { buddhism 0 catholic 75 heretic 3 hussitism 0 judaism 20 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+York_Province
+	York
+	england
+	York_Rebels
+	245 182 2
+	none
+	5
+	4
+	religions { buddhism 0 catholic 65 heretic 6 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 25 islam 0 shia 0 }
+London_Province
+	London
+	england
+	London_Rebels
+	232 41 46
+	none
+	5
+	5
+	religions { buddhism 0 catholic 70 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 20 islam 0 shia 0 }
+Angers_Province
+	Angers
+	france
+	Angers_Rebels
+	235 110 222
+	none
+	5
+	5
+	religions { buddhism 0 catholic 85 heretic 8 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Bordeaux_Province
+	Bordeaux
+	france
+	Bordeaux_Rebels
+	86 65 43
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 3 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 2 islam 1 shia 0 }
+Clermont_Province
+	Clermont
+	france
+	Clermont_Rebels
+	232 143 150
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 7 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Dijon_Province
+	Dijon
+	france
+	Dijon_Rebels
+	113 63 62
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 6 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Ghent_Province
+	Ghent
+	denmark
+	Ghent_Rebels
+	181 83 4
+	none
+	5
+	3
+	religions { buddhism 0 catholic 75 heretic 8 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 12 islam 0 shia 0 }
+Orleans_Province
+	Orleans
+	france
+	Orleans_Rebels
+	231 198 152
+	none
+	5
+	6
+	religions { buddhism 0 catholic 90 heretic 6 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Poitiers_Province
+	Poitiers
+	france
+	Poitiers_Rebels
+	208 131 99
+	none
+	5
+	6
+	religions { buddhism 0 catholic 85 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 5 islam 0 shia 0 }
+Toulouse_Province
+	Toulouse
+	aragon
+	Toulouse_Rebels
+	94 162 30
+	none
+	5
+	6
+	religions { buddhism 0 catholic 55 heretic 25 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 10 islam 0 shia 0 }
+Troyes_Province
+	Troyes
+	france
+	Troyes_Rebels
+	29 158 66
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 6 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Paris_Province
+	Paris
+	france
+	Paris_Rebels
+	103 92 145
+	none
+	5
+	6
+	religions { buddhism 0 catholic 85 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 5 islam 0 shia 0 }
+Kutaisi_Province
+	Kutaisi
+	georgia
+	Kutaisi_Rebels
+	224 149 185
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 5 oriental 20 orthodox 40 pagan 10 islam 10 shia 5 }
+Bremen_Province
+	Bremen
+	hre
+	Bremen_Rebels
+	23 92 82
+	none
+	5
+	3
+	religions { buddhism 0 catholic 80 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 15 islam 0 shia 0 }
+Cologne_Province
+	Cologne
+	hre
+	Cologne_Rebels
+	210 205 251
+	none
+	5
+	5
+	religions { buddhism 0 catholic 80 heretic 13 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Lyon_Province
+	Lyon
+	hre
+	Lyon_Rebels
+	140 241 203
+	none
+	5
+	5
+	religions { buddhism 0 catholic 80 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 10 islam 0 shia 0 }
+Magdeburg_Province
+	Magdeburg
+	hre
+	Magdeburg_Rebels
+	61 185 200
+	none
+	5
+	5
+	religions { buddhism 0 catholic 45 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 50 islam 0 shia 0 }
+Ravenna_Province
+	Ravenna
+	papal_states
+	Ravenna_Rebels
+	70 24 35
+	none
+	5
+	6
+	religions { buddhism 0 catholic 68 heretic 5 hussitism 0 judaism 10 oriental 0 orthodox 15 pagan 2 islam 0 shia 0 }
+Trier_Province
+	Trier
+	hre
+	Trier_Rebels
+	7 34 143
+	none
+	5
+	5
+	religions { buddhism 0 catholic 85 heretic 8 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Utrecht_Province
+	Utrecht
+	hre
+	Utrecht_Rebels
+	71 175 218
+	none
+	5
+	4
+	religions { buddhism 0 catholic 68 heretic 8 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 22 islam 0 shia 0 }
+Verona_Province
+	Verona
+	venice
+	Verona_Rebels
+	63 93 61
+	none
+	5
+	5
+	religions { buddhism 0 catholic 75 heretic 5 hussitism 0 judaism 5 oriental 3 orthodox 10 pagan 2 islam 0 shia 0 }
+Vienna_Province
+	Vienna
+	hre
+	Vienna_Rebels
+	102 247 45
+	none
+	5
+	1
+	religions { buddhism 0 catholic 85 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 5 islam 0 shia 0 }
+Worms_Province
+	Worms
+	hre
+	Worms_Rebels
+	99 43 162
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 5 islam 0 shia 0 }
+Gyulafehervar_Province
+	Gyulafehervar
+	hungary
+	Gyulafehervar_Rebels
+	8 111 245
+	none
+	5
+	5
+	religions { buddhism 0 catholic 41 heretic 15 hussitism 0 judaism 0 oriental 0 orthodox 26 pagan 15 islam 0 shia 3 }
+Szekesfehervar_Province
+	Szekesfehervar
+	hungary
+	Szekesfehervar_Rebels
+	94 38 222
+	none
+	5
+	6
+	religions { buddhism 0 catholic 55 heretic 10 hussitism 0 judaism 2 oriental 0 orthodox 20 pagan 10 islam 0 shia 3 }
+Chernihiv_Province
+	Chernihiv
+	kiev
+	Chernihiv_Rebels
+	101 253 127
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 3 hussitism 0 judaism 2 oriental 0 orthodox 55 pagan 40 islam 0 shia 0 }
+Pereyaslavl_Province
+	Pereyaslavl
+	kiev
+	Pereyaslavl_Rebels
+	30 147 26
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 5 oriental 15 orthodox 40 pagan 30 islam 5 shia 0 }
+Rostov_Province
+	Rostov
+	kiev
+	Rostov_Rebels
+	201 199 3
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 70 pagan 30 islam 0 shia 0 }
+Ryazan_Province
+	Ryazan
+	kiev
+	Ryazan_Rebels
+	201 92 191
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 70 pagan 30 islam 0 shia 0 }
+Smolensk_Province
+	Smolensk
+	kiev
+	Smolensk_Rebels
+	179 87 48
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 1 oriental 0 orthodox 50 pagan 39 islam 0 shia 0 }
+Turov_Province
+	Turov
+	kiev
+	Turov_Rebels
+	69 253 11
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 5 hussitism 0 judaism 0 oriental 20 orthodox 30 pagan 25 islam 0 shia 0 }
+Kiev_Province
+	Kiev
+	kiev
+	Kiev_Rebels
+	135 115 22
+	none
+	5
+	4
+	religions { buddhism 0 catholic 3 heretic 5 hussitism 0 judaism 7 oriental 5 orthodox 40 pagan 35 islam 5 shia 0 }
+Vilnius_Province
+	Vilnius
+	lithuania
+	Vilnius_Rebels
+	84 72 164
+	none
+	5
+	4
+	religions { buddhism 0 catholic 1 heretic 1 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 92 islam 0 shia 0 }
+Genoa_Province
+	Genoa
+	milan
+	Genoa_Rebels
+	246 227 208
+	none
+	5
+	5
+	religions { buddhism 0 catholic 78 heretic 10 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Turin_Province
+	Turin
+	milan
+	Turin_Rebels
+	162 165 55
+	none
+	5
+	4
+	religions { buddhism 0 catholic 80 heretic 10 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 5 islam 0 shia 0 }
+Milan_Province
+	Milan
+	milan
+	Milan_Rebels
+	62 30 147
+	none
+	5
+	5
+	religions { buddhism 0 catholic 78 heretic 10 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 2 islam 0 shia 0 }
+Ceuta_Province
+	Ceuta
+	moors
+	Ceuta_Rebels
+	141 98 63
+	none
+	5
+	6
+	religions { buddhism 0 catholic 10 heretic 3 hussitism 0 judaism 5 oriental 0 orthodox 1 pagan 1 islam 80 shia 0 }
+Fez_Province
+	Fez
+	moors
+	Fez_Rebels
+	235 179 220
+	none
+	5
+	6
+	religions { buddhism 0 catholic 5 heretic 10 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 15 islam 69 shia 1 }
+Sijilmasa_Province
+	Sijilmasa
+	moors
+	Sijilmasa_Rebels
+	251 188 104
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 15 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 15 islam 70 shia 0 }
+Tlemcen_Province
+	Tlemcen
+	moors
+	Tlemcen_Rebels
+	194 144 58
+	none
+	5
+	3
+	religions { buddhism 0 catholic 3 heretic 11 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 30 islam 50 shia 1 }
+Marrakech_Province
+	Marrakech
+	moors
+	Marrakech_Rebels
+	161 67 198
+	none
+	5
+	2
+	religions { buddhism 0 catholic 3 heretic 4 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 20 islam 70 shia 1 }
+Kirkwall_Province
+	Kirkwall
+	scotland
+	Kirkwall_Rebels
+	98 204 217
+	none
+	5
+	2
+	religions { buddhism 0 catholic 60 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 35 islam 0 shia 0 }
+Skalholt_Province
+	Skalholt
+	norway
+	Skalholt_Rebels
+	18 92 174
+	none
+	5
+	1
+	religions { buddhism 0 catholic 60 heretic 2 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 38 islam 0 shia 0 }
+Trondheim_Province
+	Trondheim
+	norway
+	Trondheim_Rebels
+	0 200 200
+	none
+	5
+	2
+	religions { buddhism 0 catholic 55 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 40 islam 0 shia 0 }
+Bergen_Province
+	Bergen
+	norway
+	Bergen_Rebels
+	255 180 0
+	none
+	5
+	2
+	religions { buddhism 0 catholic 50 heretic 2 hussitism 0 judaism 3 oriental 0 orthodox 0 pagan 45 islam 0 shia 0 }
+Pskov_Province
+	Pskov
+	novgorod
+	Pskov_Rebels
+	155 202 91
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 9 hussitism 0 judaism 1 oriental 10 orthodox 40 pagan 40 islam 0 shia 0 }
+Novgorod_Province
+	Novgorod
+	novgorod
+	Novgorod_Rebels
+	0 186 191
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 9 hussitism 0 judaism 1 oriental 10 orthodox 40 pagan 40 islam 0 shia 0 }
+Ancona_Province
+	Ancona
+	papal_states
+	Ancona_Rebels
+	178 15 227
+	none
+	5
+	5
+	religions { buddhism 0 catholic 50 heretic 3 hussitism 0 judaism 10 oriental 0 orthodox 35 pagan 1 islam 1 shia 0 }
+Rome_Province
+	Rome
+	papal_states
+	Rome_Rebels
+	178 255 85
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 0 hussitism 0 judaism 6 oriental 1 orthodox 1 pagan 0 islam 1 shia 1 }
+Bologna_Province
+	Bologna
+	pisa
+	Bologna_Rebels
+	100 146 97
+	none
+	5
+	5
+	religions { buddhism 0 catholic 95 heretic 1 hussitism 0 judaism 3 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Bonifacio_Province
+	Bonifacio
+	papal_states
+	Bonifacio_Rebels
+	79 206 143
+	none
+	5
+	4
+	religions { buddhism 0 catholic 95 heretic 1 hussitism 0 judaism 1 oriental 0 orthodox 0 pagan 1 islam 3 shia 0 }
+Florence_Province
+	Florence
+	pisa
+	Florence_Rebels
+	99 96 99
+	none
+	5
+	6
+	religions { buddhism 0 catholic 80 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 3 shia 0 }
+Pisa_Province
+	Pisa
+	pisa
+	Pisa_Rebels
+	140 201 18
+	none
+	5
+	4
+	religions { buddhism 0 catholic 80 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 3 shia 0 }
+Krakow_Province
+	Krakow
+	poland
+	Krakow_Rebels
+	246 204 73
+	none
+	5
+	5
+	religions { buddhism 0 catholic 70 heretic 5 hussitism 0 judaism 3 oriental 0 orthodox 2 pagan 20 islam 0 shia 0 }
+Poznan_Province
+	Poznan
+	poland
+	Poznan_Rebels
+	105 210 93
+	none
+	5
+	5
+	religions { buddhism 0 catholic 78 heretic 5 hussitism 0 judaism 1 oriental 0 orthodox 1 pagan 15 islam 0 shia 0 }
+Wroclaw_Province
+	Wroclaw
+	poland
+	Wroclaw_Rebels
+	43 20 157
+	none
+	5
+	5
+	religions { buddhism 0 catholic 70 heretic 5 hussitism 0 judaism 3 oriental 0 orthodox 2 pagan 20 islam 0 shia 0 }
+Plock_Province
+	Plock
+	poland
+	Plock_Rebels
+	206 22 75
+	none
+	5
+	5
+	religions { buddhism 0 catholic 65 heretic 10 hussitism 0 judaism 1 oriental 0 orthodox 5 pagan 19 islam 0 shia 0 }
+Coimbra_Province
+	Coimbra
+	portugal
+	Coimbra_Rebels
+	21 100 97
+	none
+	5
+	4
+	religions { buddhism 0 catholic 70 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 0 islam 20 shia 0 }
+Elgin_Province
+	Elgin
+	scotland
+	Elgin_Rebels
+	171 140 223
+	none
+	5
+	3
+	religions { buddhism 0 catholic 65 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 30 islam 0 shia 0 }
+Perth_Province
+	Perth
+	scotland
+	Perth_Rebels
+	135 228 16
+	none
+	5
+	4
+	religions { buddhism 0 catholic 75 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 20 islam 0 shia 0 }
+Al_Ahsa_Province
+	Al_Ahsa
+	egypt
+	Al_Ahsa_Rebels
+	40 69 92
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 30 islam 10 shia 50 }
+Ardabil_Province
+	Ardabil
+	seljuks
+	Ardabil_Rebels
+	214 113 47
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 3 oriental 13 orthodox 2 pagan 10 islam 40 shia 30 }
+Baghdad_Province
+	Baghdad
+	moors
+	Baghdad_Rebels
+	251 17 235
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 9 hussitism 0 judaism 15 oriental 9 orthodox 1 pagan 1 islam 55 shia 10 }
+Chabahar_Province
+	Chabahar
+	seljuks
+	Chabahar_Rebels
+	171 115 25
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 35 islam 65 shia 0 }
+Gorgan_Province
+	Gorgan
+	seljuks
+	Gorgan_Rebels
+	79 110 140
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Hamadan_Province
+	Hamadan
+	seljuks
+	Hamadan_Rebels
+	100 154 247
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Jend_Province
+	Jend
+	seljuks
+	Jend_Rebels
+	104 130 88
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Kerman_Province
+	Kerman
+	seljuks
+	Kerman_Rebels
+	11 8 58
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Marv_Province
+	Marv
+	seljuks
+	Marv_Rebels
+	112 208 179
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 2 oriental 5 orthodox 0 pagan 13 islam 30 shia 30 }
+Muscat_Province
+	Muscat
+	seljuks
+	Muscat_Rebels
+	107 46 59
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 5 oriental 20 orthodox 0 pagan 30 islam 0 shia 40 }
+Nishapur_Province
+	Nishapur
+	seljuks
+	Nishapur_Rebels
+	175 80 74
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 10 oriental 10 orthodox 0 pagan 10 islam 15 shia 50 }
+Ray_Province
+	Ray
+	seljuks
+	Ray_Rebels
+	100 189 19
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 5 islam 0 shia 90 }
+Shamakhi_Province
+	Shamakhi
+	seljuks
+	Shamakhi_Rebels
+	74 228 144
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 3 oriental 20 orthodox 10 pagan 1 islam 35 shia 30 }
+Shiraz_Province
+	Shiraz
+	seljuks
+	Shiraz_Rebels
+	111 168 77
+	none
+	5
+	6
+	religions { buddhism 0 catholic 0 heretic 3 hussitism 0 judaism 2 oriental 10 orthodox 0 pagan 10 islam 40 shia 30 }
+Tbilisi_Province
+	Tbilisi
+	georgia
+	Tbilisi_Rebels
+	53 103 244
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 20 oriental 25 orthodox 15 pagan 40 islam 0 shia 0 }
+Urgench_Province
+	Urgench
+	seljuks
+	Urgench_Rebels
+	2 30 157
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Zaranj_Province
+	Zaranj
+	seljuks
+	Zaranj_Rebels
+	40 113 216
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Isfahan_Province
+	Isfahan
+	seljuks
+	Isfahan_Rebels
+	230 192 146
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Melfi_Province
+	Melfi
+	sicily
+	Melfi_Rebels
+	41 31 235
+	none
+	5
+	5
+	religions { buddhism 0 catholic 65 heretic 2 hussitism 0 judaism 2 oriental 1 orthodox 25 pagan 1 islam 4 shia 0 }
+Taranto_Province
+	Taranto
+	byzantium
+	Taranto_Rebels
+	250 42 197
+	none
+	5
+	5
+	religions { buddhism 0 catholic 30 heretic 1 hussitism 0 judaism 3 oriental 5 orthodox 40 pagan 1 islam 15 shia 5 }
+Palermo_Province
+	Palermo
+	syria
+	Palermo_Rebels
+	136 91 213
+	none
+	5
+	5
+	religions { buddhism 0 catholic 30 heretic 1 hussitism 0 judaism 8 oriental 5 orthodox 25 pagan 1 islam 15 shia 15 }
+Aberffraw_Province
+	Aberffraw
+	scotland
+	Aberffraw_Rebels
+	219 159 149
+	none
+	5
+	3
+	religions { buddhism 0 catholic 75 heretic 10 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 15 islam 0 shia 0 }
+Aden_Province
+	Aden
+	egypt
+	Aden_Rebels
+	171 148 9
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 15 oriental 9 orthodox 1 pagan 20 islam 30 shia 20 }
+Aix_Province
+	Aix
+	hre
+	Aix_Rebels
+	244 121 242
+	none
+	5
+	3
+	religions { buddhism 0 catholic 75 heretic 10 hussitism 0 judaism 7 oriental 0 orthodox 0 pagan 3 islam 5 shia 0 }
+Aksum_Province
+	Aksum
+	armenia
+	Aksum_Rebels
+	2 141 12
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 15 oriental 40 orthodox 0 pagan 20 islam 15 shia 5 }
+Augsburg_Province
+	Augsburg
+	hre
+	Augsburg_Rebels
+	82 167 76
+	none
+	5
+	3
+	religions { buddhism 0 catholic 80 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 10 islam 0 shia 0 }
+Awadaghust_Province
+	Awadaghust
+	moors
+	Awadaghust_Rebels
+	37 179 165
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 2 oriental 3 orthodox 0 pagan 55 islam 30 shia 5 }
+Azov_Province
+	Azov
+	cumans
+	Azov_Rebels
+	206 107 17
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 0 oriental 5 orthodox 0 pagan 80 islam 5 shia 0 }
+Badajoz_Province
+	Badajoz
+	moors
+	Badajoz_Rebels
+	72 247 131
+	none
+	5
+	5
+	religions { buddhism 0 catholic 30 heretic 2 hussitism 0 judaism 11 oriental 0 orthodox 4 pagan 2 islam 48 shia 3 }
+Barcelona_Province
+	Barcelona
+	aragon
+	Barcelona_Rebels
+	237 235 101
+	none
+	5
+	5
+	religions { buddhism 0 catholic 95 heretic 5 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Basel_Province
+	Basel
+	hre
+	Basel_Rebels
+	230 15 204
+	none
+	5
+	4
+	religions { buddhism 0 catholic 95 heretic 2 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Bejaia_Province
+	Bejaia
+	moors
+	Bejaia_Rebels
+	19 77 118
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 15 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 15 islam 70 shia 0 }
+Berestie_Province
+	Berestie
+	kiev
+	Berestie_Rebels
+	94 136 43
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 3 oriental 0 orthodox 20 pagan 75 islam 0 shia 0 }
+Bilar_Province
+	Bilar
+	seljuks
+	Bilar_Rebels
+	208 252 166
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 10 oriental 5 orthodox 5 pagan 40 islam 40 shia 0 }
+Bilma_Province
+	Bilma
+	egypt
+	Bilma_Rebels
+	139 177 212
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 15 orthodox 0 pagan 25 islam 65 shia 0 }
+Biograd_Province
+	Biograd
+	venice
+	Biograd_Rebels
+	60 163 134
+	none
+	5
+	4
+	religions { buddhism 0 catholic 25 heretic 20 hussitism 0 judaism 0 oriental 15 orthodox 10 pagan 30 islam 0 shia 0 }
+Cagliari_Province
+	Cagliari
+	papal_states
+	Cagliari_Rebels
+	221 13 17
+	none
+	5
+	4
+	religions { buddhism 0 catholic 60 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 30 pagan 5 islam 0 shia 0 }
+Cherdyn_Province
+	Cherdyn
+	lithuania
+	Cherdyn_Rebels
+	55 237 226
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 100 islam 0 shia 0 }
+Cordoba_Province
+	Cordoba
+	moors
+	Cordoba_Rebels
+	190 164 195
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 4 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 1 islam 65 shia 0 }
+Derbent_Province
+	Derbent
+	seljuks
+	Derbent_Rebels
+	85 159 4
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 10 oriental 35 orthodox 10 pagan 15 islam 35 shia 0 }
+Dubrovnik_Province
+	Dubrovnik
+	byzantium
+	Dubrovnik_Rebels
+	90 148 77
+	none
+	5
+	2
+	religions { buddhism 0 catholic 20 heretic 20 hussitism 0 judaism 10 oriental 10 orthodox 20 pagan 20 islam 0 shia 0 }
+Erfurt_Province
+	Erfurt
+	hre
+	Erfurt_Rebels
+	241 90 51
+	none
+	5
+	5
+	religions { buddhism 0 catholic 70 heretic 5 hussitism 0 judaism 15 oriental 0 orthodox 0 pagan 10 islam 0 shia 0 }
+Erzurum_Province
+	Erzurum
+	armenia
+	Erzurum_Rebels
+	83 111 2
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 15 hussitism 0 judaism 0 oriental 45 orthodox 0 pagan 20 islam 0 shia 20 }
+Fashir_Province
+	Fashir
+	moors
+	Fashir_Rebels
+	103 251 56
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 10 orthodox 0 pagan 75 islam 10 shia 0 }
+Fayd_Province
+	Fayd
+	egypt
+	Fayd_Rebels
+	242 202 53
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 5 oriental 15 orthodox 0 pagan 10 islam 35 shia 25 }
+Gao_Province
+	Gao
+	moors
+	Gao_Rebels
+	245 186 74
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 70 islam 30 shia 0 }
+Gdansk_Province
+	Gdansk
+	lithuania
+	Gdansk_Rebels
+	59 78 147
+	none
+	5
+	5
+	religions { buddhism 0 catholic 30 heretic 9 hussitism 0 judaism 1 oriental 0 orthodox 0 pagan 60 islam 0 shia 0 }
+Granada_Province
+	Granada
+	moors
+	Granada_Rebels
+	55 84 17
+	none
+	5
+	5
+	religions { buddhism 0 catholic 15 heretic 5 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 5 islam 65 shia 0 }
+Hijr_Province
+	Hijr
+	egypt
+	Hijr_Rebels
+	105 93 218
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 15 oriental 15 orthodox 0 pagan 10 islam 5 shia 50 }
+Izmir_Province
+	Izmir
+	byzantium
+	Izmir_Rebels
+	206 135 46
+	none
+	5
+	5
+	religions { buddhism 0 catholic 1 heretic 4 hussitism 0 judaism 3 oriental 5 orthodox 80 pagan 1 islam 5 shia 1 }
+Kaliningrad_Province
+	Kaliningrad
+	lithuania
+	Kaliningrad_Rebels
+	135 23 120
+	none
+	5
+	4
+	religions { buddhism 0 catholic 5 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 90 islam 0 shia 0 }
+Kayseri_Province
+	Kayseri
+	byzantium
+	Kayseri_Rebels
+	71 196 159
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 1 oriental 30 orthodox 50 pagan 4 islam 9 shia 1 }
+Kholmogory_Province
+	Kolmogory
+	lithuania
+	Kolmogory_Rebels
+	158 141 114
+	none
+	5
+	3
+	religions { buddhism 0 catholic 5 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 90 islam 0 shia 0 }
+Kumbi_Province
+	Kumbi
+	moors
+	Kumbi_Rebels
+	116 0 95
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 97 islam 3 shia 0 }
+Lubeck_Province
+	Lubeck
+	lithuania
+	Lubeck_Rebels
+	67 100 130
+	none
+	5
+	6
+	religions { buddhism 0 catholic 10 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 80 islam 0 shia 0 }
+Lviv_Province
+	Lviv
+	kiev
+	Lviv_Rebels
+	244 75 175
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 3 oriental 0 orthodox 20 pagan 75 islam 0 shia 0 }
+Mahdia_Province
+	Mahdia
+	moors
+	Mahdia_Rebels
+	146 39 143
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 30 islam 40 shia 20 }
+Murzuq_Province
+	Murzuq
+	moors
+	Murzuq_Rebels
+	69 255 255
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 70 islam 25 shia 0 }
+Naples_Province
+	Naples
+	sicily
+	Naples_Rebels
+	155 131 40
+	none
+	5
+	5
+	religions { buddhism 0 catholic 30 heretic 2 hussitism 0 judaism 5 oriental 5 orthodox 50 pagan 1 islam 5 shia 2 }
+Palma_Province
+	Palma
+	moors
+	Palma_Rebels
+	235 206 158
+	none
+	5
+	4
+	religions { buddhism 0 catholic 5 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 10 islam 80 shia 0 }
+Polotsk_Province
+	Polotsk
+	kiev
+	Polotsk_Rebels
+	7 49 27
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 10 pagan 90 islam 0 shia 0 }
+Regensburg_Province
+	Regensburg
+	hre
+	Regensburg_Rebels
+	214 211 83
+	none
+	5
+	5
+	religions { buddhism 0 catholic 90 heretic 2 hussitism 0 judaism 4 oriental 0 orthodox 1 pagan 3 islam 0 shia 0 }
+Rennes_Province
+	Rennes
+	france
+	Rennes_Rebels
+	51 165 32
+	none
+	5
+	4
+	religions { buddhism 0 catholic 90 heretic 4 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Riga_Province
+	Riga
+	lithuania
+	Riga_Rebels
+	61 211 194
+	none
+	5
+	4
+	religions { buddhism 0 catholic 5 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 85 islam 0 shia 0 }
+Saksin_Province
+	Saksin
+	cumans
+	Saksin_Rebels
+	83 121 133
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 30 oriental 15 orthodox 0 pagan 30 islam 20 shia 0 }
+Saragossa_Province
+	Saragossa
+	moors
+	Saragossa_Rebels
+	113 235 101
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 4 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 1 islam 65 shia 0 }
+Saraychyq_Province
+	Saraychyq
+	cumans
+	Saraychyq_Rebels
+	167 22 144
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 0 hussitism 0 judaism 10 oriental 10 orthodox 10 pagan 60 islam 10 shia 0 }
+Seville_Province
+	Seville
+	moors
+	Seville_Rebels
+	122 67 129
+	none
+	5
+	6
+	religions { buddhism 0 catholic 20 heretic 4 hussitism 0 judaism 10 oriental 0 orthodox 0 pagan 1 islam 65 shia 0 }
+Silves_Province
+	Silves
+	moors
+	Silves_Rebels
+	165 34 41
+	none
+	5
+	4
+	religions { buddhism 0 catholic 35 heretic 1 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 0 islam 57 shia 3 }
+Sivas_Province
+	Sivas
+	byzantium
+	Sivas_Rebels
+	106 19 244
+	none
+	5
+	5
+	religions { buddhism 0 catholic 5 heretic 3 hussitism 0 judaism 5 oriental 7 orthodox 55 pagan 15 islam 10 shia 0 }
+Stettin_Province
+	Stettin
+	lithuania
+	Stettin_Rebels
+	130 132 254
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 9 hussitism 0 judaism 1 oriental 0 orthodox 0 pagan 70 islam 0 shia 0 }
+Takrur_Province
+	Takrur
+	moors
+	Takrur_Rebels
+	0 0 191
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 97 islam 1 shia 0 }
+Tallinn_Province
+	Tallin
+	lithuania
+	Tallin_Rebels
+	164 89 145
+	none
+	5
+	3
+	religions { buddhism 0 catholic 2 heretic 1 hussitism 0 judaism 0 oriental 0 orthodox 2 pagan 95 islam 0 shia 0 }
+Tartu_Province
+	Tartu
+	lithuania
+	Tartu_Rebels
+	201 18 6
+	none
+	5
+	2
+	religions { buddhism 0 catholic 5 heretic 5 hussitism 0 judaism 5 oriental 0 orthodox 20 pagan 65 islam 0 shia 0 }
+Toledo_Province
+	Toledo
+	spain
+	Toledo_Rebels
+	72 46 49
+	none
+	5
+	5
+	religions { buddhism 0 catholic 20 heretic 4 hussitism 0 judaism 16 oriental 0 orthodox 0 pagan 2 islam 46 shia 12 }
+Tozeur_Province
+	Tozeur
+	moors
+	Tozeur_Rebels
+	57 181 74
+	none
+	5
+	4
+	religions { buddhism 0 catholic 5 heretic 1 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 14 islam 60 shia 15 }
+Trabzon_Province
+	Trabzon
+	byzantium
+	Trabzon_Rebels
+	93 71 36
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 3 oriental 30 orthodox 55 pagan 1 islam 5 shia 5 }
+Tuam_Province
+	Tuam
+	scotland
+	Tuam_Rebels
+	148 31 190
+	none
+	5
+	3
+	religions { buddhism 0 catholic 70 heretic 10 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 20 islam 0 shia 0 }
+Tuat_Province
+	Tuat
+	moors
+	Tuat_Rebels
+	51 117 81
+	none
+	5
+	1
+	religions { buddhism 0 catholic 0 heretic 2 hussitism 0 judaism 10 oriental 1 orthodox 0 pagan 8 islam 70 shia 9 }
+Turku_Province
+	Turku
+	lithuania
+	Turku_Rebels
+	236 119 98
+	none
+	5
+	2
+	religions { buddhism 0 catholic 3 heretic 0 hussitism 0 judaism 0 oriental 0 orthodox 3 pagan 94 islam 0 shia 0 }
+Ufa_Province
+	Ufa
+	seljuks
+	Ufa_Rebels
+	154 135 2
+	none
+	5
+	3
+	religions { buddhism 0 catholic 0 heretic 1 hussitism 0 judaism 5 oriental 0 orthodox 5 pagan 44 islam 40 shia 2 }
+Uppsala_Province
+	Uppsala
+	sweden
+	Uppsala_Rebels
+	236 0 140
+	none
+	5
+	4
+	religions { buddhism 0 catholic 15 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 75 islam 0 shia 0 }
+Valencia_Province
+	Valencia
+	moors
+	Valencia_Rebels
+	244 84 17
+	none
+	5
+	6
+	religions { buddhism 0 catholic 30 heretic 3 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 2 islam 45 shia 5 }
+Visby_Province
+	Visby
+	sweden
+	Visby_Rebels
+	0 90 0
+	none
+	5
+	2
+	religions { buddhism 0 catholic 40 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 50 islam 0 shia 0 }
+Yangikent_Province
+	Yangikent
+	seljuks
+	Yangikent_Rebels
+	246 154 138
+	none
+	5
+	2
+	religions { buddhism 0 catholic 0 heretic 10 hussitism 0 judaism 0 oriental 20 orthodox 0 pagan 35 islam 35 shia 0 }
+Leon_Province
+	Leon
+	spain
+	Leon_Rebels
+	167 84 167
+	none
+	5
+	1
+	religions { buddhism 0 catholic 90 heretic 3 hussitism 0 judaism 4 oriental 0 orthodox 0 pagan 3 islam 0 shia 0 }
+Santiago_Province
+	Santiago
+	spain
+	Santiago_Rebels
+	167 220 167
+	none
+	5
+	3
+	religions { buddhism 0 catholic 85 heretic 9 hussitism 0 judaism 5 oriental 0 orthodox 0 pagan 1 islam 0 shia 0 }
+Burgos_Province
+	Burgos
+	spain
+	Burgos_Rebels
+	171 0 158
+	none
+	5
+	4
+	religions { buddhism 0 catholic 90 heretic 1 hussitism 0 judaism 2 oriental 0 orthodox 0 pagan 1 islam 5 shia 1 }
+Linkoping_Province
+	Linkoping
+	sweden
+	Linkoping_Rebels
+	47 92 154
+	none
+	5
+	4
+	religions { buddhism 0 catholic 60 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 30 islam 0 shia 0 }
+Skara_Province
+	Skara
+	sweden
+	Skara_Rebels
+	180 92 203
+	none
+	5
+	4
+	religions { buddhism 0 catholic 60 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 5 pagan 30 islam 0 shia 0 }
+Aleppo_Province
+	Aleppo
+	syria
+	Aleppo_Rebels
+	99 237 212
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 10 oriental 15 orthodox 15 pagan 5 islam 45 shia 5 }
+Homs_Province
+	Homs
+	syria
+	Homs_Rebels
+	17 139 114
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 0 oriental 0 orthodox 0 pagan 5 islam 0 shia 90 }
+Jerusalem_Province
+	Jerusalem
+	egypt
+	Jerusalem_Rebels
+	78 84 178
+	none
+	5
+	6
+	religions { buddhism 0 catholic 5 heretic 10 hussitism 0 judaism 20 oriental 40 orthodox 5 pagan 0 islam 20 shia 10 }
+Mosul_Province
+	Mosul
+	syria
+	Mosul_Rebels
+	221 100 31
+	none
+	5
+	5
+	religions { buddhism 0 catholic 0 heretic 5 hussitism 0 judaism 5 oriental 15 orthodox 15 pagan 10 islam 0 shia 50 }
+Damascus_Province
+	Damascus
+	syria
+	Damascus_Rebels
+	205 127 34
+	none
+	5
+	4
+	religions { buddhism 0 catholic 0 heretic 4 hussitism 0 judaism 5 oriental 25 orthodox 5 pagan 1 islam 60 shia 5 }
+Iznik_Province
+	Iznik
+	byzantium
+	Iznik_Rebels
+	53 136 187
+	none
+	5
+	5
+	religions { buddhism 0 catholic 1 heretic 0 hussitism 0 judaism 3 oriental 10 orthodox 80 pagan 0 islam 5 shia 1 }
+Venice_Province
+	Venice
+	venice
+	Venice_Rebels
+	227 141 234
+	venice
+	5
+	1
+	religions { buddhism 0 catholic 80 heretic 1 hussitism 0 judaism 3 oriental 3 orthodox 5 pagan 1 islam 2 shia 2 }

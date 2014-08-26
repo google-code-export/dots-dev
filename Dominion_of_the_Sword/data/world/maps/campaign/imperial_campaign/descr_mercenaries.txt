@@ -1,0 +1,17 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;mercenaries.		  ;
+;                     ;
+;Created wth REBUILD  ;
+;Author: Resurrection ;
+;---------------------;
+
+pool	test_pool
+	regions	Prague_Province
+	unit	Peasants	exp 0 cost 300 replenish 0.5 - 1.5 max 5 initial 5 start_year 1080 end_year 1081 religions { catholic orthodox }
+
+pool	test_pool_two
+	regions	Kiev_Province Pereyaslavl_Province
+	unit	Peasants	exp 2 cost 500 replenish 0.3 - 0.6 max 3 initial 3 start_year 1080 end_year 1453 religions { orthodox }
