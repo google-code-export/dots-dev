@@ -1,0 +1,4 @@
+Pool Name	Unit Reference Name	Unit Starting XP	Cost to Hire	Pool Replenish Rate	Pool Initial Size	Pool Maximum Size	Start Year	End Year	Religions	Crusading/Jihad	Events (optional)	Events Intended
+dm_pool_name	dm_unit	dm_xp	dm_cost	dm_replenish	dm_initial	dm_max	dm_start	dm_end	dm_religions	dm_crusading	dm_events	@dm_evevnts_intended
+test_pool	Peasants	0	300	0.5 - 1.5	5	5	1080	1081	catholic orthodox	no	-	-
+test_pool_two	Peasants	2	500	0.3 - 0.6	3	3	1080	1453	orthodox	no	-	-

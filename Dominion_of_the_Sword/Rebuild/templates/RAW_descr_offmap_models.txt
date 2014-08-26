@@ -1,0 +1,53 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file is not used;
+;in M2TW but must be  ;
+;present and properly ;
+;assigned.			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+navy
+{
+;!for each faction in all factions
+	faction {faction}
+	{
+		large 	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		medium	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+	}
+;!end
+}
+
+settlement
+{
+;!for each culture in all dc_culture_names
+	culture {culture}
+	{        
+;!for each settlement_level in all dc_settlement_levels
+		level {settlement_level}
+		{
+			data/models_building/offmap_town_roman.cas	        200         0
+		}
+;!end
+	}
+;!end
+}
+
+port
+{
+;!-for each culture in all dc_culture_names
+	culture {culture}
+	{        
+;!-for each port_level in all dc_port_levels
+		level fishing_village
+		{
+			data/models_building/offmap_fishing_village_east.CAS	        200         0
+		}
+;!end
+	}
+;!end
+}

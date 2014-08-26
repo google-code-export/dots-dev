@@ -1,0 +1,414 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file is the     ;
+;main campaign file.  ;
+;                     ;
+;Created wth REBUILD  ;
+;Author: Resurrection ;
+;---------------------;
+
+campaign imperial_campaign
+
+playable
+;?-for each faction in all factions
+;?if ds_playability is yes
+	{faction}
+;?end
+;?end
+end
+unlockable
+end
+nonplayable
+;?-for each faction in all factions
+;?if ds_playability is no
+	{faction}
+;?end
+;?end
+end
+
+;?-for each basic_setting in all ds_basic_settings
+;?with above each basic_setting_value in all ds_basic_settings_values
+{basic_setting}	{basic_setting_value}
+;?end
+;?end
+
+;---------;
+;RESOURCES;
+;---------;
+
+;?for each region in all regions
+;{region}
+;@-for each resource in all ds_resource
+;@with above each r_x in all ds_r_x
+;@with above each r_y in all ds_r_y
+;@with above each actual_resource in all ds_actual_resource
+;@if ds_resource_region is {region}
+resource	{resource},	{r_x},	{r_y} ; {actual_resource}
+;@end
+;@end
+;@end
+;@end
+;@end
+;?end
+
+;--------;
+;FACTIONS;
+;--------;
+;?for each faction in all factions
+;?with above each faction_caps in all faction_caps
+;?with above each ai_economy in all ds_ai_economy
+;?with above each ai_military in all ds_ai_military
+;?with above each religion in all faction_religion
+;?with above each treasury in all ds_treasury
+;?with above each purse in all ds_purse
+;?with above each psf_unit in all psf_gar_unit
+;;;;;;;;;;;;;;;;;;
+;{faction_caps}
+;;;;;;;;;;;;;;;;;;
+faction {faction}, {ai_economy} {ai_military}
+ai_label {religion}
+denari {treasury}
+denari_kings_purse	{purse}
+;@for each region in all regions
+;@with above each settlement_level in all ds_settlement_level
+;@with above each settlement_population in all ds_settlement_population
+;@with above each region_appearance in all ds_region_appearance
+;@with above unpack each buildings_unpacked in ds_buildings
+;@if ds_region_owner is {faction}_CAPITAL
+settlement
+{
+	level {settlement_level}
+	region {region}	;CAPITAL
+
+	year_founded 0
+	population {settlement_population}
+	plan_set default_set
+	faction_creator {region_appearance}
+;@if ds_settlement_level is town
+	building
+	{
+		type core_building wooden_pallisade
+	}
+;@end
+;@if ds_settlement_level is large_town
+	building
+	{
+		type core_building wooden_wall
+	}
+;@end
+;@if ds_settlement_level is city
+	building
+	{
+		type core_building stone_wall
+	}
+;@end
+;@if ds_settlement_level is large_city
+	building
+	{
+		type core_building large_stone_wall
+	}
+;@end
+;@if ds_settlement_level is huge_city
+	building
+	{
+		type core_building huge_stone_wall
+	}
+;@end
+;@-for each building in all buildings_unpacked
+;@unless buildings_unpacked is -
+	building
+	{
+		type {building}
+	}
+;@end
+;@end
+}
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;@for each region in all regions
+;@with above each settlement_level in all ds_settlement_level
+;@with above each settlement_population in all ds_settlement_population
+;@with above each region_appearance in all ds_region_appearance
+;@with above unpack each buildings_unpacked in ds_buildings
+;@if ds_region_owner is {faction}
+settlement
+{
+	level {settlement_level}
+	region {region}
+
+	year_founded 0
+	population {settlement_population}
+	plan_set default_set
+	faction_creator {region_appearance}
+;@if ds_settlement_level is town
+	building
+	{
+		type core_building wooden_pallisade
+	}
+;@end
+;@if ds_settlement_level is large_town
+	building
+	{
+		type core_building wooden_wall
+	}
+;@end
+;@if ds_settlement_level is city
+	building
+	{
+		type core_building stone_wall
+	}
+;@end
+;@if ds_settlement_level is large_city
+	building
+	{
+		type core_building large_stone_wall
+	}
+;@end
+;@if ds_settlement_level is huge_city
+	building
+	{
+		type core_building huge_stone_wall
+	}
+;@end
+;@-for each building in all buildings_unpacked
+;@unless buildings_unpacked is -
+	building
+	{
+		type {building}
+	}
+;@end
+;@end
+}
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;>>> {faction}: Generals, Admirals and Captains <<<
+
+;@for each character_name in all ds_characters_name
+;@with above each character_type in all ds_characters_type
+;@with above each character_gender in all ds_characters_gender
+;@with above each character_age in all ds_characters_age
+;@with above each character_x in all ds_characters_x
+;@with above each character_y in all ds_characters_y
+;@with above each character_notes in all ds_character_notes
+;@with above each character_traits in all ds_characters_traits
+;@with above each character_ancillaries in all ds_characters_ancillaries
+;@with above each sub_faction in all ds_characters_subfaction
+;@with above unpack each units in ds_characters_units
+;@if ds_characters_faction is {faction}
+;@unless units is -
+;?unless factions is slave
+character	{character_name}, {character_type}, {character_gender}, age {character_age}, x {character_x}, y {character_y} ; {character_notes}
+;?end
+;?if factions is slave
+character	sub_faction {sub_faction}, {character_name}, {character_type}, {character_gender}, age {character_age}, x {character_x}, y {character_y} ; {character_notes}
+;?end
+;@unless ds_characters_traits is -
+traits {character_traits}
+;@end
+;@unless ds_characters_ancillaries is -
+ancillaries {character_ancillaries}
+;@end
+army
+;@-for each unit in all units
+unit	{unit}	exp 0 armour 0 weapon_lvl 0
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;>>> {faction}: PSF Garrisons <<<
+
+;@-for each psf_name in all psf_name
+;@with above each x_co in all psf_x_co
+;@with above each y_co in all psf_y_co
+;@if psf_ownership is {faction}
+;@unless psf_gar is -
+character	psf_gar_{psf_name}_{faction}, named character, male, age 20, x {x_co}, y {y_co}
+ancillaries psfanc_{psf_name}
+army
+unit	{psf_unit}	exp 0 armour 0 weapon_lvl 0
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;>>> {faction}: Other Characters <<<
+
+;@for each character_name in all ds_characters_name
+;@with above each character_type in all ds_characters_type
+;@with above each character_gender in all ds_characters_gender
+;@with above each character_age in all ds_characters_age
+;@with above each character_x in all ds_characters_x
+;@with above each character_y in all ds_characters_y
+;@with above each character_notes in all ds_character_notes
+;@with above each character_traits in all ds_characters_traits
+;@with above each character_ancillaries in all ds_characters_ancillaries
+;@with above unpack each units in ds_characters_units
+;@unless ds_characters_type is character_record
+;@if units is -
+;@if ds_characters_faction is {faction}
+character	{character_name}, {character_type}, {character_gender}, age {character_age}, x {character_x}, y {character_y} ; {character_notes}
+;@unless ds_characters_traits is -
+traits {character_traits}
+;@end
+;@unless ds_characters_ancillaries is -
+ancillaries {character_ancillaries}
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;>>> {faction}: Character Records (Offmap, Wives & Underage) <<<
+
+;@-for each characters_name in all ds_characters_name
+;@with above each characters_gender in all ds_characters_gender
+;@with above each characters_age in all ds_characters_age
+;@with above each characters_status in all ds_characters_status
+;@with above each characters_past_leader in all ds_characters_past_leader
+;@with above each character_notes in all ds_character_notes
+;@if ds_characters_type is character_record
+;@if ds_characters_faction is {faction}
+character_record	{characters_name}, {characters_gender}, age {characters_age}, {characters_status}, {characters_past_leader} ; {character_notes}
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+
+;>>> {faction}: Family Tree <<<
+
+;@-for each father in all ds_fathers
+;@with above each mother in all ds_mothers
+;@with above each child_1 in all ds_child_1
+;@with above each child_2 in all ds_child_2
+;@with above each child_3 in all ds_child_3
+;@with above each child_4 in all ds_child_4
+;@if ds_generation_factions is {faction}
+;@unless ds_child_4 is -
+relative 	{father},	{mother},	{child_1},	{child_2},	{child_3},	{child_4},	end
+;@end
+;@if ds_child_4 is -
+;@unless ds_child_3 is -
+;@unless ds_child_2 is -
+;@unless ds_child_1 is -
+relative 	{father},	{mother},	{child_1},	{child_2},	{child_3},	end
+;@end
+;@end
+;@end
+;@end
+;@if ds_child_3 is -
+;@unless ds_child_2 is -
+;@unless ds_child_1 is -
+relative 	{father},	{mother},	{child_1},	{child_2},	end
+;@end
+;@end
+;@end
+;@if ds_child_2 is -
+;@unless ds_child_1 is -
+relative 	{father},	{mother},	{child_1},	end
+;@end
+;@end
+;@if ds_child_1 is -
+relative 	{father},	{mother},	end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+
+;---------;
+;DIPLOMACY;
+;---------;
+
+;?-for each faction in all faction_standings_ds_diplo_faction
+;?with above each value in all faction_standings_ds_diplo_value
+;?with above each target in all faction_standings_ds_diplo_target
+faction_standings	{faction},	{value}	{target} 
+;?end
+;?end
+;?end
+
+
+;?-for each faction in all faction_relationships_ds_diplo_faction
+;?with above each value in all faction_relationships_ds_diplo_value
+;?with above each target in all faction_relationships_ds_diplo_target
+faction_relationships	{faction},	{value}	{target} 
+;?end
+;?end
+;?end
+
+;----;
+;PSFs;
+;----;
+
+;?for each region in all psf_region
+region {region}
+
+farming_level 0
+famine_threat 0
+
+;@-for each psf_name in all {region}_psf_name
+;@with above each x_co in all {region}_psf_x_co
+;@with above each y_co in all {region}_psf_y_co
+;@with above each psf_culture in all {region}_psf_culture
+;@with above each psf_battle_model in all {region}_psf_battle_model
+;@with above each psf_ownership in all {region}_psf_ownership
+;@with above each psf_income in all {region}_psf_income
+fort {x_co} {y_co} {psf_battle_model} culture {psf_culture} ; {psf_name}, ownership: {psf_ownership}, value: {psf_income}
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;@end
+;?end
+
+script
+campaign_script.txt

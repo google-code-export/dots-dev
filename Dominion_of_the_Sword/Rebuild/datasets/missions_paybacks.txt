@@ -1,0 +1,45 @@
+dm_mission_payback_list_name: [
+"papal_inquisition",
+"papal_approval"
+]
+
+dm_payback_penalty_effects: [
+['-'],
+['inquisition_chance 1.0']
+]
+
+dm_payback_penalty_ref: [
+"-",
+"PAPAL_STANDING"
+]
+
+missions_penalty_pre_text: [
+"-",
+"Pope will be disappointed with you."
+]
+
+missions_penalty_text: [
+"-",
+"Pope is disapointed with your actions."
+]
+
+dm_payback_reward_effects: [
+['inquisition_chance 1.0'],
+['inquisition_chance 1.0']
+]
+
+dm_payback_reward_ref: [
+"PAPAL_STANDING",
+"LARGE_PAPAL_STANDING"
+]
+
+missions_reward_pre_text: [
+"Pope will approve your actions.",
+"Pope will approve your actions."
+]
+
+missions_reward_text: [
+"Pope Approves your actions!",
+"Pope Approves your actions!"
+]
+

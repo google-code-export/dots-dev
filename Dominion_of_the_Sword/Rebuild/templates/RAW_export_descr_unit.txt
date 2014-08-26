@@ -1,0 +1,290 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;units				  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each type in all edu_type
+;!with above each Social_Class in all edu_Social_Class
+;!with above each Function in all edu_Function
+;!with above each Explanation in all edu_Explanation
+;!with above each category in all edu_category
+;!with above each class in all edu_class
+;!with above each voice_type in all edu_voice_type
+;!with above each accent in all edu_accent
+;!with above each banner_faction_type in all edu_banner_faction_type
+;!with above each banner_holy_type in all edu_banner_holy_type
+;!with above each soldier_model in all edu_soldier_model
+;!with above each soldier_number in all edu_soldier_number
+;!with above each soldier_extra in all edu_soldier_extra
+;!with above each soldier_mass in all edu_soldier_mass
+;!with above each officer_model in all edu_officer_model
+;!with above each ship_type in all edu_ship_type
+;!with above each engine_type in all edu_engine_type
+;!with above each animal_type in all edu_animal_type
+;!with above each mount_type in all edu_mount_type
+;!with above each mount_effect_bonus in all edu_mount_effect_bonus
+;!with above each attributes in all edu_attributes
+;!with above each formation_spacing in all edu_formation_spacing
+;!with above each formation_spacing_loose in all edu_formation_spacing_loose
+;!with above each formation_ranks in all edu_formation_ranks
+;!with above each formations in all edu_formations
+;!with above each hp in all edu_hp
+;!with above each hp_mount in all edu_hp_mount
+;!with above each First_Weapon in all edu_First_Weapon
+;!with above each pw_attack in all edu_pw_attack
+;!with above each pw_charge in all edu_pw_charge
+;!with above each pw_missile_type in all edu_pw_missile_type
+;!with above each pw_range in all edu_pw_range
+;!with above each pw_ammo in all edu_pw_ammo
+;!with above each pw_type in all edu_pw_type
+;!with above each pw_tech in all edu_pw_tech
+;!with above each pw_dmg in all edu_pw_dmg
+;!with above each pw_sound in all edu_pw_sound
+;!with above each pw_fire_sound in all edu_pw_fire_sound
+;!with above each pw_delay in all edu_pw_delay
+;!with above each pw_skeleton in all edu_pw_skeleton
+;!with above each pw_att_mounted in all edu_pw_att_mounted
+;!with above each pw_def_mounted in all edu_pw_def_mounted
+;!with above each pw_ap in all edu_pw_ap
+;!with above each pw_attributes in all edu_pw_attributes
+;!with above each Secondary_Weapon in all edu_Secondary_Weapon
+;!with above each sw_attack in all edu_sw_attack
+;!with above each sw_charge in all edu_sw_charge
+;!with above each sw_missile_type in all edu_sw_missile_type
+;!with above each sw_range in all edu_sw_range
+;!with above each sw_ammo in all edu_sw_ammo
+;!with above each sw_type in all edu_sw_type
+;!with above each sw_tech in all edu_sw_tech
+;!with above each sw_dmg in all edu_sw_dmg
+;!with above each sw_sound in all edu_sw_sound
+;!with above each sw_fire_sound in all edu_sw_fire_sound
+;!with above each sw_delay in all edu_sw_delay
+;!with above each sw_skeleton in all edu_sw_skeleton
+;!with above each sw_att_mounted in all edu_sw_att_mounted
+;!with above each sw_def_mounted in all edu_sw_def_mounted
+;!with above each sw_ap in all edu_sw_ap
+;!with above each sw_attributes in all edu_sw_attributes
+;!with above each Equipment in all edu_Equipment
+;!with above each armour in all edu_armour
+;!with above each def_skill in all edu_def_skill
+;!with above each shield in all edu_shield
+;!with above each armour_sound in all edu_armour_sound
+;!with above each sec_armour in all edu_sec_armour
+;!with above each sec_def_skill in all edu_sec_def_skill
+;!with above each sec_sound in all edu_sec_sound
+;!with above each stat_heat in all edu_stat_heat
+;!with above each scrub in all edu_scrub
+;!with above each sand in all edu_sand
+;!with above each forest in all edu_forest
+;!with above each snow in all edu_snow
+;!with above each morale in all edu_morale
+;!with above each discipline in all edu_discipline
+;!with above each training in all edu_training
+;!with above each stat_charge_distance in all edu_stat_charge_distance
+;!with above each stat_fire_delay in all edu_stat_fire_delay
+;!with above each recruitment_time in all edu_recruitment_time
+;!with above each price in all edu_price
+;!with above each upkeep in all edu_upkeep
+;!with above each wpn_up_cost in all edu_wpn_up_cost
+;!with above each arm_up_cost in all edu_arm_up_cost
+;!with above each custom_cost in all edu_custom_cost
+;!with above each custom_max in all edu_custom_max
+;!with above each custom_increase in all edu_custom_increase
+;!with above each min_soldiers in all edu_min_soldiers
+;!with above each armour_ug_levels in all edu_armour_ug_levels
+;!with above each armour_ug_models in all edu_armour_ug_models
+;!with above each ownership in all edu_ownership
+;!with above each era0 in all edu_era0
+;!with above each era1 in all edu_era1
+;!with above each era2 in all edu_era2
+;!with above each ai_recruitment_offset in all edu_ai_recruitment_offset
+;!with above each speed_mod in all edu_speed_mod
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{type}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{Explanation}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+type             {type}
+dictionary       {type}
+category         {category} ; {Function}
+class            {class} ; {Social_Class}
+voice_type       {voice_type}
+accent			 {accent}
+;!unless edu_banner_faction_type is -
+banner faction   {banner_faction_type}
+;!end
+;!unless edu_banner_holy_type is -
+banner_holy      {banner_holy_type}
+;!end
+soldier          {soldier_model}, {soldier_number}, {soldier_extra}, {soldier_mass}
+;!unless edu_officer_model is -
+officer		  {officer_model}
+;!end
+;!unless edu_ship_type is -
+ship			  {ship_type}
+;!end
+;!unless edu_engine_type is -
+engine		  {engine_type}
+;!end
+;!unless edu_animal_type is -
+animal		  {animal_type}
+;!end
+;!unless edu_mount_type is -
+mount			  {mount_type}
+;!end
+;!unless edu_mount_effect_bonus is -
+mount_effect	{mount_effect_bonus}
+;!end
+attributes       {attributes}
+formation        {formation_spacing}, {formation_spacing_loose}, {formation_ranks}, {formations}
+stat_health      {hp}, {hp_mount}
+;;;;;;;;;;;;;;;;;
+;{First_Weapon}
+;;;;;;;;;;;;;;;;;
+stat_pri         {pw_attack}, {pw_charge}, {pw_missile_type}, {pw_range}, {pw_ammo}, {pw_type}, {pw_tech}, {pw_dmg}, {pw_sound}{pw_fire_sound} {pw_delay}, {pw_skeleton}
+;!unless edu_pw_att_mounted is -
+stat_pri_ex      {pw_att_mounted}, {pw_def_mounted}, {pw_ap}
+;!end
+stat_pri_attr    {pw_attributes}
+;;;;;;;;;;;;;;;;;
+;{Secondary_Weapon}
+;;;;;;;;;;;;;;;;;
+stat_sec         {sw_attack}, {sw_charge}, {sw_missile_type}, {sw_range}, {sw_ammo}, {sw_type}, {sw_tech}, {sw_dmg}, {sw_sound}{sw_fire_sound} {sw_delay}, {sw_skeleton}
+;!unless edu_sw_att_mounted is -
+stat_sec_ex      {sw_att_mounted}, {sw_def_mounted}, {sw_ap}
+;!end
+stat_sec_attr    {sw_attributes}
+;;;;;;;;;;;;;;;;;
+;{Equipment}
+;;;;;;;;;;;;;;;;;
+stat_pri_armour  {armour}, {def_skill}, {shield}, {armour_sound}
+stat_sec_armour  {sec_armour}, {sec_def_skill}, {sec_sound}
+stat_heat        {stat_heat}
+stat_ground      {scrub}, {sand}, {forest}, {snow}
+stat_mental      {morale}, {discipline}, {training}
+stat_charge_dist {stat_charge_distance}
+stat_fire_delay  {stat_fire_delay}
+stat_food        0, 0 ; NOT USED
+stat_cost        {recruitment_time}, {price}, {upkeep}, {wpn_up_cost}, {arm_up_cost}, {custom_cost}, {custom_max}, {custom_increase}
+;!unless edu_min_soldiers is -
+stat_stl		  {min_soldiers}
+;!end
+armour_ug_levels {armour_ug_levels}
+armour_ug_models {armour_ug_models}
+ownership        {ownership}
+;!unless edu_era0 is -
+era 0            {era0}
+;!end
+;!unless edu_era1 is -
+era 1            {era1}
+;!end
+;!unless edu_era2 is -
+era 2            {era2}
+;!end
+;!unless edu_ai_recruitment_offset is -
+recruit_priority_offset	{ai_recruitment_offset}
+;!end
+;!unless edu_speed_mod is 1
+move_speed_mod	{speed_mod}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

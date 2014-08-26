@@ -1,0 +1,101 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles all;
+;ancillaries and their;
+;triggers.			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;;;;;;
+;ANCILLARIES;
+;;;;;;;;;;;;;
+;!for each reference_name in all eda_reference_name
+;!with above each name_display in all ancillary_name_display
+;!with above each DotS_Type in all eda_DotS_Type
+;!with above each type in all eda_type
+;!with above each transferable in all eda_transferable
+;!with above each image in all eda_image
+;!with above each excluded_ancillaries in all eda_excluded_ancillaries
+;!with above each excluded_cultures in all eda_excluded_cultures
+;!with above unpack each effects_unpacked in eda_effects
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{name_display}
+;-------------------------------------
+;{DotS_Type}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Ancillary {reference_name}
+    Type {type}
+    Transferable {transferable}
+    Image {image}
+;!unless eda_excluded_ancillaries is -
+	ExcludedAncillaries	{excluded_ancillaries}
+;!end
+;!unless eda_excluded_cultures is -
+	ExcludeCultures {excluded_cultures}
+;!end
+    Description {reference_name}_desc
+    EffectsDescription {reference_name}_desc
+;!unless effects_unpacked is -
+;!-for each effect in all effects_unpacked
+	Effect	{effect}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+
+;>>>PSF GARRISON ANCILLARIES<<<
+
+;!for each psf_name in all psf_name
+;!with above each psf_image in all psf_image
+Ancillary psfanc_{psf_name}
+	Type military
+	Transferable 0
+	Image {psf_image}
+	Description psfanc_{psf_name}_desc
+	EffectsDescription psfanc_{psf_name}_effects_desc
+	Effect MovementPoints -100
+	Effect Health +5
+;!end
+;!end
+
+;;;;;;;;;;
+;TRIGGERS;
+;;;;;;;;;;
+
+;!for each trigger in all eda_trigger
+;!with above each Trigger_Description in all eda_Trigger_Description
+;!with above each event in all eda_event 
+;!with above each base_condition in all eda_base_condition
+;!with above each ancillary in all eda_ancillary
+;!with above each chance in all eda_chance
+;!with above unpack each conditions_unpacked in eda_conditions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{Trigger_Description}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger {trigger}
+	WhenToTest {event}
+	Condition {base_condition}
+;!unless conditions_unpacked is -
+;!-for each condition in all conditions_unpacked
+	and	{condition}
+;!end
+;!end
+
+	AcquireAncillary	{ancillary}	chance	{chance}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

@@ -1,0 +1,10 @@
+;*************;
+;END OF SCRIPT;
+;*************;
+wait_monitors
+
+end_script
+
+;***********;
+;END OF FILE;
+;***********;

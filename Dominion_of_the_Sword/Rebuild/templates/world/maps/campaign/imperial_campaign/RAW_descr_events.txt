@@ -1,0 +1,41 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;events.		 	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each type in all de_type
+;!with above each name in all de_name
+;!with above each date in all de_date
+;!with above each movie in all de_movie
+;!with above unpack each regions_unpacked in de_regions
+;!with above unpack each x_unpacked in de_position_x
+;!with above unpack each y_unpacked in de_position_y
+event	{type}	{name}
+date	{date}
+;!unless x_unpacked is -
+;!-for each x in all x_unpacked
+;!with above each y in all y_unpacked
+position	{x}, {y}
+;!end
+;!end
+;!end
+;!unless regions_unpacked is -
+;!-for each region in all regions_unpacked
+region	{region}
+;!end
+;!end
+;!unless de_movie is -
+movie	event/{movie}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

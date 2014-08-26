@@ -1,0 +1,114 @@
+;!-for each model in all edu_unit_model
+;!with above each model_len in all edu_unit_model_len
+;!with above each faction_no in all edu_no_factions
+;!with above each attachment in all edu_unit_model_attachment
+;!with above each attachment_len in all edu_unit_model_attachment_len
+;!with above each edu_anim_mount in all edu_anim_mount
+;!with above each edu_anim_mount_len in all edu_anim_mount_len
+;!with above each edu_model_animation_len in all edu_model_animation_len
+;!with above each edu_model_animation in all edu_model_animation
+;!with above each edu_model_animation2_len in all edu_model_animation2_len
+;!with above each edu_model_animation2 in all edu_model_animation2
+;!with above each edu_model_animation_prim in all edu_model_animation_prim
+;!with above each edu_model_animation3_len in all edu_model_animation3_len
+;!with above each edu_model_animation3 in all edu_model_animation3
+;!with above each edu_model_animation4_len in all edu_model_animation4_len
+;!with above each edu_model_animation4 in all edu_model_animation4
+;!with above each edu_model_animation_sec in all edu_model_animation_sec
+;!with above each edu_model_animation5_len in all edu_model_animation5_len
+;!with above each edu_model_animation5 in all edu_model_animation5
+;!with above each edu_model_animation6_len in all edu_model_animation6_len
+;!with above each edu_model_animation6 in all edu_model_animation6
+;!with above unpack each model_faction in edu_models_factions
+;!with above unpack each model_faction_len in edu_models_factions_len
+{model_len} {model} 
+1 1 
+*24+{model_len} unit_models/_Units/{model}.mesh 6400 
+{faction_no} 
+;!if edu_models_faction_specific is yes
+;!-for each faction_len in all model_faction_len
+;!with above each faction in all model_faction
+{faction_len} {faction} 
+*37+{faction_len}+{model_len} unit_models/_Units/textures/{model}_{faction}.texture 
+*43+{model_len} unit_models/_Units/textures/{model}_normal.texture 
+*19+{faction_len}+{model_len} units_sprites/{model}_{faction}.spr 
+;!end
+;!end
+;!end
+;!if edu_models_faction_specific is no
+;!-for each faction_len in all model_faction_len
+;!with above each faction in all model_faction
+{faction_len} {faction} 
+*36+{model_len} unit_models/_Units/textures/{model}.texture 
+*43+{model_len} unit_models/_Units/textures/{model}_normal.texture 
+*18+{model_len} units_sprites/{model}.spr 
+;!end
+;!end
+;!end
+{faction_no} 
+;!if edu_models_faction_specific is yes
+;!-for each faction_len in all model_faction_len
+;!with above each faction in all model_faction
+{faction_len} {faction} 
+*33+{faction_len}+{attachment_len} unit_models/attachments/{attachment}_{faction}.texture 
+*39+{attachment_len} unit_models/attachments/{attachment}_normal.texture 0  
+;!end
+;!end
+;!end
+;!if edu_models_faction_specific is no
+;!-for each faction_len in all model_faction_len
+;!with above each faction in all model_faction
+{faction_len} {faction} 
+*32+{attachment_len} unit_models/attachments/{attachment}.texture 
+*39+{attachment_len} unit_models/attachments/{attachment}_normal.texture 0  
+;!end
+;!end
+;!end
+1 
+{edu_anim_mount_len} {edu_anim_mount} 
+;!if edu_model_animation2 is -
+{edu_model_animation_len} {edu_model_animation}  
+0 
+;!end
+;!unless edu_model_animation2 is -
+{edu_model_animation_len} {edu_model_animation} 
+{edu_model_animation2_len} {edu_model_animation2} 
+;!end
+{edu_model_animation_prim} 
+;!unless edu_model_animation3 is -
+{edu_model_animation3_len} {edu_model_animation3} 
+;!end
+;!unless edu_model_animation4 is -
+{edu_model_animation4_len} {edu_model_animation4} 
+;!end
+{edu_model_animation_sec} 
+;!unless edu_model_animation5 is -
+{edu_model_animation5_len} {edu_model_animation5} 
+;!end
+;!unless edu_model_animation6 is -
+{edu_model_animation6_len} {edu_model_animation6} 
+;!end
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

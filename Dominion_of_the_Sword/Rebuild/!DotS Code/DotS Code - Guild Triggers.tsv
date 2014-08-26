@@ -1,0 +1,3 @@
+Guild Trigger Name	Event	Base Condition	Conditions	Guild(s) Affected	Type of Score	Points to Award
+edg_trigger_name	edg_trigger_event	edg_trigger_base_condition	#edg_trigger_conditions	#edg_guilds_affected	#edg_score_types	#edg_score_points
+test1	GovernorBuildingCompleted	FactionIsLocal	-	guild1	s	10

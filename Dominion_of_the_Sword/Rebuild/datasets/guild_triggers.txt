@@ -1,0 +1,28 @@
+edg_trigger_name: [
+"test1"
+]
+
+edg_trigger_event: [
+"GovernorBuildingCompleted"
+]
+
+edg_trigger_base_condition: [
+"FactionIsLocal"
+]
+
+edg_trigger_conditions: [
+['-']
+]
+
+edg_guilds_affected: [
+['guild1']
+]
+
+edg_score_types: [
+['s']
+]
+
+edg_score_points: [
+['10']
+]
+

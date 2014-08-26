@@ -1,0 +1,95 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;tech trees.		  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;?=for each edb_hidden_resources in all edb_hidden_resources
+{edb_hidden_resources} 
+;?end
+
+;?for each edb_tech_trees in all edb_tech_trees
+;?with above each edb_tree_religion in all edb_tree_religion
+;?with above each edb_tree_levels in all edb_tree_levels
+building {edb_tech_trees}
+{
+;?unless edb_tree_religion is -
+	religion {edb_tree_religion} 
+;?end
+	levels {edb_tree_levels} 
+	{
+;!for each building in all edb_buildings
+;!with above each city_castle in all edb_city_castle
+;!with above each building_required_factions_cultures in all edb_building_required_factions_cultures
+;!with above each building_other_requirements in all edb_building_other_requirements
+;!with above each building_material in all edb_building_material
+;!with above each building_construction_time in all edb_building_construction_time
+;!with above each building_cost in all edb_building_cost
+;!with above each building_settlement_min in all edb_building_settlement_min
+;!with above unpack each building_upgrades_unpacked in edb_building_upgrades
+;!if edb_tech_tree_name is {edb_tech_trees}
+;!if edb_city_castle is both
+;!unless edb_building_other_requirements is -
+		{building} requires factions { {building_required_factions_cultures} } {building_other_requirements} 
+;!end
+;!if edb_building_other_requirements is -
+		{building} requires factions { {building_required_factions_cultures} } 
+;!end
+;!end
+;!unless edb_city_castle is both
+;!unless edb_building_other_requirements is -
+		{building} {city_castle} requires factions { {building_required_factions_cultures} } {building_other_requirements} 
+;!end
+;!if edb_building_other_requirements is -
+		{building} {city_castle} requires factions { {building_required_factions_cultures} } 
+;!end
+;!end
+		{
+		capability
+			{
+;@-for each capability in all {building}_edb_capability
+;@with above each capability_requirements in all {building}_edb_capability_requirements
+;@unless {building}_edb_capability_requirements is -
+				{capability} requires {capability_requirements}
+;@end
+;@if {building}_edb_capability_requirements is -
+				{capability}
+;@end
+;@end
+;@end
+			}
+			material {building_material} 
+			construction  {building_construction_time} 
+			cost  {building_cost} 
+			settlement_min {building_settlement_min}
+			upgrades
+			{
+;!for each building_upgrades in all building_upgrades_unpacked
+;!unless building_upgrades_unpacked is -
+				{building_upgrades}
+;!end
+;!end
+			}
+		}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+	}
+    plugins 
+    {
+    }
+}
+;?end
+;?end
+;?end

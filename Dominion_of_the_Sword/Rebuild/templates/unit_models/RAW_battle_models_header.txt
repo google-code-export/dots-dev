@@ -1,0 +1,3 @@
+;!for each models in all modeldb_total_models
+22 serialization::archive 3 0 0 0 0 {models} 0 0 
+;!end

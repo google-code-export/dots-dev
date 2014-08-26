@@ -1,0 +1,77 @@
+eda_Trigger_Description: [
+"-",
+"-",
+"-",
+"-",
+"-",
+"-",
+"-",
+"-"
+]
+
+eda_trigger: [
+"Aragonese_Admiral_trigger",
+"Aragonese_Chancellor_trigger",
+"Aragonese_Royal_notary_trigger",
+"Aragonese_steward_trigger",
+"Early_Aragonese_Royal_Chamberlain_trigger",
+"King_of_Aragon_trigger",
+"Late_Aragonese_Royal_Chamberlain_trigger",
+"Order_of_the_stole_trigger"
+]
+
+eda_event: [
+"PostBattle",
+"CharacterTurnEndInSettlement",
+"CharacterTurnEndInSettlement",
+"CharacterTurnEndInSettlement",
+"CharacterTurnEndInSettlement",
+"CharacterTurnEndInSettlement",
+"CharacterTurnEndInSettlement",
+"PostBattle"
+]
+
+eda_ancillary: [
+"Aragonese_Admiral",
+"Aragonese_Chancellor",
+"Aragonese_Royal_notary",
+"Aragonese_steward",
+"Early_Aragonese_Royal_Chamberlain",
+"King_of_Aragon",
+"Late_Aragonese_Royal_Chamberlain",
+"Order_of_the_stole"
+]
+
+eda_chance: [
+"100",
+"100",
+"100",
+"100",
+"70",
+"100",
+"100",
+"10"
+]
+
+eda_base_condition: [
+"IsAdmiral",
+"AgentType = priest",
+"IsFactionLeader",
+"IsGeneral",
+"IsFactionLeader",
+"IsFactionLeader",
+"IsGeneral",
+"IsGeneral"
+]
+
+eda_conditions: [
+['FactionType aragon', 'not FactionwideAncillaryExists Aragonese_Admiral', 'not HasAncType Politics', 'Attribute NavalCommand >= 3'],
+['not IsFactionLeader', 'not IsFactionHeir', 'FactionType aragon', 'not HasAncType Politics', 'not FactionwideAncillaryExists Aragonese_Chancellor', 'Attribute Loyalty >= 5'],
+['not IsFactionLeader', 'not IsFactionHeir', 'FactionType aragon', 'not FactionwideAncillaryExists Aragonese_Royal_notary'],
+['not IsFactionLeader', 'not IsFactionHeir', 'FactionType aragon', 'not HasAncType Politics', 'Attribute Loyalty >= 6', 'Attribute Authority >= 1'],
+['FactionType aragon', 'not IsFactionLeader', 'not IsFactionHeir', 'not HasAncType politics', 'Attribute Loyalty >= 6', 'Attribute Authority >= 1', 'not FactionwideAncillaryExists Early_Aragonese_Royal_Chamberlain'],
+['FactionReligion catholic', 'Attribute Command >= 2', 'Attribute Authority >= 4', 'not I_WorldwideAncillaryExists King_of_Aragon', 'EndedInSettlement', 'SettlementName Jaca_Province'],
+['not IsFactionLeader', 'not IsFactionHeir', 'FactionType aragon', 'Attribute Loyalty >= 4', 'Attribute Piety >= 4', 'I_TurnNumber >= 520', 'not HasAncType politics', 'not FactionwideAncillaryExists Late_Aragonese_Royal_Chamberlain', 'EndedInSettlement', 'SettlementName Jaca_Province'],
+['FactionType aragon', 'not IsFactionLeader', 'not IsFactionHeir', 'Attribute Command >= 2', 'Attribute Loyalty >= 3', 'not HasAncType Security', 'I_TurnNumber >= 646']
+]
+

@@ -1,0 +1,48 @@
+Event Name: [
+"first_windmill"
+]
+
+Event Name CAPS: [
+"FIRST_WINDMILL"
+]
+
+Event Name In-game: [
+"test 1"
+]
+
+Description: [
+"test 1 description"
+]
+
+Event Type: [
+
+]
+
+reference type: [
+
+]
+
+Event Date: [
+"1"
+]
+
+Event Movie: [
+"-"
+]
+
+Event Regions Affected: [
+"-"
+]
+
+Positions?: [
+"no"
+]
+
+Event Positions Affected (x): [
+"-"
+]
+
+Event Positions Affected (y): [
+"-"
+]
+

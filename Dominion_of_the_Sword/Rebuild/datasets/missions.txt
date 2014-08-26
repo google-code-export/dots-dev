@@ -1,0 +1,294 @@
+dm_mission_name: [
+"assassinate_witch_heretic",
+"convert",
+"assassinate_witch_heretic"
+]
+
+dm_mission_variant: [
+"test",
+"-",
+"test2"
+]
+
+missions_title: [
+"Test",
+"Convert",
+"Test"
+]
+
+missions_proposal: [
+"Test is proposed as mission to you",
+"Convert mission is proposed.",
+"Test is proposed as mission to you"
+]
+
+dm_mission_source: [
+"POPE_MISSION",
+"COUNCIL_MISSION",
+"POPE_MISSION"
+]
+
+mission_source_display: [
+"Pope",
+"Council of Nobles",
+"Pope"
+]
+
+expanded_mission_given: [
+"A request from the Pope",
+"A petition from your vassals!",
+"A request from the Pope"
+]
+
+expanded_mission_success: [
+"Pope Mission Success!",
+"Council Mission Success!",
+"Pope Mission Success!"
+]
+
+expanded_mission_fail: [
+"Pope Mission Failure!",
+"Council Mission Failure!",
+"Pope Mission Failure!"
+]
+
+expanded_mission_expired: [
+"Pope Mission Expires!",
+"Council Mission Expires!",
+"Pope Mission Expires!"
+]
+
+dm_mission_img_issued: [
+"pope_mission",
+"council_mission",
+"pope_mission"
+]
+
+dm_mission_img_expired: [
+"pope_disapproval",
+"council_disapproval",
+"pope_disapproval"
+]
+
+dm_mission_img_succeeded: [
+"pope_approval",
+"council_approval",
+"pope_approval"
+]
+
+missions_success: [
+"You successfully tested a mission!",
+"You successfully tested a mission!",
+"You successfully tested a mission!"
+]
+
+dm_mission_img_failed: [
+"pope_disapproval",
+"council_disapproval",
+"pope_disapproval"
+]
+
+missions_failure: [
+"You failed the tested mission...",
+"You failed the tested mission...",
+"You failed the tested mission..."
+]
+
+dm_mission_duration: [
+"10",
+"5",
+"10"
+]
+
+dm_mission_exclude_duration: [
+"25",
+"-",
+"25"
+]
+
+dm_mission_difficulty_threshold: [
+"0.4",
+"-",
+"0.4"
+]
+
+dm_mission_score_mod: [
+"1.2",
+"1.1",
+"1.2"
+]
+
+dm_max_score: [
+"100",
+"100",
+"100"
+]
+
+dm_mission_turn_start: [
+"3",
+"-",
+"3"
+]
+
+dm_condition_chances: [
+['cash 1000 payback_id', 'cash 2000 payback_id'],
+['payback_id'],
+['cash 1000 payback_id', 'cash 2000 payback_id']
+]
+
+dm_paybacks: [
+['papal_inquisition', 'papal_approval'],
+['papal_approval'],
+['papal_inquisition', 'papal_approval']
+]
+
+dm_mission_params: [
+['excommunicated_modifier 1.0', 'max_turns_distance 3'],
+['-'],
+['excommunicated_modifier 1.0', 'max_turns_distance 3']
+]
+
+dm_rel_modifiers: [
+['heretic 0.0', 'pagan 3.0'],
+['-'],
+['heretic 0.0', 'pagan 3.0']
+]
+
+missions_target_proposal: [
+"-",
+"a1",
+"a2"
+]
+
+missions_character_proposal: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expired_death: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expired_excommunicated: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expired_finished: [
+"-",
+"a1",
+"a2"
+]
+
+missions_heir_title: [
+"-",
+"a1",
+"a2"
+]
+
+missions_leader_title: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_death: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_lost: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_allied: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_excommunicated: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_target_excommunicated: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_hiding: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_settlement_taken: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_blockaded: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_general_death: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_princess_death: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_princess_retired: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_target_married: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_recommunicated: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_limit: [
+"-",
+"a1",
+"a2"
+]
+
+missions_expiry_war: [
+"-",
+"a1",
+"a2"
+]
+
+missions_failure_princess_married: [
+"-",
+"a1",
+"a2"
+]
+

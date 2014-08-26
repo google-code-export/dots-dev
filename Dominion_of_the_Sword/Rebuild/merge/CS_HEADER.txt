@@ -1,0 +1,45 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; DOMINION OF THE SWORD CAMPAIGN SCRIPT ;
+; _____________________________________ ;
+;                                       ;
+;          Development Version          ;
+;           (C) DotS Dev Team           ;
+;                                       ;
+;CONTENTS:                              ;
+; 1.  Global Variables and Routines     ;
+; 3.  Campaign Initialization Script    ;
+; 2.  Map Init Script                   ;
+; 3.  Money Generator and Inflation     ;
+; 4.  Devestation                       ;
+; 5.  Attrition                         ;
+; 6   Characters                        ;
+;    a. Antipope                        ;
+;    b. Patriarch                       ;
+; 8.  (Governments)                     ;
+; 9.  (Civil Wars)                      ;
+; 10. (Events)                          ;
+;    a. Notifications                   ;
+;    b. HRE Civil War                   ;
+;    c. Bulgar Revolution               ;
+; 11. Blood, Broads, and Bastards       ;
+;    a. Leader Death Messages           ;
+;    b. Princess Coming of Age Msgs     ;
+; 12. Knightly Orders                   ;
+; 13. Interactive Systems               ;
+;    a. Funeral System                  ;
+;    b. Dowry System                    ;
+;    c. Tournament System               ;
+;    d. Kidnapping System               ;
+;    e. Aberacht System                 ;
+;    f. Sanction System                 ;
+; 14. Summer/Winter System              ;
+; 15. HRE Voting System                 ;
+; 16. Trade Scripts                     ;
+; 17. PSF Scripts                       ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+script
+
+;***************;
+;START OF SCRIPT;
+;***************;

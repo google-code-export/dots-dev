@@ -1,0 +1,1285 @@
+Shared		Tooltips		Strat		Quotes		Export_Buildings		Expanded	
+shared_reference	@shared_display	tooltips_reference	@tooltips_display	strat_reference	@strat_display	@quotes_quote	@quotes_author	export_buildings_reference	export_buildings_display	expanded_reference	expanded_display
+ST_SLAVES	Minor Factions	TMT_SETTLEMENT_INCOME	Settlement Income	SMT_END_TURN	End turn	I will rule them by fixed laws so that rest and happiness shall prevail in the world.	Genghis Khan, after being named khan	generic_repair	REPAIR	EMT_WEATHER_PATTERN_BLIZZARD	Blizzard
+ST_YES	Yes	TMT_LOYALTY_TOOLTIP_REVOLTING	Loyalty: Potential for revolt	SMT_SABOTAGE	Sabotage	The pleasure and joy of man lies in treading down the rebel and conquering the enemy, in tearing him up by the root, in taking from him all that he has	Genghis Khan	generic_repair_desc	REPAIR DAMAGE TO BUILDING	EMT_WEATHER_PATTERN_CLEAR	Clear
+ST_NO	No	TMT_LOYALTY_TOOLTIP_RIOTING	Loyalty: Potential for riots	SMT_ASSASSINATE	Assassinate	Honour is nothing without victory	Subedei, general of Genghis Khan	generic_repair_desc_short	REPAIR DAMAGE TO BUILDING	EMT_WEATHER_PATTERN_CLEAR_ARID	Clear
+ST_ACCEPT	Accept	TMT_LOYALTY_TOOLTIP_DISILLUSIONED	Loyalty: Disillusioned	SMT_SETTLEMENTS	Settlements	Send us your ambassadors: and thus we shall judge whether you wish to be at peace...if you make war on us, the Everlasting God, who makes easy what was difficult and makes near what was far, knows that we know what our power is.	Mongke Khan to King Louis IX of France	generic_dismantle	DISMANTLE	EMT_WEATHER_PATTERN_CLEAR_WINTER	Clear
+ST_DECLINE	Decline	TMT_LOYALTY_TOOLTIP_CONTENT	Loyalty: Content	SMT_CAPITAL	Capital city:	I do not understand these words of yours. Tengri has slain and annihilated these people, because they had adhered neither to Genghis Khan nor to the Khakhan both of whom have been sent to make known Gods command.	Guyuk Khan to the Pope 	generic_dismantle_desc	DISMANTLE BUILDING, RECOUPING SOME OF THE VALUE OF THE BUILDING	EMT_WEATHER_PATTERN_CLOUDY	Cloudy
+ST_CONTINUE	Continue	TMT_LOYALTY_TOOLTIP_HAPPY	Loyalty: Happy	SMT_ALLIES	Allies	There came into the world a blue-grey wolf whose destiny was Heaven's will.	The Opening Lines of the Secret History of the Mongols	generic_dismantle_desc_short	DISMANTLE BUILDING, RECOUPING SOME OF THE VALUE OF THE BUILDING	EMT_WEATHER_PATTERN_CLOUDY_ARID	Cloudy
+ST_FACTION	Faction	TMT_GROWTH_TOOLTIP_GROWTH	Population: Increasing	SMT_ENEMIES	Enemies	I am the Scourge of God. If you had not committed great sins, God would not have sent a punishment like me upon You.	Genghis Khan, during his campaign in Persia	settlement_upgrade_fort	UPGRADE FORT	EMT_WEATHER_PATTERN_CLOUDY_WINTER	Cloudy
+ST_DEFEAT_CLOSE	Close Defeat	TMT_GROWTH_TOOLTIP_STATIC	Population: No Growth	SMT_SUSPICIOUS	Suspicious	A man's greatest work is to break his enemies, to drive them before him, to take from them all the things that have been theirs, to hear the weeping of those who cherished them.	Genghis Khan	settlement_upgrade_fort_desc	UPGRADE FORT TO A VILLAGE	EMT_WEATHER_PATTERN_DUSTY	Dust Storm
+ST_DEFEAT_AVERAGE	Average Defeat	TMT_GROWTH_TOOLTIP_DECLINING	Population: Decreasing	SMT_NEUTRAL	Neutral	Be of one mind and one faith, that you may conquer your enemies and lead long and happy lives.	Genghis Khan	settlement_upgrade_fort_desc_short	UPGRADE FORT TO A VILLAGE	EMT_WEATHER_PATTERN_HEAVY_FOG	Heavy Fog
+ST_DEFEAT_CLEAR	Clear Defeat	TMT_SETTLEMENT_STATUS_TRAINING	Currently training units	SMT_HOSTILE	Hostile	All who surrender will be spared; whoever does not surrender but opposed with struggle and dissension, shall be annihilated.	Genghis Khan, during the war with the Khwarezmian Empire	settlement_upgrade_village	UPGRADE VILLAGE	EMT_WEATHER_PATTERN_HEAVY_FOG_WINTER	Heavy Fog
+ST_DEFEAT_CRUSHING	Crushing Defeat	TMT_SETTLEMENT_STATUS_BUILDING	Currently constructing buildings	SMT_AT_WAR	At war	To no man will we sell, or deny, or delay, right or justice.	The Magna Carta	settlement_upgrade_village_desc	UPGRADE VILLAGE TO TOWN	EMT_WEATHER_PATTERN_LIGHT_FOG	Light Fog
+ST_VICTORY_DRAW	Draw	TMT_LCLICK_FOR_BUILD_OPTIONS	Left-click to see upgrade options for this building	SMT_NIGHT_ATTACK	Attempt a night attack	Also say unto them, that they suffre hym this day to wynne his spurres, for if God be pleased, I woll this journey be his, and the honoure therof.	King Edward III of England, speaking of The Black Prince at Crécy	settlement_upgrade_village_desc_short	UPGRADE VILLAGE TO TOWN	EMT_WEATHER_PATTERN_LIGHT_FOG_WINTER	Light Fog
+ST_VICTORY_CLOSE	Close Victory	TMT_CONSTRUCTION_HELP	Left-click to add to queue	SMT_TRADE_RIGHTS	Trade rights	And whan a beest is deed he hath no peyne; But man after his deeth moot wepe and pleyne.	Geoffrey Chaucer in The Canterbury Tales	settlement_upgrade_town	UPGRADE TOWN	EMT_WEATHER_PATTERN_RAIN	Raining
+ST_VICTORY_AVERAGE	Average Victory	TMT_CONSTRUCTION_REMOVE_HELP	Left-click to remove from queue	SMT_SIEGE	Maintain siege	There is the Music of Heaven in all things and we have forgotten how to hear it until we sing. 	Hildegard of Bingen	settlement_upgrade_town_desc	UPGRADE TOWN TO A LARGE TOWN	EMT_WEATHER_PATTERN_SNOW	Snow
+ST_VICTORY_CLEAR	Clear Victory	TMT_COST_OF_CONSTRUCTION	Cost to construct item	SMT_ASSAULT	Assault	The earth which sustains humanity must not be injured, it must not be destroyed.	Hildegard of Bingen	settlement_upgrade_town_desc_short	UPGRADE TOWN TO A LARGE TOWN	EMT_WEATHER_PATTERN_STORM	Thunder Storm
+ST_VICTORY_CRUSHING	Heroic Victory	TMT_TIME_TO_CONSTRUCT	Number of turns required to construct item	SMT_END_SIEGE	Lift the siege	A man can do all things if he but wills them.	Leon Battista Alberti, humanist philosopher	settlement_upgrade_large_town	UPGRADE LARGE TOWN	EMT_ARMOUR_LEVEL_0	None
+ST_BATTLE_NO_RESULT	Unresolved	TMT_COST_OF_RECRUITMENT_UNIT	Cost to recruit unit	SMT_AGE	Age:	When I investigate and when I discover that the forces of the heavens and the planets are within ourselves, then truly I seem to be living among the gods.	Leon Battista Alberti, humanist philosopher	settlement_upgrade_large_town_desc	UPGRADE TOWN TO A CITY	EMT_ARMOUR_LEVEL_1	Padded
+ST_COHORT	Cohort	TMT_TIME_TO_RECRUIT	Number of turns required to train	SMT_LOYALTY	Loyalty	He knows God rightly who knows Him everywhere.	Sermon V, Meister Johannes Eckhart	settlement_upgrade_large_town_desc_short	UPGRADE TOWN TO A CITY	EMT_ARMOUR_LEVEL_2	Light Mail
+ST_UNIT_TYPE	Unit type	TMT_SEASON_SUMMER	Summer	SMT_GOVERNOR	Governor	Lasciate ogni speranza voi chentrate! (Abandon all hope, you who enter!) 	Inscription at the entrance to Hell, in the Divina Commedia by Dante Alighieri	settlement_upgrade_city	UPGRADE CITY	EMT_ARMOUR_LEVEL_3	Heavy Mail
+ST_EXPERIENCE	Experience	TMT_SEASON_WINTER	Winter	SMT_GARRISON	Garrison	Nothing ought to be posited without a reason given, unless it is self-evident or known by experience or proved by the authority of Sacred Scripture. 	Ockhams razor	settlement_upgrade_city_desc	UPGRADE CITY TO A LARGE CITY	EMT_ARMOUR_LEVEL_4	Partial Plate
+ST_CASUALTIES	Casualties	TMT_REMAINING_ACTION_POINTS	Movement points\nThe dark blue bar represents points remaining\nLight blue section represents affect on movement points after current action is performed	SMT_RECRUITMENT_COST	Cost to Recruit:	Now it is known That the king had guarded Well the temples, So Haakon the Good Was welcomed with gladness By the kind gods.	From the saga of Haakon the Good	settlement_upgrade_city_desc_short	UPGRADE CITY TO A LARGE CITY	EMT_ARMOUR_LEVEL_5	Full Plate
+ST_GAINED	Gained	TMT_ACCEPT_FIELD_CONSTRUCTION	Build selected item	SMT_RECRUITMENT_TIME	Time to Recruit:	What cracked with such a loud noise? Norway out of your hands, sire	Olaf Trygvasson to Einar Tambarskjelve, at the battle of Svölðr	settlement_upgrade_large_city	UPGRADE LARGE CITY	EMT_ARMOUR_LEVEL_6	Advanced Plate
+ST_INFLICTED	Inflicted	TMT_CANCEL_FIELD_CONSTRUCTION	Do not build anything	SMT_RETRAIN_TIME	Time to Retrain:	Odin is the highest and oldest of the gods. He rules all things and no matter how mighty the other gods may be, they all serve him as children do their father....He lives for ever and ever, and rules over the whole of his kingdom and governs all things great and small. He created heaven and earth and sky and all that is in them.	Snorre Sturluson 1178-1241, Icelandic historian, poet, politician and christian	settlement_upgrade_large_city_desc	UPGRADE CITY TO A HUGE CITY	EMT_HERETIC	Heretic
+ST_SUSTAINED	Sustained	TMT_BUILD_FORT_OR_WATCHTOWER	Construct fort or watchtower	SMT_RETRAIN_COST	Cost to Retrain:	I kill without compunction, and remember all my killings. Treason must be scotched by fair means or foul before it overwhelms me. The oak trees of insurrection grow from the acorns of treachery 	Harald Hardraade	settlement_upgrade_large_city_desc_short	UPGRADE CITY TO A HUGE CITY	EMT_INQUISITOR	Inquisitor
+ST_HEALED	Healed	TMT_CANNOT_BUILD_FORT_OR_WATCHTOWER	Cannot construct fort or watchtower here	SMT_FIGHT_BATTLE	Fight battle on battle map	Svein knew of another island discovered by many in that ocean. It is called Wineland because wild grapes grow there; producing the best wine... As we have learned not from fabulous conjecture but from reliable report of the Danes. 	Adam of Bremen, writing of America circa 1080			EMT_WITCH	Witch
+ST_MEN_REMAINING	Men Remaining	TMT_CANNOT_ATTACK_FROM_SIEGED_SETTLEMENT	When under siege it is only possible to attack the sieging army	SMT_WITHDRAW	Withdraw from battle	Toho bohdá nebude, aby český král z boje utíkal! (Let it never be the case that a Bohemian king runs from a fight!) 	John of Luxembourg, blind King of Bohemia, before he died facing the English at the Battle of Crécy				
+ST_SHIP	Ship	TMT_SHOW_GENERAL_UNIT_DETAILS	Show unit details for this character's bodyguard unit	SMT_AUTORESOLVE	Automatically resolve battle	The Seat of the Roman Empire is Constantinople, and he who is and remains Emperor of Constantinople is also Emperor of the whole Earth 	George Trapezuntios' attempt to covert Sultan Mehmet the Conqueror after the Fall of Constantinople				
+ST_SHIPS	Ships	TMT_LCLICK_SELECT	Left-click to select	SMT_DISBAND	Disband unit\nNaval units cannot be disbanded if transported army cannot disembark\nGeneral's units cannot be disbanded.	The fortunes of the Roman Empire have sunk to their lowest ebb. For the armies of the East are dispersed in all directions, and because the Turks have over-spread, and gained command of all countries 	Anna Komnene- The Alexiad				
+ST_TYPE	Type	TMT_RCLICK_INFO	Right-click to get further information	SMT_DOCTOR_DESCR	DO NOT TRANSLATE: THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN!	The Syrians who are gluttons, the Cilicians who are pirates, the Isaurians who are thieves, and even the Italian knights who are so proud, all put away their pride to be present at his triumph	Nicetas Choniates on Manuel Komnenos				
+ST_HULL	Hull	TMT_LDBL_CLICK_INFO	Double Left-click to get further information	SMT_QUARTERMASTER_DESCR	DO NOT TRANSLATE: THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN!	The deeds of cruelty, massacre, violence, pillage, arson, imprisoning prelates, burning down monasteries, robbing and killing monks and nuns, and yet other outrages without number which he committed against our people, sparing neither age nor sex, religion nor rank, no one could describe nor fully imagine unless he had seen them with his own eyes. 	The Declaration of Arbroath, 1320 on King Edward Longshanks				
+ST_DAMAGE	Damage	TMT_CURSOR_ATTACK	Right-click to attack	SMT_PRIEST_DESCR	These men of faith essentially serve as a mobile conversion force, spreading their faction's religion wherever they travel. While the soldiers battle their faction's physical threats, these are the men who form your front line against the perils of heresy, and can actually denounce witches and heretics that stalk the land - this is the perfect way to prove one's faith and conviction.	It is in truth not for glory, nor riches, nor honours that we are fighting, but for freedom — for that alone, which no honest man gives up but with life itself.	The Declaration of Arbroath, 1320				
+ST_LIGHT	light	TMT_CURSOR_MOVE	Right-click to move to position	SMT_SCOUT_DESCR	DO NOT TRANSLATE: THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN!	As long as but a hundred of us remain alive, never will we on any conditions be brought under English rule.	The Declaration of Arbroath, 1320				
+ST_MEDIUM	Medium	TMT_CURSOR_SELECT	Right-click to select	SMT_ENGINEER_DESCR	DO NOT TRANSLATE: THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN!	Had I been present at the Creation, I would have given some useful hints for the better ordering of the universe.	King Alfonso the Wise of Castile				
+ST_HEAVY	heavy	TMT_CURSOR_MOVE_MAP	Scroll map	SMT_SPY_DESCR	Spies are the eyes and ears of your faction, capable of being sent to observe foreign settlements or armies - hopefully undetected. Aside from sending intelligence on structures and inhabitants, once working inside a settlement, spies begin to stir unrest among the populace with propaganda. They may also succeed in disabling defences in a siege, which can prove utterly decisive.	The Greek Church has seen in the Latins nothing other than an example of affliction and the works of Hell, so that now it rightly detests them more than dogs	Pope Innocent III on the Fourth Crusade				
+ST_SUNK	Sunk	TMT_CURSOR_MOUSE_LOOK	Mouse look	SMT_ASSASSIN_DESCR	An assassin is the ideal man to call upon when a foreign target is either too well defended by armed forces for a frontal assault, or if you wish to strike without it being obvious that it was you that gave the order. Not only can assassins take out live targets, they can also bring down a building marked for sabotage, and can even specialise in this field of destruction.	God caused the sun of empire to shine in the mansion of the Turks and turned the heavenly spheres around their dominion 	Al Kashgari, 11th century Turkic Scholar				
+ST_SOUND_OPTIONS	Sound Options	TMT_CURSOR_CLICK_DOWN	Click down	SMT_DIPLOMAT_DESCR	A diplomat is a man who serves his people as a representative in negotiations. His well-spoken manner and ability to read those he deals with will come to the fore whether he is being sent to impress, flatter, bribe, threaten or barter with foreign dignitaries and officials.	Constantinople is a city larger than its renown proclaims. May God is his grace and generosity deign to make it capital of Islam 	Hasan Ali Al-Harawi, 12th century Arab writer				
+ST_MUTE	Mute	TMT_CURSOR_EXCHANGE	Right-click to exchange units and characters 	SMT_ADMIRAL_DESCR	An admiral is naval commander who leads an entire fleet. The abilities and retinue that an admiral can develop throughout their career can improve their abilities to fight and navigate more efficiently. Once an admiral has begun to earn command stars through a proud legacy of victory, they will not serve under another admiral.	There is no certainty of victory in war, even when the equipment and numerical strength that cause victory exist. Victory and superiority in war come from luck and chance	Ibn Khaldun, 14th century Arab historian				
+ST_SOUND_MAIN_VOL	Main	TMT_CURSOR_DEFAULT_ACTION	Right-click to perform mission	SMT_ARMY_UPKEEP	Army Upkeep	A Knight without fear or blame who often had to teach his opponents the right way to practice chivalry.	An inscription written by Kaiser Wilhelm II on a wreath he lay on Saladin's Tomb				
+ST_SOUND_SFX_VOL	Special Effects	TMT_CURSOR_NO_ACTION	No action possible on this target	SMT_LOYALTY_REVOLTING	Revolting	To endeavour to domineer over conscience, is to invade the citadel of heaven	Charles V King of Spain and Holy Roman Emperor				
+ST_SOUND_MUSIC_VOL	Music	TMT_CURSOR_ENTER_SETTLEMENT	Right-click to enter settlement	SMT_LOYALTY_RIOTING	Rioting	My cousin Francis and I are in perfect accord - he wants Milan, and so do I.	Charles V King of Spain and Holy Roman Emperor				
+ST_SOUND_SPEECH_VOL	Speech	TMT_CURSOR_DISEMBARK	Right-click to disembark	SMT_LOYALTY_DISILLUSIONED	Disillusioned	From the flaming and flashing of certain igneous mixtures and the terror inspired by their noise, wonderful consequences ensue which no man can guard against or endure	Roger Bacon, 13th century English monk, on the effects of gunpowder				
+ST_SOUND_SUBTITLES	Subtitles	TMT_CURSOR_SET_RALLY_POINT	Right-click to set settlement's rally point	SMT_LOYALTY_CONTENT	Content	When it marched, the air seemed like a forest because of its lances, and when it stopped, the earth could not be seen for tents	Tursun Bey on the Ottoman army				
+ST_SOUND_ENGLISH	English	TMT_CURSOR_AUTO_MERGE	Right-click to merge units 	SMT_LOYALTY_HAPPY	Happy	Battles on the sea are more dangerous than battles on the land, for on the sea there is no recoiling nor fleeing, there is no remedy but to fight and to abide fortune, and every man show his prowess.	Jean Froissart, 14th century French chronicler				
+ST_GFX_OPTIONS	Graphics Options	TMT_NO_MULTITURN_MISSIONS	Cannot attack or perform missions over multiple turns	SMT_FORTIFICATION_NONE	No fortifications	These tribulations are for Gods sake. The sword of Islam is in our hands. If we had not chosen to endure these tribulations, we would not be worthy to be called Ghazis. We would be ashamed to stand in Gods presence on the Day of Judgement	Mehmet the Conqueror				
+ST_GFX_UNIT_DETAIL	Unit Detail	TMT_NO_MULTITURN_EXCHANGES	Cannot merge or exchange units over multiple turns	SMT_FORTIFICATION_0	Wooden	There must only be one empire, one faith, and one sovereign in the world	Mehmet the Conqueror				
+ST_GFX_BUILDING_DETAIL	Building Detail	TMT_SIEGE_EQUIPMENT_NOT_REQUIRED	Construction of this siege equipment is not required	SMT_FORTIFICATION_1	Large wooden	Be careful whom you threaten, if you want war you will find it.	Boleslaw Krzywousty King of Poland in response to the tribute demands of Emperor Henry V				
+ST_GFX_ANTIALIASING	Anti-Aliasing	TMT_NO_DIPLOMACY_WITH_REBELS	Diplomacy is not possible with rebels	SMT_FORTIFICATION_2	Stone	Fight in such a way that you will once more prove to the barbarians that you are a nation of masters and not of slaves because this is the most suitable way for the descendants of Greeks and Romans!	Konstantinos Palaiologos, Last Roman Emperor, at the Siege of Contantinople 1453				
+ST_GFX_WIDESCREEN	Widescreen	TMT_RESOURCE_TRADE_VALUE	Trade resource worth %d florins per turn	SMT_FORTIFICATION_3	Large stone	Consider your origins: you were not made that you might live as brutes, but so as to follow virtue and knowledge.	Dante in The Divine Comedy				
+ST_GFX_SMOKE	Smoke	TMT_ROADS_TOOLTIP	Road: Allows armies to march further\nAlso adds to trade income\nThe amount of traffic indicates the amount of trade	SMT_FORTIFICATION_4	Epic	The name of mistress instead of wife would be dearer and more honourable for me, only love given freely, rather than the constriction of the marriage tie, is of significance to an ideal relationship.	Heloise, mistress to Peter Abelard, French Theologian				
+ST_GFX_USE_TNL	Use TNL	TMT_PAVED_ROADS_TOOLTIP	Paved road: Allows armies to march efficiently at speed\nAlso adds to trade income\nThe amount of traffic indicates the amount of trade	SMT_MISSION_INFILTRATE	Infiltration Mission	For likewise as chivalry gives to a knight all that to him appertains, in likewise a knight ought to give all his forces to honour chivalry.	Ramon Lull, Book of Knighthood and Chivalry, d. 1315				
+ST_GFX_DUST	Dust	TMT_HIGHWAYS_TOOLTIP	Highways: Allows armies to march long distances\nAlso adds to trade income\nThe amount of traffic indicates the amount of trade	SMT_MISSION_DIPLOMACY	Diplomacy Mission	You took the cross upon your shoulders, and on that Cross and on the Holy Gospels you swore that you pass over Christian lands without violence. 	Nicetas Choniates, Alexios Ducas (IV, 4), on the sacking of Constantinople by the Latin crusaders in 1204				
+ST_GFX_REFLECTIONS	Reflections	TMT_SEA_LANES_TOOLTIP	Trade route between settlements with ports	SMT_MISSION_BRIBE	Bribery Mission	You assured us that your only enemy was the Saracen, and that his blood only would be shed...Far from carrying the Cross, you profane it and trample it underfoot.	Nicetas Choniates, Alexios Ducas (IV, 4), on the sacking of Constantinople by the Latin crusaders in 1204				
+ST_GFX_SHADOW_DETAIL	Shadow Detail	TMT_FAMOUS_BATTLE_SITE_TOOLTIP	An epic battle of great renown was fought here	SMT_MISSION_SPYING	Spying Mission	You claim to be in quest of a pearl beyond price, but in truth you fling that most precious of all pearls, which is the body of our Saviour, into the mud. The Saracens themselves show less impiety.	Nicetas Choniates, Alexios Ducas (IV, 4), on the sacking of Constantinople by the Latin crusaders in 1204				
+ST_GFX_BRIGHTNESS	Brightness	TMT_INFLUENCE_LEVEL_0	A ripe turnip has more influence over the ways of men than this lowly wretch	SMT_MISSION_ASSASSINATE	Assassination Mission	Heretics try to tear the seamless robe of our God.	Emperor Frederick II, Liber Augustalis				
+ST_SUPER_LOW	Lowest	TMT_INFLUENCE_LEVEL_1	Even when he is full of conviction, nobody listens too much to this man	SMT_MISSION_SABOTAGE	Sabotage Mission	A wise man has said that there is nothing that wins over the hearts of a rulers subjects more nor that draws them to their lord so much as when they find gentleness and kindness in him.	Christine de Pisan, The Treasure of the City of Ladies, d. 1434				
+ST_LOW	Low	TMT_INFLUENCE_LEVEL_2	It is said even this man's wife barely takes heed of what he says	SMT_NAME	Name	No free man shall be taken or imprisoned or dispossessed, or outlawed or exiled, or in any way destroyed, nor will we go upon him, nor will we send against him except by the lawful judgement of his peers or by the law of the land.	The Magna Carta 				
+ST_NORMAL	Normal	TMT_INFLUENCE_LEVEL_3	Though his statements are usually considered sound, he lacks the charisma to influence others	SMT_FORT	Fort	Oh, most valiant soldiers and descendants of invincible ancestors, be not degenerate, but recall the valour of your progenitors.	Robert the Monk’s version of Pope Urban II’s speech at Claremont, 1095				
+ST_HIGH	High	TMT_INFLUENCE_LEVEL_4	This man is considered decent counsel, but is yet to hold any real presence in the royal courts	SMT_FACTION	Faction	The King desires our money, / The Queen our manors too, / The writ of By what warrant / Will make a sad to-do.	Walter of Guisborough, Statutes of Edward I				
+ST_SUPER_HIGH	Super high	TMT_INFLUENCE_LEVEL_5	Considered important enough that most minor lordlings would listen carefully to his counsel	SMT_PORT	Port	Because barons and still more commonly knights and squires and gentlemen travel and go off to the wars, their wives should be wise and sound administrators and manage their affairs well, because most of the time they stay at home without their husbands, who are at court or abroad.	Christine de Pisan, The Treasure of the City of Ladies, d. 1434				
+ST_SCREENMODE	Screen mode	TMT_INFLUENCE_LEVEL_6	Though he may not always win every debate he enters, his counsel always wins him respect	SMT_POPULATION	Population	How far will you flee? Stand, and act like men!	Sichelgaita of Salerno, Duchess of Apulia, 1081				
+ST_LOAD_SUCCESS	Game load succeeded	TMT_INFLUENCE_LEVEL_7	Is known to be able to make others adopt a perspective that is otherwise against their beliefs	SMT_FATIGUE	Fatigue level	The Earth, my mother, you have given me life, you feed me, you carry me and after death I will rest within you 	Kissing the soil, an evening prayer of Lithuanian pagans				
+ST_LOAD_FAILED	Game load failed	TMT_INFLUENCE_LEVEL_8	Considered an even-handed font of wisdom on most matters, even by the enemies of his people	SMT_EXPERIENCE	Experience	Davei manei, Žemele, duodame ir tau (As you have given to us, Mother Earth, we are giving unto you) 	Lithuanian pagan prayer for the land to continue to be fruitful				
+ST_SAVE_SUCCESS	Game save succeeded	TMT_INFLUENCE_LEVEL_9	So convincing are this man's arguments that he can manipulate a learned audience with ease	SMT_MILD	mild	You say that God is a just judge? Absolute nonsense! In future something that people can bend so easily must be subject to my justice and not the ordeal of God	William Rufus, King of England, after 50 people accused of poaching his deer had proved their innocence through the ordeal of hot iron				
+ST_SAVE_FAILED	Game save failed	TMT_INFLUENCE_LEVEL_10	Scholars follow this man, seeking to quote his highly influential statements and musings	SMT_MASSIVE	massive	A Templar Knight is truly a fearless knight, and secure on every side, for his soul is protected by the armour of faith, just as his body is protected by the armour of steel. He is thus doubly armed, and need fear neither demons nor men.	Bernard de Clairvaux, 1135 				
+ST_END_GAME	Quit Game	TMT_COMMAND_LEVEL_0	This man would wet himself at the notion he should be in charge at all	SMT_CATASTROPHIC	catastrophic	If the infidels, upon receiving the call, neither consent to it nor agree to pay capitation tax, it is then incumbent on the Muslims to call upon God for assistance, and to make war upon them	al-Mawardi, giving the basis for the legitimate nature of jihad				
+ST_LOAD	Load Game	TMT_COMMAND_LEVEL_1	Young peasant girls laugh when this man tries to tell them what to do	SMT_SMALL	small	It is not the wont of kings, to kill kings; but that man had transgressed all bounds, and therefore did I treat him thus.  	Saladin on sparing the life of Guy of Lusignan after his capture				
+ST_SAVE	Save Game	TMT_COMMAND_LEVEL_2	A born follower, this man has no notion of what leadership is about	SMT_MEDIUM	moderate	This place is holy, sanctified by the blood of Christ. By our consecration we add nothing to its holiness 	An inscription at the church of the Holy Sepulchre written by Crusaders, 15 July 1149				
+ST_RETURN_TO_GAME	Return to Game	TMT_COMMAND_LEVEL_3	Understands the concepts of chain of command, but knows little of what orders to give	SMT_LARGE	large	War springs from the nobly born; famous pedigrees are the makers of war. For the perilous deeds which chiefs atempt are not to be done by the ventures of common men...No dim and lowly race, no low-born dead, no base souls are Plutos prey, but he weaves the dooms of the mighty, and fills Phlegethon with noble shapes.	Saxo Grammaticus clergyman, historian and former soldier				
+ST_EXIT_MENU	Exit Menu	TMT_COMMAND_LEVEL_4	Hardly a tactical genius, but this man is showing some aptitude for leadership	SMT_HUGE	huge	The chieftain let his sea-cold ships hull glide forth through the waters of Greece; I offer praise to the prince. He sailed till he cast anchor upon Acre. I saw the battle-glad lord, enter the walls of Jerusalem; nowhere under the heavens is a more noble prince known.	Saga of the Norwegian King Sigurd Jorsalfar 1090-1130, crusader in Palestine with Baldwin of Jerusalem				
+ST_CONFIRM_QUIT	Really quit?	TMT_COMMAND_LEVEL_5	Given the right troops and conditions, this man can typically lead an armed force to victory	SMT_CURRENTLY_BUILDING	Currently building:	And the swift foe of the gold could bathe in Jordans clear stream. This deed must be praised by all. Then the heathen town of Sidon didst thou win by might, yet thou gavest it away. Generous feeder of the wolves!	Saga of the Norwegian King Sigurd Jorsalfar 1090-1130, crusader in Palestine with Baldwin of Jerusalem				
+ST_STATE_IN_SETTLEMENT	Visiting settlement	TMT_COMMAND_LEVEL_6	Calm and confident at the head of an army, and usually decisive in victory	SMT_HEALTHY	Healthy	The power of the king is the power of God	(Norman Anonymous)				
+ST_STATE_ON_SHIP	Travelling on ship	TMT_COMMAND_LEVEL_7	Though he is but one man, his aura of command is powerful enough to inspire many on the battlefield. 	SMT_TIRED	Tired	The king himself must be, not under Man, but under God and the Law, because Law makes the king 	Henry de Bracton				
+ST_STATE_WITH_ARMY	Travelling with army	TMT_COMMAND_LEVEL_8	This man has leadership qualities to enable men to go beyond their own abilities on any battlefield. 	SMT_ILL	Ill	I will ward off your enemies as felt cloth protects one from the wind	Subedai to Genghis Khan				
+ST_STATE_SIEGING	Laying siege	TMT_COMMAND_LEVEL_9	So bold and confident in command, this man could lead an angry mob to conquer an empire	SMT_DYING	Dying	Cut down, he said, the governors who become overproud. Let no generals on campaign have too many resources. Exhaust them with unjust exactions, to keep them busied with their own affairs. Admit no woman to the imperial councils. Be accessible to no one. Share with few your most intimate plans.	Sclerus answering Basil’s question				
+ST_STATE_AMBUSHING	Lying in ambush	TMT_COMMAND_LEVEL_10	On the battlefield, this man's will is always realised! He is a true master of warfare	SMT_ARMY_DETAILS	Army Details	…He knew the various formations suited to his men. Some he had read of in books, others he devised himself during the operations of war, the result of his own intuition. He professed to conduct his wars and draw up the troops in line of battle, himself planning each campaign, but he preferred not to engage in combat personally	Chronographia of Michael Psellus				
+ST_STATE_CAMPED	Camped	TMT_MANAGEMENT_LEVEL_0	tooltips.txt:TMT_MANAGEMENT_LEVEL_0	SMT_ENEMY_ARMY_DETAILS	Enemy Army Details	Basil did not follow the customary procedure of other emperors…He endured the rigours of winter and the heat of summer with equal indifference. He disciplined himself against thirst. In fact, all his natural desires were kept under stern control, and the man was as hard as steel	Chronographia of Michael Psellus				
+ST_STATE_ENTRENCHED	Entrenched	TMT_MANAGEMENT_LEVEL_1	tooltips.txt:TMT_MANAGEMENT_LEVEL_1	SMT_ALLIED_ARMY_DETAILS	Allied Army Details	A detachment of barbarian soldiers, all equipped in their own fashion, daring bareback riders, lay in ambush on either side of the armys route. By not keeping in close order, they created the illusion of great numbers, running about in scattered groups and with no regular formations. This so terrorized the Roman soldiery and spread such panic in this mighty and famous army, and so shattered their morale, that they all ran away …	Chronographia of Michael Psellus				
+ST_STATE_HEALTH_RISK	Unhealthy	TMT_MANAGEMENT_LEVEL_2	tooltips.txt:TMT_MANAGEMENT_LEVEL_2	SMT_NEUTRAL_ARMY_DETAILS	Neutral Army Details	O Islam! O God grant your servant Qutuz a victory against the Mongols 	Qutuz				
+ST_STATE_IS_HOSTAGE	Held hostage	TMT_MANAGEMENT_LEVEL_3	tooltips.txt:TMT_MANAGEMENT_LEVEL_3	SMT_NAVY_DETAILS	Navy Details	Anyone who wishes to fight the Turks is mad, for Jesus Christ does not fight them any more. They have conquered, they will conquer. For every day they drive us down, knowing that God, who was awake, sleeps now, and Muhammad waxes powerful	A Templar Knight in the Seventh Crusade				
+ST_STATE_HIDING	Hiding	TMT_MANAGEMENT_LEVEL_4	tooltips.txt:TMT_MANAGEMENT_LEVEL_4	SMT_ENEMY_NAVY_DETAILS	Enemy Navy Details	To form the whole army simply in one line . . . for a general cavalry battle and to hold nothing in reserve for various eventualities in case of a reverse is the mark of an inexperienced and absolutely reckless man	Strategikon				
+ST_STATE_ENEMY_TERRITORY	In enemy territory	TMT_MANAGEMENT_LEVEL_5	tooltips.txt:TMT_MANAGEMENT_LEVEL_5	SMT_ALLIED_NAVY_DETAILS	Allied Navy Details	Well timed attacks against the enemy’s flanks and rear are much more effective and decisive than direct frontal charges and attacks. . . . do not mass all your troops in front, and even if the enemy is superior in numbers, direct your operations against his rear or his flanks. For it is dangerous and uncertain under all conditions and against any people to engage in purely frontal combat. 	Strategikon				
+ST_STATE_DIPLOMACY	Holding talks	TMT_MANAGEMENT_LEVEL_6	tooltips.txt:TMT_MANAGEMENT_LEVEL_6	SMT_NEUTRAL_NAVY_DETAILS	Neutral Navy Details	Wild animals are taken by scouting, by nets, by lying in wait, by stalking, by circling around, and by other such stratagems rather than by sheer force	Strategikon				
+ST_KEYBOARD_SHORTCUTS	Keyboard shortcuts	TMT_MANAGEMENT_LEVEL_7	tooltips.txt:TMT_MANAGEMENT_LEVEL_7	SMT_SETTLEMENT_DETAILS	Settlement Details	A wise commander will not engage the enemy in a pitched battle unless a truly exceptional opportunity presents itself. 	Strategikon 				
+ST_TIME_TO_REINFORCE_X_HOURS	Will arrive on battlefield in %d hours	TMT_MANAGEMENT_LEVEL_8	tooltips.txt:TMT_MANAGEMENT_LEVEL_8	SMT_ENEMY_SETTLEMENT_DETAILS	Enemy Settlement Details	Indignatio Principis Mors Est- The Anger of the Prince means death	Medieval English Saying				
+ST_ONE_HOUR_TO_REINFORCE	Will arrive on battlefield in 1 hour	TMT_MANAGEMENT_LEVEL_9	tooltips.txt:TMT_MANAGEMENT_LEVEL_9	SMT_NEUTRAL_SETTLEMENT_DETAILS	Neutral Settlement Details	The sharp general takes into account not only probable dangers, but also those which may be totally unexpected	Strategikon				
+ST_OR	or	TMT_MANAGEMENT_LEVEL_10	tooltips.txt:TMT_MANAGEMENT_LEVEL_10	SMT_ALLIED_SETTLEMENT_DETAILS	Allied Settlement Details	For only those battle plans are successful which the enemy does not suspect before we put them into action. 	Strategikon				
+ST_AND	and	TMT_SUBTERFUGE_LEVEL_0	So naive and innocent is this one, he lacks the cunning to sneak up on even a corpse	SMT_FORT_DETAILS	Fort Details	It is very important to spread rumours among the enemy that you are planning one thing; then go and do something else. The enemy should be deceived by false reports of our plans brought to them by deserters from you	Strategikon				
+ST_COMMAND	Command	TMT_SUBTERFUGE_LEVEL_1	Clumsy and conspicuous, only a fool would rely on this man for acts of espionage	SMT_ENEMY_FORT_DETAILS	Enemy Fort Details	A general should act like a good wrestler, he should feint in one direction to try to deceive his adversary and then make good use of the opportunities he finds, and in this way he will overpower the enemy. 	Strategikon				
+ST_INFLUENCE	Influence	TMT_SUBTERFUGE_LEVEL_2	He may be willing to do the dubious, but he lacks the guile and cunning to do it well	SMT_ALLIED_FORT_DETAILS	Allied Fort Details	In war, as in hunting, a near miss is still a complete miss	Strategikon				
+ST_MANAGEMENT	Management	TMT_SUBTERFUGE_LEVEL_3	More cunning than most of the night watch... But not all of them	SMT_NEUTRAL_FORT_DETAILS	Neutral Fort Details	Rarely do great beauty and great virtue dwell together 	Francesco Petrarch (Italian Scholar, Poet and Humanist, 1304-1374)				
+ST_SUBTERFUGE	Subterfuge	TMT_SUBTERFUGE_LEVEL_4	Usually capable of pulling off minor acts of espionage given the proper preparation	SMT_SET_HEIR	Set faction heir	Man has no greater enemy than himself	Francesco Petrarch (Italian Scholar, Poet and Humanist, 1304-1374)				
+ST_DOCTOR	Doctor	TMT_SUBTERFUGE_LEVEL_5	Discreet and delicate enough to be entrusted with dangerous clandestine tasks	SMT_PREV_CITY	Select the previous city	Silence gives consent 	Pope Boniface VIII 				
+ST_QUARTERMASTER	Quartermaster	TMT_SUBTERFUGE_LEVEL_6	Has proven more than capable of committing cunning clandestine acts	SMT_NEXT_CITY	Select the next city	It is more honourable to be raised to a throne than to be born to one. Fortune bestows the one, merit obtains the other 	Francesco Petrarch (Italian Scholar, Poet and Humanist, 1304-1374)				
+ST_PRIEST	Priest	TMT_SUBTERFUGE_LEVEL_7	Foxes and weasels have nothing on this man in terms of raw cunning	SMT_NEXT_CHARACTER	Select the next character	Books have led some to learning and others to madness 	Francesco Petrarch (Italian Scholar, Poet and Humanist, 1304-1374)				
+ST_SCOUT	Scout	TMT_SUBTERFUGE_LEVEL_8	Not even a bloodhound could track this man's movements, he is but a shadow	SMT_PREV_CHARACTER	Select the previous character	Suspicion is the cancer of friendship	Francesco Petrarch (Italian Scholar, Poet and Humanist, 1304-1374)				
+ST_ENGINEER	Engineer	TMT_SUBTERFUGE_LEVEL_9	This man is the embodiment of subtlety, secrecy and stealth	SMT_NEXT_UNIT	Select the next unit	I came, I saw, and God conquered	Charles V, King of Spain and Holy Roman Emperor				
+ST_DOCTORS	Doctors	TMT_SUBTERFUGE_LEVEL_10	Like the shadows themselves, this man is everywhere at once without being tangible anywhere. 	SMT_PREV_UNIT	Select the previous unit	Who has a harder fight than he who is striving to overcome himself	Thomas a Kempis (German Writer, 1379-1471)				
+ST_QUARTERMASTERS	Quartermasters	TMT_TOGGLE_AUTOMANAGEMENT	Toggle auto-management of this settlement	SMT_PREV_FORT	Select the previous fort	Remember that lost time does not return	Thomas a Kempis (German Writer, 1379-1471)				
+ST_SCOUTS	Scouts	TMT_DECREASE_TAXATION	Decrease taxation	SMT_NEXT_FORT	Select the next fort	What difference does it make to you what someone else becomes, or says, or does? You do not need to answer for others, only for yourself	Thomas a Kempis (German Writer, 1379-1471)				
+ST_ENGINEERS	Engineers	TMT_INCREASE_TAXATION	Increase taxation	SMT_FOOD_SUPPLIES	Food supplies	Be not angry that you cannot make others as you wish them to be, since you cannot make yourself as you wish to be.	Thomas a Kempis (German Writer, 1379-1471)				
+ST_PRIESTS	Priests	TMT_CHANGE_GOVERNOR_POLICY	Change governor policy	SMT_STATE_REVOLTING	The peasants in this settlement are rioting, and may enter open revolt	It is much safer to obey, than to govern	Thomas a Kempis (German Writer, 1379-1471)				
+ST_TOWERS	Towers	TMT_DECREASE_GAMES_FREQUENCY	Decrease frequency of games and/or races	SMT_STATE_NOT_REVOLTING	No signs of peasant dissent in this settlement	Out of sight, out of mind. The absent are always in the wrong.	Thomas a Kempis (German Writer, 1379-1471)				
+ST_LADDERS	Ladders	TMT_INCREASE_GAMES_FREQUENCY	Increase frequency of games and/or races	SMT_STATE_UNDER_SIEGE	This settlement is under siege	First keep peace with yourself, then you can also bring peace to others	Thomas a Kempis (German Writer, 1379-1471)				
+ST_RAMS	Rams	TMT_CURRENTLY_SELECTED_CHARACTER	Character currently selected:	SMT_STATE_NOT_UNDER_SIEGE	This settlement is not under siege	Oh, how swiftly the glory of the world passes away!	Thomas a Kempis (German Writer, 1379-1471)				
+ST_SAPPING	Sapping	TMT_CURRENTLY_SELECTED_SETTLEMENT	Settlement currently selected:	SMT_STATE_HOLDING_GAMES	This settlement is holding games	I would far rather feel remorse than know how to define it.	Thomas a Kempis (German Writer, 1379-1471)				
+ST_SIEGE_TOWER	Siege Tower	TMT_CURRENTLY_SELECTED_FORT	Fort currently selected	SMT_STATE_NOT_HOLDING_GAMES	DO NOT TRANSLATE - No games are being held in the settlement	Of two evils we must always choose the least.	Thomas a Kempis (German Writer, 1379-1471)				
+ST_LADDER	Ladder	TMT_CURRENTLY_SELECTED_RALLY_POINT	Rally point currently selected	SMT_STATE_PLAGUE	Plague stalks the streets of this settlement	My child, it will be better for you if you accept my decisions without complaint. Do not ask me to defend my actions or to explain why one person is favoured and another seems slighted. The answers to these questions go far beyond your comprehension.	Thomas a Kempis (German Writer, 1379-1471)				
+ST_RAM	Ram	TMT_CURRENTLY_SELECTED_RALLY_POINTS	Rally points currently selected	SMT_STATE_NOT_PLAGUED	No signs of the plague in this settlement	Caesar or nothing.	Cesare Borgia				
+ST_SAP_POINT	Sap Point	TMT_LCLICK_ZOOM_TO_POS	Left-click to locate item on map	SMT_FERTILE_LOW	Low fertility	The hottest places in hell are reserved for those who in times of great moral crises maintain their neutrality	Dante Alighieri				
+ST_NAMED_CHARACTER	Family member	TMT_SHOW_SELECTED_ITEM	This area shows the currently selected item	SMT_FERTILE_MEDIUM	Medium fertility	From a little spark may burst a flame.	Dante Alighieri				
+ST_SPY	Spy	TMT_FIELD_CONSTRUCTION_TEST_NO_GENERAL	Armies without generals cannot construct forts or watchtowers	SMT_FERTILE_HIGH	High fertility	Wealth dies, kinsmen die, for every man is mortal. Yet words of praise will never perish nor a noble name.	The Havamal, Words of Odin				
+ST_ASSASSIN	Assassin	TMT_FIELD_CONSTRUCTION_TEST_NOT_NAMED_CHARACTER	Only generals can commission forts and watchtowers	SMT_WILDERNESS	Wilderness	Were his lord but worthy, God, how fine a vassal	Rodrigo Díaz de Vivar (El Cid)				
+ST_DIPLOMAT	Diplomat	TMT_FIELD_CONSTRUCTION_TEST_IN_SEA_REGION	Cannot build a fort or watchtower in the sea	SMT_MOUNTAINS_HIGH	High mountains	I intend to die in a tavern; let the wine be placed near my dying mouth, so that when the choirs of angels come, they may say, God be merciful to this drinker. 	Walter Map, Welsh-English writer c. 1165				
+ST_EGYPT_ADMIRAL	Grand Master of the Sea	TMT_FIELD_CONSTRUCTION_TEST_FORT_IN_ENEMY_TERRITORY	Cannot build a fort in enemy territory	SMT_MOUNTAINS_LOW	Low mountains	Do not hold as gold all that shines as gold. 	Alain de Lille c 1175				
+ST_ADMIRAL	Admiral	TMT_FIELD_CONSTRUCTION_TEST_FORT_INVALID_GAME_TILE	This is an invalid position for a fort	SMT_HILLS	Hills	The cart has no place for a fifth wheel	Herbort von Fritzlar c. 1210				
+ST_GENERAL	Captain	TMT_FIELD_CONSTRUCTION_TEST_FORT_NOT_ENOUGH_MONEY	You do not have enough money to build a fort	SMT_FOREST_DENSE	Dense forest	Against the disease of writing, one must take special precautions, since it is a dangerous and contagious disease 	Peter Abelard, French Theologian c.1105				
+ST_ANCILLARY	Ancillary units	TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_IN_ENEMY_TERRITORY	Cannot build a watchtower in enemy territory	SMT_FOREST_SPARSE	Woodland	Then rose the Abbot of Vaux, of the order of the Cistercians and said to them: Lords, I forbid you, on the part of the Pope of Rome, to attack this city; for those within are Christians, and you are pilgrims. 	Villehardouin, in the Fourth Crusade. 1202 -1206				
+ST_SIEGE_ENGINES	Siege engines	TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_INVALID_GAME_TILE	This is an invalid position for a watchtower	SMT_SWAMP	Swamp	Thus the decision was taken. The next morning the host encamped before the gates of the city. They set up their petraries and mangonels, and other engines of war, which they had in plenty, and on the side of the sea they raised ladders from the ships. 	Villehardouin, in the Fourth Crusade. 1202 -1206				
+ST_UNITS	Units	TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_NOT_ENOUGH_MONEY	You do not have enough money to build a watchtower	SMT_OCEAN	Ocean	These swore on holy relics that they would perform their embassage loyally and in good faith, and that they would come back to the host. 	Villehardouin, in the Fourth Crusade. 1202 -1206				
+ST_CULTURE_GREEK	Greek	TMT_NOT_ENOUGH_MONEY_FOR_FORT_OR_WATCHTOWER	You do not have enough money to build a fort or watchtower	SMT_SEA_DEEP	Deep sea	And the Burgundians ran upon the Greeks and drove them in very fiercely, and followed so close to the gate that stones of great weight were hurled upon them. And there did William of Champlitte have his arm broken with a stone, and great pity was, for he was very brave and very valiant. 	Villehardouin, in the Fourth Crusade. 1202 -1206				
+ST_EDIT_SETTLEMENT	Edit settlement	TMT_CANNOT_RECRUIT_UNITS_IN_BATTLE	You cannot recruit units or mercenaries once a battle has been instigated	SMT_SEA_SHALLOW	Shallow sea	Then might you have seen the mangonels shoot from the ships and transports, and the crossbow bolts flying, and the bows letting fly their arrows deftly and well; and those within defending the walls and towers very fiercely; and the ladders on the ships coming so near that in many places swords and lances crossed; and the tumult and noise were so great that it seemed as if the very earth and sea were melting together. 	Villehardouin, in the Fourth Crusade. 1202 -1206				
+ST_SELECT_SETTLEMENT_LEVEL	Level	TMT_NO_BODYGUARD_UNIT_TO_VIEW	There is no bodyguard unit to view for this character	SMT_BEACH	Coast	All by myself, wrapped in my thoughts, And building castles in Spain and in France. 	Charles de Orleans c. 1425 				
+ST_FORTIFICATION_LEVEL	Fortification level	TMT_NOT_ENOUGH_INFO_FOR_BODYGUARD	Not enough information gathered about this character to view his bodyguard unit	SMT_IMPASSABLE_LAND	Impassable	Such a fellowship of good knights shall never be together in no company	Sir Thomas de Malory c. 1425 				
+ST_TAX	Tax level	TMT_SETTLEMENT_STATUS_AUTOMANAGED	This settlement is auto-managed	SMT_IMPASSABLE_SEA	Impassable	Kingdoms are but cares, State devoid of stay; Riches are ready snares, And hasten to decay	Henry VI c. 1450				
+ST_POPULATION	Population	TMT_CANNOT_ATTACK_SIEGED_SETTLEMENT	Cannot lay siege to a settlement that is besieged by a non allied faction	SMT_FAMINE_THREAT_OK	None	There is no good speech save in Paris. 	Francois Villon, French poet and thief c. 1450 				
+ST_FOUNDATION_YEAR	Foundation year	TMT_CANNOT_CONSTRUCT_WHILST_SIEGING	Cannot build forts or watchtowers whilst laying siege	SMT_FAMINE_THREAT_HUNGRY	Hungry	Order them to accompany you to the enemy’s country; if they obey, well and good; if they refuse, lay siege to their cities, attack them one after the other, and destroy them without mercy. 	Ibn Tashfin talking to his generals before the conquering of Andalusia				
+ST_SELECT_FACTION	Select faction	TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_SIEGING	Cannot build a watchtower whilst laying siege	SMT_FAMINE_THREAT_FAMINE_1	Minor famine	Non nobis Domine, non nobis, sed Tuo Nomine da gloriam! Not to us Lord, not to us, but to Thy Name give the glory!	battle cry of the Knights Templar				
+ST_VILLAGE	Village	TMT_FIELD_CONSTRUCTION_TEST_FORT_SIEGING	Cannot build a fort whilst laying siege	SMT_FAMINE_THREAT_FAMINE_2	Famine	A mounted knight Frank is irresistible; he would bore his way through the walls of Babylon.	Anna Komnena ~ The Alexiad, Book 13, chapter 8				
+ST_TOWN	Town	TMT_NEGATIVE_COMMAND	This man actually manages to hinder any chance his subordinates have of achieving military success.	SMT_FAMINE_THREAT_FAMINE_3	Disastrous famine	God rest King William’s soul, where he is he does not need money, I am still on earth and therefore do!	King Henry II of England				
+ST_LARGE_TOWN	Large town	TMT_NEGATIVE_INFLUENCE	When this man states an opinion, everyone knows that the opposite must be true.	SMT_FAMINE_THREAT	Famine threat	In manus tuas Domine, commendo spiritum meum. Into thy hands Lord, I commend my spirit.	Final prayer of the crusader knights before battle				
+ST_CITY	Minor city	TMT_NEGATIVE_MANAGEMENT	This man can bring chaos out of order. He needs a 'to do' list when visiting a latrine, yet still manages to go horribly wrong!	SMT_HARVEST_LEVEL	Harvest level	We are as much as you, and together, we are more than you	Aragonese nobles to the king 				
+ST_LARGE_CITY	Large city	TMT_NEGATIVE_SUBTERFUGE	This man's bumbling naivety helps everyone he deals with become a master of cunning and subterfuge. 	SMT_FARMING_LEVEL	Farming level	They who let the King take wrong decision deliberately, deserve to be punished as traitors.	Alfonso X the wise, King of Castille and León				
+ST_HUGE_CITY	Huge city	TMT_SLAVES_TOOLTIP_SINGLE	Slaves - a valuable resource\nDistributed across all settlements with governors. Resource is exhausted after 1 more turn	SMT_TAX_LEVEL_LOW	Low tax rate	The nation of Spain is quite suitable for weaponry, but disorganised, thus only he who knows how to maintain her united and orderly can make great things with it.	Fernando “the Catholic, King of Aragon and king-consort of Castille				
+ST_WOODEN_CASTLE	Motte & Bailey	TMT_SHOW_GENERAL_UNIT_DETAILS_ARMY	Show details of the bodyguard unit for this army's general	SMT_TAX_LEVEL_NORMAL	Normal tax rate	The Aragonese and Catalans fell down over us as a devastating fire, and they dared to everything and they wished everything… Everything disappeared, devastated, and everything remained full of bodies, victims of the most frightful and horrible massacre.	Theodulos Monachos (Thomas Magister), Byzantine chronicler, on the Almogaver expedition against Greece				
+ST_STONE_KEEP	Wooden Castle	TMT_LCLICK_INFO	Left-click to get further information	SMT_TAX_LEVEL_HIGH	High tax rate	En mis dominios nunca se oculta el sol. The Sun never set on my Kingdom.	Charles V, King of Spain and Holy Roman Emperor				
+ST_CASTLE	Castle	TMT_CANNOT_MERGE_AGENT	The selected character cannot be received at this location	SMT_TAX_LEVEL_VERY_HIGH	Very high tax rate	Des todes waffen ie ce sere sneit- "Death's sword ever was too sharp"	Nibelungenlied: Stanza CMXCVIII				
+ST_LARGE_CASTLE	Fortress	TMT_CANNOT_MERGE_AGENTS	The selected characters cannot be received at this location	SMT_GOVERNOR_POLICY_BALANCED	Balanced build policy	My Cid (Lord) used the spear, then did he take his hand to the sword, as many Moors he killed, that couldn´t be counted; blood was pouring along his elbow.	El Cantar del Mío Cid (The Lay of the Cid), Stanza XCV				
+ST_FORTRESS	Citadel	TMT_AUTO_MERGE_AGENTS	Right-click to automatically merge agents	SMT_GOVERNOR_POLICY_FINANCIAL	Financial build policy	All the religions are human works, and equivalent; they are chosen by personal convenience or circumstances.	Ibn Rushd, Averroes (1126-1198); Andalusian mathematician, philosopher and doctor				
+ST_STAR_FORT	DO NOT TRANSLATE - ARGH! OH GOD! NOT MEANT TO BE A STAR FORT ANYWHERE! ARGH AGAIN!	TMT_NO_WITHDRAW_NAVY	Cannot withdraw: Navies cannot withdraw from battles	SMT_GOVERNOR_POLICY_MILITARY	Military build policy	We were in the riverbed, between the gardens and the tower; and when we saw our flag upon the tower, we dismounted from our horse, and heading eastwards we cried from our eyes and kissed the earth for the great mercy God had made to us.	Jaime I of Aragon, telling of the surrender of Balansiya to Aragonese troops in 1238				
+ST_FORT	Fort	TMT_NO_WITHDRAW_AMBUSH	Cannot withdraw: You have been successfully ambushed	SMT_GOVERNOR_POLICY_STRONGHOLD	Growth build policy	He then said to the Christian ruler, What I have heard in Rota regarding your wisdom, your clemency, the peace in your kingdom and, your wealth is indeed true. Blessed are your men, blessed are your counsellors who live here with you and who are in your kingdom. 	King Zafadola to Alfonso VII of Leon				
+ST_SLOT	Slot	TMT_NO_WITHDRAW_SIEGE	Cannot withdraw: Your are under siege	SMT_GOVERNOR_POLICY_CULTURAL	Cultural build policy	You are aware of the evils which you have caused not only in Castile, but in all the kingdom. You also know that last year you swore to return to the King of Leon the castles and cities which belong to him. If you carry out these terms, there will be peace between you and Alfonso. If not, then prepare to fight. Let him to whom God grants victory rule his kingdom in peace. 	Message sent to the Aragonese King				
+ST_SELECT_SLOT	Select buildings for settlement slots	TMT_NO_WITHDRAW_AP	Cannot withdraw: No movement points remaining	SMT_NO_GOVERNOR	No governor	Speak with the Christian King and, with his help, rescue us from the power of the Almoravids. We shall give even more tributes to the ruler of León than our forefathers gave to his ancestors. We shall serve him with you, and you and your sons shall rule over us. 	The Iberian Taifa rulers under Almoravid occupation				
+ST_NAME	Name	TMT_NO_WITHDRAW_RETREAT	Cannot withdraw: Nowhere to withdraw to	SMT_SHOW_GARRISON	Show units in garrison	Mantenga Dios a tu alteza y a tu corona real. -"May God maintain thy Highness and thy royal crown."	Romance del Prior de San Juan, circa 1328				
+ST_GRASS_SHORT	Short grass	TMT_ALREADY_CAPITAL	This settlement is already the capital	SMT_SHOW_UNITS	Show units in army	“Միութիւնը՝ոյժէ -“Unity is power"	Armenian proverb				
+ST_GRASS_LONG	Long grass	TMT_NO_GENERAL_UNIT_TO_SHOW	No personal bodyguard unit to show	SMT_SHOW_UNITS_NAVY	Show units in navy	“Felix igitur Hungaria, cui sunt dona data varia.“Thus, fortunate country is Hungary, for whom many gifts have been given.	Gesta Hungarorum, circa 1200				
+ST_SAND	Sand	TMT_DOCK_BLOCKADED	This dock is currently blockaded	SMT_SHOW_BUILDINGS	Show buildings in settlement	Al diu werlt diu strîtet her:wir sîn an der rehten ger, reht ist daz er uns gewer. -"The whole world is coming battling here: our cause is right, it is right that He (God) is granting it to us."	Palästinalied, by Walther von der Vogelweide (c.1170-c.1230)				
+ST_ROCK	Rock	TMT_PORT_BLOCKADED	This port is currently blockaded	SMT_SHOW_VISITORS	Show visiting agents in settlement	Archbishop Cyril said: “My children, you should know that the sun of the Suzdalian land has set. There will never be another prince like him in the Suzdalian land.” And the priests and deacons and monks, the poor and the wealthy, and all the people said: “It is our end.” 	Second Pskovian Chronicle, on the burial of Alexander Nevsky (1220-1263)				
+ST_FOREST_DENSE	Dense forest	TMT_SETTLEMENT_AUTOMANAGED_BUILDING	Cannot add this building as construction is being auto-managed	SMT_SHOW_TRAVELLING_CHARACTERS	Show agents travelling with army	That king Remiro was very good, and he had a lot of ventures with the Moors, and he fought a lot of times with them, and did he vanquished them.	Concerning King Remiro I of Aragon in the Liber Regnum				
+ST_SCRUB_DENSE	Dense scrub	TMT_SETTLEMENT_AUTOMANAGED_TRAINING	Cannot add this unit as recruitment is being auto-managed	SMT_SHOW_TRAVELLING_CHARACTERS_NAVY	Show agents travelling with navy	They tore up vines, cut down the fruit trees, smashed fences and walls, and laid waste the whole of that most fertile region with fire and sword.	Orderic Vitalis, Book X, Chapter 10				
+ST_SWAMPY	Swamp	TMT_CANNOT_RECRUIT_MERCS_IN_BATTLE	Cannot recruit mercenaries once a battle has been instigated	SMT_SHOW_PASSENGERS	Show units travelling on selected fleet	Some he slaughtered mercilessly on the spot like cattle; others he kept for years in fetters, or forced into harsh and unlawful slavery.	Orderic Vitalis, Book VIII, Chapter 3				
+ST_MUD	Mud	TMT_CANNOT_CHANGE_TAX_LEVEL_AS_AUTOMANAGED	Cannot change the tax level of this settlement as the faction's taxes are being auto-managed. Go to the faction summary scroll to change this	SMT_RCLICK_SHOW_SETTLEMENTS	Right-click on the tab to show a list of your settlements	I sung Mass for you this morning, I ask this favour to be given in turn, grant that I may strike the first blows	Bishop Jerónimo, El Cantar de Mio Cid lines 1708-1710				
+ST_MUD_ROAD	Mud road	TMT_CANNOT_CHANGE_CASTLE_TAX_LEVEL	Cannot change the tax level of the castle.	SMT_RCLICK_SHOW_CHARACTERS	Right-click on the tab to show a list of your agents	After gathering a very large army, king Valdemar went to Estonia with one thousand five hundred longships, and after many battles succeeded in christening the whole country and bringing it under Danish rule, which it still is. 	The Ryd Cloister Yearbook of 1219				
+ST_STONE_ROAD	Stone road	TMT_CANNOT_DESTROY_THIS_BUILDING	This building cannot be destroyed	SMT_RCLICK_SHOW_ARMIES	Right-click on the tab to show a list of your military forces	What shall we then say to these things? If God is for for us, who could be against us? 	Adhemar of Le Puy during the seige of Antioch				
+ST_WATER	Water	TMT_RECOUP_AMOUNT	%d florins will be recouped.	SMT_LOYALTY_DECREASING	Loyalty to your governor is declining\nThe people need cheering up	“Let evil swiftly befall those who have wrongly condemned us - God will avenge us.”	Curse of the last Master of Temple, Jacques de Molay, against Philip of France and the Pope Clement V, his condemners				
+ST_ICE	Ice	TMT_CANNOT_LEAVE_ZOC	Cannot move through an enemy's zone of control	SMT_LOYALTY_INCREASING	Loyalty is improving\nKeep up the good work	“For the brave, a stick is as good as a sword and an arrow”	Proverb from the Dede Korkut, the epic story of the Turkish Oghuz tribe, founder of the Ak-Koyunlu state, XV century				
+ST_SNOW	Snow	TMT_CAN_ONLY_SALLY_OUT_ONCE_PER_TURN	Can only sally out once per turn	SMT_REMOVE_RALLY_POINT	Remove the rally point for this settlement\nNewly recruited units will join the garrison	“I have not brought you freedom, I found it here among you.”	Attributed to George Skanderbeg, national hero of Albania, 1406-1468				
+ST_ROAD_LEVEL	Roads level	TMT_CANNOT_FLEE	This army cannot flee from the battle. If it loses, all units will be destroyed	SMT_SET_RALLY_POINT	Show rally points	“O quam cito transit gloria mundi” -“How fast passes away the glory of this world.”	Thomas à Kempis, German monk, Imitation of Christ, Book I, ch. 3 (ca. 1418), words used on the coronation of the Pope				
+ST_ROAD_DIRT	Dirt road	TMT_LOYALTY_TITLE	Loyalty	SMT_1_TURN	1 turn	Virtue against fury shall take the weapons and will make the combat short-lasting: that the ancient courage of the Italian heart is still not dead!	Petrarch, Canzionere, CXVIII				
+ST_ROAD_STONE	Stone road	TMT_LOYALTY_LEVEL_0	It is doubtful if this man has any loyalties at all, even unto himself	SMT_X_TURNS	%d turns	Our clothing and our armour ought to be of such a kind that men of mature experience will not say that we have spent too much on them, nor younger men say we have spent too little.	Louis IX of France(1214-1270)				
+ST_ROAD_STONE_HIGHWAY	Stone highway	TMT_LOYALTY_LEVEL_1	This man perceives loyalty as a trait of the weak and foolish	SMT_SELECT_UNIT_TO_RECRUIT	Select unit to recruit	Defend, my friends, Christendom and Hungary from all enemies... Do not quarrel among yourselves. If you should waste your energies in altercations, you will seal your own fate as well as dig the grave of our country.	János Hunyadi, Hungarian Generalissimo on his death bed, 1456				
+ST_X_DENARI	%d florins	TMT_LOYALTY_LEVEL_2	He may proclaim his loyalty as expected, though it is quite obviously just for appearances	SMT_SELECT_UNIT_TO_RETRAIN	Select unit to retrain	When Sigurd Hlodvirsson asks his mother, a sorceress for advice during a challenge to fight the Scottish Jarl Finnleik, she replies: “Had I thought you’d live for ever,” she said, “I’d have reared you in my wool-basket.”	Orkneyinga Saga 1200 AD				
+ST_X_BC	%d BC	TMT_LOYALTY_LEVEL_3	Fallible like any other man, at least this one tries to be a good servant	SMT_SET_TO_RECRUIT_MODE	Show recruitable units	Lifetimes are shaped by what will be, not by where you are. 	Orkneyinga Saga 1200 AD				
+ST_X_AD	%d AD	TMT_LOYALTY_LEVEL_4	Understands that acting obediently is sometimes more important than doing what would seem sensible	SMT_SET_TO_RETRAIN_MODE	Show units in garrison that require retraining and re-equipping	“You won’t want people to think that while I was fighting for both our freedoms, you were skulking here like a cat in a cave.” 	Thorfinn Jarl to Kalf Arnason, Orkneyinga Saga 1200 AD				
+ST_WINTER	Winter	TMT_LOYALTY_LEVEL_5	Loyal enough to obey an order that he does not see the sense behind without complaint	SMT_MERGE_SELECTED_UNITS	Merge selected items from left panel into right panel	Thorfinn Jarl, in company of King Magnus, responds to a man whom he let go rather than killing him, but who now claims compensation for Thorfinn’s killing of his brother: “The old saying is true”, said the Earl, “Many a trap for the unwary. I never expected to suffer from being too easy on my enemies”.	Orkneyinga Saga 1200 AD				
+ST_SPRING	Spring	TMT_LOYALTY_LEVEL_6	This man would only disobey an order if he truly believed that he would be commended for it afterwards	SMT_X_PERCENT_COMPLETE	%d percent complete	A good effort is never wasted 	Orkneyinga Saga 1200 AD				
+ST_SUMMER	Summer	TMT_LOYALTY_LEVEL_7	Eve upon threat of death, this man is willing to endure great hardships in service of his master and people	SMT_DIPLOMACY_OFFER_ALLIANCE	Alliance	“Evidently, said Thorkel, “the old saying that the king has many ears doesn’t apply in this case. 	Thorkel Flayer to Paul Jarl who has asked where his enemy Svein is. Orkneyinga Saga 1200 AD				
+ST_AUTUMN	Autumn	TMT_LOYALTY_LEVEL_8	Unquestioningly loyal, this man is an asset that his people can always depend upon 	SMT_DIPLOMACY_OFFER_CANCEL_ALLIANCE	Cancel alliance	“Hard to tell which comes first, old fellow, said the Earl, “death or glory.” 	Orkneyinga Saga 1200 AD				
+ST_ZOOM_TO_EVENT_POSITION	Locate position of event	TMT_LOYALTY_LEVEL_9	When this man's master commands him, he knows that it will be done, or he shall die trying	SMT_DIPLOMACY_OFFER_CEASEFIRE	Ceasefire	Late in the evening, Geirrid said to Gunnlaug, “I don’t want you to go home tonight, because it’s a night of much spirit-movement and many a witch wears a fair face. You don’t strike me as a lucky-looking man right now	Eyrbyggja saga 13th Century				
+ST_BATTLE_RESULT	Battle Results	TMT_LOYALTY_LEVEL_10	This man is spoken of far and wide as the epitome of selfless obedience, and is universally admired for it	SMT_DIPLOMACY_OFFER_MILITARY_ACCESS	Military access	He fought boldly, but many a man becomes brave in dire straits, though they’re not at all brave the rest of the time. 	Thorbiorn about the fight at Mavahlid, Eyrbyggja saga 13th Century				
+ST_MEN_DEPLOYED	Men Deployed	TMT_NEGATIVE_LOYALTY	This man actually revels in deceiving and betraying any whom he believes trust him	SMT_DIPLOMACY_OFFER_CANCEL_MILITARY_ACCESS	Cancel military access	Mars Hallvardsson reluctant to support his nephew Snorri the Goði is killed by the first volley of spears, to which Snorri says “Its true what they say then, its not always wise to let others go first.”	Eyrbyggja saga 13th Century				
+ST_KILLS	Kills	TMT_HORDE_OCCUPY_SETTLEMENT_TOOLTIP	Take this settlement and the surrounding region as a new homeland for your people. Your hordes will disband.	SMT_DIPLOMACY_OFFER_TRADE_RIGHTS	Trade rights	Steinthor strikes Freystein a heavy swordblow on the neck and says “Was that one bad for you, scum? " “Bad indeed," Freystein replied, “bad for you because I’m still alive.” 	Eyrbyggja saga 13th Century				
+ST_YOUR_ARMY	Your Army	TMT_HORDE_SACK_SETTLEMENT_TOOLTIP	Steal everything you can from this settlement. Wreak havoc, and continue the search for a new homeland for your hordes.	SMT_DIPLOMACY_OFFER_CANCEL_TRADE_RIGHTS	Cancel trade rights	The ghost of Þóri Viðlegg is said to have returned from the grave. A court hearing is gathered to sue his family for disturbing the peace. Cases were made, summed up and judged. As the charges are finally being read Þóri Viðlegg stands up from the crowd and says “I sat here as long as I could, listening to this crap...”	Eyrbyggja saga 13th Century				
+ST_ENEMY_ARMY	Enemy Army	TMT_CANNOT_LEAD_NIGHT_BATTLE	The commanding officer in this battle cannot lead night attacks	SMT_DIPLOMACY_OFFER_ATTACK_FACTION	Attack faction	King Harald Grey-Cloak asks his Hirdman the Icelander Hrut why he is leaving Norway: “Will your prestige be greater there than here?” “Probably not, but a man must do what he must.”	Brennu-Njáls saga 13th Century				
+ST_YOUR_ARMIES	Your Armies	TMT_CANNOT_DISEMBARK_HERE	Cannot disembark here	SMT_DIPLOMACY_OFFER_CEDE_REGION	Give region	King Harald Gormsson predicts Gunnar won't return to Denmark: “You will never come back to us,” said the king. “Fate must decide that, my lord,” said Gunnar.	Brennu-Njáls saga 13th Century				
+ST_ENEMY_ARMIES	Enemy Armies	TMT_CANNOT_FLEE_HORDE_PLAYER	This army cannot flee from the battle. If it loses, the settlement will be lost and all your people will be forced to find another land to call home	SMT_DIPLOMACY_OFFER_SINGLE_PAYMENT	Make single payment	Njal, responding to Mord at the Althing: “With law our land shall rise, or perish with lawlessness.“	Brennu-Njáls saga 13th Century				
+ST_TEAM	Team	TMT_CANNOT_FLEE_HORDE_NON_PLAYER	This army cannot flee from the battle. If it loses, the settlement will be lost and this nations people will be forced to find another land to call home	SMT_DIPLOMACY_OFFER_YEARLY_PAYMENT	Regular tribute	Njal advises Gunnar to honour the terms of the sentence of outlawry: “Just as your first trip abroad brought you great honour, you will gain even more honour again. Then you will come home with great respect, and live to be an old man, and no one here will be your equal"	Brennu-Njáls saga 13th Century				
+ST_RANK	Rank	TMT_SIEGE_EQUIPMENT_NOT_POSSIBLE	Construction of this siege equipment is not possible	SMT_DIPLOMACY_OFFER_CANCEL_YEARLY_PAYMENT	Cancel regular tribute	Earl Hakon proclaimed: "This was not done by the gods. Men burnt the temple and carried the gods out. The gods will not avenge themselves at once, but the man who did this will be cursed by Valhalla and never enter there"	Brennu-Njáls saga 13th Century				
+ST_SHOW_DETAILS	Show battle statistics screen	TMT_MEET_ENEMY	Sally forth to meet the enemy outside settlement	SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK	Accept or we will attack	If you had sought my advice at the outset, you would never have spoken about this matter at all, and there would have been no disgrace in that, but now your disgrace will grow to the point where you have no other choice than to deal with the difficulty and wield weapons to kill. 	Brennu-Njáls saga 13th Century				
+ST_SAVE_REPLAY	Save battle replay	TMT_MEET_ENEMY_AUTORESOLVE	Automatically resolve the battle outside settlement	SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK	Please do not attack	Ulf Uggason reacts to attempts to get him to attack Thangbrand: “I don’t intend to be your puppet, he said, “and you’d better take care that your tongue doesn’t twist itself around your neck."	Brennu-Njáls saga 13th Century				
+ST_PLAYER	Player	TMT_REMAIN_GARRISON	Keep your garrison inside the settlement	SMT_DIPLOMACY_OFFER_MAP_INFORMATION	Map information	Thorgeir the heathen asked for silence and spoke: “This is hopeless if we don’t all keep the same laws, for if the law is split then peace will be split, and we can’t live like that. Now I ask the heathens and the Christians will you accept the law that I proclaim?	Brennu-Njáls saga 13th Century				
+ST_ATTACKER	Attacker	TMT_FLEE	Flee, abandoning the settlement to the enemy	SMT_DIPLOMACY_OFFER_BRIBE	Bribe	When evil seed has been sown, evil shall grow. 	Brennu-Njáls saga 13th Century				
+ST_DEFENDER	Defender	TMT_CHARM_LEVEL_0	There's little to separate this wretched creature from a bar wench	SMT_DIPLOMACY_OFFER_PROTECTORATE	Become a vassal	If you mean well, your deeds will praise themselves, but if you mean evil, they will damn themselves. 	Brennu-Njáls saga 13th Century				
+ST_ALLIES	Allies	TMT_CHARM_LEVEL_1	More of a spoiled brat than an example of nobility	SMT_MAKE_DECLARATION	Make declaration	Men slain with but words alone live a long life	Brennu-Njáls saga 13th Century				
+ST_ENEMY	Enemy	TMT_CHARM_LEVEL_2	Lacks the grace and charm of other ladies of the court	SMT_MAKE_OFFER	Make offer	We wind and wind the web of spears, there where the banner of bold men flies; we must not let his life be lost – Valkyries decide who lives or dies. 	Song of the Battle of Clontarf Brennu-Njáls saga 13th Century				
+ST_BATTLE_STATISTICS	Battle Statistics	TMT_CHARM_LEVEL_3	Delicate enough to win over a simpler sort of man easily enough	SMT_MAKE_DEMAND	Make demand	Eyjolf said, You’re afraid to fight me, aren’t you? Perhaps because you know you’ve done wrong, when you’re afraid of a big man but boast yourself over a little one. 	Víga-Glúms saga 13th Century				
+ST_MEN	Men	TMT_CHARM_LEVEL_4	About as enthralling as one expects from a princess	SMT_YOUR_DEMANDS	Your demands	Self’s hand is surest. 	Víga-Glúms saga 13th Century				
+ST_DELETE	Delete	TMT_CHARM_LEVEL_5	One of the fairer ladies of the royal courts	SMT_YOUR_DECLARATIONS	Your declarations	Pride and injustice often come to a bad end 	Víga-Glúms saga 13th Century				
+ST_SORT_BY_NAME	Sort by Name	TMT_CHARM_LEVEL_6	Graceful and endearing enough to instil trust in others	SMT_YOUR_OFFERS	Your offers	In the bloody night are men bravest, but think little of vengeance in the cold light of day. 	Víga-Glúms saga 13th Century				
+ST_SORT_BY_DATE	Sort by Date	TMT_CHARM_LEVEL_7	Beautiful and capable, her majesty is a true asset to her people	SMT_THEIR_DECLARATIONS	Their declarations	It wouldn’t matter if you weren’t a coward. That’s what old age does – makes you afraid for your son. 	Víga-Glúms saga 13th Century				
+ST_AA2x2	2x2	TMT_CHARM_LEVEL_8	Intoxicatingly charming enough to always get what she wants	SMT_THEIR_OFFERS	Their offers	And he spoke a verse: – The god I saw goodly ride, gleam far on the marches; spear talk and sword whisper, show forth such high portents. When as new blood washes warriors, poured by Valkyries, Odin ever gladdens, the One-Eyed, at men´s dying. 	Víga-Glúms saga 13th Century				
+ST_AA3x3	3x3	TMT_CHARM_LEVEL_9	So charming that most men would fight to see her will be done	SMT_THEIR_DEMANDS	Their demands	Enjoy a brief spell of honour than a long rule of shame. 	Laxdœla saga 1245 AD				
+ST_AA4x4	4x4	TMT_CHARM_LEVEL_10	Her majesty's grace and charm makes her a dangerous political weapon	SMT_GIVE_X_DENARI	Give us %d florins	Only idlers wait till evening	Laxdœla saga 1245 AD				
+ST_ACCEPT_CHANGES	Accept Changes	TMT_FINANCE_LEVEL_0	This man may like money, but he is useless with it	SMT_WE_WILL_GIVE_X_DENARI	We will give %d florins	If a man’s got to die anyway, he might as well make a name for himself before it comes to that. 	Laxdœla saga 1245 AD				
+ST_MOB	Mob	TMT_FINANCE_LEVEL_1	Barely grasps the basics of the barter system	SMT_GIVE_YEARLY_TRIBUTE_OF_X_DENARI	Pay tribute of %d florins per turn	Courage can fail even in the bravest of men. 	Laxdœla saga 1245 AD				
+ST_SQUARE	Square	TMT_FINANCE_LEVEL_2	Boasts no more business acumen than a common market vendor	SMT_OFFER_YEARLY_TRIBUTE_OF_X_DENARI	We will give tribute of %d florins per turn	Don’t stir up embers that would be better left to die out. 	Laxdœla saga 1245 AD				
+ST_COLUMN	Column	TMT_FINANCE_LEVEL_3	An aspiring trader, possessing more ambition than experience or ability	SMT_CANCEL_YEARLY_TRIBUTE_OF_X_DENARI	Cancel the tribute of %d florins	Hold your tongue!” said Thorkel of Hafratindar. “Are you so stupid as to think you can save someone’s life if he is fated to die?” 	Laxdœla saga 1245 AD				
+ST_WEDGE	Wedge	TMT_FINANCE_LEVEL_4	A competent yet uninventive warrior of the mercantile world	SMT_DIP_ACCEPT_OFFER	Accept the current proposal	Every kin has its coward 	Laxdœla saga 1245 AD				
+ST_SQUARE_HOLLOW	Hollow Square	TMT_FINANCE_LEVEL_5	Boasts a sound knowledge of local and foreign markets	SMT_DIP_DECLINE_OFFER	Decline the current proposal	One must always deal with the most urgent problems first. 	Laxdœla saga 1245 AD				
+ST_TESTUDO	Testudo	TMT_FINANCE_LEVEL_6	Knows how to use money to achieve goals that strength and honour cannot	SMT_DIP_COUNTER_OFFER	Make a counter offer to the current proposal	A man is considered ignorant if he has explored no more than his own shores 	Laxdœla saga 1245 AD				
+ST_PHALANX	Spear Wall	TMT_FINANCE_LEVEL_7	Can lay siege to your enemies coffers with almost certain success	SMT_DIP_NEW_OFFER	Make a new offer	In arms ‘tis right the common man, should follow orders, one by one, should stoop or rise, or run or stand, as his war-leader may command; but now to the king who feeds the ravens, the people bend like heartless cravens. Nothing is left them, but consent, to what the king calls his intent. 	Haralds saga harðráða by Snorri Sturluson 1178- 1240				
+ST_WALL	Wall	TMT_FINANCE_LEVEL_8	Silver-tongued enough to sell paintings to the blind	SMT_DIP_INIT_OFFER	Make an offer\nLeave offers or demands blank to find out what the opposition would give or take in return	Be your foes strength more or less, Courage is always half success. 	Haralds saga harðráða by Snorri Sturluson 1178- 1240				
+ST_OVERWRITE	File Exists	TMT_FINANCE_LEVEL_9	A master of making money multiply with little effort on a grand scale	SMT_DIP_MAKE_GIFT	Offer the items as a gift\nOnly certain items can be offered as gifts	The English horseman then replied “We will give your king seven feet of English ground, since he is taller than other men”. 	Haralds saga harðráða by Snorri Sturluson 1178- 1240				
+ST_OVERWRITE_EXPLANATION	You have selected: %S. This file exists and will be overwritten. Continue?	TMT_FINANCE_LEVEL_10	An infamous fiscal power in his own right	SMT_DIP_INFORM	Inform opposition of cancellation of previous treaty arrangements	The air and the paths are alive with magic, for powerful spirits are upon the land. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_EDITOR_QUIT_WARNING	You have made changes since the last save. These will be lost if you continue!	TMT_PIETY_LEVEL_0	A walking bastion of blasphemy	SMT_ABILITIES_AT_A_GLANCE	Abilities at a glance	Men must try, if they are to advance. Without effort, no one learns which way luck will turn. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_EXPAND_SCROLL	Expand scroll to full size	TMT_PIETY_LEVEL_1	Shows no real sense of spirituality 	SMT_DESCRIPTION	Description	Do not envy others and avoid arrogance, for such conduct diminishes one's fame. Defend yourself if you are attacked. It is becoming to be humble, yet at the same time you must make a bold showing if put to the test. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_COLLAPSE_SCROLL	Minimize scroll	TMT_PIETY_LEVEL_2	Far from devout, and often far from the altar at mass	SMT_UPGRADES	Upgrades	Out of every trouble comes some gain 	Hrólfs Saga Kraka circa 1230-1450				
+ST_EXIT_EDITOR	Exit Editor	TMT_PIETY_LEVEL_3	Complies with divine mandate with little apparent joy	SMT_X_MEN	%d men	With all the iron in their equipment, they were as grey as broken ice. Description of the 12 berserkers, entering King Hrolf’s court at Yule.	Hrólfs Saga Kraka circa 1230-1450				
+ST_ADVISOR_MESSAGE	Advisor Message	TMT_PIETY_LEVEL_4	Has the occasional need to pray for his sins	SMT_YOUR_ARMY_HAS_X_BUILD_POINTS	Select siege equipment to add to construction queue. Your army has %d build points.	No man is so famous, so strong, or so big that his equal cannot be found. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_DONT_SHOW_TIP	Don't tell me any more about this	TMT_PIETY_LEVEL_5	Shows a healthy respect for his faith	SMT_SIEGE_ACTIONS	What course of action will you follow?	He flees no fire who jumps over it. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_OK	OK	TMT_PIETY_LEVEL_6	Pious, proper and proud of it	SMT_BUILT	Built	No man can bend fate to his will, and no-one can stand against nature. At this point all fell silent. 	Hrólfs Saga Kraka circa 1230-1450				
+ST_MORE	More...	TMT_PIETY_LEVEL_7	Clearly one touched with religious fervour	SMT_ZOOM_TO_SETTLEMENT	Locate position of settlement	Rex superiorem non recognoscens in regno suo est Imperator - A King knows no superior, he is Emperor on his own kingdom.	Pope Innocent III in his decretal Per Venerabilem, 1202				
+ST_BACK	...Back	TMT_PIETY_LEVEL_8	He doesn't just walk in the light, it shines from him	SMT_ZOOM_TO_UNIT	Locate position of unit's army	Un inglese italianato è un diavolo incarnato -An Italianized Englishman is a devil incarnate.	Italian proverb, referring to the English companies of mercenaries that fought in XIVth century Italy				
+ST_QUESTION_MARK	?	TMT_PIETY_LEVEL_9	Has embraced his faith to a point of fanaticism	SMT_ZOOM_TO_CHARACTER	Locate position of character	Nie jest godzien sprawowania władzy ten, kto tej władzy nadużywa. -Unworthy of power is he who abuses his authority.	Wincenty Kadłubek, Polish Historian and Bishop of Cracow, ca. 1200				
+ST_REBEL_FACTION	Minor Faction	TMT_PIETY_LEVEL_10	Widely considered a living saint, even by his enemies	SMT_OPEN_CONSTRUCTION_WINDOW	Open construction window for selected settlement	Do you see, my friends, with your eyes, what we are: truly, we are dust and ash.	Opening sentence of Funeral Sermon and Prayer (Halotti beszéd és könyörgés), oldest surviving text in Hungarian language, ca.1192				
+ST_ZOOM_TO_ADVICE	Show location of this item	TMT_MAGIC_LEVEL_0	If this woman once held sway over the arcane, she shows no sign of it now 	SMT_NOTHING_TO_CONSTRUCT	It isn't possible to construct any buildings at the moment	Mynna tachton gernast spuho somen gelen Emyna dayda. -I willingly want to speak Finnish, but I cannot.	Attributed to a Finnish bishop in a German travel journal, and the first quote written in the Finnish language, ca.1450				
+ST_SHOW_SCROLL_HELP	Show help for this scroll	TMT_MAGIC_LEVEL_1	Little more than a glorified performer of party tricks	SMT_OPEN_TRAINING_WINDOW	Open unit training scroll for selected settlement	Da iže to poreče klъni i bogъ i 12 apostola i 4 evangelisti i svetaě luciě amenъ. -Whoever denies this, let him be cursed by God and the twelve apostles and the four evangelists and Saint Lucia. Amen.	Fragment of the Baška tablet, one of the first monuments containing Croatian inscriptions, 1100				
+ST_CLOSE_SCROLL	Close this scroll	TMT_MAGIC_LEVEL_2	More of an enigmatic wise woman than a genuine witch	SMT_NOTHING_TO_TRAIN	It isn't possible to recruit any units at present	For auld storys that men redys Representis to thaim the dedys Of stalwart folk that lyvyt ar Rycht as thai than in presence war. And certis thai suld weill have prys That in thar tyme war wycht and wys And led thar lyff in gret travaill, And oft in hard stour off bataill Wan gret price off chivalry And war voydyt off cowardy,As wes King Robert off Scotland that hardy wes off hart and hand.	John Barbour (1320 –1395), The Brus				
+ST_NONE	None	TMT_MAGIC_LEVEL_3	A performer of bizarre, inexplicable phenomena	SMT_CURRENTLY_TRAINING	Currently training:	I am your god who covers the plains with grass and the forests with leaves. The produce of the fields and woods, the young of the cattle and all things that serve mans needs are in my power.	Pagan Slavic prayer, Dialogus de vita Ottonis, ca.1158				
+ST_CTRL	Ctrl	TMT_MAGIC_LEVEL_4	Even humanistic sceptics would label this woman a witch	SMT_OPEN_OPTIONS_WINDOW	Set game options	I will not wear a crown of gold where my Saviour wore one of thorns 	Godfrey of Bouillon, First king of Jerusalem				
+ST_SHIFT	Shift	TMT_MAGIC_LEVEL_5	Her unnatural powers are great enough that she no longer bothers to hide them	SMT_OPEN_FINANCE_WINDOW	Open finances window	Nothing is ever motivated purely by religion or ideology. They wanted the money. It was as simple as that. 	Godfrey of Bouillon, First king of Jerusalem				
+ST_ALT	Alt	TMT_MAGIC_LEVEL_6	Has been seen by many using dark arts as a weapon against the righteous	SMT_OPEN_DIPLOMACY_WINDOW	Open diplomatic standing window	A! fredome is a noble thing	John Barbour (1320 –1395), The Brus				
+ST_ANY	Any	TMT_MAGIC_LEVEL_7	This witch wields power that is unholy, unnatural, and seemingly unstoppable	SMT_FACTION_BUTTON_TOOLTIP	Open faction summary window\nUse right mouse button to locate faction capital	As wes king Robert off Scotland, þat hardy wes off hart and hand; And gud Schyr Iames off Douglas, þat in his tyme sa worthy was,þat off hys price & hys bounte In fer landis renoenyt wes he.	John Barbour (1320 –1395), The Brus				
+ST_THE_SEA	The Sea	TMT_MAGIC_LEVEL_8	No bounds are known to this omnipotent crone's arcane arts	SMT_SELECTED_ITEM_TOOLTIP	Current selected item\nClick once to zoom to item	Mieczów ci u nas dostatek, ale i te przyjmujemy jako wróżbę zwycięstwa, które mi sam Bóg przez wasze ręce zsyła. We have no shortage of swords, but even these we accept as a foretelling of our victory, which God himself sends me through your hands.	Władysław II Jagiełło to the Teuton emissaries before the Battle of Tannenburg				
+ST_LAKE	Internal water	TMT_MAGIC_LEVEL_9	Performs miracles on par with those of the Messiah	SMT_BUILD_QUEUE_CONFLICT	This building is already in the build queue for this settlement	Even their dreams cannot reach where our hands can reach.	Mehmed II the Conqueror, Ottoman Sultan, talking of the Byzantines (1432-1481)				
+ST_SHOW_FURTHER_DETAILS	Show detailed information	TMT_MAGIC_LEVEL_10	So terrible are her powers men of the cloth are dubbing her the Anti-Christ	SMT_BUILD_QUEUE_FULL	Cannot add this item as the build queue is full	Logic has made me hated by the world.	Pierre Abelard, French Theologian				
+ST_DIRT	Dirt	TMT_NEGATIVE_CHARM	So vile is this woman that the doomsayers consider her a bad omen	SMT_BUILD_QUEUE_INSUFFICIENT_FUNDS	Cannot purchase this building as you have insufficient funds	Now according to civil laws it is just for buyer and seller to deceive one another, and this occurs by the seller selling a thing for more than it is worth, and the buyer buying a thing for less than it is worth. Therefore, it is lawful to sell a thing for more than its worth.	Thomas Aquinas, Of Cheating, Which Is Committed in Buying and Selling d.1274				
+ST_ADVISOR_BUTTON_DISMISS	Dismiss advice	TMT_NEGATIVE_FINANCE	It is questionable whether or not this man can count properly	SMT_TRAINING_INSUFFICIENT_POPULACE	Cannot add this item as there aren't enough people in this settlement to recruit	And as the stroke that falls upon the shield saves the knight, right so the knight ought to call himself out and present his body to his lord when his lord is in peril of being hurt or taken.	Ramon Lull, Book of Knighthood and Chivalry d.1315				
+ST_ADVISOR_BUTTON_SHOW_ME	Show me how	TMT_NEGATIVE_PIETY	This man stops just short of publicly denouncing religion as nonsense	SMT_TRAINING_INSUFFICIENT_FUNDS	Cannot purchase this item as you have insufficient funds	This seems to me a thing to be noticed that just as the men of Ireland are during this mortal life more prone to anger and revenge than any other race, so in eternal death the saints of this land that have been elevated by their merits are more vindictive than the saints of any other region.	Gerald of Wales, The History and Topography of Ireland. d.1223 				
+ST_ADVISOR_BUTTON_TOGGLE_BUBBLE	Toggle advisor text visibility	TMT_NEGATIVE_MAGIC	Her only power is to inspire gossip and rumours amongst nervous villagers	SMT_TRAINING_QUEUE_FULL	Cannot add this item as the training queue is full	Some students studied merely to acquire knowledge, which is curiosity; others to acquire fame, which is vanity; others still for the sake of gain, which is cupidity and the vice of simony. Very few studied for their own edification, or that of others.	Jacques de Vitry, cardinal, description of student life at Paris d. 1240				
+ST_ADVISOR_BUTTON_ZOOM_TO	Show location of event	TMT_TRADER_TRADE_VALUE	Trading %S, generating %d florins per turn	SMT_WE_HAVE_MILITARY_ACCESS	We have military access	This work is the proper duty of the wise queen and princess: to be the means of peace and concord, to work for the avoidance of war because of the trouble that can come of it.	Christine de Pisan, The Treasure of the City of Ladies d.1434				
+ST_VICTORY	Victory	TMT_TRADER_TRADE_TYPE	Trading %S	SMT_THEY_HAVE_MILITARY_ACCESS	They have military access	Disciplined ranks of armed knights suddenly made a foray, fell without warning on the defenceless men as they sat at table, and captured many, putting the rest to flight.	Orderic Vitalis, Book X, Chapter 8				
+ST_DEFEAT	Defeat	TMT_NUM_MARRIAGES	%d marriage alliances with this faction 	SMT_PAYING_YOU_TRIBUTE_X_PER_TURN	Paying you %d florins in tribute per turn	...threatening some of the king's subjects with loss of life and limb, asserting that he would slay and dismember them wherever he should find them, either in the presence or absence of the king	Robert Lewer, constable of Odiham Castle threatens the men Edward II has sent to arrest him, 1320.				
+ST_SHOW_BATTLE_RESULT	Show battle results	TMT_NEGATIVE_CHIVALRY	DO NOT TRANSLATE: SHOULD NEVER DISPLAY - negative chivalry	SMT_PAYING_THEM_TRIBUTE_X_PER_TURN	Paying them %d florins in tribute per turn	In his insane fury he hated all the magnates with such wickedness that he plotted to overthrow, once and for all and without distinction, the great men of the realm together with the whole English aristocracy.	Flores Historiarum, 1322				
+ST_GAME_OPTIONS	Game Options	TMT_CHIVALRY_LEVEL_0	Neither remarkably noble nor nefarious	SMT_ASSISTANCE_REQUESTED_AGAINST	Assistance requested against: 	May help come from you, our lord, if it please you, for in you, Sire, is all our hope and trust.	Scottish Earl of Ross, whose lands were being invaded by Robert the Bruce, appeals to the English King Edward II Longshanks in 1308				
+ST_SHOW_RTM	Show Movie	TMT_CHIVALRY_LEVEL_1	A well meaning warrior, still prone to barbaric ways	SMT_ASSISTANCE_PROVIDED_AGAINST	Assistance provided against: 	I have seized England with my bare hands!	William the Conqueror on falling from his ship onto the beach landing before the Battle of Hastings				
+ST_RESET_ADVICE	Reset Advisor	TMT_CHIVALRY_LEVEL_2	This man favours good virtues, he simply hasn't mastered them	SMT_CONFIRM_OFFER	Confirm offer details	In regione caecorum rex est luscus. (In the country of the blind the one-eyed man is king.) 	Erasmus				
+ST_VIDEO_DETAIL_NONE	None	TMT_CHIVALRY_LEVEL_3	More noble than a mere mercenary, but hardly known as a defender of the faith	SMT_CANCEL_OFFER	Cancel offer details	Si è morto il Doge, no la Signoria (The Doge is dead, but the Senate is living) 	Formal declaration spoken on the death of a Doge of Venice				
+ST_VIDEO_DETAIL_LOW	Low	TMT_CHIVALRY_LEVEL_4	Despite a few discrepancies, this man has only honourable intentions	SMT_OFFER_MONEY_TITLE	Offer Money	Owre kynge went forth to Normandy, With grace and myght of chyvalry; Ther God for hym wrought mervlusly, Wherfore Englonde may calle and cry,	The Agincourt Carol, 1415				
+ST_VIDEO_DETAIL_MEDIUM	Medium	TMT_CHIVALRY_LEVEL_5	Manages to adhere to the codes of chivalry admirably	SMT_DEMAND_MONEY_TITLE	Demand Money	Oh my warriors, whither would you flee? Behind you is the sea, before you, the enemy. 	Tariq ibn Zayid, 711				
+ST_VIDEO_DETAIL_HIGH	High	TMT_CHIVALRY_LEVEL_6	Genuinely chivalrous and honourable to both master and minion alike	SMT_AMOUNT_OF_DENARI	Amount of florins	O ye who believe! Fight the unbelievers who gird you about, and let them find firmness in you: and know that Allah is with those who fear Him.	Qur'an, 9:123				
+ST_GAME_OPTIONS_REVOLTS	Revolts	TMT_CHIVALRY_LEVEL_7	A man who would rather die than dishonour himself, or his people	SMT_OFFER_TRIBUTE_TITLE	Offer Tribute	There can be no government without an army, No army without money, No money without prosperity, And no prosperity without justice and good administration.	Ibn Qutayba				
+ST_GAME_OPTIONS_BARBARIANS	Barbarian Horde	TMT_CHIVALRY_LEVEL_8	Will only do what is right and just, even upon pain of death	SMT_DEMAND_TRIBUTE	Demand Tribute	There is no man at arms who can use courtesy or kindness to face his enemy	Fiore dei Liberi, 1410				
+ST_GAME_OPTIONS_DISASTERS	Disasters	TMT_CHIVALRY_LEVEL_9	A true champion of honour and virtue, revered even by his enemies	SMT_NUMBER_OF_YEARS	Number of turns	The precious jade has no crust on it, the polished dagger has no dirt on it; man born to life is not deathless, he must go from this world without home, without resting place. The glory of a deed lies in being finished. Firm and unbending is he who keeps a plighted word faithfully. Do not follow the will of others, and you shall have the good-will of many.	Chinggis Khaan				
+ST_GAME_OPTIONS_RANDOM_HARVEST	Random Harvests	TMT_CHIVALRY_LEVEL_10	Destined to be considered the patron saint of knights	SMT_OR_UNTIL_FURTHER_NOTICE	Or until further notice	Dieu et mon droit ("God and My Right")	Royal motto of England, first used as a password by King Richard the Lionheart in 1198 at the Battle of Gisors				
+ST_GAME_OPTIONS_CHARACTER_AGING	Character Aging	TMT_NEGATIVE_DREAD	DO NOT TRANSLATE: SHOULD NEVER DISPLAY - negative dread	SMT_UNTIL_FURTHER_NOTICE	Until further notice	A wife which is good, laborious, and silent is a crown to her husband. 	The Domostroi, 15th Century Russian Moral Codex				
+ST_FACTION_SELECT_ARCADE_BATTLES	Arcade Battles	TMT_DREAD_LEVEL_0	DO NOT TRANSLATE: SHOULD NEVER DISPLAY ZERO DREAD, IT SHOULD BE ZERO CHIVALRY	SMT_DEMAND_ATTACK_ON_FACTION	Demand Attack On Faction	Don't pity a youngling while beating him: if you punish him with a rod, he will not die, but become healthier.	The Domostroi, 15th Century Russian Moral Codex				
+ST_GAME_OPTIONS_TIME_LIMIT	No Campaign Battle Time Limit	TMT_DREAD_LEVEL_1	More concerned with survival than fighting honourably	SMT_OFFER_ATTACK_ON_FACTION	Offer Attack On Faction	But if your wife does not live according to this teaching and instruction, if she does not teach her servants, then as husband you should beat her when you are alone together	The Domostroi, 15th Century Russian Moral Codex				
+ST_GAME_OPTIONS_TITLE	Game Options	TMT_DREAD_LEVEL_2	Known for adopting less than admirable tactics to achieve victory	SMT_WITHIN	Within 	Give to the orphan, protect the widow, and permit the mighty to destroy no man...	Testament of a medieval Russian prince				
+ST_FACTION_SELECT_ADVISOR_LEVEL	Advice Level	TMT_DREAD_LEVEL_3	Has a habit of unnerving seasoned opponents with his overly grizzly ways	SMT_YEARS	Turns	Do not introduce the new, nor destroy the old	Charter of Polotsk to the Lithuanian princes, 1250				
+ST_GAME_OPTIONS_CAMPAIGN_SETTINGS	Campaign Settings	TMT_DREAD_LEVEL_4	Consciously works terror and blackmail into his strategies	SMT_GIVE	Give: 	He goes with 100 picked men to plunder and harass the pagans entering four villages not warned of their coming and putting to the sword whoever they find beginning their night's sleep including all men, women and children.	Wigand of Marburg describing the duties of the Teutonic Knight's latrunculi, 1372				
+ST_GAME_OPTIONS_REALISM	Realism Settings	TMT_DREAD_LEVEL_5	Some say his troops follow him out of fear rather than loyalty or pride	SMT_DEMAND_SETTLEMENT_TITLE	Demand Settlements	Möngke ṭngri-yin küčündür -By the will of Eternal Blue Heaven: our god Tengri	Words on the Seal from Güyüg Khan's letter to Pope Innocent IV, 1246.				
+ST_GAME_OPTIONS_RESTRICT	Restrict Camera	TMT_DREAD_LEVEL_6	Shamelessly takes pleasure in causing pain and suffering	SMT_OFFER_SETTLEMENT_TITLE	Offer Settlements	I was so often tired when I rowed thee	Runic inscription on an oar washed up on the shore of Iceland from Greenland				
+ST_GAME_OPTIONS_DEFAULT_CAMERA	TotalWar Camera	TMT_DREAD_LEVEL_7	Commonly tortures his subjects as a display of authority	SMT_CITY	City	The lawful heiress of the empire, Isabella, governed the country together with her husband, and led a pious, religious life. She was blessed for her good deeds and exemplary life by many children, the numerous offsprings of a famous race.	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_GAME_OPTIONS_GENERAL_CAMERA	General Camera	TMT_DREAD_LEVEL_8	A man so malevolent, he considers honour and virtue foolish weaknesses	SMT_CHARACTERS	Agents	After the death of Thoros, his only son and heir was cast into prison by some wicked people, who administered to him a poisonous drug, thus the principality came to Leon, the brother of Thoros 	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_GAME_OPTIONS_RTS_CAMERA	RTS Camera	TMT_DREAD_LEVEL_9	A notorious champion of darkness capable of evils few others are	SMT_STATUS	Status	Thoros was of a tall figure and of a strong mind: his compassion was universal; like the light of the sun he shone by his good works, and flourished by his faith; he was the shield of truth and the crown of righteousness	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_GAME_OPTIONS_CAMERA_MODE	Camera Mode	TMT_DREAD_LEVEL_10	Even the dauntless must be forced to face such a man	SMT_CHARACTER_PERFORMED_TURNS_ACTION	The selected character has performed a mission this turn	He was an excellent prince, compassionate and kind; he ruled the country very well, and was praised by everybody.	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_GAME_OPTIONS_ROTATE_CAMERA	Camera Rotation Speed	TMT_NEGATIVE_AUTHORITY	Purely a figurehead, this man's people do not think of him as their leader	SMT_TARGET_TILE_IS_IMPASSABLE	The target position is invalid for this character type	At his death left the crown to Leon; he gave him many rules concerning the government of the country, and committed to him his daughters, with an injunction not to give them foreign husbands, that the Armenians might not be governed by foreigners and harassed by a tyrant.	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_GAME_OPTIONS_MOVE_CAMERA	Camera Movement Speed	TMT_AUTHORITY_LEVEL_0	Even his own servants think twice before completing their choresasda	SMT_CANNOT_LEAVE_SIEGED_FORT	Nobody can leave a fort when under siege except to attack the sieging army	Leon invited many famous warriors to join him, and allured them by great rewards. Forward in battle, he prepared himself, and often fought against the foreigners or infidels, took their forts and put all the inhabitants to the sword. He was the admiration of warriors, and the fear of foreigners or infidels, so that they called him the new Ashtahag.	Vahram of Edessa: The Rhymed Chronicle of Armenia Minor				
+ST_SCORED_VICTORY	Highest score wins	TMT_AUTHORITY_LEVEL_1	This leader has a serious inability to inspire others to followasd	SMT_CANNOT_LEAVE_SIEGED_SETTLEMENT	Nobody can leave a settlement when under siege except to attack the sieging army	Hic est Edwardvs Primus Scottorum Malleus- Here lies Edward I, Hammer of the Scots	Royal inscription on the tomb of King Edward I 'Longshanks'				
+ST_ADVISOR_BUTTON_ENABLE_TEXT_DISABLE_VOICE	Advisor speech and text\nToggle to text only advice	TMT_AUTHORITY_LEVEL_2	He simply lacks the spine and presence expected of a rulerasd	SMT_CANNOT_LEAVE_ENEMIES_ZOC	Cannot leave enemy's zone of control	Young knight, learn to love God and revere women, so that your honour grows. Practice knighthood and learn the Art that dignifies you, and brings you honour in wars.	Johannes Liechtenauer, 14th-century German fencing master 				
+ST_ADVISOR_BUTTON_ENABLE_VOICE_AND_TEXT	Advisor speech only\nToggle to show advice text	TMT_AUTHORITY_LEVEL_3	Some of his subjects will see things his way, yet not the majorityasd	SMT_CHARACTER_DETAILS	Character Details	Swordsmanship is a true science not an Art	Filippo Vadi, Pisan Fencing Master, 1400s 				
+ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT	Advisor text only\nToggle to advisor speech only	TMT_AUTHORITY_LEVEL_4	Though he has his detractors, he is too well respected for them to work openlyasd	SMT_ENEMY_CHARACTER_DETAILS	Enemy Character Details	Felds hath eyen, and wode have eres	Chaucer, The Knight's Tale				
+ST_WOODEN_GATE	Wooden Gates	TMT_AUTHORITY_LEVEL_5	There is a general acceptance that his majesty is a competent rulerasd	SMT_NEUTRAL_CHARACTER_DETAILS	Neutral Character Details	Mordre wol out, that see we day by day	Chaucer, The Nun's Priest's Tale				
+ST_REINFORCED_GATE	Reinforced Gates	TMT_AUTHORITY_LEVEL_6	Carries himself strongly enough to inspire confidence in his courtasd	SMT_ALLIED_CHARACTER_DETAILS	Allied Character Details	Ther n' is no werkman whatever he be, That may both werken wel and hastily. This wol be done at leisure parfitly	Chaucer, The Merchant's Tale				
+ST_IRON_GATE	Iron Gates	TMT_AUTHORITY_LEVEL_7	A natural born leader, rarely challenged or questionedasd	SMT_VICES	Traits	But every thyng which schyneth as the gold, Nis nat gold, as that I have herd it told	Chaucer, The Canon's Yeoman's Tale				
+ST_UTRA_HIGH	Highest	TMT_AUTHORITY_LEVEL_8	Capable of making men willingly follow a cause to their demiseasd	SMT_FACTION_SUMMARY	Faction Summary	Habit maketh no monke, ne wearing of guilt spurs maketh no knight	Thomas Usk, Under-sheriff of London executed in 1388 by parliament, author of 'Testament of Love' his message from prison				
+ST_AUTOSAVE	Autosave	TMT_AUTHORITY_LEVEL_9	Leads in a manner so inspiring none would think to question himasd	SMT_FACTION_LEADER	Faction leader:	One eare it heard, at the other out it went.	Chaucer, The Canterbury Tales				
+ST_CATAPULT	Catapult	TMT_AUTHORITY_LEVEL_10	His people consider his word nothing less than divine mandateasd	SMT_REGIONS_GAINED	Regions Controlled:	For oute of olde feldys, as men sey, Comyth al this newe corn from yere to yere; And out of old bokis, in good fey, Comyth al this newe science that men lere	Chaucer, The Parlement of Fowles 				
+ST_CATAPULTS	Catapults	TMT_JOIN_CRUSADE	Join the Crusade	SMT_BATTLES_WON	Battles Won:	The first vertue, sone, if thou wilt lerne, Is to restreyne and kepen wel thy tonge	Chaucer, The Manciple's Tale				
+ST_BALLISTA	Ballista	TMT_CANNOT_JOIN_CRUSADE_NOT_CALLED	There is no Crusade in progress to join	SMT_BATTLES_LOST	Battles Lost:	It is nought good a sleeping hound wake	Chaucer, Troilus and Criseyde 				
+ST_BALLISTAS	Ballistae	TMT_CANNOT_JOIN_CRUSADE_CHARACTER_EXCOMMUNICATED	Excommunicated character cannot join the Crusade	SMT_GREATEST_GENERAL	Greatest general:	Of harmes two the less is for to chose	Chaucer, Troilus and Criseyde 				
+ST_MUTE_SOUND	Mute Sound	TMT_CANNOT_JOIN_CRUSADE_TOO_LATE	It's too late to join the Crusade	SMT_GENERALS	Generals:	Drawn, hung, and beheaded, it took thirty blows of the sword to sever his head	John of Malvern describing the execution of Thomas Usk, author of 'Testament of Love'				
+ST_GFX_VEGETATION	Vegetation/Grass	TMT_CANNOT_JOIN_CRUSADE_CHARACTER_IN_RESIDENCE	Cannot join the Crusade whilst in a settlement or fort	SMT_CITIES	Cities:	I offer my soul to al-Mustansir billah for redemption, who wins victories with the help of the hosts of heaven.	al-Muayyad ash-Shirazi's elegy at the death of Al-Mustansir, longest reigning Caliph in Muslim history, 1095				
+ST_GFX_DESYNC_MEN	Desynchronise animations	TMT_CANNOT_JOIN_CRUSADE_CHARACTER_ON_FLEET	Cannot join the Crusade whilst at sea	SMT_CASTLES	Castles:	I confess that you are the countenance of God by which the servants' countenances are radiant.	al-Muayyad ash-Shirazi's elegy at the death of Al-Mustansir, longest reigning Caliph in Muslim history, 1095				
+ST_SOUND_PROVIDER	Sound Provider	TMT_CANNOT_JOIN_CRUSADE_CHARACTER_NOT_ARMY_COMMANDER	Only the army commander may join the Crusade	SMT_YEAR	Year:	It is by him only that the Koran can be explained and interpreted.	al-Muayyad ash-Shirazi's elegy at the death of Al-Mustansir, longest reigning Caliph in Muslim history, 1095				
+ST_JANUARY	January	TMT_CANNOT_JOIN_CRUSADE_INSUFFICIENT_UNITS	This character has too few units to join the crusade	SMT_TURN_NUMBER	Turn number:	Doshvar shavad bange to az khaneh be dehliz, Va asan shavad avaze vey az Balkh be Bulgar- Your voice hardly reaches the corridor from the room, But his words easily reach from Balkh to Bulgar	Nasir Khosrow Qubadyani, Persian poet 11th century				
+ST_FEBRUARY	February	TMT_ABANDON_CRUSADE	Abandon Crusade	SMT_TURNS_REMAINING	Turns remaining:	In Ma`arra our troops boiled pagan adults in cooking-pots; they impaled children on spits and devoured them grilled.	Radulph of Caen, chronicler and eye-witness of the First Crusade				
+ST_MARCH	March	TMT_JOIN_JIHAD	Join the Jihad	SMT_LEVEL	Level	I shudder to tell that many of our people, harassed by the madness of excessive hunger, cut pieces from the bodies of the Saracens already dead there, which they cooked, but when it was not yet roasted enough by the fire, they devoured it with savage mouth.	Fulcher of Chartres, chronicler and eye-witness of the First Crusade				
+ST_APRIL	April	TMT_CANNOT_JOIN_JIHAD_NOT_CALLED	There is no Jihad in progress to join	SMT_SHOW_FAMILY_TREE	Show family tree	Oturğanım oba yer basqanım baqır canaq. Ol zengi. "Where I sit is a hilly place. Where I tread is a copper bowl: The stirrup."	Cuman riddle from Codex Cumanicus				
+ST_MAY	May	TMT_CANNOT_JOIN_JIHAD_TOO_LATE	It's too late to join the Jihad	SMT_SHOW_EVENT_LOG	Show events log	Take the advice of Muslims, sleep in the houses of Christians, sup with the Jews	Baghdad proverb, according to Ibn al-Majawir				
+ST_JUNE	June	TMT_CANNOT_JOIN_JIHAD_CHARACTER_IN_RESIDENCE	Cannot join the Jihad whilst in a settlement or fort	SMT_FINANCIAL_SUMMARY	Financial Overview	Muslims love sex, Jews love food and Christians love only greed	Baghdad proverb, according to Ibn al-Majawir				
+ST_JULY	July	TMT_CANNOT_JOIN_JIHAD_CHARACTER_ON_FLEET	Cannot join the Jihad whilst at sea	SMT_INCOME	Income	There should be no law within the realm save the law of Winchester.	Main demand of the Peasants' Revolt or Great Rising of 1381, calling for a return to a perceived time of equality between the classes in pre-Norman Anglo-Saxon rule when Winchester was the capital, 300 years prior.				
+ST_AUGUST	August	TMT_CANNOT_JOIN_JIHAD_CHARACTER_NOT_ARMY_COMMANDER	Only the commanding general may join the Jihad	SMT_EXPENDITURE	Expenditure	In due course, their might strengthened, their dignity and power augmented, tokens of victory emerged on the pages of the annals of their deeds due to God's grace.	Ar-Rawandi on the Selkuks, late 12th century				
+ST_SEPTEMBER	September	TMT_CANNOT_JOIN_JIHAD_INSUFFICIENT_UNITS	This character has too few units to join the Jihad	SMT_FARMING	Farming	The almighty in every epoch chooses a man, glorifies him and decorates him with the merits of the ruler. He connects the prosperity of the universe and the tranquility of slaves to this man.	Nizam al-Mulk, Seljuq vizier 1063-1092				
+ST_OCTOBER	October	TMT_ABANDON_JIHAD	Abandon Jihad	SMT_RESOURCES	Resources						
+ST_NOVEMBER	November	TMT_CRUSADE_CANNOT_ATTACK_CATHOLIC	A Crusading army cannot attack a Catholic faction	SMT_TRADE	Trade						
+ST_DECEMBER	December	TMT_JIHAD_CANNOT_ATTACK_MUSLIM	An army on a Jihad cannot attack an Islamic faction	SMT_MERCHANT_TRADE	Merchant Trade						
+ST_MONDAY	Monday	TMT_CALL_CRUSADE	Request the Pope to commission a Crusade	SMT_TAXES	Taxes						
+ST_TUESDAY	Tuesday	TMT_CALL_CRUSADE_IN_PROGRESS	Crusade already in progress	SMT_WAGES	Wages						
+ST_WEDNESDAY	Wednesday	TMT_CALL_CRUSADE_NOT_ENOUGH_PAPAL_FAVOUR	Not enough Papal favour points to request a Crusade	SMT_PROJECTED_INCOME	Projected Total Income						
+ST_THURSDAY	Thursday	TMT_CALL_CRUSADE_TOO_SOON	Too soon since last Crusade to request another	SMT_PROJECTED_EXPENDITURE	Projected Total Expenditure						
+ST_FRIDAY	Friday	TMT_CALL_CRUSADE_OK_NOT_SELECTED	Select a Crusade target from the list first	SMT_PROJECTED_PROFIT	Projected Profits						
+ST_SATURDAY	Saturday	TMT_CALL_CRUSADE_OK_NO_TARGETS	No valid Crusade targets available	SMT_TOTAL_INCOME	Total Income						
+ST_SUNDAY	Sunday	TMT_CALL_CRUSADE_OK	Request a Crusade to the selected target	SMT_TOTAL_EXPENDITURE	Total Expenditure						
+ST_AM_UPPER	AM	TMT_CALL_CRUSADE_CANCEL	Close this scroll without requesting a Crusade	SMT_TOTAL_PROFIT	Profits						
+ST_AM_LOWER	am	TMT_CALL_JIHAD	Declare a Jihad	SMT_EOT_FINANCIAL_SUMMARY	Financial Summary						
+ST_PM_UPPER	PM	TMT_CALL_JIHAD_IN_PROGRESS	Jihad already in progress	SMT_EOT_MILITARY_SUMMARY	Military Summary						
+ST_PM_LOWER	pm	TMT_CALL_JIHAD_NOT_ENOUGH_RELIGION	This Imam lacks the Piety required to call a Jihad	SMT_EOT_BALANCE_OF_POWER	Balance of Power						
+ST_FILE_SAVE_RESULT_FAIL	Unspecified write error	TMT_CALL_JIHAD_TOO_SOON	Too soon since last Jihad to call another	SMT_EOT_BATTLES_FOUGHT	Battles Fought						
+ST_FILE_SAVE_RESULT_FAIL_NO_CREATE	Couldn't create save file on disk	TMT_CALL_JIHAD_OK_NOT_SELECTED	Select a Jihad target from the list first	SMT_EOT_BATTLES_WON	Battles Won						
+ST_FILE_SAVE_RESULT_FAIL_NO_HEADER	Couldn't create save game header	TMT_CALL_JIHAD_OK_NO_TARGETS	No valid Jihad targets available	SMT_EOT_TROOPS_RECRUITED	Troops Recruited						
+ST_FILE_SAVE_RESULT_FAIL_NO_SPACE	Hard drive full	TMT_CALL_JIHAD_OK	Call a Jihad against the selected target	SMT_EOT_TROOPS_LOST	Troops Lost						
+UA_CANT_HIDE	Can't hide	TMT_CALL_JIHAD_CANCEL	Close this scroll without starting a Jihad	SMT_EOT_REGIONS_CAPTURED	Regions Captured						
+UA_HIDE_LONG_GRASS	Can hide in long grass	TMT_VOTE	Vote for this faction	SMT_EOT_REGIONS_LOST	Regions Lost						
+UA_EXPERT_HIDING_IN_WOODS	Expert at hiding in woods	TMT_INITIATE_DIPLOMACY	Initiate diplomatic negotiations with this faction	SMT_EOT_YOUR_RATING	Your Rating						
+UA_HIDE_ANYWHERE	Can hide anywhere	TMT_RESTRICTED_AREA	Restricted area 	SMT_EOT_CURRENT_LEADER	Current Leader						
+UA_TESTUDO	Can form testudo	TMT_AVAILABLE_SUITORS	Potential suitors are in this army	SMT_EOT_MILITARY	Military:						
+UA_PHALANX	Can form spear wall	TMT_NO_AVAILABLE_SUITORS	No potential suitors in this army	SMT_EOT_FINANCIAL	Financial:						
+UA_WARCRY	Warcry improves attack	TMT_DIP_DEMEANOUR	A measure of how the other negotiator feels about you, and your proposals	SMT_EOT_PRODUCTION	Production:						
+UA_CHANT	Chanting inspires nearby troops	TMT_DIP_BALANCE	A measure of how generous or demanding your proposals are	SMT_EOT_POPULATION	Population:						
+UA_SCREECH	Screeching dismays enemy	TMT_DIP_RELATIONS	A measure of how the other faction feels about yours	SMT_EOT_OVERAL	Overall:						
+UA_FLAMING_AMMO	Can use flaming missiles	TMT_DIP_REPUTATION	A measure of this faction's reliability	SMT_EOT_PERCENTAGE	(%d%%)						
+UA_ROTTING_COW_AMMO	Can launch rotting cows	TMT_DIP_POWER	A measure of this faction's military might	SMT_ARMY_RECRUIT	Recruitment						
+UA_BARRAGE_FIRE	Can use barrage fire	TMT_DIP_WEALTH	A measure of this faction's current wealth	SMT_CONSTRUCTION	Construction						
+UA_CANTABRIAN_CIRCLE	Can form shooting circle	TMT_DIP_PRIORITIES	Things this faction is believed to want from yours	SMT_DIPLOMACY	Diplomacy						
+UA_WEDGE	Can form wedge	TMT_DIP_STANCES_NO_ALLIES	This faction has no allies	SMT_TRIBUTE	Tributes						
+UA_RALLY	Can rally nearby troops	TMT_DIP_STANCES_NO_ENEMIES	This faction is not at war with any other faction	SMT_OTHER	Other						
+UA_EAGLE	Eagle inspires nearby troops	TMT_DIP_STANCES_ALLIES	Factions allied to this faction	SMT_EVENT_LOG	Event Log						
+UA_GOOD_IN_DESERTS	Combat bonus in deserts	TMT_DIP_STANCES_ENEMIES	Factions at war with this faction	SMT_OFFICE	Office						
+UA_GOOD_IN_WOODS	Combat bonus in woods	TMT_DIP_STANCE_ALLIED	You are allied to this faction	SMT_CHARACTER	Character						
+UA_GOOD_IN_WOODS_AND_SNOW	Combat bonus in woods or snow	TMT_DIP_STANCE_NEUTRAL	You are neutral towards this faction	SMT_TIME_REMAINING	Time Remaining						
+UA_GOOD_IN_SNOW	Combat bonus in snow	TMT_DIP_STANCE_ENEMY	You are at war with this faction	SMT_TARGETS	Targets						
+UA_AREA_ATTACK	Area attack	TMT_DIP_TRADE_RIGHTS_GRANTED	Number of turns trade rights have existed	SMT_TARGET	Target						
+UA_BODY_PIERCING_ATTACK	Missiles can impale several men	TMT_DIP_MILITARY_ACCESS_RECEIVED	Number of turns this faction has granted yours military access	SMT_REWARD	Reward						
+UA_SPECIAL_ATTACK	Special attack	TMT_DIP_MILITARY_ACCESS_GIVEN	Number of turns you have granted this faction military access	SMT_PENALTY	Penalty						
+UA_ARMOUR_PIERCING_ATTACK	Effective against armour	TMT_DIP_TRIBUTE_PAYED	Finances you are sending this faction each turn	SMT_SETTLEMENT	Settlement						
+UA_LONG_MISSILE_RANGE	Long range missiles	TMT_DIP_TRIBUTE_RECEIVED	Finances this faction is sending yours each turn	SMT_TRADE_DETAILS	Trade Details						
+UA_VERY_LONG_MISSILE_RANGE	Very long range missiles	TMT_DIP_ASSISTANCE_REQUESTED_AGAINST	The faction you have requested military assistance against	SMT_SHOW_TRADE_SUMMARY	Show trade summary scroll for this settlement						
+UA_PRECURSOR_WEAPONS	Javelins thrown before charge	TMT_DIP_ASSISTANCE_PROVIDED_AGAINST	The faction you have agreed to offer military assistance against	SMT_HARVEST_POOR	Poor Harvest						
+UA_FRIGHTENS_ELEPHANTS	Frighten elephants	TMT_DIP_PROTECTOR	The faction that this faction is offering you military assistance against	SMT_HARVEST_NORMAL	Average Harvest						
+UA_FRIGHTENS_ENEMY	Frighten nearby enemy	TMT_NO_TREATIES	You have no diplomatic agreements at all with this faction	SMT_HARVEST_GOOD	Good Harvest						
+UA_FRIGHTENS_ENEMY_FOOT	Frighten nearby enemy infantry	TMT_RANSOM_BUTTON	Offer to ransom back the enemy troops	SMT_HARVEST_EXCELLENT	Excellent Harvest						
+UA_CAMELS_SCARE_HORSES	Scare horses	TMT_RELEASE_BUTTON	Release the enemy troops	SMT_MINING_INCOME	Mining Income						
+UA_HARDY	Good stamina	TMT_EXECUTE_BUTTON	Execute the enemy troops	SMT_FARM_INCOME	Farming Income						
+UA_VERY_HARDY	Very good stamina	TMT_ACCEPT_RANSOM_BUTTON	Agree to pay the ransom for your captured troops	SMT_FIND_SELECTED_CHARACTER	Locate selected character on the map						
+UA_MAY_CHARGE_WITHOUT_ORDERS	May charge without orders	TMT_CANNOT_ACCEPT_RANSOM	Unfortunately, your coffers lack the funds required to pay the ransom	SMT_FAMILY_TREE_TITLE	Family Tree						
+UA_POOR_MORALE	Poor morale	TMT_REJECT_RANSOM_BUTTON	Decline to pay the ransom for your captured troops	SMT_OWNED_BY	Owned by:						
+UA_GOOD_MORALE	Good morale	TMT_LCLICK_ZOOM_TO_CHARACTER	Left-click to locate character	SMT_WEAPON_ARMOUR_PIERCING	Uses armour piercing weaponry						
+UA_EXCELLENT_MORALE	Excellent morale	TMT_TIME_TO_NEXT_UNIT	Turns to next available unit: %d	SMT_WEAPON_BODY_PIERCING	Uses body piercing weaponry						
+UA_ANIMALS_MAY_RUN_AMOK	Animals may run amok	TMT_BUILD_WATCHTOWER	Construct watchtower	SMT_WEAPON_PRECURSOR	Uses a thrown precursor weapon						
+UA_VULNERABLE_TO_MISSILE	Vulnerable to missiles	TMT_CANNOT_BUILD_WATCHTOWER	Cannot construct watchtower here	SMT_WEAPON_AREA	Weapon has an area affect						
+UA_WELL_ARMOURED	Well armoured	TMT_NOT_ENOUGH_MONEY_FOR_WATCHTOWER	You do not have enough money to build a watchtower	SMT_UNIT_IS_GENERAL	A unit suitable for a general						
+UA_VERY_WELL_ARMOURED	Very well armoured	TMT_FIELD_CONSTRUCTION_TEST_NOT_NAMED_CHARACTER_WATCHTOWER	Only generals can commission watchtowers	SMT_UNIT_IS_COMMAND	A command unit						
+UA_POWERFULL_CHARGE	Powerful charge	TMT_HOTSEAT_MESSAGE	Click to send a hotseat message	SMT_UNIT_CAN_CONCEAL	Can hide						
+UA_BONUS_FIGHTING_CAVALRY	Bonus fighting cavalry	TMT_HS_CLEAR_BUTTON	Clear the current message	SMT_UNIT_IS_HARDY	Is hardy						
+UA_LONG_PIKES	Very long spears	TMT_HS_CANCEL_BUTTON	Cancel message to this player	SMT_UNIT_IS_VERY_HARDY	Is very hardy						
+UA_INACCURATE_AGAINST_SOLDIERS	Inaccurate against troops	TMT_HS_SEND_BUTTON	Send message to this player	SMT_UNIT_IS_HEAVY	Is a heavy unit						
+UA_MOVES_QUICKLY	Fast moving			SMT_CAN_DO_TESTUDO	Can enter a testudo formation						
+UA_INEFFECTIVE_AGAINST_WALLS_AND_BUILDINGS	Ineffective against walls and buildings			SMT_CAN_DO_PHALANX	Can enter a spear wall formation						
+UA_CAN_SAP	Can sap			SMT_GOOD_ON_SCRUB	Is good in scrub						
+ST_RIGHT_ALT	Alt Gr			SMT_GOOD_ON_SAND	Is good in deserts						
+UA_BONUS_FIGHTING_ELEPHANTS_AND_CAVALRY	Bonus vs. elephants and chariots			SMT_GOOD_ON_FOREST	Is good in forests						
+GERR_REINSTALL_DX	Medieval 2: Total War failed to find DirectX 9, which is required for the game to run.\nPlease reinstall DirectX.			SMT_GOOD_ON_SNOW	Is good in snow						
+GERR_ANOTHER_INSTANCE	Another instance of Medieval 2: Total War is already running. This instance of Medieval 2 will now exit.			SMT_BAD_ON_SCRUB	Is bad in scrub						
+GERR_GENERIC	Uh oh. This isn't good. No idea why, but exiting now. Sorry pal.			SMT_BAD_ON_SAND	Is bad in deserts						
+GERR_UNSUPPORTEDCPU	The processor in this computer is not supported.\nA processor with SSE or better is required.			SMT_BAD_ON_FOREST	Is bad in forests						
+ST_CANCEL_CHANGES	Cancel changes			SMT_BAD_ON_SNOW	Is bad in snow						
+ST_BDL_NOT_SPECIFIED	Automatic			SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_TITLE	Agent Discovered						
+ST_GFX_VEGETATION_DETAIL	Vegetation Detail			SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_DESCRIPTION	We have discovered a treacherous and dangerous spy in this settlement. Is there no honour among our rivals?						
+ST_SHIPS_SUNK	Ships Sunk			SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_TITLE	Agent Betrayed						
+ST_DEPLOYED	Deployed			SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_DESCRIPTION	Our agent has been betrayed to the authorities in this settlement. We must assume that he is dead. 						
+ST_REMAINING	Remaining			SMT_APPOINT_TO_GOVERNOR_TITLE	Governor Appointed						
+ST_REPLAY	Replay			SMT_APPOINT_TO_GOVERNOR_DESCRIPTION	This man has been appointed as a new governor.						
+ST_CHANGE_TO	Change to:			SMT_SETTLEMENT_BESIEGE_TITLE	Settlement Under Siege						
+ST_CANNOT_CHANGE_VIDEO_WHEN_NOT_PAUSED	Cannot change video options during a multiplayer game unless the game is paused			SMT_SETTLEMENT_BESIEGE_DESCRIPTION	This settlement is currently under siege, and the people are suffering as a result. 						
+ST_SCREEN_RES_CHANGE_TIME_LEFT	Seconds until display is reset:			SMT_SETTLEMENT_REVOLT_TITLE	Settlement in Revolt						
+ST_CONFIRM_SCREEN_RES	Is this display mode acceptable?			SMT_SETTLEMENT_REVOLT_DESCRIPTION	The people of this settlement have revolted, showing the depths of their ingratitude and deceit.						
+ST_YOUR_ALLY	Allied Army			SMT_SETTLEMENT_LOST_TITLE	Settlement Lost						
+ST_YOUR_ALLIES	Allied Armies			SMT_SETTLEMENT_LOST_DESCRIPTION	We no longer control this settlement, a blow to our wealth and prestige.						
+ST_GFX_SFX_DETAIL	Effects Detail			SMT_SETTLEMENT_GAINED_TITLE	Settlement Gained 						
+ST_GRASS_DETAIL	Grass Detail			SMT_SETTLEMENT_GAINED_DESCRIPTION	We have gained control of this settlement, a boon to our prestige and wealth!						
+ST_TERRAIN_DETAIL	Terrain Detail			SMT_NAVY_BLOCKADED_TITLE	Blockade in Place						
+ST_GFX_USE_SHADOWS	Shadows			SMT_NAVY_BLOCKADED_DESCRIPTION	Maritime trade is suffering as a result of this blockade.						
+ST_MICROMANAGE_ALL_SETTLEMENTS	Always Allow Building & Recruiting			SMT_BIRTH_TITLE	A Birth in the Family						
+ST_CAMPAIGN_AI_FOLLOW	Follow AI Movement			SMT_BIRTH_DESCRIPTION	Our faction has been blessed by the arrival of a new child. He will come of age in the fullness of time and add to our glory.						
+ST_CAMPAIGN_AI_SKIP	Skip AI Movement			SMT_ADOPTION_TITLE	Adoption						
+ST_SOUND_PROVIDER_ERROR	Unable to activate Sound Provider, this could be due to lack of hardware support			SMT_ADOPTION_DESCRIPTION	This man has been adopted into our family, and will bring honour and glory to our name through his deeds.						
+ST_GFX_USE_SHADERS	Unit Shaders			SMT_COMING_OF_AGE_TITLE	Coming of Age						
+ST_CONCEDE	Admit Defeat			SMT_COMING_OF_AGE_DESCRIPTION	This man has come of age and is now ready to take up his share of the responsibilities of good government.						
+ST_SCHILTROM	Schiltrom			SMT_MARRIAGE_TITLE	Marriage						
+ST_SHIELD_WALL	Shield Wall			SMT_MARRIAGE_DESCRIPTION	This man has married, laying the foundations for the future strength of our family.						
+ST_SAVE_REPLAY_SHORT	Save Replay			SMT_NATURAL_DEATH_TITLE	Natural Death						
+UA_CAN_SWIM	Can swim			SMT_NATURAL_DEATH_DESCRIPTION	This man has died of natural causes and gone to join our illustrious ancestors in the afterlife. 						
+UA_CAN_HORDE	Horde unit			SMT_NEW_FACTION_LEADER_TITLE	New Faction Leader						
+UA_CAN_GO_BERSERK	Can go berserk			SMT_NEW_FACTION_LEADER_DESCRIPTION	A new faction leader has emerged and is now in control. 						
+UA_CAN_SCHILTROM	Can do schiltrom			SMT_NEW_FACTION_HEIR_TITLE	New Faction Heir						
+UA_CAN_SHIELD_WALL	Can make shield wall			SMT_NEW_FACTION_HEIR_DESCRIPTION	A new heir to the faction's leadership has emerged, but let us hope that his succession to power is not imminent.						
+ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT_PROLOGUE	Advisor speech and text\nToggle to advisor speech only			SMT_FACTION_DEFEATED_TITLE	Faction Defeated						
+ST_RECRUITED_GENERAL	General			SMT_FACTION_DEFEATED_DESCRIPTION	This faction has been defeated, and need trouble us no further. 						
+ST_PRINCESS	Princess			SMT_UNKNOWN	Unknown						
+ST_MERCHANT	Merchant			SMT_UNKNOWN_UNIT	Unknown unit type						
+ST_HERETIC	Heretic			SMT_UNKNOWN_BUILDING	Unknown building type						
+ST_WITCH	Witch			SMT_ARMY_BREAKDOWN	Army Breakdown						
+ST_INQUISITOR	Inquisitor			SMT_SHOW_ARMY_DETAILS	View army details						
+ST_CHARM	Charm			SMT_SHOW_VNV_DETAILS	Show character's personality traits						
+ST_FINANCE	Finance			SMT_TRAITS_UKNOWN	Traits Unknown						
+ST_PIETY	Piety			SMT_STATUS_UNKNOWN	Status unknown						
+ST_MAGIC	Magic			SMT_SPOTTED_BY	Spotted By:						
+ST_CHIVALRY	Chivalry			SMT_WATCHTOWER	Watchtower						
+ST_DREAD	Dread			SMT_EXCHANGE_COMMANDING_OFFICER	This is the rankings admirals ship. He will not give up command to another admiral.						
+ST_AUTHORITY	Authority			SMT_EXCHANGE_NO_MOVEMENT_POINTS	Not enough movement points for transfer.						
+ST_SHOW_MOVIE_TYPE	Don't show this movie type again 			SMT_EXCHANGE_NO_NAVY_PRESENT	Ship cannot transfer to a land army.						
+UA_STAKES	Can use sharpened stakes			SMT_EXCHANGE_SELECTED	Use merge button or drag and drop to transfer card to other panel.						
+ST_TREBUCHET	Trebuchet			SMT_EXCHANGE_UNSELECTED	Select card to transfer to the other panel.						
+ST_TREBUCHETS	Trebuchets			SMT_EXCHANGE_NO_SELECTION	Select cards to transfer, use tabs to view different categories.						
+ST_BOMBARD	Bombard			SMT_EXCHANGE_MERGE_OK	Use the merge button to transfer the selected cards between the panels.						
+ST_BOMBARDS	Bombards			SMT_EXCHANGE_CAPACITY_EXCEEDED	Selected cards cannot be transferred because capacity will be exceeded. Select cards in both panels to perform a swap.						
+ST_GRAND_BOMBARD	Grand bombard			SMT_SHOW_MISSION_TARGET	Left-click to show mission target position						
+ST_GRAND_BOMBARDS	Grand bombards			SMT_RALLY_POINTS	Rally Points						
+ST_HUGE_BOMBARD	Huge bombard			SMT_RALLY_POINT	Rally Point						
+ST_HUGE_BOMBARDS	Huge bombards			SMT_CANNOT_MERGE_THIS_UNIT_SELECTION	This selection of units cannot be merged into the opposite window						
+ST_CULVERIN	Culverin			SMT_CANNOT_MERGE_THIS_CHARACTER_SELECTION	This selection of characters cannot be merged into the opposite window						
+ST_CULVERINS	Culverins			SMT_ZOOM_DOWN_TO_CITY	View settlement on battle map						
+ST_BASILISK	Basilisk			SMT_DESTROY_BUILDING	Destroy building and return part of its cost to your treasury.						
+ST_BASILISKS	Basilisks			SMT_RETAINERS	Retinue						
+ST_CANNON	Cannon			SMT_RETAINERS_UNKNOWN	Retinue Unknown						
+ST_CANNONS	Cannons			SMT_SUCCESS_RATE	Success Rate						
+ST_MORTAR	Mortar			SMT_SHOW_CHARACTER_TARGETS	Show potential character targets						
+ST_MORTARS	Mortars			SMT_SHOW_BUILDING_TARGETS	Show potential building targets						
+ST_SERPENTINE	Serpentine			SMT_ACCEPT_MISSION	Accept Mission						
+ST_SERPENTINES	Serpentines			SMT_BUILDING	Building						
+ST_ROCKET_LAUNCHER	Rocket launcher			SMT_MILITARY_FORCES	Military Forces						
+ST_ROCKET_LAUNCHERS	Rocket launchers			SMT_NUM_SOLDIERS	Soldiers						
+ST_RIBAULT	Ribault			SMT_ATTACK	Attack						
+ST_RIBAULTS	Ribaults			SMT_ATTACK_CHARGE	Charge Bonus						
+ST_MONSTER_RIBAULT	Monster ribault			SMT_ARMOUR	Armour						
+ST_MONSTER_RIBAULTS	Monster ribaults			SMT_DEFENCE	Defence Skill						
+UA_CAN_BRACE	Can brace against attacks			SMT_SHIELD	Shield						
+ST_HOLY_CARTS	Wagon			SMT_HP	Hit Points						
+ST_HOLY_CART	Wagon			SMT_CREATION_COST	Recruitment Cost						
+ST_PRISONERS	Prisoners			SMT_ARMY_STRENGTH_RATIO	Army Strength Ratio						
+ST_PRISONER	Prisoner			SMT_NAVY_STRENGTH_RATIO	Navy Strength Ratio						
+ST_CAUGHT	Caught			SMT_PROTECTORATES	Vassals						
+ST_TAKEN	Taken			SMT_YOU_ARE_PROTECTOR	You rule over and protect this faction						
+GERR_NO_COMPATIBLE_AUDIO	Medieval 2: Total War failed to initialise audio system.\nAudio card is not supported or audio drivers are out of date or not installed.\nGame will continue with audio disabled.			SMT_ENABLE_AUTO_TRAIN	Enable Auto Recruit Units						
+ST_NONE_AVAILABLE	None Available			SMT_ENABLE_AUTO_CONSTRUCT	Enable Auto Construct Buildings						
+ST_UI_OPTIONS	UI Options			SMT_AUTOMATE_ALL	Auto-manage Everything						
+ST_SHOW	Show			SMT_AI_SPEND_POLICY	AI Spend Policy						
+ST_HIDE	Hide			SMT_SAVE	Save						
+ST_SLIDE	Slide			SMT_SPEND	Spend						
+ST_BATTLE_HUD	Battle HUD			SMT_CONSTRUCTION_OPTIONS	Construction Options						
+ST_MINIMAL_HUD	Minimal HUD			SMT_CONSTRUCTION_QUEUE	Construction Queue						
+ST_RADAR_TIME_CONTROL	Radar time control			SMT_LAND_EXPORTS	Land Exports						
+ST_BUTTONS_CONTROL	Command buttons			SMT_SEA_EXPORTS	Sea Exports						
+ST_UNIT_CARDS_CONTROL	Unit cards			SMT_IMPORTS	Sea Imports						
+ST_LOST	Lost			SMT_TRADE_INCOME	Trade Income						
+ST_ENEMIES	Enemies			SMT_RECRUITMENT_QUEUE	Units available for hire						
+ST_KILLED	Killed			SMT_DEFENSES	Defences						
+				SMT_SIEGE_DETAILS	Siege Details						
+				SMT_SETTLEMENT_HAS_FOOD_FOR_X_YEARS	This settlement has enough food to last %d turns						
+				SMT_FORT_HAS_FOOD_FOR_X_YEARS	This fort has enough food to last %d turns						
+				SMT_SETTLEMENT_HAS_FOOD_FOR_1_YEAR	This settlement has enough food to last 1 turn						
+				SMT_FORT_HAS_FOOD_FOR_1_YEAR	This fort has enough food to last 1 turn						
+				SMT_SETTLEMENT_HAS_NO_FOOD	This settlement has very little food remaining in stores						
+				SMT_FORT_HAS__NO_FOOD	This fort has very little food remaining in stores						
+				SMT_AUTOMANAGE_ALL_TOOLTIP	Set AI to manage construction and recruitment across all settlements						
+				SMT_ALLOW_BUILDING_TOOLTIP	Set AI to manage all construction in this settlement						
+				SMT_ALLOW_TROOP_PRODUCTION_TOOLTIP	Set AI to manage all recruitment in this settlement						
+				SMT_SPEND_SLIDER_TOOLTIP	Set the amount of money building assistants are allowed to spend						
+				SMT_BUILDING_ADVICE	Ask advisor for recommendation on which building to construct next						
+				SMT_RECRUITMENT_ADVICE	Ask advisor for recommendation on which units to recruit next						
+				SMT_DAMAGE	Damage:						
+				SMT_INVALID_RALLY_POINT_POSITION	This is an invalid position for a rally point						
+				SMT_CANNOT_PERFORM_MISSIONS_WITH_MULTIPLE_CHARACTERS	Cannot perform missions with multiple characters selected						
+				SMT_OPEN_MERCENARY_RECRUITMENT	Open mercenary recruitment scroll for selected army						
+				SMT_AVAILABLE_MERCENARIES	Mercenary units available for hire						
+				SMT_HIRE_ALL_QUEUED_UNITS	Hire all queued units						
+				SMT_NO_ROOM_FOR_MERCENARIES	Cannot hire any more mercenaries as there is no more room in the receiving army						
+				SMT_NO_MERCENARIES_AVAILABLE	There are currently no mercenaries available to recruit in this region						
+				SMT_CANNOT_AFFORD_THIS_MERCENARY	You cannot afford to hire this mercenary						
+				SMT_ONLY_FAMILY_CAN_RECRUIT_MERCENARIES	Only family members can recruit mercenaries						
+				SMT_ASSISTANCE_REQUESTED	Assistance Requested						
+				SMT_WHICH_ALLY	Allied Army:						
+				SMT_WHICH_ARMY_REQUESTED	Requested assistance from:						
+				SMT_ACCEPT_ASSISTANCE_REQUEST	Your ally has requested assistance in a battle. If you accept this request your army will reinforce theirs on the battlefield. Do you wish to accept the request?						
+				SMT_ATTACKING_THIS_SETTLEMENT_WILL_BREAK_ALLIANCE	You are currently allied with the faction that owns this settlement. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_FORT_WILL_BREAK_ALLIANCE	You are currently allied with the faction that owns this fort. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_PORT_WILL_BREAK_ALLIANCE	You are currently allied with the faction that owns this port. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_ARMY_WILL_BREAK_ALLIANCE	You are currently allied with the faction that controls this army. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_NAVY_WILL_BREAK_ALLIANCE	You are currently allied with the faction that controls this navy. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_CANNOT_ATTACK_ALLY	You cannot attack Rome yet. You do not have enough popular support to take power. 						
+				SMT_CONFIRM_ATTACK_ON_ALLY	Attack Ally?						
+				SMT_YOUR_FORCES	Your Forces						
+				SMT_NONE	None						
+				SMT_BALANCE_OF_POWER	Balance of power						
+				SMT_ENEMY_FORCES	Enemy Forces						
+				SMT_AI_REINFORCEMENT	Allow this army to be controlled by the AI						
+				SMT_REINFORCEMENTS	Reinforcements:						
+				SMT_BATTLE_DEPLOYMENT	Battle Deployment						
+				SMT_YOUR_ARMY_SALLIES_FORTH	You sally forth to meet the foe						
+				SMT_ENEMY_SALLIES_FORTH	Your enemy have sallied forth to attack						
+				SMT_RIGHT_CLICK_FOR_CHARACTER_INFO	Right click on general's portrait or captain's flag for character information and army breakdown						
+				SMT_FIELD_CONSTRUCTION	Field Construction						
+				SMT_PROVINCE	Province:						
+				SMT_WATCHTOWER_DESCRIPTION	Watchtowers extend your line of sight over enemy territory						
+				SMT_FORT_DESCRIPTION	Forts provide a temporary defence for armies on the move and can be used to defend strategic positions 						
+				SMT_CANNOT_TRANSFER_GENERALS_UNIT	This unit is the general's bodyguard and cannot be transferred						
+				SMT_FAMOUS_BATTLE_SITE	Site of famous battle						
+				SMT_BATTLE_YEAR	Year						
+				SMT_VICTOR	Victor						
+				SMT_LOSER	Loser						
+				SMT_GAMES_FREQUENCY_YEARLY	Yearly Games						
+				SMT_GAMES_FREQUENCY_MONTHLY	Monthly Games						
+				SMT_GAMES_FREQUENCY_DAILY	Daily Games						
+				SMT_RACES_FREQUENCY_YEARLY	Yearly Races						
+				SMT_RACES_FREQUENCY_MONTHLY	Monthly Races						
+				SMT_RACES_FREQUENCY_DAILY	Daily Races						
+				SMT_GAMES_AND_RACES_FREQUENCY_YEARLY	Yearly Games & Races						
+				SMT_GAMES_AND_RACES_FREQUENCY_MONTHLY	Monthly Games & Races						
+				SMT_GAMES_AND_RACES_FREQUENCY_DAILY	Daily Games & Races						
+				SMT_SHOW_SETTLEMENT_STATS	Show settlement details						
+				SMT_AUTOMANAGE	Auto-manage						
+				SMT_SETTLEMENT_STATISTICS	Settlement Details						
+				SMT_PUBLIC_ORDER	Public Order						
+				SMT_POPULATION_GROWTH	Population Growth						
+				SMT_SET_POLICIES	Set Policies						
+				SMT_POPULATION_REQUIRED	Population required for next level of settlement:						
+				SMT_CONSTRUCTION_TIME	Construction Time						
+				SMT_CONSTRUCTION_COST	Construction Cost						
+				SMT_ANCILLARIES	Retinue						
+				SMT_TRAITS	Traits						
+				SMT_RECRUITMENT_OPTIONS	Recruitment Options						
+				SMT_MEN_IN_GARRISON	Men in Garrison						
+				SMT_MEN_IN_ARMY	Men in Army						
+				SMT_SELECTED_MERCENARIES	Selected Mercenaries (Total cost: %d)						
+				SMT_SHOW_FACTION_RANKINGS	Show faction rankings scroll						
+				SMT_FACTION_RANKINGS	Faction Ranking						
+				SMT_RANKING_SCORE	Overall Ranking						
+				SMT_RANKING_MILITARY	Military Ranking						
+				SMT_RANKING_PRODUCTION	Production Ranking						
+				SMT_RANKING_REGIONS	Territorial Ranking						
+				SMT_RANKING_FINANCIAL	Financial Ranking						
+				SMT_RANKING_POPULATION	Population Ranking						
+				SMT_FACTION_FILTER	Faction Filter						
+				SMT_OWN_FACTION	Own Faction						
+				SMT_ALL_FACTIONS	All Factions						
+				SMT_TOP_5_FACTIONS	Top 5 Factions						
+				SMT_CUSTOM_SELECTION	Custom Selection						
+				SMT_FILTER_NEIGHBOURS	Neighbouring Factions						
+				SMT_TURNS	Turns						
+				SMT_VICTORY	VICTORY!						
+				SMT_DEFEAT	Victory Conditions Failed						
+				SMT_VICTORY_BODY	You have won this game! All your people celebrate this victory! Would you like to continue and gain even greater glory?						
+				SMT_DEFEAT_BODY	The medieval era has come to an end, and despite the considerable achievements of your people over the centuries, they have failed to conquer the known world as their noble ancestors had once sworn they would achieve.						
+				SMT_DEFEAT_GAME_OVER	Your faction has been conquered, bringing your people's legacy to an untimely end. As a defeated people, you can only hope that those who have bested you choose to chronicle your achievements accurately, rather than lay claim to them as just another part of their own history.						
+				SMT_CONTINUE_CAMPAIGN	Continue Playing?						
+				SMT_EXIT_CAMPAIGN	Return to Main Menu						
+				SMT_CAPTURED_SETTLEMENT	Captured Settlement						
+				SMT_OCCUPATION_OPTIONS	Occupation Options						
+				SMT_DENARI_GAINED_FROM_LOOTING	Florins gained from looting:						
+				SMT_POPULATION_KILLED	Population to be massacred:						
+				SMT_LOOT_SETTLEMENT	Just walk in						
+				SMT_SACK_SETTLEMENT	Bang a few heads						
+				SMT_EXTERMINATE	Let them have it!						
+				SMT_SETTLEMENT_LOOT_BODY_STRING	This settlement has fallen to the might of your army. Victory is yours and the fate of the settlement lies in your hands!						
+				SMT_BUILDINGS_NEEDING_REPAIR	Buildings Needing Repair						
+				SMT_SHOW_NEW_BUILDINGS	Show constructible buildings						
+				SMT_SHOW_REPAIRABLE_BUILDINGS	Show buildings in need of repair						
+				SMT_REPAIR_TIME	Repair Time:						
+				SMT_REPAIR_COST	Repair Cost:						
+				SMT_BUILD_POINTS	Build Points:						
+				SMT_ALWAYS_SHOW_ADVANCED_STATS	Always show settlement details						
+				SMT_ADVANCED_STATS	Settlement Details						
+				SMT_SHOW_TECH_TREE	Show building browser						
+				SMT_BUILDING_BROWSER	Building Browser						
+				SMT_STATE_ICON_FARMING_LEVEL	Base farming level (varies from region to region)						
+				SMT_STATE_ICON_FARMS_BUILT	Farm upgrades built						
+				SMT_STATE_ICON_HEALTH	Health						
+				SMT_STATE_ICON_BUILDINGS	Buildings						
+				SMT_STATE_ICON_TAX_RATE_BONUS	Tax rate bonus						
+				SMT_STATE_ICON_SQUALOUR	Squalor						
+				SMT_STATE_ICON_TAX_RATE_PENALTY	Tax rate penalty						
+				SMT_STATE_ICON_GARRISON	Garrison						
+				SMT_STATE_ICON_BUILDINGS_LAW	Law						
+				SMT_STATE_ICON_BUILDINGS_FUN	Buildings of entertainment, fun, culture and the maintenance of good order						
+				SMT_STATE_ICON_GOVERNORS_INFLUENCE	Governor's influence						
+				SMT_STATE_ICON_TAX_BONUS	Tax bonus						
+				SMT_STATE_ICON_TRIUMPH	Triumph						
+				SMT_STATE_ICON_BOOM	Population boom						
+				SMT_STATE_ICON_DISTANCE_TO_CAPITAL	Distance to capital						
+				SMT_STATE_ICON_NO_GOVERNANCE	No governance						
+				SMT_STATE_ICON_TAX_PENALTY	Tax penalty						
+				SMT_STATE_ICON_TURMOIL	Unrest						
+				SMT_STATE_ICON_BESIEGED	Besieged						
+				SMT_STATE_ICON_BLOCKADED	Blockaded						
+				SMT_STATE_ICON_ENTERTAINED	Entertainment						
+				SMT_STATE_ICON_FARMS	Farms						
+				SMT_STATE_ICON_TAXES	Taxes						
+				SMT_STATE_ICON_RESOURCES	Mining						
+				SMT_STATE_ICON_TRADE	Trade						
+				SMT_STATE_ICON_DIPLOMATIC_INCOME	Diplomatic income						
+				SMT_STATE_ICON_DEMOLITION	Demolition						
+				SMT_STATE_ICON_LOOTING	Looting						
+				SMT_STATE_ICON_ADMIN	Admin						
+				SMT_STATE_ICON_WAGES	The salaries for your generals and agents are divided up according to settlement size, and this is the amount paid from here.						
+				SMT_STATE_ICON_UPKEEP	Upkeep						
+				SMT_STATE_ICON_CONSTRUCTION	Construction						
+				SMT_STATE_ICON_RECRUITMENT	Recruitment						
+				SMT_STATE_ICON_DIPLOMATIC_OUTGOINGS	Diplomatic outgoings						
+				SMT_STATE_ICON_CORRUPTION	Corruption						
+				SMT_TECH_TREE_THREAD_ALREADY_BUILT	This has been constructed						
+				SMT_TECH_TREE_THREAD_AVAILABLE_TO_BUILD	This item is available to construct						
+				SMT_TECH_TREE_THREAD_NOT_AVAILABLE_TO_BUILD	It is not possible to build this item yet						
+				SMT_NO_MISSIONS	There are currently no missions						
+				SMT_TURNS_UNTIL_SURRENDER	Under Siege. Turns until surrender:						
+				SMT_NO_ASSASSINATION_TARGETS	No valid assassination targets						
+				SMT_NO_SABOTAGE_TARGETS	No buildings to sabotage						
+				SMT_MISSION_TARGET	Select Mission Target						
+				SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE	This settlement can hold out for another %d turn(s)						
+				SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE	In the event of a siege, this settlement can hold out for %d turns						
+				SMT_GARRISON_BREAKDOWN	Garrison Breakdown						
+				SMT_NAVY_BREAKDOWN	Navy Breakdown						
+				SMT_INFANTRY	Infantry						
+				SMT_CAVALRY	Cavalry						
+				SMT_ARTILLERY	Artillery						
+				SMT_SHIPS	Ships						
+				SMT_ARMY_FULL	This army cannot support any more units						
+				SMT_NAVY_FULL	This navy cannot support any more units						
+				SMT_NO_GARRISON_COMMANDER	No garrison commander present						
+				SMT_SAILORS	Sailors						
+				SMT_CAPABILITY_POPULATION_GROWTH_BONUS	Population growth bonus:						
+				SMT_CAPABILITY_POPULATION_LOYALTY_BONUS	Public order bonus:						
+				SMT_CAPABILITY_POPULATION_HEALTH_BONUS	Public health bonus:						
+				SMT_CAPABILITY_TRADE_BASE_INCOME_BONUS	Increase in tradeable goods						
+				SMT_CAPABILITY_TRADE_LEVEL_BONUS	Increase in trade						
+				SMT_CAPABILITY_TRADE_FLEET	Trade fleets available:						
+				SMT_CAPABILITY_TAXABLE_INCOME_BONUS	Tax income bonus:						
+				SMT_CAPABILITY_MINE_RESOURCE	Income from mining:						
+				SMT_CAPABILITY_FARMING_LEVEL	Improved farms and food production						
+				SMT_CAPABILITY_ROAD_LEVEL	Improved roads and trade						
+				SMT_CAPABILITY_GATE_STRENGTH	Improved gate strength						
+				SMT_CAPABILITY_GATE_DEFENSES	Boiling Oil						
+				SMT_CAPABILITY_TOWER_LEVEL	Extra wall defences						
+				SMT_CAPABILITY_ARMOUR	Upgrades armour: 						
+				SMT_CAPABILITY_STAGE_GAMES	Allows gladiatorial games to be held						
+				SMT_CAPABILITY_STAGE_RACES	Allows races to be held						
+				SMT_CAPABILITY_POPULATION_FIRE_RISK_BONUS	Reduced risk of fire						
+				SMT_CAPABILITY_WEAPON_MELEE_SIMPLE	Capable of upgrading crude weapons						
+				SMT_CAPABILITY_WEAPON_MELEE_BLADE	Capable of upgrading melee weapons						
+				SMT_CAPABILITY_WEAPON_MISSILE_MECHANICAL	Capable of upgrading missile weapons						
+				SMT_CAPABILITY_WEAPON_MISSILE_GUNPOWDER	Capable of upgrading firearms						
+				SMT_CAPABILITY_WEAPON_ARTILLERY_MECHANICAL	Capable of upgrading siege engines						
+				SMT_CAPABILITY_WEAPON_ARTILLERY_GUNPOWDER	Capable of upgrading cannons						
+				SMT_CAPABILITY_WEAPON_NAVAL_GUNPOWDER	Capable of upgrading ship's cannons						
+				SMT_CAPABILITY_BODYGUARD	Improved generals' bodyguards						
+				SMT_CAPABILITY_RECRUITS_MORALE_BONUS	Morale bonus to troops trained here:						
+				SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS	Experience bonus to troops trained here:						
+				SMT_CAPABILITY_HAPPINESS_BONUS	Public order bonus due to happiness:						
+				SMT_CAPABILITY_LAW_BONUS	Public order bonus due to law:						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_ARCHER_EXP_BONUS	Experience bonus for archers recruited: 						
+				SMT_CAPABILITY_CAVALRY_EXP_BONUS	Experience bonus for cavalry recruited: 						
+				SMT_CAPABILITY_HEAVY_CAVALRY_EXP_BONUS	Experience bonus for knights recruited: 						
+				SMT_CAPABILITY_GUN_EXP_BONUS	Experience bonus for gunpowder troops recruited: 						
+				SMT_CAPABILITY_NAVY_EXP_BONUS	Experience bonus for ships with cannons recruited: 						
+				SMT_CAPABILITY_RECRUITS_COST_BONUS_NAVAL	Naval recruitment cost reduced by						
+				SMT_CAPABILITY_RETRAIN_COST_BONUS	Retraining costs reduced by 						
+				SMT_CAPABILITY_WEAPON_PROJECTILE	Capable of upgrading all artillery and gunpowder weapons						
+				SMT_CAPABILITY_INCOME_BONUS	Income bonus:						
+				SMT_CAPS_LOC_MAX_POOL	(Max Available: %d)						
+				SMT_CAPS_LOC_TRAINS_EXPERIENCE	Experience						
+				SMT_CAPS_LOC_TRAINS	Enables training of:						
+				SMT_CAPS_LOC_TRAINS_BONUS	Training bonus						
+				SMT_CAPS_LOC_RECRUITS_LEVEL	Level						
+				SMT_CAPS_LOC_RECRUITS	Enables recruitment of:						
+				SMT_CAPS_LOC_RECRUITS_BONUS	Recruit bonus						
+				SMT_CAPS_LOC_PROVIDES	Provides:						
+				SMT_CAPS_LOC_PROVIDES_BONUS	Provides bonus						
+				SMT_CAPS_LOC_REQUIRES	Requires:						
+				SMT_CAPS_LOC_CONDITION_NOT	not						
+				SMT_CAPS_LOC_CONDITION_AND	and						
+				SMT_CAPS_LOC_CONDITION_OR	or						
+				SMT_CAPS_LOC_CONDITION_BUILDING_PRESENT_MIN_LEVEL	or above						
+				SMT_CAPS_LOC_CONDITION_CAPABILITY_VALUE	or above						
+				SMT_CAPS_GLOBAL	(Global effect)						
+				SMT_AUTOMANAGE_SETTLEMENT	Auto-manage this settlement						
+				SMT_CANNOT_RECRUIT_WHILST_IN_BATTLE	It isn't possible to recruit when a battle has been instigated						
+				SMT_VICTORY_CONDITION_LAND_OWNER_TITLE	Domination:						
+				SMT_VICTORY_CONDITION_LAND_OWNER_DESCR	Capture %d more regions						
+				SMT_VICTORY_CONDITION_TYCOON_TITLE	Tycoon:						
+				SMT_VICTORY_CONDITION_TYCOON_DESCR	Build your empire up such that %d florins is generated per turn						
+				SMT_VICTORY_CONDITION_TIME_LIMIT_TITLE	Timed:						
+				SMT_VICTORY_CONDITION_TIME_LIMIT_DESCR	Become the most powerful faction in %d turns						
+				SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_TITLE	Survivor:						
+				SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR	Hold %d provinces and destroy or outlast the following faction (or factions):						
+				SMT_CAMPAIGN_VICTORY_CONDITIONS	Victory Condition						
+				SMT_CAMPAIGN_VICTORY_CONDITIONS_COMPLETE	Completed						
+				SMT_CAPABILITY_WEAPON_SIMPLE	Upgrades light weapons:						
+				SMT_CAPABILITY_WEAPON_MISSILE	Upgrades missile weapons:						
+				SMT_CAPABILITY_WEAPON_BLADED	Upgrades heavy weapons:						
+				SMT_CAPABILITY_WEAPON_SIEGE	Upgrades siege weapons:						
+				SMT_CAPABILITY_WEAPON_OTHER	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_WOODEN	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_STONE	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_WOODEN	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_STONE	DO NOT TRANSLATE << THIS TEXT SHOULDN'T BE DISPLAYED >>						
+				SMT_ENEMY_AMBUSH_FAILED	Their attempt to surprise you failed, you will have time to prepare for battle						
+				SMT_ENEMY_AMBUSH_SUCCESS	You were taken completely by surprise and will have no time to prepare for the attack						
+				SMT_YOUR_AMBUSH_FAILED	The ambush was a failure, the enemy will have time to prepare for battle						
+				SMT_YOUR_AMBUSH_SUCCESS	The enemy knew nothing of the attack and will have no time to prepare						
+				SMT_NO_UNITS_IN_NAVY	There are no units in this fleet						
+				SMT_NO_UNITS_IN_ARMY	There are no units in this army						
+				SMT_NO_CHARACTERS_WITH_NAVY	There are no characters travelling with this navy						
+				SMT_NO_CHARACTERS_WITH_ARMY	There are no characters travelling with this army						
+				SMT_NO_UNITS_TRANSPORTED	There are no units being transported with this navy						
+				SMT_NO_UNITS_IN_GARRISON	There are no units garrisoned here						
+				SMT_NO_BUILDINGS_IN_SETTLEMENT	There are no buildings here						
+				SMT_NO_VISITORS_IN_SETTLEMENT	This settlement has no visitors						
+				SMT_NO_VISITORS_IN_FORT	This fort has no visitors						
+				SMT_STATE_ICON_UNIT_RECRUITS	Population drafted						
+				SMT_LAND_IMPORTS	Land Trade (Imports and Exports)						
+				SMT_DIED	Died peacefully:						
+				SMT_NO_BUILDING_IN_NEED_OF_REPAIR	No buildings need repairing.						
+				SMT_NO_UNITS_NEED_RETRAINING	No units can be retrained.						
+				SMT_SHOW_VISITORS_FORT	Show visiting characters in this fort						
+				SMT_DECLINE_MISSION	Decline Mission						
+				SMT_SELECT_UNIT_TO_REPAIR	Select unit to retrain						
+				SMT_CANNOT_SET_NAVAL_RALLY_POINT_WITH_NO_PORT	Cannot set a naval rally point when the selected settlement has no port buildings						
+				SMT_DIED_IN_BATTLE_TITLE	Death in battle						
+				SMT_DIED_IN_BATTLE_DESCRIPTION	This man has died in battle and gone to join our illustrious ancestors in the afterlife.						
+				SMT_BREAK_SIEGE_CONFIRMATION	This army is currently laying siege. Moving it away will automatically lift the siege. Are you sure you would like to do this?						
+				SMT_BREAK_SIEGE_TITLE	Lift Siege?						
+				SMT_NO_MORE_OFFERS_ALLOWED	No more offers allowed						
+				SMT_NO_MORE_DEMANDS_ALLOWED	No more demands allowed						
+				SMT_UNITS	Units						
+				SMT_SIEGE_EQUIPMENT	Siege Equipment						
+				SMT_STOIC_PHILOSOPHY_BODY	Ariston of Chios begins his teaching of the Stoic way of life. This philosophy derives its name from the porch of the Athenian Agora (stoa poikilê). It is here that Stoics first met and propounded their ideas: that emotions like envy or passion arise from false judgements. A person who has attained moral and intellectual perfection will avoid these feelings.						
+				SMT_EARTHQUAKE_IN_IBERIA_TITLE	Earthquake in Spain						
+				SMT_EARTHQUAKE_IN_IBERIA_BODY	The Spanish city of Saguntum has been struck by a great earthquake, undoubtedly visited upon the people by Neptune. Many have been killed and the temple has collapsed.						
+				SMT_SET_AS_CAPITAL	Set this settlement to be the faction's capital						
+				SMT_ATTACKING_THIS_CHARACTER_WILL_BREAK_ALLIANCE	You are currently allied with this characters faction. If you attack now then the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_NAVY_DECLARATION_OF_WAR	There are no hostilities between you and this navy's faction. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_ARMY_DECLARATION_OF_WAR	There are no hostilities between you and this army's faction. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR	There are no hostilities between you and this character's faction. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_SETTLEMENT_DECLARATION_OF_WAR	There are no hostilities between you and the settlement's owners. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_FORT_DECLARATION_OF_WAR	There are no hostilities between you and the fort's occupiers. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_PORT_DECLARATION_OF_WAR	There are no hostilities between you and the port's owners. If you attack now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_CONFIRM_ATTACK_ON_NEUTRAL	Attack Neutral Faction?						
+				SMT_ARMY	Army						
+				SMT_NAVY	Navy						
+				SMT_AGENTS	Agents						
+				SMT_FLEET	Fleet						
+				SMT_PRIVATE_DEALINGS	Private Dealings						
+				SMT_CURRENT_TREATIES	Current Treaties						
+				SMT_FACTION_OVERVIEW	Overviews						
+				SMT_FINANCIAL	Financial						
+				SMT_RADAR_ZOOM_IN	Zoom in on current location						
+				SMT_RADAR_ZOOM_OUT	Zoom out of current location						
+				SMT_RECRUITMENT	Recruitment						
+				SMT_REPAIR	Repair						
+				SMT_RETRAIN	Retrain						
+				SMT_ASSAULT_NO_INFANTRY	Assault impossible! Cannot use siege equipment without any infantry						
+				SMT_ASSAULT_NO_EQUIPMENT	Assault impossible! The fortifications are too strong to assault without some form of siege equipment						
+				SMT_NO_POPULATION_TO_EXTERMINATE	Not enough population to exterminate						
+				SMT_TOTAL	Total						
+				SMT_PROJECTED	Projected Totals						
+				SMT_STARTING_TREASURY	Starting Treasury						
+				SMT_PROJECTED_END_TREASURY	Projected Treasury Total						
+				SMT_END_TREASURY	Treasury Total						
+				SMT_DIPLOMACY_TRIBUTES	Diplomacy/Tributes						
+				SMT_DIPLOMACY_CHANGE_YEARLY_PAYMENT	Change Tribute						
+				SMT_ATTACK_VS_TROOPS	Attack vs. Troops						
+				SMT_ATTACK_VS_BUILDINGS	Attack vs. Buildings						
+				SMT_MELEE_ATTACK	Melee Attack						
+				SMT_MISSILE_ATTACK	Missile Attack						
+				SMT_WEAPON_TYPE	Weapon Type						
+				SMT_MELEE_SIMPLE	Crude						
+				SMT_MELEE_BLADE	Melee						
+				SMT_MISSILE_MECHANICAL	Missile						
+				SMT_MISSILE_GUNPOWDER	Firearm						
+				SMT_ARTILLERY_MECHANICAL	Siege Engine						
+				SMT_ARTILLERY_GUNPOWDER	Cannon						
+				SMT_NAVAL_GUNPOWDER	Naval Cannon						
+				SMT_NO_UPGRADE	Cannot be upgraded						
+				SMT_TOTAL_DEFENCE	Total Defence						
+				SMT_STATE_ICON_PLAGUE	Plague						
+				SMT_SUBTERFUGE_COLON	Subterfuge:						
+				SMT_CHARACTER_PLAGUED	This character is a plague bearer						
+				SMT_LOCATE_MISSION_TARGET	Locate mission target						
+				SMT_REPAIRED	Repaired						
+				SMT_RETRAINED	Retrained						
+				SMT_VARIES	Varies						
+				SMT_GATES_OPEN_SETTLEMENT	There is a %d%% chance that they will manage to open the gates if you attack.						
+				SMT_GATES_OPEN_FORT	Your spies have infiltrated this fort. There is a %d%% chance that they will manage to open the gates if you attack.						
+				SMT_CORRUPTION_AND_OTHER	Corruption and Other						
+				SMT_SELECT_FORT_OR_WATCHTOWER	Select a fort or watchtower to build						
+				SMT_FAMILY_MEMBERS	Family Members:						
+				SMT_CAPITAL_TITLE	Capital						
+				SMT_GARRISON_COMMANDER	Garrison Commander						
+				SMT_BLOCKADED	(Blockaded)						
+				SMT_WITHIN_X_TURNS	(Within %d turns)						
+				SMT_CHANCE_OF_SUCCESS_X_PERCENT	Chance of success: %d%%						
+				SMT_TIME_TO_PROCESS_SIEGE_QUEUE	Time to build queued items:\n%d turns						
+				SMT_CHARACTER_BRIBED	The following character will join your faction:						
+				SMT_SETTLEMENT_BRIBED	The following settlement will join your faction:						
+				SMT_VISITORS_BRIBED	The following visitors will join your faction:						
+				SMT_TRAVELLERS_BRIBED	The following travellers will join your faction:						
+				SMT_ENTIRE_ARMY_BRIBED	The entire army will join your faction						
+				SMT_ENTIRE_ARMY_DISBANDED	The entire army will disband and return to the fields						
+				SMT_UNITS_BRIBED	The following number of units will join your faction:						
+				SMT_UNITS_DISBANDED	The following number of units will disband:						
+				SMT_TAX	Tax						
+				SMT_AUTOMANAGE_TAXES_TOOLTIP	Set AI to manage taxes across all settlements						
+				SMT_AUTOMATE_TAXES	Auto-manage Taxes Only						
+				SMT_QUICKSAVE	Quicksave						
+				SMT_LOCATE_BATTLE	Locate position of battle						
+				SMT_ERUPTION_AT_ETNA_BODY	The God Vulcan has caused Mount Etna to erupt! Thousands have died beneath the fiery lava.						
+				SMT_STATE_ICON_DEVASTATION	Devastation						
+				SMT_INAPPROPRIATE_UNITS_FOR_ASSAULT	Cannot assault as you don't have any units capable of attacking buildings						
+				SMT_EXCHANGE_IN_ZOC	This unit is currently engaged in an enemy zone of control, and can move no further this turn.						
+				SMT_OPEN_DEMANDS	Something suitable in return for our offer						
+				SMT_OPEN_OFFERS	Name your price to our reasonable demands						
+				SMT_THIS_CHARACTER_IN_YOUR_FACTION	This spy is a member of your faction						
+				SMT_1_REGION_LEFT	Capture 1 more region						
+				SMT_NEED_GOVERNOR_TO_MANAGE	To change the auto-management status of this settlement move a family member in as governor						
+				SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT	This fort should be able to hold out for another %d turns						
+				SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT	In the event of a siege, this fort can hold out for %d turns						
+				SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT_1_TURN	This fort should be able to hold out for another turn						
+				SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT_1_TURN	In the event of a siege, this fort can hold out for 1 turn						
+				SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_1_TURN	This settlement should be able to hold out for another turn						
+				SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_1_TURN	In the event of a siege, this settlement can hold out for 1 turn						
+				SMT_SHOW_CHARACTER_INFO	Show this character's information scroll						
+				SMT_STATE_ICON_UPKEEP_NEW	Your armed forces' total running costs are divided up according to settlement size. This amount is being paid from here.						
+				SMT_BY	By:						
+				SMT_ON	On:						
+				SMT_ALLY	Ally:						
+				SMT_ENEMY	Enemy:						
+				SMT_VICTORY_CONDITION_OUTLAST_SENATE	Destroy or outlast the Senate						
+				SMT_GATES_OPEN_SETTLEMENT_ACTUAL	Your spies have infiltrated this settlement\nThe gates will be open when you attack						
+				SMT_GATES_OPEN_FORT_ACTUAL	Your spies have infiltrated this fort\nThe gates will be open when you attack						
+				SMT_DESERTED	Deserted						
+				SMT_DIED_TRAGIC	Died tragically:						
+				SMT_DIED_BATTLE	Died in battle:						
+				SMT_DIED_ASSASSINATED	Assassinated:						
+				SMT_EXECUTED	Executed:						
+				SMT_BORN	Born:						
+				SMT_DIED_PLAGUE	Died of the plague:						
+				SMT_NEXT	Next:						
+				SMT_1_YEAR_REMAINING	(1 year remaining)						
+				SMT_X_YEARS_REMAINING	(%d years remaining)						
+				SMT_SHOW_FACTION_LISTS	Show lists scroll						
+				SMT_OCCUPY_SETTLEMENT	Occupy Settlement						
+				SMT_RAZE_SETTLEMENT	Sack Settlement						
+				SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_1	Hold %d regions						
+				SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_2	, including:						
+				SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_3	. Eliminate factions:						
+				SMT_KINGS_PURSE	King's Purse						
+				SMT_DOMINANT_RELIGION	Dominant Religion:						
+				SMT_BELIEFS	Religious Conversion Strengths						
+				SMT_CURRENT_COMMITMENT	Current strength of belief:						
+				SMT_PREDICTED_COMMITMENT	Predicted strength of belief:						
+				SMT_ABANDON_SETTLEMENT	Abandon this settlement and become a horde						
+				SMT_CANNOT_FIGHT_AT_NIGHT	This army cannot fight in night battles						
+				SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION	Building this item requires the destruction of an existing religious building						
+				SMT_SUPRESSES_RELIGIOUS_UNREST	Suppresses religious unrest:						
+				SMT_SUPRESSES_RELIGIOUS_CONVERSION	Suppresses religious conversion:						
+				SMT_LIVING_FACTIONS	Living Factions						
+				SMT_CANNOT_ABANDON_SETTLEMENT_UNDER_SIEGE	Can only abandon this settlement when it isn't under siege						
+				SMT_CANNOT_ABANDON_SETTLEMENT_NOT_LAST_SETTLEMENT	Can only abandon this settlement when it is your last						
+				SMT_CANNOT_ABANDON_SETTLEMENT_ALREADY_ABANDONED	Your people are tired of constantly moving, and wish to stay settled for a while						
+				SMT_CANNOT_ABANDON_SETTLEMENT_HORDE_UNITS	Cannot abandon this settlement as your horde armies cannot be mustered						
+				SMT_CURRENT_CONVERSTION_STRENGTH	Current Conversion Strength: %d						
+				SMT_PREDICTED_CONVERSION_STRENGTH	Predicted Conversion Strength: %d						
+				SMT_PASSENGERS_CANT_BE_MOVED	This is the rankings admirals ship. He will not give up command while there are passengers on board that can't be transferred.						
+				SMT_CANNOT_OCCUPY_SACKED_SETTLEMENT	This settlement has been sacked, and wouldn't make a good home for your people.						
+				SMT_MEET_ENEMY	They are approaching the walls! Will you meet them on the battlefield or stay behind your fortifications?						
+				SMT_ENEMY_MEETS_YOU	They have chosen to sally forth from their fortifications to meet your siege army on the battlefield!						
+				SMT_MERCHANT_DESCR	Merchants are agents that work for their lord by establishing trade routes between distant foreign resources and their own local markets. Under the guise of private enterprise, merchants are able to move through enemy lands without drawing suspicion or committing a diplomatic transgression. When merchants work together so that they have a monopoly on a particular resource, they will generate extra income for their faction. Opposing merchants can attempt to make a hostile takeover of each other's assets, ending the other's career.						
+				SMT_DIPLOMACY_OFFER_MARRY_LEADER_TO_PRINCESS	Marry faction leader to princess						
+				SMT_DIPLOMACY_OFFER_MARRY_HEIR_TO_PRINCESS	Marry faction heir to princess						
+				SMT_DIPLOMACY_OFFER_MARRY_LEADER	Marry princess to faction leader						
+				SMT_DIPLOMACY_OFFER_MARRY_HEIR	Marry princess to faction heir						
+				SMT_ACQUIRE	Acquisition						
+				SMT_NO_ACQUISITION_TARGETS	No valid acquisition targets						
+				SMT_DENOUNCE	Denouncement						
+				SMT_NO_DENOUNCEMENT_TARGETS	There are no valid denouncement targets						
+				SMT_RETIRED	Retired						
+				SMT_MARRY_GENERALS	Marry a general within range						
+				SMT_MARRIAGE	Marriage						
+				SMT_MARRY	Marry selected General						
+				SMT_RELIGION	Religion						
+				SMT_NO_MARRIAGE_TARGETS	No unmarried generals within range						
+				SMT_AGENT_LIMIT_REACHED	Agent limit reached						
+				SMT_CAPABILITY_RELIGION_LEVEL	Religion Conversion Bonus:						
+				SMT_CAPABILITY_RELIGION_LEVEL_AMPLIFIER	Amplifies the conversion effect of Orthodox churches by 						
+				SMT_COLLEGE_OF_CARDINALS	The College of Cardinals						
+				SMT_RANK	Title						
+				SMT_EMPTY_SEATS	There are currently %d empty seats 						
+				SMT_SHOW_COLLEGE_OF_CARDINALS	Show College of Cardinals						
+				SMT_CASTLE	Castle						
+				SMT_CONFIRM_CONVERT_SETTLEMENT	Converting settlement						
+				SMT_CONVERT_CASTLE_TO_CITY_FOREVER	This castle will be irreversibly converted to a city.\nAre you sure?						
+				SMT_CONVERT_CASTLE_TO_CITY	This castle will be converted to a city.\nAre you sure?						
+				SMT_CONVERT_CITY_TO_CASTLE	This city will be converted to a castle.\nAre you sure?						
+				SMT_RECRUITMENT_BUILDING_DAMAGED	Recruitment building damaged						
+				SMT_SELECTED_UNITS	Selected units						
+				SMT_SELECTED_UNIT_COST	Total recruitment cost: %d						
+				SMT_RECRUITMENT_POOL_EMPTY	No more units of this type available for recruitment						
+				SMT_RETRAIN_POOL_EMPTY	No more units of this type available for retraining						
+				SMT_REPAIR_QUEUE	Buildings to be repaired						
+				SMT_RETRAINING_QUEUE	Units available for retraining						
+				SMT_CAPABILITY_FREE_UPKEEP	Number of Free Upkeep units: %d						
+				SMT_FREE_UPKEEP	Free Upkeep while garrisoned						
+				SMT_NO_PORT	No ports available to recruit maritime mercenaries						
+				SMT_RECRUITMENT_NON_COAST	Can only recruit this unit from a coastal tile						
+				SMT_CRUSADE_TARGETS_TITLE	Crusade Targets						
+				SMT_JIHAD_TARGETS_TITLE	Jihad Targets						
+				SMT_CRUSADE_TARGETS_BODY	Select target settlement from the list and click to request the Pope to commission a Crusade on the selected target. 						
+				SMT_JIHAD_TARGETS_BODY	Select target settlement from the list and click to commission a Jihad against selected target.						
+				SMT_CRUSADE_NO_TARGETS	There are no Crusade targets.						
+				SMT_JIHAD_NO_TARGETS	There are no Jihad targets.						
+				SMT_TURN_X	Turn %d						
+				SMT_1_TURN_REMAINING	(1 turn remaining)						
+				SMT_X_TURNS_REMAINING	(%d turns remaining)						
+				SMT_RECRUITMENT_ORDER_FULL	Recruitment order currently full						
+				SMT_PAPAL_ELECTION	Papal Election						
+				SMT_PAPAL_ELECTION_RESULTS	Papal Election Results						
+				SMT_STATE_ICON_RELIGIOUS_UNREST	Religious Unrest						
+				SMT_THE_POPE	The Pope						
+				SMT_POPES_NAME	%S of %S						
+				SMT_POPES_DETAILS	Age: %d years old						
+				SMT_PAPAL_STANDING	Papal Standing 						
+				SMT_PAPAL_STANDING_DESCR	The more crosses a faction has, the more the Pope favours it. 						
+				SMT_PAPAL_STANDING_0	His Holiness believes the flames of eternal damnation are too good for %S. 						
+				SMT_PAPAL_STANDING_1	His Holiness hopes there is place amongst the flames of eternal damnation for %S.						
+				SMT_PAPAL_STANDING_2	His Holiness will not suffer %S to be mentioned in his presence.						
+				SMT_PAPAL_STANDING_3	His Holiness has found %S's faith wanting.						
+				SMT_PAPAL_STANDING_4	His Holiness has little good to say about %S .						
+				SMT_PAPAL_STANDING_5	His Holiness feels neither ill will or good will towards %S.						
+				SMT_PAPAL_STANDING_6	His Holiness feels no ill will against %S.						
+				SMT_PAPAL_STANDING_7	%S's faith satisfies his Holiness.						
+				SMT_PAPAL_STANDING_8	%S's faith pleases his Holiness.						
+				SMT_PAPAL_STANDING_9	%S's faith inspires his Holiness.						
+				SMT_PAPAL_STANDING_10	In His Holiness' eyes %S's faith is an inspiration to all Christendom.						
+				SMT_MISSIONS	Missions						
+				SMT_MISSION_SOURCE	Source						
+				SMT_MISSION_DESCRIPTION	Description						
+				SMT_PRE_REWARD_MONEY	You will receive a reward of %d florins.						
+				SMT_PRE_PENALTY_MONEY	You will have to pay a penalty of %d florins.						
+				SMT_REWARD_MONEY	You have been rewarded with %d florins.						
+				SMT_PENALTY_MONEY	You have been penalised %d florins.						
+				SMT_PRE_PENALTY_INQUISITION	An Inquisition may occur in your provinces. 						
+				SMT_PENALTY_INQUISITION	You must bear the scrutiny of an Inquisition.						
+				SMT_PRE_PENALTY_EXCOMMUNICATION	You may be excommunicated.						
+				SMT_PENALTY_EXCOMMUNICATION	You have been excommunicated.						
+				SMT_PRE_REWARD_INCOME	You will be rewarded with %f %% of your income.						
+				SMT_PRE_PENALTY_INCOME	You will be penalised by a loss of %f %% of your income. 						
+				SMT_REWARD_INCOME	You have been rewarded with %d florins.						
+				SMT_PENALTY_INCOME	You have been penalised %d florins.						
+				SMT_PRE_REWARD_GUILD_MONEY	You will receive florins from the Guild.						
+				SMT_PRE_PENALTY_GUILD_MONEY	You will have to pay a penalty of florins to the Guild.						
+				SMT_REWARD_GUILD_MONEY	You have been rewarded with %d florins from the Guild.						
+				SMT_PENALTY_GUILD_MONEY	You will have to pay a penalty of %d florins to the Guild.						
+				SMT_PRE_PENALTY_ASSASSINATION	Some of your commanders may meet with sudden and terrible "fatal misfortunes".						
+				SMT_PENALTY_ASSASSINATION	Some of your commanders have met with the long knives of "fatal misfortune". 						
+				SMT_PRE_REWARD_BUILDABLE_UNIT	You will be rewarded with a military unit. 						
+				SMT_PRE_REWARD_BUILDABLE_UNITS	You will be rewarded with some military units.						
+				SMT_PRE_REWARD_BEST_BUILDABLE_UNIT	You will be rewarded with one of the best units currently available.						
+				SMT_PRE_REWARD_BEST_BUILDABLE_UNITS	You will be rewarded with some of the best units currently available.						
+				SMT_PRE_REWARD_BEST_FACTION_UNIT	PLACEHOLDER: reward pre exotic unit true_cost (%d)						
+				SMT_PRE_REWARD_BEST_FACTION_UNITS	PLACEHOLDER: reward pre (%d) exotic units true_cost (%d)						
+				SMT_REWARD_CANNOT_BUILD_A_UNIT	You cannot be rewarded as you cannot recruit any units						
+				SMT_REWARD_UNITS_AT_YOUR_CAPITAL	You have been rewarded with %d units of %S at your capital.						
+				SMT_MISSION-RETURN-PAPAL-SETTLEMENT-SUCCESS	You have greatly pleased His Holiness by successfully returning Rome to The Papal States.						
+				SMT_MISSION_RETURN_PAPAL_SETTLEMENT_FAILURE	You have disappointed His Holiness by failing to return Rome to The Papal States.						
+				SMT_MISSION_RETURN_PAPAL_SETTLEMENT_TITLE	Return Rome to the Papal States.						
+				SMT_MISSION_RETURN_PAPAL_SETTLEMENT_PROPOSAL	The Pope has requested that you return Rome to The Papal States. His Holiness will be greatly in your debt if you can see fit to return his home city.						
+				SMT_MISSION_JOIN_CRUSADE_TITLE	Join the Crusade						
+				SMT_MISSION_JOIN_CRUSADE_SUCCESS	You have pleased the Pope and proven your faith by successfully joining the Crusade. 						
+				SMT_MISSION_JOIN_CRUSADE_EXPIRED_FINISHED	The Crusade has ended; you can no longer join. 						
+				SMT_MISSION_JOIN_CRUSADE_EXPIRED_DEATH	Your General has died. As a result, you can no longer join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_EXPIRED_EXCOMMUNICATED	Your faithless faction has been excommunicated. You have no place amongst the worthy; you can no longer join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_FAILURE	You have disappointed the Pope by not meeting your obligations to Christendom and failing to join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_HEIR_TITLE	Your Heir must join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_LEADER_TITLE	Your Leader must join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_CHARACTER_PROPOSAL	The Pope has requested that %S demonstrate his faith and personally join the Crusade.						
+				SMT_MISSION_JOIN_CRUSADE_GENERAL_PROPOSAL	The Pope has called a holy Crusade, and the Pope has sent the call to arms to all devoted Catholic factions. You must create a Crusading army within the time limit to take part.						
+				SMT_MISSION_BREAK_ALLIANCE_TITLE	Break Alliance						
+				SMT_MISSION_BREAK_ALLIANCE_PROPOSAL	In uncertain times like these, it is important to know who one's true allies are. The Pope demands you break your alliance with this profane and heretical faction to prove your loyalty.						
+				SMT_MISSION_BREAK_ALLIANCE_EXPIRY_DEATH	As this faction has perished, you are no longer required to break your alliance with them.						
+				SMT_MISSION_BREAK_ALLIANCE_EXPIRY_EXCOMMUNICATED	Your faithless faction has been excommunicated. You are no longer required to break your alliance with this faction.						
+				SMT_MISSION_BREAK_ALLIANCE_EXPIRY_RECOMMUNICATED	As this faction has returned to the fold and been reconciled, you are no longer required to break your alliance with them.						
+				SMT_MISSION_BREAK_ALLIANCE_FAILURE	His Holiness can only wonder what went wrong; you have disappointed the Pope by failing to break your alliance with this faction. 						
+				SMT_MISSION_BREAK_ALLIANCE_SUCCESS	You have pleased the Pope and proven your loyalty by successfully breaking your alliance with this faction.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_TITLE	Blockade Port						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_PROPOSAL	The Pope only wishes that this prodigal son be returned to the fold. Perhaps cutting his income will make him see the light. Use your fleet to blockade this port for at least 3 turns.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_EXPIRY_SETTLEMENT_TAKEN	This settlement has been taken, you are no longer charged to blockade this port.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_EXPIRY_EXCOMMUNICATED	Your faithless faction has been excommunicated. You are no longer trusted to blockade this port.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_EXPIRY_RECOMMUNICATED	As this faction has returned to the fold and been reconciled, you are no longer charged to blockade this port.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_EXPIRY_BLOCKADED	This port is already blockaded, you are no longer charged to blockade this port.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_FAILURE	You have let down the Pope and the Almighty by unsuccessfully blockading this port.						
+				SMT_MISSION_PAPAL_BLOCKADE_PORT_SUCCESS	You have pleased the Pope and the Lord by successfully blockading this port.						
+				SMT_MISSION_ASSASSINATE_CARDINAL_TITLE	Assassinate Cardinal 						
+				SMT_MISSION_ASSASSINATE_CARDINAL_PROPOSAL	This Cardinal's profanity and disrespect has deeply distressed His Holiness. The Pope assures you that God himself will smile upon you if you can deal with this delicate matter (kill him!).						
+				SMT_MISSION_ASSASSINATE_CARDINAL_EXPIRY_DEATH	As this Cardinal has died, His Holiness has no need for you to 'deal' with him.						
+				SMT_MISSION_ASSASSINATE_CARDINAL_EXPIRY_EXCOMMUNICATED	You have been excommunicated, His Holiness no longer trusts you with this important duty.						
+				SMT_MISSION_ASSASSINATE_CARDINAL_EXPIRY_HIDING	This Cardinal cannot be found, His Holiness has no need for you to 'deal' with him.						
+				SMT_MISSION_ASSASSINATE_CARDINAL_FAILURE	His Holiness is disquieted by your failure to 'deal' with this Cardinal.						
+				SMT_MISSION_ASSASSINATE_CARDINAL_SUCCESS	You have done the Papacy a great favour, and much pleased His Holiness by successfully assassinating this Cardinal.						
+				SMT_MISSION_ASSASSINATE_WITCH_TITLE	Assassinate the heretic						
+				SMT_MISSION_ASSASSINATE_WITCH_PROPOSAL	This blasphemer is a stain on God's Earth and the Pope wishes you to cleanse it. Assassinate this person immediately!						
+				SMT_MISSION_ASSASSINATE_WITCH_EXPIRY_DEATH	His Holiness has no need for you to assassinate this person, as they have perished.						
+				SMT_MISSION_ASSASSINATE_WITCH_EXPIRY_EXCOMMUNICATED	Your faithless faction has been excommunicated; His Holiness does not trust the likes of you to uphold the Word of God. You are no longer charged with the assassination of this person.						
+				SMT_MISSION_ASSASSINATE_WITCH_EXPIRY_HIDING	His Holiness has no need for you to assassinate this person, as they cannot be found.						
+				SMT_MISSION_ASSASSINATE_WITCH_FAILURE	You have disappointed His Holiness by failing to assassinate this blasphemer as asked.						
+				SMT_MISSION_ASSASSINATE_WITCH_SUCCESS	You have pleased His Holiness by successfully assassinating this blasphemer, and thus making the world more pleasing to His eye.						
+				SMT_MISSION_CEASE_HOSTILITIES_TITLE	Cease Hostilities						
+				SMT_MISSION_CEASE_HOSTILITIES_PROPOSAL	His Holiness demands that you stop shedding the blood of your fellow Christians. Cease hostilities against this faction immediately and do not carry out hostile acts for the duration of this mission.						
+				SMT_MISSION_CEASE_HOSTILITIES_EXPIRY_DEATH	His Holiness is no longer concerned about the fate of this faction as it has been eliminated.						
+				SMT_MISSION_CEASE_HOSTILITIES_EXPIRY_EXCOMMUNICATED	Your faithless and ignoble faction has been excommunicated, the Papacy no longer expects such as you to listen to the request of His Holiness.						
+				SMT_MISSION_CEASE_HOSTILITIES_EXPIRY_TARGET_EXCOMMUNICATED	As this faction has been excommunicated, it matters little how much of their faithless blood you spill. You are no longer charged with ceasing hostilities with this faction.						
+				SMT_MISSION_CEASE_HOSTILITIES_FAILURE	You have greatly saddened His Holiness by failing to cease hostilities with your fellow Christians, and continuing to shed the blood of your brother.						
+				SMT_MISSION_CEASE_HOSTILITIES_SUCCESS	You have greatly pleased His Holiness by successfully ceasing hostilities with your fellow Christians and embracing your brother.						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_TITLE	Build a Church						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_PROPOSAL	It has come to His Holiness's attention that this settlement is bereft of a proper place of worship. The Pope wishes you to build a church in this settlement.						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_EXPIRY_LOST	As you have lost this settlement, you are no longer charged with building a church there.						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_EXPIRY_EXCOMMUNICATED	Your faithless faction has been excommunicated; the Pope cares naught what you build in this settlement.						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_FAILURE	You have disappointed His Holiness by failing to build a church in this settlement, and thus hampering the proper worship of the Lord in this settlement.						
+				SMT_MISSION_PAPAL_BUILD_CHURCH_SUCCESS	You have pleased His Holiness by successfully building a church in this settlement, and thus propagating the proper worship of the Lord in this settlement.						
+				SMT_MISSION_CONVERT_TITLE	Spread the Word of the Lord						
+				SMT_MISSION_CONVERT_PROPOSAL	The Pope sees that the unbelievers in this settlement are clouding the judgement of the righteous. Send a priest to convert at least %d %% of the population to Catholicism.						
+				SMT_MISSION_CONVERT_EXPIRY_EXCOMMUNICATED	Your ungodly faction has been excommunicated. One cannot expect a nest of vipers to bring forward the lambs. You are no longer charged with converting the people to the 'one true faith. 						
+				SMT_MISSION_CONVERT_FAILURE	You have disappointed His Holiness by failing to convert sufficient people in this settlement.						
+				SMT_MISSION_CONVERT_SUCCESS	You have pleased His Holiness by successfully spreading the word and bringing more lambs to His flock in this settlement.						
+				SMT_MISSION_GIFT_FROM_POPE_TITLE	A Gift from the Pope						
+				SMT_MISSION_GIFT_FROM_POPE_PROPOSAL	The Pope has noticed your dedication to the Faith and the Holy Mother Church and is pleased to grant you this gift.						
+				SMT_MISSION_PAPAL_GIVE_CASH_TITLE	Give a "donation" to the Pope						
+				SMT_MISSION_PAPAL_GIVE_CASH_PROPOSAL	The Lord favours he who is generous. Make a "donation" of at least %d florins to the Papal States. 						
+				SMT_MISSION_PAPAL_GIVE_CASH_FAILURE	You have disappointed His Holiness with your selfishness, by failing to "donate" sufficient florins to the Papal States.						
+				SMT_MISSION_PAPAL_GIVE_CASH_SUCCESS	You have pleased His Holiness with your generous "donation" to the Papal States. Blessed is he who gives.						
+				SMT_MISSION_PAPAL_GIVE_ANCILLARY_TITLE	Give Relic to the Pope						
+				SMT_MISSION_PAPAL_GIVE_ANCILLARY_PROPOSAL	The Pope has heard of your retrieval of this wondrous holy relic and sends his congratulations. You must hand over this relic to the Pope so that it may reside with his Holiness as is proper.						
+				SMT_MISSION_PAPAL_GIVE_ANCILLARY_FAILURE	You have disappointed His Holiness by coveting this relic and thus failing to hand it over to His Holiness.						
+				SMT_MISSION_PAPAL_GIVE_ANCILLARY_SUCCESS	The Pope sends you his gratitude for the rightful return of this holy relic to the Catholic Church.						
+				SMT_MISSION_RECRUIT_PRIEST_TITLE	Recruit a Priest						
+				SMT_MISSION_RECRUIT_PRIEST_PROPOSAL	The dwindling number of Catholics in this settlement reflects poorly on the Catholic Church. Recruit a priest in this settlement to convert more people.						
+				SMT_MISSION_RECRUIT_PRIEST_EXPIRY_LOST	You have lost this settlement, you are no longer charged with recruiting a priest.						
+				SMT_MISSION_RECRUIT_PRIEST_EXPIRY_EXCOMMUNICATED	Your worthless faction has been excommunicated, a priest from such a flock would be at best worthless. You are no longer charged with recruiting a priest.						
+				SMT_MISSION_RECRUIT_PRIEST_FAILURE	You have disappointed His Holiness by failing to recruit a priest, and thus hampering His Holy work.						
+				SMT_MISSION_RECRUIT_PRIEST_SUCCESS	You have pleased His Holiness by successfully recruiting a priest, and thus creating yet another vessel for His word.						
+				SMT_MISSION_ASSASSINATE_GENERAL_TITLE	Assassination Mission						
+				SMT_MISSION_ASSASSINATE_GENERAL_PROPOSAL	This miscreant's demise would please a great many people, not to mention make smoother our path to success. The Council suggests you send an assassin to hasten this man's journey into the next world. 						
+				SMT_MISSION_ASSASSINATE_GENERAL_EXPIRY_DEATH	Your target has died; you are no longer required to assassinate him.						
+				SMT_MISSION_ASSASSINATE_GENERAL_EXPIRY_ALLIED	This man has become our ally; it is no longer necessary to remove him.						
+				SMT_MISSION_ASSASSINATE_GENERAL_EXPIRY_HIDING	Your target has gone into hiding; you are no longer required to assassinate him.						
+				SMT_MISSION_ASSASSINATE_GENERAL_FAILURE	You have failed to assassinate this individual; the Council assumes this must be part of your great plan.						
+				SMT_MISSION_ASSASSINATE_GENERAL_SUCCESS	Congratulations, you have successfully assassinated this individual; the Council is impressed by your ruthlessness.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_TITLE	Blockade Port 						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_PROPOSAL	It is time we apply pressure upon our foes. Sending a fleet to blockade this port for at least 3 turns will not only hurt our enemy, but it will fill our coffers.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_EXPIRY_SETTLEMENT_TAKEN	This port has been taken; you are no longer expected to blockade it.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_EXPIRY_ALLIED	This faction has become an ally; you are no longer required to blockade this port.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_EXPIRY_BLOCKADED	It appears this port is already blockaded; you are no longer required to blockade it.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_FAILURE	You have not blockaded this port, the Council bows to your infinitely wiser decision.						
+				SMT_MISSION_COUNCIL_BLOCKADE_PORT_SUCCESS	Congratulations, you have successfully blockaded this port; the Council applauds your decisiveness.						
+				SMT_MISSION_COUNCIL_TAKE_REBEL_SETTLEMENT_TITLE	Take Rebel Settlement						
+				SMT_MISSION_COUNCIL_TAKE_REBEL_SETTLEMENT_PROPOSAL	Our great nation appears weak to tolerate such insolence from these rebels. The Council recommends you capture this rebel settlement and assert your authority.						
+				SMT_MISSION_COUNCIL_TAKE_REBEL_SETTLEMENT_EXPIRY_LOST	Another has taken this Rebel settlement. You are no longer required to take it.						
+				SMT_MISSION_COUNCIL_TAKE_REBEL_SETTLEMENT_FAILURE	It appears you have decided against this Council's advice by not taking this Rebel settlement, the Council can only assume this yet another layer of your labyrinth like plan.						
+				SMT_MISSION_COUNCIL_TAKE_REBEL_SETTLEMENT_SUCCESS	Congratulations, you have successfully taken this Rebel settlement and displayed our strength to all.						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_TITLE	Take Settlement						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_PROPOSAL	It is time to further our great empire by extending our borders. The Council suggests you take this settlement for the glory of the nation.						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_EXPIRY_LOST	Another has taken this settlement.						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_EXPIRY_ALLIED	This faction has become an ally; you are no longer required to take it.						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_FAILURE	You have failed to take this settlement; perhaps you felt it was not the right time to expand our borders?						
+				SMT_MISSION_COUNCIL_TAKE_SETTLEMENT_SUCCESS	Congratulations, you have successfully taken this settlement, and extended our Empire.						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_TITLE	Take Settlement						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_PROPOSAL	The Guild's interests would be better looked after if this settlement were to become part of your empire. The Guild requests that you take this settlement.						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_EXPIRY_LOST	Another has taken this settlement, the Guild no longer requires you to take it.						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_EXPIRY_ALLIED	An alliance has been forged with this settlement, the Guild no longer requires you to take it.						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_FAILURE	You have failed to take this settlement; the Guild is disappointed with this lack of progress.						
+				SMT_MISSION_GUILD_TAKE_SETTLEMENT_SUCCESS	Congratulations, you have successfully taken this settlement; the Guild owes you its thanks.						
+				SMT_MISSION_GUILD_RECRUIT_AGENT_TITLE	Train Assassin						
+				SMT_MISSION_GUILD_RECRUIT_AGENT_PROPOSAL	Sometimes a single drop of poison or one knife in the dark can achieve what an entire army cannot. The Guild requests that you train an assassin in this settlement.						
+				SMT_MISSION_GUILD_RECRUIT_AGENT_EXPIRY_LOST	As you have lost this settlement, the Guild no longer expects you to train an assassin there.						
+				SMT_MISSION_GUILD_RECRUIT_AGENT_FAILURE	You have failed to train an assassin; the Guild is disappointed with this result.						
+				SMT_MISSION_GUILD_RECRUIT_AGENT_SUCCESS	Congratulations, you have successfully trained an assassin, the Guild is very pleased.						
+				SMT_MISSION_GIFT_FROM_COUNCIL_TITLE	A Gift from the Council						
+				SMT_MISSION_GIFT_FROM_COUNCIL_PROPOSAL	The Council are greatly impressed by your leadership and would like you to accept this humble offering as a token of past and future endeavours.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_TITLE	A Proposal for the Princess's Hand						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_PROPOSAL	Lord %S has been beguiled by the lovely Princess %S. He is willing to pay a handsome dowry for her hand in marriage. The Council recommends you arrange this marriage as soon as possible.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_EXPIRY_GENERAL_DEATH	Alas this marriage can never be, the general has died, and nearly left our Princess a widow.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_EXPIRY_PRINCESS_DEATH	Alas, the poor Princess has died; we must call the marriage off.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_EXPIRY_TARGET_MARRIED	Love can be a fickle thing, and this lord is twice such, he has married another. The marriage to our Princess is off.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_FAILURE_PRINCESS_MARRIED	Love can be a fickle thing, it seems our Princess has married another, the original marriage is off.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_EXPIRY_PRINCESS_RETIRED	Our Princess is now too old to marry; her time would be better spent on more solitary and contemplative pursuits. The marriage is off.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_FAILURE	You have not arranged the marriage this Council recommended. The Council bows to your greater judgement in these matters.						
+				SMT_MISSION_COUNCIL_MARRY_PRINCESS_SUCCESS	Congratulations, you have successfully arranged the marriage we recommended. This union is sure to bear fruit in time.						
+				SMT_MISSION_ACQUISITION_TITLE	Mercantile Acquisition						
+				SMT_MISSION_ACQUISITION_PROPOSAL	There is lucrative trade to be had here, but first we must deal with the opposition. The Guild recommends you send your merchant to make an acquisition of this merchants' trade. 						
+				SMT_MISSION_ACQUISITION_EXPIRY_DEATH	It appears this merchant has perished; we no longer need to remove him.						
+				SMT_MISSION_ACQUISITION_EXPIRY_HIDING	It appears this merchant has gone into hiding; we no longer need to remove him. 						
+				SMT_MISSION_ACQUISITION_FAILURE	You have failed to complete the desired acquisition; the Guild is disappointed with this outcome. 						
+				SMT_MISSION_ACQUISITION_SUCCESS	Congratulations, you have successfully made the acquisition; the Guild owes you its thanks.						
+				SMT_MISSION_TRADE_AGREEMENT_TITLE	Obtain Trade Agreement						
+				SMT_MISSION_TRADE_AGREEMENT_PROPOSAL	We are losing lucrative trade opportunities, as we currently have no trade Agreement with this faction. The Guild would like you to obtain a trade agreement with these people.						
+				SMT_MISSION_TRADE_AGREEMENT_EXPIRY_DEATH	This faction has been vanquished; a trade agreement with them is no longer possible.						
+				SMT_MISSION_TRADE_AGREEMENT_EXPIRY_WAR	These fools have chosen war with us rather than peaceful trade. So be it, a trade agreement with them is no longer possible. 						
+				SMT_MISSION_TRADE_AGREEMENT_FAILURE	You have not obtained a trade agreement with this faction; the Guild is disappointed with this outcome.						
+				SMT_MISSION_TRADE_AGREEMENT_SUCCESS	Congratulations, you have successfully obtained a Trade Agreement with this faction; the Guild owes you its thanks.						
+				SMT_MISSION_ANNEX_SETTLEMENT_TITLE	Annex Settlement						
+				SMT_MISSION_ANNEX_SETTLEMENT_PROPOSAL	By rights, this settlement should be under our authority. It is a mockery for it to be held by our rivals. The Council suggests you send a diplomat and attempt to have them to hand it over. You may be able to offer them a settlement that is less valuable to us in exchange.						
+				SMT_MISSION_ANNEX_SETTLEMENT_EXPIRY_DEATH	The faction you were to treaty with has been vanquished. There is no longer a need for you to send a diplomat to them. 						
+				SMT_MISSION_ANNEX_SETTLEMENT_EXPIRY_LOST	Another faction has taken this settlement. There is no longer a need for you to send a diplomat to this faction.						
+				SMT_MISSION_ANNEX_SETTLEMENT_FAILURE	You have failed to convince our rivals to hand over this settlement; the Council is greatly disappointed at this turn of events.						
+				SMT_MISSION_ANNEX_SETTLEMENT_SUCCESS	Congratulations, you have successfully convinced this faction to hand over land that is rightfully ours; the Council is much impressed by your obvious authority.						
+				SMT_MISSION_SEND_EMISSARY_TITLE	Send Emissary						
+				SMT_MISSION_SEND_EMISSARY_PROPOSAL	There are foreigners almost at our very gates and we know very little of them. The Council suggests you send an emissary to this faction and initiate diplomatic relations.						
+				SMT_MISSION_SEND_EMISSARY_EXPIRY_DEATH	The faction you were to meet with has been vanquished. There is no longer a need for you to send a diplomat to them.						
+				SMT_MISSION_SEND_EMISSARY_FAILURE	You have failed to establish diplomatic relations with these people, the Council hopes this is for the best.						
+				SMT_MISSION_SEND_EMISSARY_SUCCESS	Congratulations, you have successfully established diplomatic relations with these people; the Council admires the ease with which you handle diplomacy.						
+				SMT_MISSION_REINFORCE_REGION_TITLE	Reinforce Region						
+				SMT_MISSION_REINFORCE_REGION_PROPOSAL	This region is the frontier to our enemies, but is undermanned and vulnerable to attack. The Council suggests you increase our forces here by at least 4 units.						
+				SMT_MISSION_REINFORCE_REGION_EXPIRY_LOST	It is too late, the settlement is lost! It can no longer be reinforced by our forces.						
+				SMT_MISSION_REINFORCE_REGION_FAILURE	You have failed to reinforce this region and left it vulnerable to attack, the Council hopes this is all part of some master strategy.						
+				SMT_MISSION_REINFORCE_REGION_SUCCESS	Well done, you have successfully reinforced this region against attacks from our foes, the Council is comforted by your wisdom.						
+				SMT_MISSION_GUILD_BUILD_TITLE	A Gift from the Mason's Guild						
+				SMT_MISSION_GUILD_BUILD_PROPOSAL	In recognition of your past aid and support to the Mason's Guild, the masons will build a church in your honour, so that the faithful may gather.						
+				SMT_MISSION_REGICIDE_TITLE	Regicide						
+				SMT_MISSION_REGICIDE_PROPOSAL	My father is naught but a simpering fool. If left to rule he will bring only ruin to what should be my empire. Kill him so that I may lead my empire to greatness, and our empires will rule the world side by side as brothers. I am willing to generously 'recompense' you for your troubles.						
+				SMT_MISSION_REGICIDE_EXPIRY_DEATH	My 'noble' father has perished; you are no longer required to 'intervene'.						
+				SMT_MISSION_REGICIDE_EXPIRY_HIDING	My father has gone to ground like the mole he is, you are no longer required to 'intervene'. 						
+				SMT_MISSION_REGICIDE_FAILURE	You have failed to deal with my wretched father as I requested, I will not forget this.						
+				SMT_MISSION_REGICIDE_SUCCESS	You have my endless gratitude; you have done both my people and myself a great favour. Your deed may go unsung but it will not go unrewarded, nor forgotten.						
+				SMT_MISSION_CRUSADE_TITLE	A Holy Crusade						
+				SMT_MISSION_CRUSADE_PROPOSAL	The Pope has called for a holy Crusade to this settlement. It is time for righteous steel and arms strengthened by faith to free this part of God's land from his enemies. You must create a Crusading army to join.						
+				SMT_MISSION_CRUSADE_TARGET_PROPOSAL	It is a nightmarish day your people that inhabit this settlement, for the Pope has called a holy Crusade against it! The seemingly endless armies of Christendom will soon be marching to lay siege to the walls... Make peace with the Pope, or make ready to defend it!						
+				SMT_MISSION_JIHAD_TITLE	A Jihad						
+				SMT_MISSION_JIHAD_PROPOSAL	A Jihad is moving on this settlement to clean away the infidels. It is time to dispense rightful anger upon these snakes in men's clothing. You must create a Jihad army to join.						
+				SMT_MISSION_JIHAD_TARGET_PROPOSAL	A great Imam has called for the warriors of Islam to take up holy Jihad against your people and descend upon this settlement! The willingness of the Muslim soldiers' to die for such a cause make this one of the most terrifying perils the people of this place will ever face... Ensure they are prepared.						
+				SMT_VOTE	Vote						
+				SMT_PREFERATI	Preferati						
+				SMT_SUPPORTERS	Supporters						
+				SMT_UNDECIDED_VOTES	Undecided Votes						
+				SMT_CLICK_DIPLOMACY	Click to start diplomacy						
+				SMT_VOTES	Votes						
+				SMT_PAPAL_STANDING_ELECTION_0	His Holiness believes the flames of eternal damnation are too good for you.						
+				SMT_PAPAL_STANDING_ELECTION_1	His Holiness hopes there is place amongst the flames of eternal damnation for you.						
+				SMT_PAPAL_STANDING_ELECTION_2	His Holiness will not suffer your name to be spoken aloud in his presence.						
+				SMT_PAPAL_STANDING_ELECTION_3	His Holiness has found your faith wanting.						
+				SMT_PAPAL_STANDING_ELECTION_4	His Holiness has little good to say about you.						
+				SMT_PAPAL_STANDING_ELECTION_5	His Holiness feels neither ill will or good will towards you.						
+				SMT_PAPAL_STANDING_ELECTION_6	His Holiness feels no ill will against you.						
+				SMT_PAPAL_STANDING_ELECTION_7	Your faith satisfies his Holiness.						
+				SMT_PAPAL_STANDING_ELECTION_8	Your faith pleases his Holiness.						
+				SMT_PAPAL_STANDING_ELECTION_9	Your faith inspires his Holiness.						
+				SMT_PAPAL_STANDING_ELECTION_10	In His Holiness' eyes, your faith is an inspiration to all Christendom!						
+				SMT_POPE_ELECTED	%S (%S) has been named the new Pope and guide to all Christendom.						
+				SMT_VOTED_POPE	You were wise to support him in the last election and he will not forget your show of faith.						
+				SMT_VOTED_NO_POPE	You were unwise to go against him. Your lack of faith shall not be forgotten.						
+				SMT_NO_POPE	There is no Pope at present. The Papal seat remains vacant.						
+				SMT_EXCOMMUNICATE	His Holiness the Pope has denounced the leader of this faction, excommunicating them from the Catholic faith.						
+				SMT_ACCEPT_ELECTION	Click to enter elections						
+				SMT_DIPLOMACY_OFFER_RECOMMUNICATION_DEMAND	Request reconciliation						
+				SMT_DIPLOMACY_OFFER_RECOMMUNICATION_OFFER	Offer reconciliation						
+				SMT_DIPLOMACY_OFFER_CARDINAL_VOTE_DEMAND	Demand Cardinal votes						
+				SMT_STATE_ICON_FEAR	Fear						
+				SMT_STATE_ICON_GLORY	Glory						
+				SMT_STATE_ICON_EXCOMMUNICATION	Excommunication						
+				SMT_ATTACKING_THIS_CRUSADE_WILL_EXCOMMUNICATE	The army you wish to attack is on a Crusade from His Holiness the Pope. Attacking it is cause for excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_NAVY_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Attacking this navy will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_ARMY_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Attacking this army will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CHARACTER_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Attacking this character will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_SETTLEMENT_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Attacking this settlement will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_FORT_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Attacking this fort will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_PORT_WILL_EXCOMMUNICATE	His Holiness the Pope has requested that you not commence hostilities with this faction. Blockading this port will result in excommunication. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CRUSADE_WILL_EXCOMMUNICATE_ASSASSIN	The army you wish to attack is on a Crusade from His Holiness the Pope. If your assassin is caught, you will be excommunicated. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CHARACTER_WILL_EXCOMMUNICATE_ASSASSIN	His Holiness the Pope has requested that you not commence hostilities with this faction. If your assassin is caught, you will be excommunicated. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CHARACTER_WILL_BREAK_ALLIANCE_ASSASSIN	You are currently allied with this character's faction. If your assassin is caught, the alliance will be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR_ASSASSIN	There are no hostilities between you and this character's faction. If your assassin is caught it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_CONFIRM_EXCOMMUNICATION_ATTACK	This will result in excommunication!						
+				SMT_ATTACKING_POPE_WILL_EXCOMMUNICATE	You are about to launch an attack against the Papal States, and to do so will result in your immediate excommunication from the Catholic Church! Aside from making a new enemy in the Papacy, it will probably also result in the rest of Christendom waging war on you as well... Are you sure you wish to proceed?						
+				SMT_ATTACKING_POPE_WILL_EXCOMMUNICATE_ASSASSIN	You are about to target an important figure from the Papal States for assassination. In the event that your agent is discovered, it will most certainly result in your excommunication from the Catholic Church. Aside from making a new enemy in the Papacy, this could well also result in the rest of Christendom declaring war on you as well. Are you sure you wish to proceed?						
+				SMT_DISBAND_IMPOSSIBLE_IN_BATTLE	Cannot disband units involved in a battle						
+				SMT_DISBAND_IMPOSSIBLE_NAMED_GENERAL	Cannot disband the general's unit						
+				SMT_DISBAND_IMPOSSIBLE_WHILST_SIEGING	Cannot disband units while laying siege						
+				SMT_DISBAND_IMPOSSIBLE_DOCKED	Ships can only disband while docked at a port						
+				SMT_DISBAND_IMPOSSIBLE_NOT_ON_LAND	Cannot disband units whilst at sea						
+				SMT_DISBAND_IMPOSSIBLE_WHILST_EXCHANGING	Cannot disband units while a transfer is in progress						
+				SMT_DOMINATION_VICTORY	Once again the world has a dominant culture... Yours! No other realm can come close to rivalling the size, scope or power of your all-conquering empire. Your capital has become the centre of the civilised world, your visage is embossed on coin found even in the far east, and your family crest is now the most powerful secular symbol ever beheld.\n\nCaesar... Alexander... Charlemagne... These are names that will soon be forgotten now that you have made their legacies seem petty and unambitious. May your dynasty and legacy reign eternal!						
+				SMT_MERCENARY_PAY_FROM_LOOTING	florins payed to mercenaries from loot						
+				SMT_CAPABILITY_RECRUITMENT_SLOTS	Recruitment slots allowed:						
+				SMT_SLOTS_REMAINING	Recruitment Slots Remaining : %d						
+				SMT_PRINCESS_MERGE	Click to have the princess merge into the army						
+				SMT_PRINCESS_DIPLOMACY	Click to have the princess enter diplomacy						
+				SMT_ROSTERS	Rosters						
+				SMT_MISSION_BUTTON	Click to display your current missions						
+				SMT_FINANCE_BUTTON	Click to display your financial details						
+				SMT_PRISONERS_TITLE_CAPTOR	Prisoners Captured						
+				SMT_PRISONERS_TITLE_CAPTIVE	Prisoners Ransomed						
+				SMT_RANSOM_BUTTON_TITLE_CAPTOR	What will we do with these prisoners of war?						
+				SMT_RANSOM_BUTTON_TITLE_CAPTIVE	Will you pay the demanded ransom?						
+				SMT_TROOPS_CAPTURED_CAPTOR	Enemies Captured						
+				SMT_TROOPS_CAPTURED_CAPTIVE	Your Captured Forces						
+				SMT_TOTAL_RANSOM_VALUE	Total Ransom Value: %d						
+				SMT_RANSOM_BUTTON	Ransom						
+				SMT_RELEASE_BUTTON	Release						
+				SMT_EXECUTE_BUTTON	Execute						
+				SMT_ACCEPT_RANSOM_BUTTON	Accept						
+				SMT_REJECT_RANSOM_BUTTON	Decline						
+				SMT_CHARACTER_RANK	Rank						
+				SMT_UNIT	Unit						
+				SMT_MEN_CAPTURED	Men Captured						
+				SMT_RANSOM_VALUE	Ransom Value						
+				SMT_MAKE_OFFER_BUTTON	Make offer						
+				SMT_RANSOM_ACCEPTED_TITLE	Ransom Accepted						
+				SMT_RANSOM_REJECTED_TITLE	Ransom Rejected						
+				SMT_RANSOM_COULD_NOT_PAY_TITLE	Ransom Rejected						
+				SMT_RANSOM_ACCEPTED_BODY	Excellent news! The enemy has agreed to pay your ransom demands, and have sent emissaries with the required sum of money in exchange for the safe return of their troops.						
+				SMT_RANSOM_REJECTED_BODY	Our cold-hearted enemy has refused to meet our most reasonable ransom demands, and thus, the prisoners have been executed!						
+				SMT_RANSOM_COULD_NOT_PAY_BODY	Our enemy claims they cannot afford the ransom, and as a result the prisoners that you have captured have been executed!						
+				SMT_EXECUTED_PRISONER	Executed:						
+				SMT_RELEASED_X_PRISONERS	Wonderful news! In an act of compassion, mercy and honour, our enemies have released %d prisoners that they captured in the last battle. 						
+				SMT_EXECUTED_X_PRISONERS	Grim tidings indeed... News has reached the capital that our enemy has executed the %d men that they captured prisoner in our last battle with them.						
+				SMT_CONFIRM_JOIN_CRUSADE_AGAINST_ALLY	Join crusade against ally?						
+				SMT_CONFIRM_JOIN_JIHAD_AGAINST_ALLY	Join jihad against ally?						
+				SMT_JOIN_CRUSADE_WILL_BREAK_ALLIANCE	You are currently allied with crusade target faction. If you join now then the alliance well be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_JOIN_JIHAD_WILL_BREAK_ALLIANCE	You are currently allied with jihad target faction. If you join now then the alliance well be broken and war will be declared. Are you sure you wish to proceed?						
+				SMT_CONFIRM_JOIN_CRUSADE_AGAINST_NEUTRAL	Join crusade against neutral faction?						
+				SMT_CONFIRM_JOIN_JIHAD_AGAINST_NEUTRAL	Join jihad against neutral faction?						
+				SMT_JOIN_CRUSADE_DECLARATION_OF_WAR	There are no hostilities between you and crusade target faction. If you join now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_JOIN_JIHAD_DECLARATION_OF_WAR	There are no hostilities between you and jihad target faction. If you join now it will be considered a declaration of war. Are you sure you wish to proceed?						
+				SMT_HUMAN	Human						
+				SMT_AI	Computer						
+				SMT_NO_GOVERNOR_DESCR	This settlement is currently being auto-managed. Move a general into this settlement to manage the tax rate. Untick the construction and recruitment boxes to manually build and recruit.						
+				SMT_MAX_UNIT_POOL	Unit pool at maximum						
+				SMT_NEXT_ARMOUR_LEVEL	Next Armour Upgrade:						
+				SMT_DISGRACED	Disgraced						
+				SMT_DENOUNCED	Denounced						
+				SMT_DEFEAT_BODY_PROLOGUE	The Norman invasion of England has failed. The English crown will remain with the Saxon King. What a dark day for Duke William of Normandy.						
+				SMT_RESOURCE_GENERIC	Common Goods						
+				SMT_DIPLOMACY_OFFER_CARDINAL_VOTE_OFFER	Offer Cardinal votes						
+				SMT_HOTSEAT_TITLE	New Player Turn						
+				SMT_ENTER_PASSWORD	Enter Password						
+				SMT_VERIFY_PASSWORD	Verify Password						
+				SMT_HOTSEAT_START_TURN	Start Turn						
+				SMT_PASSWORD_MISMATCH	Passwords do not match!						
+				SMT_INCORRECT_PASSWORD	Incorrect Password Entered!						
+				SMT_INVALID_PASSWORD_ASCII	Password must only contain ASCII characters.  Please re-enter password.						
+				SMT_INVALID_PASSWORD_LENGTH	Maximum password length is %d characters.  Please re-enter password.						
+				SMT_SAVEGAME_STATUS	Save game status:						
+				SMT_SAVEGAME_STATUS_GOOD	Good						
+				SMT_SAVEGAME_STATUS_TAMPERED	Modified!						
+				SMT_SAVEGAME_VERSION	Save game version:						
+				SMT_SAVEGAME_VERSION_DETAILS	%d.%02d						
+				SMT_SAVEGAME_VERSION_DETAILS_UNKNOWN	< %d.%02d						
+				SMT_ADMIN_PASSWORD	Administrator set:						
+				SMT_NUM_HUMAN_PLAYERS	Number of human players:						
+				SMT_AUTORESOLVE_BATTLES	Autoresolve all battles:						
+				SMT_CONSOLE_DISABLED	Dev console disabled:						
+				SMT_SAVED_SETTINGS	Save settings:						
+				SMT_PLAY_BY_EMAIL	Play by email:						
+				SMT_EMAIL_ADDRESS	Email Address:						
+				SMT_HUMAN_FACTIONS	Human Factions						
+				SMT_AI_FACTIONS	AI Factions						
+				SMT_HS_GAME_SETTINGS	Game Settings:						
+				SMT_HS_HOTSEAT_SETTINGS	Hotseat Settings:						
+				SMT_HS_INTEGRITY_SETTINGS	Integrity Settings:						
+				SMT_HS_GAME_NAME	Game Name:						
+				SMT_HS_VICTOR	Victor:						
+				SMT_HS_DATA_STATUS	Game data status:						
+				SMT_HS_DATA_STATUS_GOOD	Good						
+				SMT_HS_DATA_STATUS_BAD	Modified!						
+				SMT_HS_ALLOW_INTERGITY_FAILURE	Allow integrity failures:						
+				SMT_HS_CURRENT_GAME_VERSION	Current game version:						
+				SMT_HS_QUIT_ON_SAVE	Quit on save:						
+				SMT_HS_PASSWORD_INSTRUCTIONS_BLANK	Enter a new password below						
+				SMT_HS_PASSWORD_INSTRUCTIONS_SET	Please enter your password below.						
+				SMT_HS_START_TURN	Start turn						
+				SMT_PLAYER_CONTROL	Command this army in battle						
+				SMT_ASSAULT_INVALID_SIEGE_TOWERS	Assault impossible! Cannot use siege towers alone to capture this settlement						
+				SMT_DEFEATED_BY_BODY	Though you never led your people to their utter demise, it cannot be said that you truly led them to glory either, for another empire has all but conquered the known world. History has shown that it is those that are victorious are remembered... You can only hope your direct descendents remember what little legacy you forged.						
+				SMT_HOTSEAT_MESSAGE_TITLE	Send Message						
+				SMT_HS_CLEAR_BUTTON	Clear						
+				SMT_HS_CANCEL_BUTTON	Cancel						
+				SMT_HS_SEND_BUTTON	Send						
+				SMT_SETTLEMENT_INFILTRATED	Your spies have infiltrated this settlement.						

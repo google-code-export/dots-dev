@@ -1,0 +1,143 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PSF scripts          ;;;
+;;; Auth: Resurrection   ;;;
+;;; Tester: Resurrection ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Features                 ;
+;  - PSF Names             ;
+;  - PSF Income            ;
+;  - PSF Garrisons         ;
+;                          ;
+; REBUILD Template         ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;--------------------------;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;The event counters for PSF ownership tracking;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+add_events
+event counter psf_counter
+;?-for each faction in all factions
+;!-for each psf_name in all psf_name
+;!if psf_ownership is {faction}
+event counter psf_{psf_name}
+;!end
+;!end
+;?end
+end_add_events
+set_event_counter psf_counter 32
+;?-for each faction in all factions
+;?with above each ID in all faction_ID
+;!-for each psf_name in all psf_name
+;!if psf_ownership is {faction}
+set_event_counter psf_{psf_name} {ID}
+;!end
+;!end
+;?end
+;?end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;PSF Names done via agents refreshed every turn;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+monitor_event FactionTurnEnd FactionType slave
+retire_characters slave princess
+end_monitor
+monitor_event FactionTurnStart FactionIsLocal
+campaign_wait 0.1
+;!-for each psf_name in all psf_name
+;!with above each x_co in all psf_x_co
+;!with above each y_co in all psf_y_co
+spawn_character slave psf_{psf_name}, princess, age 20, x {x_co}, y {y_co}
+console_command move_character psf_{psf_name} {x_co} {y_co}
+;!end
+;!end
+;!end
+end_monitor
+;;;;;;;;;;;;;;;;;;;;;
+;PSF Ownership check;
+;;;;;;;;;;;;;;;;;;;;;
+monitor_event EventCounter I_EventCounter psf_counter < 32
+;?-for each faction in all factions
+;?with above each ID in all faction_ID
+if I_EventCounter psf_counter = {ID}
+;!-for each psf_name in all psf_name
+;!with above each x_co in all psf_x_co
+;!with above each y_co in all psf_y_co
+if I_FactionNearTile {faction} 0 {x_co},{y_co}
+and not I_EventCounter psf_{psf_name} = {ID}
+if I_CharacterTypeNearTile {faction} named_character, 0 {x_co},{y_co}
+set_event_counter psf_{psf_name} {ID}
+end_if
+if not I_EventCounter psf_{psf_name} = {ID}
+and I_CharacterTypeNearTile {faction} general, 0 {x_co},{y_co}
+set_event_counter psf_{psf_name} {ID}
+end_if
+end_if
+;!end
+;!end
+;!end
+end_if
+;?end
+;?end
+set_event_counter psf_counter 32
+end_monitor
+;;;;;;;;;;;;;;;;;
+;Conquest of PSF;
+;;;;;;;;;;;;;;;;;
+;?-for each faction in all factions
+;?with above each ID in all faction_ID
+monitor_event GeneralCaptureResidence FactionType {faction}
+set_event_counter psf_counter {ID}
+while I_EventCounter psf_counter < 32
+end_while
+end_monitor
+;?end
+;?end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Empty PSF Fix and Ownership Recheck;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;?-for each faction in all factions
+;?with above each ID in all faction_ID
+;?with above each unit in all psf_gar_unit
+monitor_event FactionTurnEnd FactionType {faction}
+;!-for each psf_name in all psf_name
+;!with above each x_co in all psf_x_co
+;!with above each y_co in all psf_y_co
+if I_EventCounter psf_{psf_name} = {ID}
+and not I_FactionNearTile {faction} 0 {x_co},{y_co}
+spawn_army
+faction {faction}
+character	psf_gar_{psf_name}_{faction}, named character, age 20, x {x_co}, y {y_co}
+unit	{unit}	exp 0 armour 0 weapon_lvl 0
+end
+move psf_gar_{psf_name}_{faction}, {x_co}, {y_co}
+console_command give_ancillary psf_gar_{psf_name}_{faction} psfanc_{psf_name} 1
+end_if
+;!end
+;!end
+;!end
+set_event_counter psf_counter {ID}
+while I_EventCounter psf_counter < 32
+end_while
+end_monitor
+;?end
+;?end
+;?end
+;;;;;;;;;;;;
+;PSF Income;
+;;;;;;;;;;;;
+;?-for each faction in all factions
+;?with above each ID in all faction_ID
+;?with above each purse in all ds_purse
+monitor_event PreFactionTurnStart FactionType {faction}
+set_kings_purse {faction} {purse}
+;!-for each psf_name in all psf_name
+;!with above each psf_income in all psf_income
+if I_EventCounter psf_{psf_name} = {ID}
+increment_kings_purse {faction} {psf_income}
+end_if
+;!end
+;!end
+end_monitor
+;?end
+;?end
+;?end

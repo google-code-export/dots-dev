@@ -1,0 +1,52 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file contains   ;
+;faction name lists.  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;Corrections: Azim    ;
+;---------------------;
+;?for each faction_caps in all faction_caps
+;?with above each faction in all factions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{faction_caps} name list
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction: {faction}
+	
+	characters
+		;!-for each {faction}_name in all {faction}_name
+		{{faction}_name}
+		;!end
+		;!-for each psf_name in all psf_name
+		psf_gar_{psf_name}_{faction}
+		;!end
+		
+	surnames
+		;!-for each {faction}_surname in all {faction}_surname
+		{{faction}_surname}
+		;!end
+
+;;bynames
+		;!-for each {faction}_byname in all {faction}_byname
+		{{faction}_byname}
+		;!end
+		
+;?unless factions is slave
+
+	women
+		;!-for each {faction}_fem_name in all {faction}_fem_name
+		{{faction}_fem_name}
+		;!end
+;?end
+
+;?if factions is slave
+
+	women
+		;!-for each psf_name in all psf_name
+		psf_{psf_name}
+		;!end
+;?end
+;?end
+;?end

@@ -1,0 +1,66 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;strat map characters ;
+;and their models	  ;
+;including battle ones;
+;where eligible.   	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+starting_action_points	100
+
+;?for each character_type in all dch_character_types
+;?with above each actions in all dch_actions
+;?with above each wage in all dch_wages
+;?with above each mp in all dch_movement_points
+;;;;;;;;;;;;;;;
+;{character_type}
+;;;;;;;;;;;;;;;
+;?unless dch_character_types is named_character
+type			{character_type}
+;?end
+;?if dch_character_types is named_character
+type			named character
+;?end
+
+actions			{actions}
+wage_base		{wage}
+starting_action_points	{mp}
+
+;@for each faction in all factions
+;@with above each dictionary in all dch_dictionary
+;?if dch_character_types is named_character
+;@with above each {character_type}_battle_model in all dch_{character_type}_battle_model
+;?end
+;?if dch_character_types is general
+;@with above each {character_type}_battle_model in all dch_{character_type}_battle_model
+;?end
+;@with above unpack each dch_{character_type}_models_unpacked in dch_{character_type}_models
+;@unless dch_{character_type}_models_unpacked is -
+faction			{faction}
+dictionary		{dictionary}
+;@-for each {character_type}_model in all dch_{character_type}_models_unpacked
+strat_model		{{character_type}_model}
+;@end
+;?if dch_character_types is named_character
+battle_model	{{character_type}_battle_model}
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+;@end
+;?end
+;?if dch_character_types is general
+battle_model	{{character_type}_battle_model}
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+;@end
+;?end
+;@end
+;@end
+;@end
+;@end
+;?end
+;?end
+;?end
+;?end

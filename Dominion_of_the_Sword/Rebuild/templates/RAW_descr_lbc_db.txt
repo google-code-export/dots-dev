@@ -1,0 +1,15 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;RTW leftover file	  ;
+;but still needed.	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each faction in all factions
+faction {faction}
+model roman_peasant			 40
+model roman_female_peasant   60
+;!end

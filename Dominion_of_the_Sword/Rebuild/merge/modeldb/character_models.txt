@@ -1,0 +1,410 @@
+15 eastern_captain 
+1 1 
+76 unit_models/_Generals_and_Captains/Islamic_Captain/eastern_captain_lod0.mesh 6400 
+7 
+5 moors 
+89 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_moors.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+5 egypt 
+89 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_egypt.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+5 turks 
+89 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_turks.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+7 mongols 
+91 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_mongols.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+8 timurids 
+92 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_timurids.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+5 slave 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_rebels.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+4 merc 
+89 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_egypt.texture 
+90 unit_models/_Generals_and_Captains/Islamic_Captain/textures/islamic_captain_normal.texture 0  
+7 
+5 moors 
+59 unit_models/AttachmentSets/Final General_moors_diff.texture 
+59 unit_models/AttachmentSets/Final General_moors_norm.texture 0  
+5 egypt 
+59 unit_models/AttachmentSets/Final General_egypt_diff.texture 
+59 unit_models/AttachmentSets/Final General_egypt_norm.texture 0  
+5 turks 
+59 unit_models/AttachmentSets/Final General_turks_diff.texture 
+59 unit_models/AttachmentSets/Final General_turks_norm.texture 0  
+7 mongols 
+61 unit_models/AttachmentSets/Final General_mongols_diff.texture 
+61 unit_models/AttachmentSets/Final General_mongols_norm.texture 0  
+8 timurids 
+62 unit_models/AttachmentSets/Final General_timurids_diff.texture 
+62 unit_models/AttachmentSets/Final General_timurids_norm.texture 0  
+5 slave 
+59 unit_models/AttachmentSets/Final General_slave_diff.texture 
+59 unit_models/AttachmentSets/Final General_slave_norm.texture 0  
+4 merc 
+58 unit_models/AttachmentSets/Final General_merc_diff.texture 
+58 unit_models/AttachmentSets/Final General_merc_norm.texture 0  
+4 
+4 None 
+14 MTW2_Swordsman 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 horse 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 camel 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 -1 0 0 0 0 0 0 
+15 eastern_general 
+1 1 
+76 unit_models/_Generals_and_Captains/Islamic_General/eastern_general_lod0.mesh 6400 
+6 
+5 moors 
+89 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_moors.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+5 egypt 
+89 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_egypt.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+5 turks 
+89 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_turks.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+7 mongols 
+91 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_mongols.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+8 timurids 
+92 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_timurids.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+5 slave 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_rebels.texture 
+90 unit_models/_Generals_and_Captains/Islamic_General/textures/islamic_general_normal.texture 0  
+6 
+5 moors 
+59 unit_models/AttachmentSets/Final General_moors_diff.texture 
+59 unit_models/AttachmentSets/Final General_moors_norm.texture 0  
+5 egypt 
+59 unit_models/AttachmentSets/Final General_egypt_diff.texture 
+59 unit_models/AttachmentSets/Final General_egypt_norm.texture 0  
+5 turks 
+59 unit_models/AttachmentSets/Final General_turks_diff.texture 
+59 unit_models/AttachmentSets/Final General_turks_norm.texture 0  
+7 mongols 
+61 unit_models/AttachmentSets/Final General_mongols_diff.texture 
+61 unit_models/AttachmentSets/Final General_mongols_norm.texture 0  
+8 timurids 
+62 unit_models/AttachmentSets/Final General_timurids_diff.texture 
+62 unit_models/AttachmentSets/Final General_timurids_norm.texture 0  
+5 slave 
+59 unit_models/AttachmentSets/Final General_slave_diff.texture 
+59 unit_models/AttachmentSets/Final General_slave_norm.texture 0  
+4 
+4 None 
+14 MTW2_Swordsman 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 horse 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 camel 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 -1 0 0 0 0 0 0 
+16 northern_captain 
+1 4 
+78 unit_models/_Generals_and_Captains/Northern_Captain/northern_captain_lod0.mesh 121 
+78 unit_models/_Generals_and_Captains/Northern_Captain/northern_captain_lod1.mesh 900 
+78 unit_models/_Generals_and_Captains/Northern_Captain/northern_captain_lod2.mesh 2500 
+78 unit_models/_Generals_and_Captains/Northern_Captain/northern_captain_lod3.mesh 6400 
+19 
+7 england 
+98 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_england.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+8 scotland 
+99 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_scotland.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 france 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_france.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+3 hre 
+94 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_hre.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+7 denmark 
+98 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_denmark.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+5 spain 
+96 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_spain.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+8 portugal 
+99 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_portugal.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+5 milan 
+96 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_milan.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 venice 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_venice.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+12 papal_states 
+103 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_papal_states.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 sicily 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_sicily.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 poland 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_poland.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 russia 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_russia.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+7 hungary 
+98 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_hungary.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+9 byzantium 
+100 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_byzantium.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+5 slave 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_rebels.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+4 merc 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_rebels.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+7 normans 
+98 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_england.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+6 saxons 
+94 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_hre.texture 
+97 unit_models/_Generals_and_Captains/Northern_Captain/textures/late_northern_captain_normal.texture 0  
+19 
+7 england 
+61 unit_models/AttachmentSets/Final General_england_diff.texture 
+61 unit_models/AttachmentSets/Final General_england_norm.texture 0  
+8 scotland 
+62 unit_models/AttachmentSets/Final General_scotland_diff.texture 
+62 unit_models/AttachmentSets/Final General_scotland_norm.texture 0  
+6 france 
+60 unit_models/AttachmentSets/Final General_france_diff.texture 
+60 unit_models/AttachmentSets/Final General_france_norm.texture 0  
+3 hre 
+57 unit_models/AttachmentSets/Final General_hre_diff.texture 
+57 unit_models/AttachmentSets/Final General_hre_norm.texture 0  
+7 denmark 
+61 unit_models/AttachmentSets/Final General_denmark_diff.texture 
+61 unit_models/AttachmentSets/Final General_denmark_norm.texture 0  
+5 spain 
+59 unit_models/AttachmentSets/Final General_spain_diff.texture 
+59 unit_models/AttachmentSets/Final General_spain_norm.texture 0  
+8 portugal 
+62 unit_models/AttachmentSets/Final General_portugal_diff.texture 
+62 unit_models/AttachmentSets/Final General_portugal_norm.texture 0  
+5 milan 
+59 unit_models/AttachmentSets/Final General_milan_diff.texture 
+59 unit_models/AttachmentSets/Final General_milan_norm.texture 0  
+6 venice 
+60 unit_models/AttachmentSets/Final General_venice_diff.texture 
+60 unit_models/AttachmentSets/Final General_venice_norm.texture 0  
+12 papal_states 
+66 unit_models/AttachmentSets/Final General_papal_states_diff.texture 
+66 unit_models/AttachmentSets/Final General_papal_states_norm.texture 0  
+6 sicily 
+60 unit_models/AttachmentSets/Final General_sicily_diff.texture 
+60 unit_models/AttachmentSets/Final General_sicily_norm.texture 0  
+6 poland 
+60 unit_models/AttachmentSets/Final General_poland_diff.texture 
+60 unit_models/AttachmentSets/Final General_poland_norm.texture 0  
+6 russia 
+60 unit_models/AttachmentSets/Final General_russia_diff.texture 
+60 unit_models/AttachmentSets/Final General_russia_norm.texture 0  
+7 hungary 
+61 unit_models/AttachmentSets/Final General_hungary_diff.texture 
+61 unit_models/AttachmentSets/Final General_hungary_norm.texture 0  
+9 byzantium 
+63 unit_models/AttachmentSets/Final General_byzantium_diff.texture 
+63 unit_models/AttachmentSets/Final General_byzantium_norm.texture 0  
+5 slave 
+59 unit_models/AttachmentSets/Final General_slave_diff.texture 
+59 unit_models/AttachmentSets/Final General_slave_norm.texture 0  
+4 merc 
+58 unit_models/AttachmentSets/Final General_merc_diff.texture 
+58 unit_models/AttachmentSets/Final General_merc_norm.texture 0  
+7 normans 
+61 unit_models/AttachmentSets/Final General_normans_diff.texture 
+61 unit_models/AttachmentSets/Final General_normans_norm.texture 0  
+6 saxons 
+60 unit_models/AttachmentSets/Final General_saxons_diff.texture 
+60 unit_models/AttachmentSets/Final General_saxons_norm.texture 0  
+4 
+4 None 
+15 MTW2_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 horse 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 camel 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 -1 0 0 0 0 0 0 
+16 northern_general 
+1 4 
+78 unit_models/_Generals_and_Captains/Northern_General/northern_general_lod0.mesh 121 
+78 unit_models/_Generals_and_Captains/Northern_General/northern_general_lod1.mesh 900 
+78 unit_models/_Generals_and_Captains/Northern_General/northern_general_lod2.mesh 2500 
+78 unit_models/_Generals_and_Captains/Northern_General/northern_general_lod3.mesh 6400 
+18 
+7 england 
+89 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_england.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+8 scotland 
+90 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_scotland.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 france 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_france.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+3 hre 
+85 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_hre.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+7 denmark 
+89 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_denmark.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+5 spain 
+87 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_spain.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+8 portugal 
+90 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_portugal.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+5 milan 
+87 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_milan.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 venice 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_venice.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+12 papal_states 
+94 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_papal_states.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 sicily 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_sicily.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 poland 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_poland.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 russia 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_russia.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+7 hungary 
+89 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_hungary.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+9 byzantium 
+91 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_byzantium.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+5 slave 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_rebels.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+7 normans 
+89 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_england.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+6 saxons 
+85 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_hre.texture 
+88 unit_models/_Generals_and_Captains/Northern_General/textures/late_general_normal.texture 0  
+18 
+7 england 
+61 unit_models/AttachmentSets/Final General_england_diff.texture 
+61 unit_models/AttachmentSets/Final General_england_norm.texture 0  
+8 scotland 
+62 unit_models/AttachmentSets/Final General_scotland_diff.texture 
+62 unit_models/AttachmentSets/Final General_scotland_norm.texture 0  
+6 france 
+60 unit_models/AttachmentSets/Final General_france_diff.texture 
+60 unit_models/AttachmentSets/Final General_france_norm.texture 0  
+3 hre 
+57 unit_models/AttachmentSets/Final General_hre_diff.texture 
+57 unit_models/AttachmentSets/Final General_hre_norm.texture 0  
+7 denmark 
+61 unit_models/AttachmentSets/Final General_denmark_diff.texture 
+61 unit_models/AttachmentSets/Final General_denmark_norm.texture 0  
+5 spain 
+59 unit_models/AttachmentSets/Final General_spain_diff.texture 
+59 unit_models/AttachmentSets/Final General_spain_norm.texture 0  
+8 portugal 
+62 unit_models/AttachmentSets/Final General_portugal_diff.texture 
+62 unit_models/AttachmentSets/Final General_portugal_norm.texture 0  
+5 milan 
+59 unit_models/AttachmentSets/Final General_milan_diff.texture 
+59 unit_models/AttachmentSets/Final General_milan_norm.texture 0  
+6 venice 
+60 unit_models/AttachmentSets/Final General_venice_diff.texture 
+60 unit_models/AttachmentSets/Final General_venice_norm.texture 0  
+12 papal_states 
+66 unit_models/AttachmentSets/Final General_papal_states_diff.texture 
+66 unit_models/AttachmentSets/Final General_papal_states_norm.texture 0  
+6 sicily 
+60 unit_models/AttachmentSets/Final General_sicily_diff.texture 
+60 unit_models/AttachmentSets/Final General_sicily_norm.texture 0  
+6 poland 
+60 unit_models/AttachmentSets/Final General_poland_diff.texture 
+60 unit_models/AttachmentSets/Final General_poland_norm.texture 0  
+6 russia 
+60 unit_models/AttachmentSets/Final General_russia_diff.texture 
+60 unit_models/AttachmentSets/Final General_russia_norm.texture 0  
+7 hungary 
+61 unit_models/AttachmentSets/Final General_hungary_diff.texture 
+61 unit_models/AttachmentSets/Final General_hungary_norm.texture 0  
+9 byzantium 
+63 unit_models/AttachmentSets/Final General_byzantium_diff.texture 
+63 unit_models/AttachmentSets/Final General_byzantium_norm.texture 0  
+5 slave 
+59 unit_models/AttachmentSets/Final General_slave_diff.texture 
+59 unit_models/AttachmentSets/Final General_slave_norm.texture 0  
+7 normans 
+61 unit_models/AttachmentSets/Final General_normans_diff.texture 
+61 unit_models/AttachmentSets/Final General_normans_norm.texture 0  
+6 saxons 
+60 unit_models/AttachmentSets/Final General_saxons_diff.texture 
+60 unit_models/AttachmentSets/Final General_saxons_norm.texture 0  
+4 
+4 None 
+15 MTW2_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 horse 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0  
+1 
+18 MTW2_Sword_Primary 
+0 
+5 camel 
+18 MTW2_HR_Non_Shield 0  
+1 
+18 MTW2_Sword_Primary 
+0 -1 0 0 0 0 0 0 

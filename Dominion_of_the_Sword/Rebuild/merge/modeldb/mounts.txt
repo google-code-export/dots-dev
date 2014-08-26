@@ -1,0 +1,714 @@
+10 mount_pony 
+1.12 0 0 3 0 0 
+52 unit_models/Mounts/Medium_Horse/mount_pony_lod0.mesh 121 
+52 unit_models/Mounts/Medium_Horse/mount_pony_lod1.mesh 1225 
+52 unit_models/Mounts/Medium_Horse/mount_pony_lod2.mesh 10000 
+0 0 26 0 0 
+7 england 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_england.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/england_Mount_Pony_sprite.spr 
+8 scotland 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_scotland.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/scotland_Mount_Pony_sprite.spr 
+6 france 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_france.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/france_Mount_Pony_sprite.spr 
+3 hre 
+65 unit_models/Mounts/Medium_Horse/textures/medium_horse_hre.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+38 unit_sprites/hre_Mount_Pony_sprite.spr 
+7 denmark 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_denmark.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/denmark_Mount_Pony_sprite.spr 
+5 spain 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_spain.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/spain_Mount_Pony_sprite.spr 
+6 aragon 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_spain.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/spain_Mount_Pony_sprite.spr 
+8 portugal 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_portugal.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/portugal_Mount_Pony_sprite.spr 
+5 milan 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_milan.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/milan_Mount_Pony_sprite.spr 
+4 pisa 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_milan.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/milan_Mount_Pony_sprite.spr 
+6 venice 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_venice.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/venice_Mount_Pony_sprite.spr 
+12 papal_states 
+74 unit_models/Mounts/Medium_Horse/textures/medium_horse_papal_states.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+47 unit_sprites/papal_states_Mount_Pony_sprite.spr 
+6 sicily 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_sicily.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/sicily_Mount_Pony_sprite.spr 
+6 poland 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_poland.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/poland_Mount_Pony_sprite.spr 
+6 russia 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_russia.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/russia_Mount_Pony_sprite.spr 
+7 hungary 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_hungary.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/hungary_Mount_Pony_sprite.spr 
+9 byzantium 
+71 unit_models/Mounts/Medium_Horse/textures/medium_horse_byzantium.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+44 unit_sprites/byzantium_Mount_Pony_sprite.spr 
+5 moors 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_moors.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/moors_Mount_Pony_sprite.spr 
+5 egypt 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_egypt.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/egypt_Mount_Pony_sprite.spr 
+5 turks 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_turks.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/turks_Mount_Pony_sprite.spr 
+7 mongols 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_mongols.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/mongols_Mount_Pony_sprite.spr 
+8 timurids 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_timurids.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/timurids_Mount_Pony_sprite.spr 
+6 aztecs 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_aztecs.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/aztecs_Mount_Pony_sprite.spr 
+5 slave 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_rebels.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/slave_Mount_Pony_sprite.spr 
+4 merc 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_mercs.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+39 unit_sprites/merc_Mount_Pony_sprite.spr 
+7 normans 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_england.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/normans_Mount_Pony_sprite.spr 0 0 0 1 0 0 
+5 Horse 
+8 fs_horse 0  
+0 0 0 0 -1 0 0 0 0 0 0 0 0 
+15 mount_fast_pony 
+1.12 3 
+57 unit_models/Mounts/Medium_Horse/mount_fast_pony_lod0.mesh 121 
+57 unit_models/Mounts/Medium_Horse/mount_fast_pony_lod1.mesh 1225 
+57 unit_models/Mounts/Medium_Horse/mount_fast_pony_lod2.mesh 10000 
+26 
+7 england 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_england.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/england_Mount_Pony_sprite.spr 
+8 scotland 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_scotland.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/scotland_Mount_Pony_sprite.spr 
+6 france 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_france.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/france_Mount_Pony_sprite.spr 
+3 hre 
+65 unit_models/Mounts/Medium_Horse/textures/medium_horse_hre.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+38 unit_sprites/hre_Mount_Pony_sprite.spr 
+7 denmark 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_denmark.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/denmark_Mount_Pony_sprite.spr 
+5 spain 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_spain.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/spain_Mount_Pony_sprite.spr 
+6 aragon 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_spain.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/spain_Mount_Pony_sprite.spr 
+8 portugal 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_portugal.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/portugal_Mount_Pony_sprite.spr 
+5 milan 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_milan.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/milan_Mount_Pony_sprite.spr 
+4 pisa 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_milan.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/milan_Mount_Pony_sprite.spr 
+6 venice 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_venice.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/venice_Mount_Pony_sprite.spr 
+12 papal_states 
+74 unit_models/Mounts/Medium_Horse/textures/medium_horse_papal_states.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+47 unit_sprites/papal_states_Mount_Pony_sprite.spr 
+6 sicily 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_sicily.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/sicily_Mount_Pony_sprite.spr 
+6 poland 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_poland.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/poland_Mount_Pony_sprite.spr 
+6 russia 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_russia.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/russia_Mount_Pony_sprite.spr 
+7 hungary 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_hungary.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/hungary_Mount_Pony_sprite.spr 
+9 byzantium 
+71 unit_models/Mounts/Medium_Horse/textures/medium_horse_byzantium.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+44 unit_sprites/byzantium_Mount_Pony_sprite.spr 
+5 moors 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_moors.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/moors_Mount_Pony_sprite.spr 
+5 egypt 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_egypt.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/egypt_Mount_Pony_sprite.spr 
+5 turks 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_turks.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/turks_Mount_Pony_sprite.spr 
+7 mongols 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_mongols.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/mongols_Mount_Pony_sprite.spr 
+8 timurids 
+70 unit_models/Mounts/Medium_Horse/textures/medium_horse_timurids.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+43 unit_sprites/timurids_Mount_Pony_sprite.spr 
+6 aztecs 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_aztecs.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+41 unit_sprites/aztecs_Mount_Pony_sprite.spr 
+5 slave 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_rebels.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+40 unit_sprites/slave_Mount_Pony_sprite.spr 
+4 merc 
+67 unit_models/Mounts/Medium_Horse/textures/medium_horse_mercs.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+39 unit_sprites/merc_Mount_Pony_sprite.spr 
+7 normans 
+69 unit_models/Mounts/Medium_Horse/textures/medium_horse_england.texture 
+68 unit_models/Mounts/Medium_Horse/textures/medium_horse_normal.texture 
+42 unit_sprites/normans_Mount_Pony_sprite.spr 0 1 
+5 Horse 
+13 fs_fast_horse 0  
+0 0 -1 0 0 0 0 0 0 
+17 mount_heavy_horse 
+1.12 3 
+58 unit_models/Mounts/Heavy_Horse/mount_heavy_horse_lod0.mesh 121 
+58 unit_models/Mounts/Heavy_Horse/mount_heavy_horse_lod1.mesh 1225 
+58 unit_models/Mounts/Heavy_Horse/mount_heavy_horse_lod2.mesh 10000 
+26 
+7 england 
+67 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_england.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+49 unit_sprites/england_Mount_Heavy_Horse_sprite.spr 
+8 scotland 
+68 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_scotland.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+50 unit_sprites/scotland_Mount_Heavy_Horse_sprite.spr 
+6 france 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_france.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/france_Mount_Heavy_Horse_sprite.spr 
+3 hre 
+63 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_hre.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+45 unit_sprites/hre_Mount_Heavy_Horse_sprite.spr 
+7 denmark 
+67 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_denmark.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+49 unit_sprites/denmark_Mount_Heavy_Horse_sprite.spr 
+5 spain 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_spain.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/spain_Mount_Heavy_Horse_sprite.spr 
+6 aragon 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_spain.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/spain_Mount_Heavy_Horse_sprite.spr 
+8 portugal 
+68 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_portugal.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+50 unit_sprites/portugal_Mount_Heavy_Horse_sprite.spr 
+5 milan 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_milan.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/milan_Mount_Heavy_Horse_sprite.spr 
+4 pisa 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_milan.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/milan_Mount_Heavy_Horse_sprite.spr 
+6 venice 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_venice.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/venice_Mount_Heavy_Horse_sprite.spr 
+12 papal_states 
+72 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_papal_states.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+54 unit_sprites/papal_states_Mount_Heavy_Horse_sprite.spr 
+6 sicily 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_sicily.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/sicily_Mount_Heavy_Horse_sprite.spr 
+6 poland 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_poland.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/poland_Mount_Heavy_Horse_sprite.spr 
+6 russia 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_russia.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/russia_Mount_Heavy_Horse_sprite.spr 
+7 hungary 
+67 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_hungary.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+49 unit_sprites/hungary_Mount_Heavy_Horse_sprite.spr 
+9 byzantium 
+69 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_byzantium.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+51 unit_sprites/byzantium_Mount_Heavy_Horse_sprite.spr 
+5 moors 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_moors.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/moors_Mount_Heavy_Horse_sprite.spr 
+5 egypt 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_egypt.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/egypt_Mount_Heavy_Horse_sprite.spr 
+5 turks 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_turks.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/turks_Mount_Heavy_Horse_sprite.spr 
+7 mongols 
+67 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_mongols.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+49 unit_sprites/mongols_Mount_Heavy_Horse_sprite.spr 
+8 timurids 
+68 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_timurids.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+50 unit_sprites/timurids_Mount_Heavy_Horse_sprite.spr 
+6 aztecs 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_aztecs.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+48 unit_sprites/aztecs_Mount_Heavy_Horse_sprite.spr 
+5 slave 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_rebels.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+47 unit_sprites/slave_Mount_Heavy_Horse_sprite.spr 
+4 merc 
+65 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_mercs.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+46 unit_sprites/merc_Mount_Heavy_Horse_sprite.spr 
+7 normans 
+67 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_england.texture 
+66 unit_models/Mounts/Heavy_Horse/textures/heavy_horse_normal.texture 
+49 unit_sprites/normans_Mount_Heavy_Horse_sprite.spr 0 1 
+5 Horse 
+8 fs_horse 0  
+0 0 -1 0 0 0 0 0 0 
+18 mount_barded_horse 
+1.12 3 
+60 unit_models/Mounts/Barded_Horse/mount_barded_horse_lod0.mesh 121 
+60 unit_models/Mounts/Barded_Horse/mount_barded_horse_lod1.mesh 1225 
+60 unit_models/Mounts/Barded_Horse/mount_barded_horse_lod2.mesh 10000 
+20 
+7 england 
+70 unit_models/Mounts/Barded_Horse/textures/horse_barding_england.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+50 unit_sprites/england_Mount_Barded_Horse_sprite.spr 
+8 scotland 
+71 unit_models/Mounts/Barded_Horse/textures/horse_barding_scotland.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+51 unit_sprites/scotland_Mount_Barded_Horse_sprite.spr 
+6 france 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_france.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/france_Mount_Barded_Horse_sprite.spr 
+3 hre 
+66 unit_models/Mounts/Barded_Horse/textures/horse_barding_hre.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+46 unit_sprites/hre_Mount_Barded_Horse_sprite.spr 
+7 denmark 
+70 unit_models/Mounts/Barded_Horse/textures/horse_barding_denmark.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+50 unit_sprites/denmark_Mount_Barded_Horse_sprite.spr 
+5 spain 
+68 unit_models/Mounts/Barded_Horse/textures/horse_barding_spain.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+48 unit_sprites/spain_Mount_Barded_Horse_sprite.spr 
+6 aragon 
+68 unit_models/Mounts/Barded_Horse/textures/horse_barding_spain.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+48 unit_sprites/spain_Mount_Barded_Horse_sprite.spr 
+8 portugal 
+71 unit_models/Mounts/Barded_Horse/textures/horse_barding_portugal.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+51 unit_sprites/portugal_Mount_Barded_Horse_sprite.spr 
+5 milan 
+68 unit_models/Mounts/Barded_Horse/textures/horse_barding_milan.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+48 unit_sprites/milan_Mount_Barded_Horse_sprite.spr 
+4 pisa 
+68 unit_models/Mounts/Barded_Horse/textures/horse_barding_milan.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+48 unit_sprites/milan_Mount_Barded_Horse_sprite.spr 
+6 venice 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_venice.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/venice_Mount_Barded_Horse_sprite.spr 
+12 papal_states 
+75 unit_models/Mounts/Barded_Horse/textures/horse_barding_papal_states.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+55 unit_sprites/papal_states_Mount_Barded_Horse_sprite.spr 
+6 sicily 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_sicily.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/sicily_Mount_Barded_Horse_sprite.spr 
+6 poland 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_poland.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/poland_Mount_Barded_Horse_sprite.spr 
+6 russia 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_russia.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/russia_Mount_Barded_Horse_sprite.spr 
+7 hungary 
+70 unit_models/Mounts/Barded_Horse/textures/horse_barding_hungary.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+50 unit_sprites/hungary_Mount_Barded_Horse_sprite.spr 
+5 slave 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_rebels.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+48 unit_sprites/slave_Mount_Barded_Horse_sprite.spr 
+4 merc 
+68 unit_models/Mounts/Barded_Horse/textures/horse_barding_mercs.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+47 unit_sprites/merc_Mount_Barded_Horse_sprite.spr 
+7 normans 
+70 unit_models/Mounts/Barded_Horse/textures/horse_barding_england.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+50 unit_sprites/normans_Mount_Barded_Horse_sprite.spr 
+6 saxons 
+66 unit_models/Mounts/Barded_Horse/textures/horse_barding_hre.texture 
+69 unit_models/Mounts/Barded_Horse/textures/horse_barding_normal.texture 
+49 unit_sprites/saxons_Mount_Barded_Horse_sprite.spr 0 1 
+5 Horse 
+14 fs_heavy_horse 0  
+0 0 -1 0 0 0 0 0 0 
+18 mount_mailed_horse 
+1.12 4 
+60 unit_models/Mounts/Mailed_Horse/mount_mailed_horse_lod0.mesh 121 
+60 unit_models/Mounts/Mailed_Horse/mount_mailed_horse_lod1.mesh 900 
+60 unit_models/Mounts/Mailed_Horse/mount_mailed_horse_lod2.mesh 2500 
+60 unit_models/Mounts/Mailed_Horse/mount_mailed_horse_lod3.mesh 10000 
+19 
+7 england 
+69 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_england.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+50 unit_sprites/england_Mount_Mailed_Horse_sprite.spr 
+8 scotland 
+70 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_scotland.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+51 unit_sprites/scotland_Mount_Mailed_Horse_sprite.spr 
+6 france 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_france.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+49 unit_sprites/france_Mount_Mailed_Horse_sprite.spr 
+3 hre 
+65 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_hre.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+46 unit_sprites/hre_Mount_Mailed_Horse_sprite.spr 
+7 denmark 
+69 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_denmark.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+50 unit_sprites/denmark_Mount_Mailed_Horse_sprite.spr 
+5 spain 
+67 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_spain.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+48 unit_sprites/spain_Mount_Mailed_Horse_sprite.spr 
+6 aragon 
+67 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_spain.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+48 unit_sprites/spain_Mount_Mailed_Horse_sprite.spr 
+8 portugal 
+70 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_portugal.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+51 unit_sprites/portugal_Mount_Mailed_Horse_sprite.spr 
+5 milan 
+67 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_milan.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+48 unit_sprites/milan_Mount_Mailed_Horse_sprite.spr 
+4 pisa 
+67 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_milan.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+48 unit_sprites/milan_Mount_Mailed_Horse_sprite.spr 
+6 venice 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_venice.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+49 unit_sprites/venice_Mount_Mailed_Horse_sprite.spr 
+12 papal_states 
+74 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_papal_states.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+55 unit_sprites/papal_states_Mount_Mailed_Horse_sprite.spr 
+6 sicily 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_sicily.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+49 unit_sprites/sicily_Mount_Mailed_Horse_sprite.spr 
+6 poland 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_poland.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+49 unit_sprites/poland_Mount_Mailed_Horse_sprite.spr 
+7 hungary 
+69 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_hungary.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+50 unit_sprites/hungary_Mount_Mailed_Horse_sprite.spr 
+5 slave 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_rebels.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+48 unit_sprites/slave_Mount_Mailed_Horse_sprite.spr 
+4 merc 
+67 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_mercs.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+47 unit_sprites/merc_Mount_Mailed_Horse_sprite.spr 
+7 normans 
+69 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_england.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+50 unit_sprites/normans_Mount_Mailed_Horse_sprite.spr 
+6 saxons 
+65 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_hre.texture 
+68 unit_models/Mounts/Mailed_Horse/textures/mailed_horse_normal.texture 
+49 unit_sprites/saxons_Mount_Mailed_Horse_sprite.spr 0 1 
+5 Horse 
+14 fs_heavy_horse 0  
+0 0 -1 0 0 0 0 0 0 
+20 mount_armoured_horse 
+1.12 3 
+73 unit_models/Mounts/European_Armoured_Horse/mount_armoured_horse_lod0.mesh 121 
+73 unit_models/Mounts/European_Armoured_Horse/mount_armoured_horse_lod1.mesh 1225 
+73 unit_models/Mounts/European_Armoured_Horse/mount_armoured_horse_lod2.mesh 10000 
+17 
+7 england 
+91 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_england.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+52 unit_sprites/england_Mount_Armoured_Horse_sprite.spr 
+8 scotland 
+92 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_scotland.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+53 unit_sprites/scotland_Mount_Armoured_Horse_sprite.spr 
+6 france 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_france.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+51 unit_sprites/france_Mount_Armoured_Horse_sprite.spr 
+3 hre 
+87 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_hre.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+48 unit_sprites/hre_Mount_Armoured_Horse_sprite.spr 
+7 denmark 
+91 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_denmark.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+52 unit_sprites/denmark_Mount_Armoured_Horse_sprite.spr 
+5 spain 
+89 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_spain.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+50 unit_sprites/spain_Mount_Armoured_Horse_sprite.spr 
+6 aragon 
+89 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_spain.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+50 unit_sprites/spain_Mount_Armoured_Horse_sprite.spr 
+8 portugal 
+92 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_portugal.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+53 unit_sprites/portugal_Mount_Armoured_Horse_sprite.spr 
+5 milan 
+89 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_milan.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+50 unit_sprites/milan_Mount_Armoured_Horse_sprite.spr 
+4 pisa 
+89 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_milan.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+50 unit_sprites/milan_Mount_Armoured_Horse_sprite.spr 
+6 venice 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_venice.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+51 unit_sprites/venice_Mount_Armoured_Horse_sprite.spr 
+12 papal_states 
+96 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_papal_states.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+57 unit_sprites/papal_states_Mount_Armoured_Horse_sprite.spr 
+6 sicily 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_sicily.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+51 unit_sprites/sicily_Mount_Armoured_Horse_sprite.spr 
+6 poland 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_poland.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+51 unit_sprites/poland_Mount_Armoured_Horse_sprite.spr 
+7 hungary 
+91 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_hungary.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+52 unit_sprites/hungary_Mount_Armoured_Horse_sprite.spr 
+5 slave 
+91 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_denmark.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+50 unit_sprites/slave_Mount_Armoured_Horse_sprite.spr 
+4 merc 
+91 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_denmark.texture 
+90 unit_models/Mounts/European_Armoured_Horse/textures/european_armoured_horse_normal.texture 
+49 unit_sprites/merc_Mount_Armoured_Horse_sprite.spr 0 1 
+5 Horse 
+14 fs_heavy_horse 0  
+0 0 -1 0 0 0 0 0 0 
+28 mount_eastern_armoured_horse 
+1.12 4 
+75 unit_models/Mounts/ME_Armoured_Horse/mount_eastern_armoured_horse_lod0.mesh 121 
+75 unit_models/Mounts/ME_Armoured_Horse/mount_eastern_armoured_horse_lod1.mesh 900 
+75 unit_models/Mounts/ME_Armoured_Horse/mount_eastern_armoured_horse_lod2.mesh 2500 
+75 unit_models/Mounts/ME_Armoured_Horse/mount_eastern_armoured_horse_lod3.mesh 10000 
+9 
+6 russia 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_russia.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+59 unit_sprites/russia_Mount_Eastern_Armoured_Horse_sprite.spr 
+9 byzantium 
+81 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_byzantium.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+62 unit_sprites/byzantium_Mount_Eastern_Armoured_Horse_sprite.spr 
+5 moors 
+77 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_moors.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+58 unit_sprites/moors_Mount_Eastern_Armoured_Horse_sprite.spr 
+5 egypt 
+77 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_egypt.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+58 unit_sprites/egypt_Mount_Eastern_Armoured_Horse_sprite.spr 
+5 turks 
+77 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_turks.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+58 unit_sprites/turks_Mount_Eastern_Armoured_Horse_sprite.spr 
+7 mongols 
+79 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_mongols.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+60 unit_sprites/mongols_Mount_Eastern_Armoured_Horse_sprite.spr 
+8 timurids 
+80 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_timurids.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+61 unit_sprites/timurids_Mount_Eastern_Armoured_Horse_sprite.spr 
+5 slave 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_rebels.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+58 unit_sprites/slave_Mount_Eastern_Armoured_Horse_sprite.spr 
+4 merc 
+77 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_mercs.texture 
+78 unit_models/Mounts/ME_Armoured_Horse/textures/me_armoured_horse_normal.texture 
+57 unit_sprites/merc_Mount_Eastern_Armoured_Horse_sprite.spr 0 1 
+5 Horse 
+14 fs_heavy_horse 0  
+0 0 -1 0 0 0 0 0 0 
+14 mount_elephant 
+1 4 
+52 unit_models/Mounts/Elephant/mount_elephant_lod0.mesh 121 
+52 unit_models/Mounts/Elephant/mount_elephant_lod1.mesh 625 
+52 unit_models/Mounts/Elephant/mount_elephant_lod2.mesh 3600 
+52 unit_models/Mounts/Elephant/mount_elephant_lod3.mesh 10000 
+2 
+8 timurids 
+53 unit_models/Mounts/Elephant/textures/Elephant.texture 
+60 unit_models/Mounts/Elephant/textures/Elephant_normal.texture 0  
+4 merc 
+53 unit_models/Mounts/Elephant/textures/Elephant.texture 
+60 unit_models/Mounts/Elephant/textures/Elephant_normal.texture 0  
+0 
+1 
+8 elephant 
+19 fs_african_elephant 0  
+0 0 -1 0 0 0 0 0 0 
+21 mount_elephant_cannon 
+1 4 
+59 unit_models/Mounts/Elephant/mount_elephant_cannon_lod0.mesh 121 
+59 unit_models/Mounts/Elephant/mount_elephant_cannon_lod1.mesh 625 
+59 unit_models/Mounts/Elephant/mount_elephant_cannon_lod2.mesh 3600 
+59 unit_models/Mounts/Elephant/mount_elephant_cannon_lod3.mesh 10000 
+2 
+8 timurids 
+53 unit_models/Mounts/Elephant/textures/Elephant.texture 
+60 unit_models/Mounts/Elephant/textures/Elephant_normal.texture 0  
+4 merc 
+53 unit_models/Mounts/Elephant/textures/Elephant.texture 
+60 unit_models/Mounts/Elephant/textures/Elephant_normal.texture 0  
+0 
+1 
+8 elephant 
+19 fs_african_elephant 0  
+0 0 -1 0 0 0 0 0 0 
+21 mount_elephant_rocket 
+1 4 
+59 unit_models/Mounts/Elephant/mount_elephant_rocket_lod0.mesh 121 
+59 unit_models/Mounts/Elephant/mount_elephant_rocket_lod1.mesh 625 
+59 unit_models/Mounts/Elephant/mount_elephant_rocket_lod2.mesh 3600 
+59 unit_models/Mounts/Elephant/mount_elephant_rocket_lod3.mesh 10000 
+1 
+4 merc 
+53 unit_models/Mounts/Elephant/textures/Elephant.texture 
+60 unit_models/Mounts/Elephant/textures/Elephant_normal.texture 0  
+0 
+1 
+8 elephant 
+19 fs_african_elephant 0  
+0 0 -1 0 0 0 0 0 0 
+11 mount_camel 
+1 4 
+46 unit_models/Mounts/Camel/mount_camel_lod0.mesh 121 
+46 unit_models/Mounts/Camel/mount_camel_lod1.mesh 900 
+46 unit_models/Mounts/Camel/mount_camel_lod2.mesh 2500 
+46 unit_models/Mounts/Camel/mount_camel_lod3.mesh 10000 
+4 
+5 moors 
+47 unit_models/Mounts/Camel/textures/camel.texture 
+54 unit_models/Mounts/Camel/textures/camel_normal.texture 
+41 unit_sprites/moors_Mount_Camel_sprite.spr 
+5 egypt 
+47 unit_models/Mounts/Camel/textures/camel.texture 
+54 unit_models/Mounts/Camel/textures/camel_normal.texture 
+41 unit_sprites/egypt_Mount_Camel_sprite.spr 
+5 slave 
+47 unit_models/Mounts/Camel/textures/camel.texture 
+54 unit_models/Mounts/Camel/textures/camel_normal.texture 
+41 unit_sprites/slave_Mount_Camel_sprite.spr 
+4 merc 
+47 unit_models/Mounts/Camel/textures/camel.texture 
+54 unit_models/Mounts/Camel/textures/camel_normal.texture 
+40 unit_sprites/merc_Mount_Camel_sprite.spr 0 1 
+5 Horse 
+8 fs_camel 0  
+0 0 -1 0 0 0 0 0 0 

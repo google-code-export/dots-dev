@@ -1,0 +1,147 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;missions.		   	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;;;
+;PAYBACKS;
+;;;;;;;;;;
+
+;>>> EMPTY PAYBACK <<<
+payback_list empty_payback
+{
+}
+
+;>>> PAYBACKS <<<
+
+;!for each mission_payback_name in all dm_mission_payback_list_name
+;!with above each reward_ref in all dm_payback_reward_ref
+;!with above each penalty_ref in all dm_payback_penalty_ref
+;!with above unpack each reward_effects_unpacked in dm_payback_reward_effects
+;!with above unpack each penalty_effects_unpacked in dm_payback_penalty_effects
+payback_list {mission_payback_name}
+{
+;!unless reward_effects_unpacked equals dm_payback_reward_ref
+	reward
+	{
+;!-for each reward_effect in all reward_effects_unpacked
+;!unless reward_effects_unpacked is -
+		{reward_effect}
+;!end
+;!end
+;!unless dm_payback_reward_ref is -
+		null_payback	{reward_ref}
+;!end
+	}
+;!end
+;!unless penalty_effects_unpacked equals dm_payback_penalty_ref
+	penalty
+	{
+;!-for each penalty_effect in all penalty_effects_unpacked
+;!unless penalty_effects_unpacked is -
+		{penalty_effect}
+;!end
+;!end
+;!unless dm_payback_penalty_ref is -
+		null_payback	{penalty_ref}
+;!end
+	}
+;!end
+}
+;!end
+;!end
+;!end
+;!end
+;!end
+
+;;;;;;;;;;
+;MISSIONS;
+;;;;;;;;;;
+
+;!for each mission_name in all dm_mission_name
+;!with above each mission_variant in all dm_mission_variant
+;!with above each mission_source in all dm_mission_source
+;!with above each mission_img_issued in all dm_mission_img_issued
+;!with above each mission_img_expired in all dm_mission_img_expired
+;!with above each mission_img_succeeded in all dm_mission_img_succeeded
+;!with above each mission_img_failed in all dm_mission_img_failed
+;!with above each mission_duration in all dm_mission_duration
+;!with above each mission_exclude_duration in all dm_mission_exclude_duration
+;!with above each mission_score_mod in all dm_mission_score_mod
+;!with above each max_score in all dm_max_score
+;!with above each mission_difficulty_threshold in all dm_mission_difficulty_threshold
+;!with above each mission_turn_start in all dm_mission_turn_start
+;!with above unpack each conditions_unpacked in dm_condition_chances
+;!with above unpack each paybacks_unpacked in dm_paybacks
+;!with above unpack each params_unpacked in dm_mission_params
+;!with above unpack each rel_modifiers_unpacked in dm_rel_modifiers
+;!if dm_mission_variant is -
+mission	{mission_name}
+;!end
+;!unless dm_mission_variant is -
+mission	{mission_name} {mission_variant}
+;!end
+{
+	{mission_source}
+	image_path_issued	{mission_img_issued}
+	image_path_expired	{mission_img_expired}
+	image_path_success	{mission_img_succeeded}
+	image_path_failed	{mission_img_failed}
+	duration	{mission_duration}
+;!unless dm_mission_exclude_duration is -
+	exclude_duration	{mission_exclude_duration}
+;!end
+	score_modifier	{mission_score_mod}
+;!unless dm_max_score is -
+	max_score	{max_score}
+;!end
+;!unless dm_mission_difficulty_threshold is -
+	difficulty_threshold	{mission_difficulty_threshold}
+;!end
+;!unless dm_mission_turn_start is -
+	turn_start	{mission_turn_start}
+;!end
+	paybacks
+	{
+;!-for each payback in all paybacks_unpacked
+;!with above each condition in all conditions_unpacked
+		{condition}	{payback}
+;!end
+;!end
+	}
+;!unless params_unpacked is -
+;!-for each param in all params_unpacked
+	{param}
+;!end
+;!end
+;!unless rel_modifiers_unpacked is -
+	religion_modifiers
+	{
+;!-for each religion_param in all rel_modifiers_unpacked
+		{religion_param}
+;!end
+	}
+;!end
+}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

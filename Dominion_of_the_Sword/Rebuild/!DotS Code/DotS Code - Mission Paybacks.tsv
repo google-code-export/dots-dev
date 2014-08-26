@@ -1,0 +1,4 @@
+Payback Name	Penalty Effects	Penalty Text Reference	PRE Penalty Text Display	Penalty Text Display	Reward Effects	Reward Text Reference	PRE Reward Text Display	Reward Text Display
+dm_mission_payback_list_name	#dm_payback_penalty_effects	dm_payback_penalty_ref	missions_penalty_pre_text	missions_penalty_text	#dm_payback_reward_effects	dm_payback_reward_ref	missions_reward_pre_text	missions_reward_text
+papal_inquisition	-	-	-	-	inquisition_chance 1.0	PAPAL_STANDING	Pope will approve your actions.	Pope Approves your actions!
+papal_approval	inquisition_chance 1.0	PAPAL_STANDING	Pope will be disappointed with you.	Pope is disapointed with your actions.	inquisition_chance 1.0	LARGE_PAPAL_STANDING	Pope will approve your actions.	Pope Approves your actions!

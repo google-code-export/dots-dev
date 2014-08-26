@@ -1,0 +1,39 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;strat map character  ;
+;models.			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;strat map only characters
+ignore_registry
+
+;!for each model_name in all dms_model_name
+;!with above each skeleton in all dms_skeleton
+;!with above each scale in all dms_scale
+;!with above each model_type in all dms_model_type
+;!with above each model in all dms_model
+;!with above each shadow in all dms_shadow
+;!-with above unpack each model_factions_unpacked in dms_model_factions 
+type				{model_name}
+skeleton			{skeleton}
+;!unless dms_scale is -
+scale				{scale}
+;!end
+indiv_range			40
+;!-for each faction in all model_factions_unpacked
+texture				{faction}, models_strat/textures/{model_name}_{faction}.tga
+;!end 
+;!end
+{model_type}			{model}, max
+shadow_model_flexi		{shadow}, max
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

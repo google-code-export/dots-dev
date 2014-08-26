@@ -1,0 +1,58 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles    ;
+;rebel factions on the;
+;strat map.			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;;;;;;;;
+;DEFAULT TYPES;
+;;;;;;;;;;;;;;;
+
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				100
+description			gladiator_uprising
+;!-for each gladiator_units in all drf_gladiators
+unit				{gladiator_units}
+;!end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			brigands
+category			brigands
+chance				50
+description			brigands
+;!-for each brigand_units in all drf_brigands
+unit				{brigand_units}
+;!end
+					
+rebel_type			pirates
+category			pirates
+chance				50
+description			pirates
+;!-for each pirate_units in all drf_pirates
+unit				{pirate_units}
+;!end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;REGIONAL REBEL FACTIONS;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;!for each region_capital in all drg_region_capital
+;!with above each rebel_faction_display in all rebel_faction_display
+;!with above unpack each units_unpacked in drf_units
+rebel_type			{region_capital}_Rebels ; {rebel_faction_display}
+category			peasant_revolt 
+chance				3					
+description			{region_capital}_Rebels_desc
+;!-for each unit in all units_unpacked
+unit	{unit}
+;!end
+;!end
+;!end
+;!end

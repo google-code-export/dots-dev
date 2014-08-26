@@ -1,0 +1,59 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;guilds.		   	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;;;;;;;;
+;GUILDS;
+;;;;;;;;
+
+;!for each guild_name in all edg_guild_name
+;!with above each building_tree in all edg_building_tree
+;!with above each point_levels in all edg_point_levels
+Guild {guild_name}
+	building {building_tree}
+	levels	{point_levels}
+;!end
+;!end
+;!end
+
+;;;;;;;;;;
+;TRIGGERS;
+;;;;;;;;;;
+
+;!for each trigger_name in all edg_trigger_name
+;!with above each event in all edg_trigger_event
+;!with above each base_condition in all edg_trigger_base_condition
+;!with above unpack each edg_trigger_conditions_unpacked in edg_trigger_conditions
+;!with above unpack each edg_guilds_affected_unpacked in edg_guilds_affected
+;!with above unpack each edg_score_types_unpacked in edg_score_types
+;!with above unpack each edg_score_points_unpacked in edg_score_points
+Trigger {trigger_name}
+	WhenToTest {event}
+
+	Condition {base_condition}
+;!unless edg_trigger_conditions_unpacked is -
+;!-for each trigger_condition in all edg_trigger_conditions_unpacked
+		and	{trigger_condition}
+;!end
+;!end
+
+;!-for each guild_affected in all edg_guilds_affected_unpacked
+;!with above each score_type in all edg_score_types_unpacked
+;!with above each score_points in all edg_score_points_unpacked
+	Guild {guild_affected} {score_type} {score_points}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

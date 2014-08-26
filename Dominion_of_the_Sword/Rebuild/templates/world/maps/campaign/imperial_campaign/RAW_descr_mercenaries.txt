@@ -1,0 +1,54 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;mercenaries.		  ;
+;                     ;
+;Created wth REBUILD  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each pool in all dm_pool
+;!with above each regions in all dm_pool_regions
+pool	{pool}
+	regions	{regions}
+;?-for each unit in all {pool}_dm_unit
+;?with above each xp in all {pool}_dm_xp
+;?with above each cost in all {pool}_dm_cost
+;?with above each replenish in all {pool}_dm_replenish
+;?with above each initial in all {pool}_dm_initial
+;?with above each max in all {pool}_dm_max
+;?with above each start in all {pool}_dm_start
+;?with above each end in all {pool}_dm_end
+;?with above each religions in all {pool}_dm_religions
+;?with above each crusade in all {pool}_dm_crusading
+;?with above each events in all {pool}_dm_events
+;?if {pool}_dm_crusading is yes
+;?unless {pool}_dm_events is -
+	unit	{unit}	exp {xp} cost {cost} replenish {replenish} max {max} initial {initial} start_year {start} end_year {end} religions { {religions} } crusading events { {events} }
+;?end
+;?if {pool}_dm_events is -
+	unit	{unit}	exp {xp} cost {cost} replenish {replenish} max {max} initial {initial} start_year {start} end_year {end} religions { {religions} } crusading
+;?end
+;?end
+;?unless {pool}_dm_crusading is yes
+;?unless {pool}_dm_events is -
+	unit	{unit}	exp {xp} cost {cost} replenish {replenish} max {max} initial {initial} start_year {start} end_year {end} religions { {religions} } events { {events} }
+;?end
+;?if {pool}_dm_events is -
+	unit	{unit}	exp {xp} cost {cost} replenish {replenish} max {max} initial {initial} start_year {start} end_year {end} religions { {religions} }
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;!end
+;!end

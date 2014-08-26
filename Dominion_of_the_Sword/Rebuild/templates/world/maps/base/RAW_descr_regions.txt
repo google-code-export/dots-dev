@@ -1,0 +1,52 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file defines the;
+;regions on the map.  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+
+;!-for each region in all regions
+;!with above each region_capital in all drg_region_capital
+;!with above each region_creator in all drg_region_creator
+;!with above each rgb in all drg_rgb
+;!with above each hidden_resources in all drg_hidden_resources
+;!with above each region_farming in all drg_region_farming
+;!with above each catholic in all drg_catholic
+;!with above each orthodox in all drg_orthodox
+;!with above each oriental in all drg_oriental
+;!with above each shia in all drg_shia
+;!with above each buddhism in all drg_buddhism
+;!with above each heretic in all drg_heretic
+;!with above each hussitism in all drg_hussitism
+;!with above each judaism in all drg_judaism
+;!with above each pagan in all drg_pagan
+;!with above each islam in all drg_islam
+{region}
+	{region_capital}
+	{region_creator}
+	{region_capital}_Rebels
+	{rgb}
+	{hidden_resources}
+	5
+	{region_farming}
+	religions { buddhism {buddhism} catholic {catholic} heretic {heretic} hussitism {hussitism} judaism {judaism} oriental {oriental} orthodox {orthodox} pagan {pagan} islam {islam} shia {shia} }
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

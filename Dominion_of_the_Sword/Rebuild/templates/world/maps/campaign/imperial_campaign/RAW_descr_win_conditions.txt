@@ -1,0 +1,42 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;victory conditions.  ;
+;                     ;
+;Created wth REBUILD  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each faction in all factions
+;!with above each long_hold in all dwc_long_hold
+;!with above each long_take in all dwc_long_take
+;!with above each long_outlive in all dwc_long_outlive
+;!with above each short_hold in all dwc_short_hold
+;!with above each short_take in all dwc_short_take
+;!with above each short_outlive in all dwc_short_outlive
+{faction}
+;!unless dwc_long_hold is -
+hold_regions {long_hold}
+;!end
+take_regions {long_take}
+;!unless dwc_long_outlive is -
+outlive {long_outlive}
+;!end
+;!unless dwc_short_hold is -
+short_campaign hold_regions {short_hold}
+;!end
+;!if dwc_short_hold is -
+short_campaign hold_regions
+;!end
+take_regions {short_take}
+;!unless dwc_short_outlive is -
+outlive milan {short_outlive}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

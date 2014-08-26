@@ -1,0 +1,25 @@
+ds_resource_region: [
+"-",
+"Aberffraw_Province"
+]
+
+ds_actual_resource: [
+"Base Metals",
+"Hides"
+]
+
+ds_resource: [
+"silver",
+"cotton"
+]
+
+ds_r_x: [
+"26",
+"26"
+]
+
+ds_r_y: [
+"402",
+"402"
+]
+

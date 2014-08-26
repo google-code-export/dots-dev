@@ -1,0 +1,23 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;the religions.		  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+religions
+{
+;!-for each religion in all dr_religion_name
+	{religion}
+;!end
+}
+
+;!for each religion in all dr_religion_name
+religion	{religion}
+{
+	pip_path	ui/pips/pip_{religion}.tga
+}
+;!end

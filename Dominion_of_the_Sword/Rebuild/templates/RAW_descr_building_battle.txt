@@ -1,0 +1,166 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles 	  ;
+;buildings in battle. ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+stat_cats
+{
+	tiny_wooden
+	{
+		full_health 150
+		battle_stats  flammability_high impact_damage_high
+	}
+	small_wooden
+	{
+		full_health 250
+		battle_stats  flammability_high impact_damage_high
+	}
+	medium_wooden
+	{
+		full_health 1000
+		battle_stats  flammability_high impact_damage_high
+	}
+	large_wooden
+	{
+		full_health 2000
+		battle_stats  flammability_high impact_damage_medium
+	}
+	tiny_stone
+	{
+		full_health 150
+		battle_stats  flammability_low impact_damage_high
+	}
+	small_stone
+	{
+		full_health 250
+		battle_stats  flammability_low impact_damage_high
+	}
+	medium_stone
+	{
+		full_health 1000
+		battle_stats  flammability_low impact_damage_medium
+
+	}
+	large_stone
+	{
+		full_health 5000
+		battle_stats  flammability_low impact_damage_medium
+	}
+	medium_stone_nonflammable
+	{
+		full_health 1000
+		battle_stats  flammability_none impact_damage_medium
+
+	}
+	large_stone_nonflammable
+	{
+		full_health 5000
+		battle_stats  flammability_none impact_damage_medium
+	}
+	indestructable
+	{
+		full_health 5000
+		battle_stats  flammability_none impact_damage_none
+	}
+	temp_stone
+	{
+		full_health 5000000
+		battle_stats  flammability_high impact_damage_medium
+		}
+}
+
+default
+{
+	stat_cat		temp_stone	;medium_stone
+	localised_name	ambient
+}
+
+castle_0
+{
+	stat_cat		temp_stone	;medium_wooden
+	localised_name	ambient
+}
+
+castle_1
+{
+	stat_cat		temp_stone	;medium_stone
+	localised_name	ambient
+}
+
+castle_2
+{
+	stat_cat		temp_stone	;large_stone
+	localised_name	ambient
+}
+
+castle_3
+{
+	stat_cat		temp_stone	;large_stone_nonflammable
+	localised_name	ambient
+}
+
+castle_4
+{
+	stat_cat		temp_stone	;large_stone_nonflammable
+	localised_name	ambient
+}
+
+castle_5
+{
+	stat_cat		temp_stone	;large_stone_nonflammable
+	localised_name	ambient
+}
+
+settlement_0
+{
+	stat_cat		temp_stone	;medium_wooden
+	localised_name	ambient
+}
+
+settlement_1
+{
+	stat_cat		temp_stone	;large_wooden
+	localised_name	ambient
+}
+
+settlement_2
+{
+	; old stat_cat temp_stone for testing building destruciton MS3
+	stat_cat		temp_stone	;large_wooden
+	localised_name	ambient
+}
+
+settlement_3
+{
+	stat_cat		temp_stone	;large_wooden
+	localised_name	ambient
+}
+
+settlement_4
+{
+	stat_cat		temp_stone	;large_stone
+	localised_name	ambient
+}
+
+settlement_5
+{
+	stat_cat		temp_stone	;large_stone
+	localised_name	ambient
+}
+
+;!for each edb_buildings in all edb_buildings
+;!with above each dbb_type in all dbb_type
+;!unless dbb_type is -
+{edb_buildings}
+{
+	stat_cat		{dbb_type}
+	localised_name	{edb_buildings}
+}
+;!end
+;!end
+;!end

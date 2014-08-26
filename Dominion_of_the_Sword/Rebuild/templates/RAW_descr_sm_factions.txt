@@ -1,0 +1,69 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file defines the;
+;basics of factions.  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;!for each faction in all factions
+;!with above each ID in all faction_ID
+;!with above each culture in all dsf_culture
+;!with above each religion in all faction_religion
+;!with above each red_primary in all dsf_red_primary
+;!with above each green_primary in all dsf_green_primary
+;!with above each blue_primary in all dsf_blue_primary
+;!with above each red_secondary in all dsf_red_secondary
+;!with above each green_secondary in all dsf_green_secondary
+;!with above each blue_secondary in all dsf_blue_secondary
+;!with above each faction_caps in all faction_caps
+;!with above each custom_battle in all dsf_custom_battle
+;!with above each naval_invasion in all dsf_naval_invasion
+;!with above each can_have_princess in all dsf_can_have_princess
+;!with above each family_tree in all dsf_family_tree
+;!with above each disband_to_pool in all dsf_disband_to_pool
+;!with above each siege_towers in all dsf_siege_towers
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{faction_caps}, the ID of this faction is {ID}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction						{faction}
+culture						{culture}
+religion					{religion}
+;!if factions is slave
+special_faction_type		slave_faction
+;!end
+symbol						models_strat/symbol_{faction}.CAS
+rebel_symbol				models_strat/symbol_slave.CAS
+primary_colour				red {red_primary}, green {green_primary}, blue {blue_primary}
+secondary_colour			red {red_secondary}, green {green_secondary}, blue {blue_secondary}
+loading_logo				loading_screen/symbols/symbol128_{faction}.tga
+standard_index				{ID}
+logo_index					FACTION_LOGO_{faction_caps}
+small_logo_index			SMALL_FACTION_LOGO_{faction_caps}
+triumph_value				5 ;not used in M2TW
+custom_battle_availability	{custom_battle}
+can_sap						no ;not functionning in M2TW
+prefers_naval_invasions		{naval_invasion}
+can_have_princess			{can_have_princess}
+has_family_tree				{family_tree}
+disband_to_pools			{disband_to_pool}
+can_build_siege_towers		{siege_towers}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

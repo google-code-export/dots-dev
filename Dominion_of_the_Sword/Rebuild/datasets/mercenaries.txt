@@ -1,0 +1,161 @@
+dm_pool_name: [
+"test_pool",
+"test_pool_two"
+]
+
+test_pool_dm_unit: [
+"Peasants"
+]
+
+test_pool_two_dm_unit: [
+"Peasants"
+]
+
+test_pool_dm_xp: [
+"0"
+]
+
+test_pool_two_dm_xp: [
+"2"
+]
+
+test_pool_dm_cost: [
+"300"
+]
+
+test_pool_two_dm_cost: [
+"500"
+]
+
+test_pool_dm_replenish: [
+"0.5 - 1.5"
+]
+
+test_pool_two_dm_replenish: [
+"0.3 - 0.6"
+]
+
+test_pool_dm_initial: [
+"5"
+]
+
+test_pool_two_dm_initial: [
+"3"
+]
+
+test_pool_dm_max: [
+"5"
+]
+
+test_pool_two_dm_max: [
+"3"
+]
+
+test_pool_dm_start: [
+"1080"
+]
+
+test_pool_two_dm_start: [
+"1080"
+]
+
+test_pool_dm_end: [
+"1081"
+]
+
+test_pool_two_dm_end: [
+"1453"
+]
+
+test_pool_dm_religions: [
+"catholic orthodox"
+]
+
+test_pool_two_dm_religions: [
+"orthodox"
+]
+
+test_pool_dm_crusading: [
+"no"
+]
+
+test_pool_two_dm_crusading: [
+"no"
+]
+
+test_pool_dm_events: [
+"-"
+]
+
+test_pool_two_dm_events: [
+"-"
+]
+
+test_pool_dm_evevnts_intended: [
+'-'
+]
+
+test_pool_two_dm_evevnts_intended: [
+'-'
+]
+
+dm_unit: [
+"Peasants",
+"Peasants"
+]
+
+dm_xp: [
+"0",
+"2"
+]
+
+dm_cost: [
+"300",
+"500"
+]
+
+dm_replenish: [
+"0.5 - 1.5",
+"0.3 - 0.6"
+]
+
+dm_initial: [
+"5",
+"3"
+]
+
+dm_max: [
+"5",
+"3"
+]
+
+dm_start: [
+"1080",
+"1080"
+]
+
+dm_end: [
+"1081",
+"1453"
+]
+
+dm_religions: [
+"catholic orthodox",
+"orthodox"
+]
+
+dm_crusading: [
+"no",
+"no"
+]
+
+dm_events: [
+"-",
+"-"
+]
+
+dm_evevnts_intended: [
+'-',
+'-'
+]
+

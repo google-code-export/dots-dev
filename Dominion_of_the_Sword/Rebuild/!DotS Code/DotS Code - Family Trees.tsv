@@ -1,0 +1,998 @@
+Faction	Generation Notes	Sorting Order	Father	Mother	First Child	Second Child	Third Child	Fourth Child
+ds_generation_factions	ds_generation_notes	ds_ft_sort_order	ds_fathers	ds_mothers	ds_child_1	ds_child_2	ds_child_3	ds_child_4
+aragon	aragon	1	Sancho	Adela	Alfonso	-	-	-
+armenia	armenia	1	Constantine	Arda	Gabriel	-	-	-
+bohemia	bohemia	1	Bedrich	Adleta	Boleslav	-	-	-
+byzantium	byzantium	1	Adrianos	Adriane	Aetios	-	-	-
+cumans	cumans	1	Abaka	Afina	Abangis	-	-	-
+denmark	denmark	1	Abel	Adela	Agge	-	-	-
+egypt	egypt	1	Ali	Abla	Abbad	-	-	-
+england	england	1	Ailward	Adela	Alain	-	-	-
+france	france	1	Alain	Adela	Alphonse	-	-	-
+georgia	georgia	1	Bagrat_II	Borena_A	Bagrat_III	-	-	-
+hre	hre	1	Adolf	Ada	Alberich	-	-	-
+hungary	hungary	1	Aba	Adelaide	Akos	-	-	-
+kiev	kiev	1	Aleksandr	Agafia	Aleksei	-	-	-
+lithuania	lithuania	1	Aidas	Aiste	Alexander	-	-	-
+milan	milan	1	Adalberto	Alessandra	Adelmo	-	-	-
+moors	moors	1	Abbad	Abla	Abbass	-	-	-
+norway	norway	1	Adam	Ada	Adrian	-	-	-
+novgorod	novgorod	1	Svyatopolk Svyatopolkich	Anna_a Uhorshhyna	Yaroslav Svyatopolkich	-	-	-
+papal_states	papal_states	1	Adeodatus	Adriana	Agapetus	-	-	-
+pisa	pisa	1	Adalberto	Alessandra	Adelmo	-	-	-
+poland	poland	1	Wladyslaw Herman	Swietoslawa Kazimierzowic	Mieszko Boleslawowic	-	-	-
+portugal	portugal	1	Adriano	Ana	Afonso	-	-	-
+scotland	scotland	1	Aed	Afraig	Aedan	-	-	-
+seljuks	seljuks	1	Abdullah	Afife	Abtin	-	-	-
+sicily	sicily	1	Abelardo	Adelaisa	Ademaro	-	-	-
+spain	spain	1	Alfonso Jimenez	Sancha Fernandez	Ramiro de_Monzon	-	-	-
+syria	syria	1	Achigh	Delaram	Ali	-	-	-
+turks	turks	1	Abd_al_Hamid	Adile	Abd_al_Malik	-	-	-
+sweden	sweden	1	Inge Ingesson	Helena Krona	Filip Halstensson	-	-	-
+venice	venice	1	Agostino	Adriana	Albano	-	-	-
+								
+								
+								
+								
+								
+								
+								
+aragon	-	1	Sancho	Felicia de_Roucy	Pedro	Fernando	Alfonso	Ramiro_i
+aragon	-	2	Ramiro	Ermesinda de_Bigorre	Sancho	Garcia	Sancha	Teresa
+aragon	-	3	Ermengol_i	Lucy	Ermengol_ii	-	-	-
+aragon	-	4	Ermengol de_Urgel	Sancha	Ermengol_i	-	-	-
+aragon	-	5	Guillaume_Bertrand de_Provence	Teresa	-	-	-	-
+armenia	-	1	Oshin Lampron	Rossana	Hethum Lampron	-	-	-
+armenia	-	2	Constantine	Lousin	Isabella	Toros	Levon	Beatrice
+armenia	-	3	Thoros	Mariam	Arda	-	-	-
+armenia	-	4	Roupen	Serpouhi	Constantine	-	-	-
+armenia	-	5	Philaretos Brachomios	Euphosina	Serpouhi	Mariam	-	-
+bohemia	-	1	Oldrich	Cecilie	-	-	-	-
+bohemia	-	2	Bretislav	Luitgard z_Windburg	Bretislav_i	-	-	-
+bohemia	-	3	Borivoj	Marie	-	-	-	-
+bohemia	-	4	Boleslav	Zdislava	-	-	-	-
+bohemia	-	5	Ota Olomoucky	Eufemie	-	-	-	-
+bohemia	-	6	Konrad Brnensky	Wirpirka	Oldrich	Litold Znojemsky	-	-
+bohemia	-	7	Vratislav_i	Adleta	Ludmila	Bretislav	-	-
+bohemia	-	8	Vratislav Premyslovec	Svatava	Boleslav	Borivoj	Judita_i Grojcska	Vladislav
+bohemia	-	9	Bretislav Premyslovec	Judita	Vratislav Premyslovec	Vratislav_i	Konrad Brnensky	Ota Olomoucky
+denmark	-	1	Niels	Margaret Fredkulla	-	-	-	-
+denmark	-	2	Erik Ejegod	Boedil Thurgotsdatter	Harald Kesja	-	-	-
+denmark	-	3	Oluf Hunger	Ingegard	-	-	-	-
+denmark	-	4	Knud Estridsen	Adela	Charles	Cecilia	Ingeborg	-
+denmark	-	5	Vladimir Monomakh	Gytha_i	-	-	-	-
+denmark	-	6	Svend Estridsen	Gunnhildr Sveinsdottir	Knud Estridsen	Oluf Hunger	Erik Ejegod	Niels
+denmark	-	7	henry	Gunhilda	-	-	-	-
+denmark	-	8	Harold Godwinsson	Edith	Godwine	Edmund	Gytha_i	Magnus
+denmark	-	9	Ulf Jarl	Estrid	Svend Estridsen	-	-	-
+denmark	-	10	Canute	Emma	Harold Harefoot	Sweyn	Harthacnut	Gunhilda
+denmark	-	11	Godwin	Gytha	Harold Godwinsson	Tostig	-	-
+denmark	-	12	Sweyn Tjugeskaeg	Sigrio Storrada	Canute	Estrid	-	-
+denmark	-	13	Styrbjorn Sterki	Thyra	Gytha	-	-	-
+denmark	-	14	Harald Blaatend	Gyrid	Thyra	Sweyn Tjugeskaeg	-	-
+england	-	1	Roger Bigod	Adelisa_dra deToeni	-	-	-	-
+england	-	2	Robert_sri of_Stafford	Avice_mr deClare	Adelisa_dra deToeni	Nicholas_sra of_Stafford	Alan_sra of_Stafford	Roger_sra of_Stafford
+england	-	3	Uchtred_swj of_Tynedale	Bethoc_mu	-	-	-	-
+england	-	4	Raoul_ma deTosny	Adelise_dwj deLens	-	-	-	-
+england	-	5	Hoel_mh of_Cornwall	Hawisse_dab deBretagne	Alan_shh Fergant	-	-	-
+england	-	6	Ascelin_mi DePerceval	Isabella_dwi deBreteuil	-	-	-	-
+england	-	7	Ralph_me deGael	Emma_dwi	William_sre deGael	Raul_sre deGael	Alain_sre deGael	-
+england	-	8	Ranulf_she deBriquessart	Margaret_mr of_Goz	Ranulf_srm deBriquessart	-	-	-
+england	-	9	Fulk_mb dAnjou	Bertrade_dsa deMontfort	-	-	-	-
+england	-	10	Raoul_mi deTosny	Isabel_dsa deMontfort	Godehilde_dri	Robert_sri of_Stafford	Raoul_sri deTosny	-
+england	-	11	Estienne_Henri deBlois	Adela_dwm deNormandie	Stephen_sea deNormandie	-	-	-
+england	-	12	Robert_swm deNormandie	Sybilla_mr of_Conversano	-	-	-	-
+england	-	13	Waltheof_mj of_Northumbria	Judith_dla deLens	Adelise_dwj deLens	Uchtred_swj of_Tynedale	-	-
+england	-	14	Alan_mb deRennes	Bertha_dea	Conan_sab deRennes	Hawisse_dab deBretagne	-	-
+england	-	15	Miles_sge deCourtenay	Harlette	-	-	-	-
+england	-	16	William_swa	Isabel_mw	Emma_dwi	Isabella_dwi deBreteuil	-	-
+england	-	17	Hugh_srg dAvranches	Ermentrude_mh deClaremont	Ranulf_she deBriquessart	-	-	-
+england	-	18	Simon_ma deMontfort	Agnes_drg dEvreux	William_ssa	Richard_ssa	Isabel_dsa deMontfort	Bertrade_dsa deMontfort
+england	-	19	William_srh	Matilda_mw des_Flandres	Robert_swm deNormandie	William_swm	Adela_dwm deNormandie	Henry_swm
+england	-	20	Lambert_ma deLens	Adelaide_idrh deNormandie	Judith_dla deLens	Seier_sla deLens	Walter_sla deLens	-
+england	-	21	Eudes_ma Blois	Adelaide_drh deNormandie	Bertha_dea	Stephen_sea dAumale	-	-
+england	-	22	Roaldus_sai de_Richmond	Fnu_mr Mnu	Hasculf_srf Musard	-	-	-
+england	-	23	Gauthier_sbe de_Saint-Valery	Elizabeth_mg deMontlhery	Bernard_sge de_Saint-Valery	Miles_sge deCourtenay	-	-
+england	-	24	William_soi FitzOsbern	Adeliza_mw deTosny	William_swa	Roger_swa deBreteuil	-	-
+england	-	25	Richard_srh	Godehilde_mr	Agnes_drg dEvreux	Hugh_srg dAvranches	William_srg dEvreux	-
+england	-	26	Robert_mh deNormandie	Herleva_dhu	Adelaide_drh deNormandie	Adelaide_idrh deNormandie	William_srh	Odo_shr
+england	-	27	Stephen_sea	Hawise_ms of_Guingamp	Alan_ssh Penteur	Geoffrey_ssh Boterel	-	-
+england	-	28	Brien_sea Launceston	Drueta	-	-	-	-
+england	-	29	Alain_sea Rufus	Isabel_ma	Roaldus_sai de_Richmond	-	-	-
+england	-	30	Ralph_sdg of_Hereford	Gytha_mr	Harold_srg of_Ewyas	-	-	-
+england	-	31	Bernard_sbp de_Saint-Valery	Eleanor_mb deDammartin	Gauthier_sbe de_Saint-Valery	-	-	-
+england	-	32	Pons_spb d_Eu	Herleva_mp	Richard_sph FitzPons	-	-	-
+england	-	33	Boson_sgm Limoges	Gerberge_mb deTerrasson	Raymond_sbg deTerrasson	-	-	-
+england	-	34	Osbern_shb Steward	Isabel_mo	William_soi FitzOsbern	-	-	-
+england	-	35	Robert_srj deRouen	Harleve_mr	Richard_srh	-	-	-
+england	-	36	Baudouin_me deFlandre	Eleanor_drj deNormandie	-	-	-	-
+england	-	37	Renaud_ma deBourgogne	Adelaide_drj deNormandie	-	-	-	-
+england	-	38	Herlwin_sghr deConteville	Unia_mh	Herleva_dhu	Raoul_shu deConteville	John_shu deConteville	Robert_shu deConteville
+england	-	39	Eudes_sgh dePenthievre	Agnes deCornouaille	Alain_sea Rufus	Brien_sea Launceston	Stephen_sea	-
+england	-	40	Dreux_sag deVexin	Godgifu_md	Ralph_sdg of_Hereford	-	-	-
+england	-	41	Hugues_mo deMeulan	Oda_dag deVexin	-	-	-	-
+england	-	42	Bernard_mp de_Saint-Valery	Pappa_sgl deNormandie	Bernard_sbp de_Saint-Valery	-	-	-
+england	-	43	Pons_sgl FitzWilliam	Basilia_mp	Pons_spb d_Eu	-	-	-
+england	-	44	Guillaume_sgl Busac	Adelaide_mgi deSoissons	-	-	-	-
+england	-	45	Guillaume_seb Limoges	Mathilde_mg	Boson_sgm Limoges	-	-	-
+england	-	46	Herfast_scerrr	Beatrice_mh	Osbern_shb Steward	-	-	-
+england	-	47	Richard_rmj deNormandie	Judith_dcerr deBretagne	Robert_rsrj deNormandie	Adelaide_drj deNormandie	Eleanor_drj deNormandie	Robert_srj deRouen
+england	-	48	Geoffroi_scer deBretagne	Hawise_rmgr	Eudes_sghr dePenthievre	Herlwin_sghr deConteville	Alan_sghr deRennes	-
+england	-	49	Geoffroi_sce deBretagne	Hawise_rmg	Eudes_sgh dePenthievre	Herlwin_sgh deConteville	Alan_sgh deRennes	-
+england	-	50	Gautier_sga deVexin	Adele_mgi	Oda_dag deVexin	Dreux_sag deVexin	-	-
+england	-	51	Guillaume_srar d_Eu	Lanceline_mg of_Harcourt	Guillaume_sgl Busac	Hugues_sgl d_Eu	Pons_sgl FitzWilliam	Pappa_sgl deNormandie
+england	-	52	Ebles_mb Limoges	Beatrice_dra	Guillaume_seb Limoges	Archambaud_rseb deComborn	-	-
+england	-	53	Conan_merrr deRennes	Ermengarde_dgarrr dAnjou	Geoffroi_scerrr deBretagne	Judith_dcerrr deBretagne	Herfast_scerrr	-
+england	-	54	Conan_merr deRennes	Ermengarde_dgarr dAnjou	Geoffroi_scerr deBretagne	Judith_dcerr deBretagne	Herfast_scerr	-
+england	-	55	Conan_mer deRennes	Ermengarde_dgar dAnjou	Geoffroi_scer deBretagne	Judith_dcer deBretagne	Herfast_sce	-
+england	-	56	Conan_me deRennes	Ermengarde_dga dAnjou	Geoffroi_sce deBretagne	Judith_dce deBretagne	Herfast_scer	-
+england	-	57	Gautier_ma deVexin	Adelaide_idfgvr dAnjou	Gautier_sga deVexin	-	-	-
+england	-	58	Richard_mar deNormandie	Adelaide_dfgv dAnjou	Richard_srar deNormandie	Hawise_drar	Beatrice_drar	Guillaume_srar d_Eu
+england	-	59	Richard_ma deNormandie	Adelaide_dfgrrrr dAnjou	Richard_sra deNormandie	Hawise_dra	Beatrice_dra	Guillaume_sra d_Eu
+england	-	60	Geoffrey_sfgrrr dAnjou	Adele_mgrrr Carolingian	Ermengarde_dgarrr dAnjou	Fulk_sgarrr dAnjou	-	-
+england	-	61	Geoffrey_sfgrr dAnjou	Adele_mgrr Carolingian	Ermengarde_dgarr dAnjou	Fulk_sgarr dAnjou	-	-
+england	-	62	Geoffrey_sfgr dAnjou	Adele_mgr Carolingian	Ermengarde_dgar dAnjou	Fulk_sgar dAnjou	-	-
+england	-	63	Geoffrey_sfg dAnjou	Adele_mg Carolingian	Ermengarde_dga dAnjou	Fulk_sga dAnjou	-	-
+england	-	64	Fulk_mgvr dAnjou	Gerberge_mfvr du_Maine	Geoffrey_sfgvr dAnjou	Adelaide_dfgvr dAnjou	Adelaide_idfgvr dAnjou	-
+england	-	65	Fulk_mgv dAnjou	Gerberge_mfv du_Maine	Geoffrey_sfgv dAnjou	Adelaide_dfgv dAnjou	Adelaide_idfgv dAnjou	-
+england	-	66	Fulk_mgrrrr dAnjou	Gerberge_mfrrrr du_Maine	Geoffrey_sfgrrrr dAnjou	Adelaide_dfgrrrr dAnjou	Adelaide_idfgrrrr dAnjou	-
+england	-	67	Fulk_mgrrr dAnjou	Gerberge_mfrrr du_Maine	Geoffrey_sfgrrr dAnjou	Adelaide_dfgrrr dAnjou	Adelaide_idfgrrr dAnjou	-
+england	-	68	Fulk_mgrr dAnjou	Gerberge_mfrr du_Maine	Geoffrey_sfgrr dAnjou	Adelaide_dfgrr dAnjou	Adelaide_idfgrr dAnjou	-
+england	-	69	Fulk_mgr dAnjou	Gerberge_mfr du_Maine	Geoffrey_sfgr dAnjou	Adelaide_dfgr dAnjou	Adelaide_idfgr dAnjou	-
+england	-	70	Fulk_mg dAnjou	Gerberge_mf du_Maine	Geoffrey_sfg dAnjou	Adelaide_dfg dAnjou	Adelaide_idfg dAnjou	-
+france	-	1	Etienne_sge de_Bourgogne	Beatrix_me de_Lorraine	-	-	-	-
+france	-	2	Thierry_me de_Montbeliard	Ermentrude_dge de_Bourgogne	Frederic_ste de_Ferrette	Renaud_ste de_Bar	-	-
+france	-	3	Konrad_mc du_Luxembourg	Clemence_dpe dAquitaine	-	-	-	-
+france	-	4	Peter_ma de_Savoie	Agnes_dpe Poitou	-	-	-	-
+france	-	5	Ermengol_sec dUrgel	Lucia_me de_La_Marche	Guillem_sel de_Forcalquier	-	-	-
+france	-	6	Gilbert_sba de_Gevaudan	Gerberge_mg de_Provence	-	-	-	-
+france	-	7	Roger_spl de_Foix	Etiennette_rmr de_Besalu	-	-	-	-
+france	-	8	Guillaume_me de_Bourgogne	Etiennette_dbd	Ermentrude_dge de_Bourgogne	Raymond_sge de_Bourgogne	Etienne_sge de_Bourgogne	-
+france	-	9	Peter_me Poitou	Ermesinde_dbd de_Foix	Agnes_dpe Poitou	Clemence_dpe dAquitaine	-	-
+france	-	10	Centule_mb de_Bearn	Beatrix_dbd de_Bigorre	Bernard_scb de_Bigorre	Centule_scb de_Bigorre	-	-
+france	-	11	Ermengol_mc dUrgel	Clemence_dbd de_Bigorre	Ermengol_sec dUrgel	-	-	-
+france	-	12	Guillem_ma de_Cerdanya	Adelaide_dpr de_Carcassonne	-	-	-	-
+france	-	13	Raymond_rmg de_Narbonne	Garsinde_dpr de_Carcassonne	Bernard_srg de_Narbonne	Berenger_srg de_Narbonne	Richarde_srg de_Narbonne	-
+france	-	14	Raimond-Bernard_me Trencavel	Ermengarde_dpr de_Carcassonne	Bernard_sbe Trencavel	-	-	-
+france	-	15	Salomon_saa de_Lavardin	Marie_ms	Aymeric_ssm de_Lavardin	-	-	-
+france	-	16	Berengar_sre de_Barcelone	Sancha_mb de_Castilla	Ramon_rsbs de_Barcelone	-	-	-
+france	-	17	Berenger_sra de_Millau	Agnes_mb de_Carlat	Gilbert_sba de_Gevaudan	-	-	-
+france	-	18	Garcia_me de_Navarre	Etiennette_dbg de_Foix	-	-	-	-
+france	-	19	Ramiro_mg dAragon	Gilberte_dbg de_Foix	-	-	-	-
+france	-	20	Pierre_sbg de_Foix	Letgarde_mp	Roger_spl de_Foix	Pierre_spl de_Foix	-	-
+france	-	21	Bernard_sbg de_Foix	Douce_mb de_Marseille	Clemence_dbd de_Bigorre	Beatrix_dbd de_Bigorre	Ermesinde_dbd de_Foix	Etiennette_dbd
+france	-	22	Pierre_srg de_Carcassonne	Rangarde_mp	Ermengarde_dpr de_Carcassonne	Garsinde_dpr de_Carcassonne	Adelaide_dpr de_Carcassonne	-
+france	-	23	Orric_mp de_Beaupreau	Petronille_dbt de_Craon	Hamelin_sop de_Beaupreau	-	-	-
+france	-	24	Renaud_me de_Craon	Ennoguen_drb de_Vitre	Maurice_sre de_Craon	-	-	-
+france	-	25	Aenor_ssd dAmboise	Jean_ma de_Lignieres	Guillaume_saj de_Lignieres	-	-	-
+france	-	26	Asceline_ssr de_Lavardin	Aymeric_ma dAlluyes	Salomon_saa de_Lavardin	-	-	-
+france	-	27	Bernard_sar de_Comborn	Garcille_mb de_Courson	Archambaud_sbg de_Comborn	-	-	-
+france	-	28	Rigaud_mu de_Carbonnieres	Unia_dar Limoges	Gilbert_sru de_Carbonnieres	-	-	-
+france	-	29	Pierre_mf de_Bruniquel	Foi_dbf de_Narbonne	-	-	-	-
+france	-	30	Aimery_sbf de_Narbonne	Mahalta_ma de_Apulia	-	-	-	-
+france	-	31	Guigues-Raymond_sgi dAlbon	Ida-Raimunde_rmg de_Lyon	-	-	-	-
+france	-	32	Ramon_me de_Barcelone	Ermessinde_dra de_Carcassonne	Berengar_sre de_Barcelone	-	-	-
+france	-	33	Richard_rma de_Millau	Arsinde_dra de_Carcassonne	Berenger_sra de_Millau	Richard_sra de_Millau	-	-
+france	-	34	Bernard_sra de_Foix	Gersende_mb de_Bigorre	Bernard_sbg de_Foix	Pierre_sbg de_Foix	Gilberte_dbg de_Foix	Etiennette_dbg de_Foix
+france	-	35	Raymond_sra de_Carcassonne	Garsinde_mr de_Beziers	Pierre_srg de_Carcassonne	-	-	-
+france	-	36	Guillaume_sai de_Lyon	Chloe_mg	Guillaume_sgc de_Lyon	-	-	-
+france	-	37	Otto_sra Carolingian	Hedwige_mo de_Saint-Simon	-	-	-	-
+france	-	38	Hugh_ma de_Vermandois	Adele_dra de_Vexin	Elizabeth_dha de_Vermandois	-	-	-
+france	-	39	Stephen_sta de_Blois	Adela_ms de_Normandie	-	-	-	-
+france	-	40	Bouchard_ssf de_Craon	Tesceline_mb de_Rochefort	Petronille_dbt de_Craon	-	-	-
+france	-	41	Robert_mb de_Vitre	Berthe_dgp de_Craon	Ennoguen_drb de_Vitre	Andre_srb de_Vitre	-	-
+france	-	42	Sulpice_slh dAmboise	Denise_ms de_Fougeres	Hugues_ssd dAmboise	Aenor_ssd dAmboise	-	-
+france	-	43	Salomon_sse de_Lavardin	Richanne_ms	Asceline_ssr de_Lavardin	-	-	-
+france	-	44	Gaucelin_ma de_Pierre-Buffiere	Almodie_dfa de_Montberon	Pierre_sga de_Pierre-Buffiere	-	-	-
+france	-	45	Archambaud_mr de_Comborn	Rothberge_dea de_Rochechouart	Ebles_rsar Limoges	Unia_dar Limoges	Bernard_sar de_Comborn	-
+france	-	46	Adhemar_sah de_Limoges	Graille_rma dAngouleme	Humberge_dag de_Limoges	-	-	-
+france	-	47	Ebles_mm Limoges	Marie_dah de_Limoges	-	-	-	-
+france	-	48	Geoffroy_sga de_Preuilly	Euphrosine_mg de_Vendome	Geoffroy_sge de_Preuilly	-	-	-
+france	-	49	Eudes_ssa de_Troyes	Adelaide_meii de_Normandie	Stephen_sea dAumale	-	-	-
+france	-	55	Hoel_mb  de_Cornouaille	Havoise_dhb de_Bretagne	Alain_rshh de_Bretagne	Mathias_shh de_Nantes	-	-
+france	-	56	Bernard_sbg de_Narbonne	Fides_mb de_Rouergue	Aimery_sbf de_Narbonne	Foi_dbf de_Narbonne	-	-
+france	-	57	Guigues_mi dAlbon	Ines_dra de_Barcelone	Guigues-Raymond_sgi dAlbon	-	-	-
+france	-	58	Archimbald_mp de_Bourbon	Philippa_dgp dAuvergne	Archimbald_sap de_Bourbon	Aymon_sap de_Bourbon	-	-
+france	-	59	Roger_ma de_Carcassonne	Adelaide_dgp de_Rouergue	Raymond_sra de_Carcassonne	Bernard_sra de_Foix	Arsinde_dra de_Carcassonne	Ermessinde_dra de_Carcassonne
+france	-	60	Artaud_sga de_Lyon	Ida-Raimunde_ma Geilin	Guillaume_sai de_Lyon	-	-	-
+france	-	61	Pierre_ma dAragon	Agnes_dghi de_Poitou	-	-	-	-
+france	-	62	Elie_ma du_Maine	Agnes_dgh dAquitaine	-	-	-	-
+france	-	63	Alain_rme de_Bretagne	Ermengarde_dhe dAnjou	-	-	-	-
+france	-	64	Guy_mb de_Vignory	Beatrice_dhs Capet	Robert_sgb de_Vignory	-	-	-
+france	-	65	Eudes_shs de_Bourgogne	Sybille_rme de_Bourgogne	Hugues_ses de_Bourgogne	-	-	-
+france	-	66	Knud_ma Estridsen	Adela_drg de_Flandre	-	-	-	-
+france	-	67	Roger_ma de_Beaumont	Adeline_dga de_Meulan	-	-	-	-
+france	-	68	Herbert_ma Carolingian	Adele_odra de_Vexin	Otto_sra Carolingian	Adele_dra de_Vexin	-	-
+france	-	69	Theobald_rma de_Blois	Adelaide_dra de_Vexin	Stephen_sta de_Blois	Odo_sta de_Troyes	Hugh_sta de_Champagne	-
+france	-	70	Suhard_ssa de_Craon	Fille_ms	Bouchard_ssf de_Craon	-	-	-
+france	-	71	Guerin_ssa de_Craon	Philippa_mg	Berthe_dgp de_Craon	-	-	-
+france	-	72	Lisois_she de_Bazouger	Hersende_ml de_Buzancais	Sulpice_slh dAmboise	-	-	-
+france	-	73	Sigebrand_me de_Mayenne	Eveline_dhe de_Lavardin	Salomon_sse de_Lavardin	-	-	-
+france	-	74	Geoffroy_soe de_Macon	Beatrice_mg	Guy_sgb de_Macon	-	-	-
+france	-	75	Fils_ma de_Montberon	Actilde_daa de_Matha	Almodie_dfa de_Montberon	-	-	-
+france	-	76	Aymeric_sae de_Rochechouart	Ermessinde_me de_Champagnac	Rothberge_dea de_Rochechouart	-	-	-
+france	-	77	Foulques_sgp dAngouleme	Condohe_mf Vagena	-	-	-	-
+france	-	78	Adhemar_mh de_Limoges	Humberge_sgp dAngouleme	Marie_dah de_Limoges	Adhemar_sah de_Limoges	-	-
+france	-	79	Eon_sgh de_Penthievre	Agnes_me de_Cornouaille	-	-	-	-
+france	-	80	Geoffroy_ma de_Preuilly	Almodis_doi de_Blois	Geoffroy_sga de_Preuilly	-	-	-
+france	-	81	Stephen_soi de_Troyes	Adele_ms	Eudes_ssa de_Troyes	-	-	-
+france	-	82	Hugues_mb du_Maine	Bertha_doi de_Blois	Havoise_dhb de_Bretagne	Marguerite_dhb du_Maine	Herbert_shb du_Maine	-
+france	-	83	Berenger_mg de_Narbonne	Garsinde_dbt de_Besalu	Raymond_rsbg de_Narbonne	Bernard_sbg de_Narbonne	Pierre_sbg de_Narbonne	Etiennette_dbg de_Besalu
+france	-	84	Raymond_spa de_Toulouse	Fille_mr de_Provence	Bertrand_srf de_Toulouse	-	-	-
+france	-	85	Guillaume_spa de_Toulouse	Emma_mg de_Mortain	-	-	-	-
+france	-	86	Ramon_ma Berenguer	Almodis_dpa de_La_Marche	Berenguer_sra de_Barcelone	Ramon_sra Berenguer	Ines_dra de_Barcelone	-
+france	-	87	Guillaume_mp dAuvergne	Philippa_dpt de_Gevaudan	Robert_sgp dAuvergne	Adelaide_dgp de_Rouergue	Philippa_dgp dAuvergne	Richard_rsgp de_Millau
+france	-	88	Gerard_ma de_Lyon	Alice_dpt de_Gevaudan	Artaud_sga de_Lyon	-	-	-
+france	-	89	Bertrand_srb	Gilberge_mb de_Provence	-	-	-	-
+france	-	90	Hugues_smc de_Dammartin-Montdidier	Roharde_mh de_Clare	Pierre_shr de_Dammartin	-	-	-
+france	-	91	Gui-Geoffroi_mh de_Poitou	Hildegard_dre de_Bourgogne	Agnes_dgh dAquitaine	Agnes_dghi de_Poitou	Guillaume_sgi dAquitaine	-
+france	-	92	Foulques_sre dAnjou	Ermengarde_mf de_Bourbon	Ermengarde_dhe dAnjou	Geoffrey_sfe Martel	Fulk_sfe dAnjou	-
+france	-	93	Geoffrey_sre dAnjou	Julienne_mg de_Langeais	-	-	-	-
+france	-	94	Henry_sre de_Bourgogne	Sybil_mh de_Barcelone	Eudes_shs de_Bourgogne	Beatrice_dhs Capet	-	-
+france	-	95	Richard_sba Forestier	Odile_mr	Hugo_sro Forestier	-	-	-
+france	-	96	Robert_sba de_Flandre	Gertrude_mr de_Saxe	Robert_srg de_Flandre	Adela_drg de_Flandre	-	-
+france	-	97	William_mm de_Normandie	Mathilde_dba de_Flandre	-	-	-	-
+france	-	98	Baudouin_sba de_Flandre	Richilde_mb dEgisheim	Baudouin_sbr de_Flandre	-	-	-
+france	-	99	Philip_FL Capet	Bertha_mp de_la_Hollande	Constance_dbp	Louis_FH	-	-
+france	-	100	Hellouin_sho de_Meulan	Alice_mh	Richard_sha de_Meulan	-	-	-
+france	-	101	Galeran_sho de_Meulan	Aelis_mg	Adeline_dga de_Meulan	-	-	-
+france	-	102	Raoul_sra de_Vexin	Adele_mr de_Bar-sur-Aube	Adelaide_dra de_Vexin	Adele_odra de_Vexin	-	-
+france	-	103	Suhard_slo de_Craon	Anne_ms	Guerin_ssa de_Craon	Suhard_ssa de_Craon	-	-
+france	-	104	Hugues_slo de_Lavardin	Emmeline_mh de_Bazouger	Eveline_dhe de_Lavardin	Lisois_she de_Bazouger	-	-
+france	-	105	Otto_sga de_Macon	Elisabeth_mo de_Vergy	Geoffroy_soe de_Macon	-	-	-
+france	-	106	Audouin_sgg dAngouleme	Alauzie_ma de_Fronsac	Actilde_daa de_Matha	-	-	-
+france	-	107	Aymeric_me de_Rochechouart	Eve_dgg dAngouleme	Aymeric_sae de_Rochechouart	-	-	-
+france	-	108	Geoffroy_sgg dAngouleme	Petronille_mg	Foulques_sgp dAngouleme	Humberge_sgp dAngouleme	-	-
+france	-	109	Richard_mj de_Normandie	Judith_dce de_Bretagne	-	-	-	-
+france	-	110	Geoffroi_sce de_Bretagne	Hawise_mg de_Normandie	Eon_sgh de_Penthievre	-	-	-
+france	-	111	Odo_mi de_Blois	Irmengarde_dre dAuvergne	Theobald_rsoi de_Blois	Bertha_doi de_Blois	Stephen_soi de_Troyes	Almodis_doi de_Blois
+france	-	112	Bernard_mt de_Besalu	Toda_dre dArles	Garsinde_dbt de_Besalu	-	-	-
+france	-	113	Pons-Guillaume_sge de_Provence	Almodis_mp de_La_Marche	Almodis_dpa de_La_Marche	Guillaume_spa de_Toulouse	Raymond_spa de_Toulouse	-
+france	-	114	Berenger_mg dAvignon	Gerberge_dmo de_Nice	Raymond_sbg dAvignon	-	-	-
+france	-	115	Rambaud_smo de_Nice	Belieldis_mr de_Marseille	Bertrand_srb	-	-	-
+france	-	116	Manasses_mc de_Montdidier	Constance_drc Capet	Hugues_smc de_Dammartin-Montdidier	-	-	-
+france	-	117	Robert_src de_Bourgogne	Ermengarde_mr dAnjou	Henry_sre de_Bourgogne	Geoffrey_sre dAnjou	Foulques_sre dAnjou	Hildegard_dre de_Bourgogne
+france	-	118	Baudouin_ma de_Flandre	Adele_drc	Baudouin_sba de_Flandre	Mathilde_dba de_Flandre	Robert_sba de_Flandre	Richard_sba Forestier
+france	-	119	Henry_src Capet	Anne_mh	Philip_FL Capet	Hugh_rsha Capet	-	-
+france	-	120	Hugues_mo de_Meulan	Oda_dga de_Vexin	Galeran_sho de_Meulan	Hellouin_sho de_Meulan	-	-
+france	-	121	Raoul_sga de_Vexin	Adele_mr de_Breteuil	Raoul_sra de_Vexin	-	-	-
+france	-	122	Lisois_saa de_Craon	Odile_ml	Hugues_slo de_Lavardin	Suhard_slo de_Craon	-	-
+france	-	123	Guy_ma de_Macon	Aelis_dga de_Chalon	Otto_sga de_Macon	-	-	-
+france	-	124	Fulk_sga dAnjou	Hildegarde_mf de_Beaugency	Ermengarde_rdfh dAnjou	-	-	-
+france	-	125	Guillaume_mg dAngouleme	Gerberge_dga dAnjou	Geoffroy_sgg dAngouleme	Eve_dgg dAngouleme	Audouin_sgg dAngouleme	-
+france	-	126	Conan_me de_Rennes	Ermengarde_dga dAnjou	Geoffroi_sce de_Bretagne	Judith_dce de_Bretagne	-	-
+france	-	127	Robert_me dAuvergne	Ermengarde_dga dArles	Guillaume_sre dAuvergne	Toda_dre dArles	Irmengarde_dre dAuvergne	-
+france	-	128	Miron_mo de_Nice	Odile_dga de_Provence	Gerberge_dmo de_Nice	Rambaud_smo de_Nice	-	-
+france	-	129	Robert_mc Capet	Constance_dga dArles	Henry_src Capet	Adele_drc	Robert_src de_Bourgogne	Constance_drc Capet
+france	-	130	Gautier_sga de_Vexin	Agnes_mgii	Raoul_sga de_Vexin	Oda_dga de_Vexin	Dreux_sga de_Vexin	-
+france	-	131	Andre_ma de_Craon	Agnes_dfg dAnjou	Lisois_saa de_Craon	-	-	-
+france	-	132	Geoffrey_sfg dAnjou	Adele_mg de_Meaux	Ermengarde_dga dAnjou	Gerberge_dga dAnjou	Fulk_sga dAnjou	Aelis_dga de_Chalon
+france	-	133	Gautier_ma de_Vexin	Adelaide_idfg dAnjou	Gautier_sga de_Vexin	-	-	-
+france	-	134	Fulk_rmg dAnjou	Gerberge_rmf du_Maine	Agnes_dfg dAnjou	-	-	-
+egypt	-	1	Abul-Hashim Al-Thalab	Luluah	-	-	-	-
+egypt	-	2	Basileios	Nadrah	Georgios_i	-	-	-
+egypt	-	3	Abul-Hashim ibn_Muhammed	Hafsah	Abul-Hashim Al-Thalab	-	-	-
+egypt	-	4	Salomo	Qaribah	Basileios	-	-	-
+egypt	-	5	al-Afdal al-Jamali_Shahanshah	Nawal	Ali bin_AlAfdal	-	-	-
+egypt	-	6	Mansur Al-Mustafa liDinillah	Rabia	Al-Hadi Nizar	Al-Hafiz	-	-
+egypt	-	7	Ahmad Al-Mustali	Sahr	Al-Amir bi_Ahkami l-Lah	-	-	-
+egypt	-	8	Badr al-Jamali	Hiba	al-Afdal al-Jamali_Shahanshah	-	-	-
+egypt	-	9	Ma_add Al-Mustansir bi-llah	Layla	Ahmad Al-Mustali	Mansur Al-Mustafa liDinillah	-	-
+egypt	-	10	Ali az-Zahir	Fadya	Ma_add Al-Mustansir bi-llah	-	-	-
+georgia	-	1	Aton	Asmat	Jadaron	-	-	-
+georgia	-	2	Davit	Dedisimedi	Aton	-	-	-
+georgia	-	3	Giorgi_II Bagrationi	Helena	Davit_Giorgi Bagrationi	-	-	-
+georgia	-	4	E_Michael_VII_D	Maria_Bagrat Bagrationi	-	-	-	-
+georgia	-	5	Demetre_Giorgi Bagrationi	Chiora	Davit	-	-	-
+georgia	-	6	Bagrat_IV Bagrationi	Borena_A	Marta_Bagrat Bagrationi	Maria_Bagrat Bagrationi	Giorgi_II Bagrationi	-
+georgia	-	7	Giorgi_I Bagrationi	Mariam_V	Bagrat_IV Bagrationi	Marta_Giorgi Bagrationi	Kata_Giorgi Bagrationi	-
+georgia	-	8	Bagrat_III Bagrationi	Martha	Giorgi_I Bagrationi	-	-	-
+georgia	-	9	Gurgen_I Bagrationi	Gurandukt_A	Bagrat_III Bagrationi	-	-	-
+georgia	-	10	Bagrat_II Bagrationi	Elena	Gurgen_I Bagrationi	-	-	-
+moors	-	1	Sir	Raful	Fatima	Yahya_i	-	-
+moors	-	2	Mazdali	Ulayyah	Yahya	Muhammad_iii	Abu_Bakr_ii	-
+moors	-	3	Ali_i	Zubaydah	Abu_Hafs Umar	-	-	-
+moors	-	4	Abu_Bakr ibn_Umar	Zaynab_i an_Nafzawiyyat	Yahya ibn_Aisha	Ibrahim_iii	-	-
+moors	-	5	Yahya al-Lamtuni	Maryam	Muhammad_ii	Ali_ii	Isa	-
+moors	-	6	Abu_Bakr ibn_Tashfin	Ijliyah	Sir	-	-	-
+moors	-	7	Ibrahim_i	Ghaniyah	Abu_Bakr_i	Ibrahim_ii	-	-
+moors	-	8	Yusuf ibn_Tashfin	Zaynab an_Nafzawiyyat	Ali ibn_Yusuf	Muhammad ibn_Aisha	Dawud ibn_Aisha	-
+moors	-	9	Tilankan	Dananir	Mazdali	-	-	-
+moors	-	10	al-Hajj	Hababah	Ali_i	Muhammad_i	-	-
+moors	-	11	Umar	Daifa	Yahya al-Lamtuni	Abu_Bakr ibn_Umar	-	-
+moors	-	12	Tashfin	Azzah	Yusuf ibn_Tashfin	Ibrahim_i	Abu_Bakr ibn_Tashfin	-
+moors	-	13	Hamid	Num	Tilankan	-	-	-
+moors	-	14	Muhammad	Ruqayyah	al-Hajj	-	-	-
+moors	-	15	Ibrahim Talagagin	Warwar	Tashfin	Ali	Umar	-
+moors	-	16	Turgut al-Lamtuni	Saduf	Ibrahim Talagagin	Muhammad	Hamid	-
+byzantium	-	1	Gradhina Branislavljevic	Elaionora	-	-	-	-
+byzantium	-	2	Branislav	Eirini	Kocapar Branislavljevic	Grubesa_i Branislavljevic	Gradhina Branislavljevic	-
+byzantium	-	3	Radoslav	Anna	Branislav	-	-	-
+byzantium	-	4	Manuel Boutoumites	Arete	-	-	-	-
+byzantium	-	5	Konstantinos Dalassenos	Filippa	-	-	-	-
+byzantium	-	6	Areovindos Axouch	Thekla	Ioannis Axouch	-	-	-
+byzantium	-	7	Romanos Diogenes	Eudokia Makrembolitissa	Leo Diogenes	Nikephoros Diogenes	-	-
+byzantium	-	8	Konstantinos Diogenes	Sophia Argyros	Romanos Diogenes	-	-	-
+byzantium	-	9	Olegk Svyatoslavich	Theophano Mouzalonissa	-	-	-	-
+byzantium	-	10	Theodoros Gabras	Maritza	Gregorios Gabras	Konstantinos Gabras	-	-
+byzantium	-	11	Bardas Phokas	Ioanna	Nikephoros Botaneiates	-	-	-
+byzantium	-	12	Andronikos_i Doukas	Maria ek_Boulgarias	Ioannis_i Doukas	Michael Doukas	Irene_i Doukas	Anna_i Doukas
+byzantium	-	13	Michael_i Doukas	Maria ek_Alani	Konstantinos_ii Doukas	-	-	-
+byzantium	-	14	Ioannis Doukas	Irene Pegonitissa	Andronikos_i Doukas	Konstantinos_i Doukas	-	-
+byzantium	-	15	Konstantinos Doukas	 Eudokia Makrembolitiss	Michael_i Doukas	Andronikos_ii Doukas	Konstantinos_iii Doukas	Zoe_i Doukas
+byzantium	-	16	Andronikos Doukas	Danae	Konstantinos Doukas	Ioannis Doukas	-	-
+byzantium	-	17	Georgios Palaiologos	Anna Doukas	Nikephoros_i Palaiologos	Alexios Palaiologos	-	-
+byzantium	-	18	Nikephoros Palaiologos	Eusevia	Nicholaos Palaiologos	Georgios Palaiologos	-	-
+byzantium	-	19	Nikephoros_i Bryennios	Anna Komnenos	-	-	-	-
+byzantium	-	20	Michael Taronites	Maria Komnenos	Ioannis	Grigorios Taronites	-	-
+byzantium	-	21	Adrianos Komnenos	Zoe Doukas	Andronikos_i Komnenos	-	-	-
+byzantium	-	22	Nikephoros Melissenos	Eudokia Komnenos	Ioannis Melissenos	-	-	-
+byzantium	-	23	Alexios Komnenos	Irene Doukas	Anna Komnenos	Ioannes Komnenos	Andronikos Komnenos	Isaakios_i Komnenos
+byzantium	-	24	Isaakios_ii Komnenos	Sergia	Ioannis_i Komnenos	Alexios_i Komnenos	Konstantinos Komnenos	-
+byzantium	-	25	Manuel_i Komnenos	Prokopia	-	-	-	-
+byzantium	-	26	Ioannis Komnenos	Anna Dalassena	Isaakios_ii Komnenos	Eudokia Komnenos	Alexios Komnenos	Adrianos Komnenos
+byzantium	-	27	Isaakios Komnenos	Ekaterina ek_Boulgarias	Maria	Manuel_i Komnenos	-	-
+byzantium	-	28	Manuel Komnenos	Euphymia	Ioannis Komnenos	Isaakios Komnenos	-	-
+hre	-	1	Hendrik_swj van_Limburg	Adelheid_mh von_Pottenstein	Waleran_sha	-	-	-
+hre	-	2	Lutold_mi Premyslid	Ida_dli Babenberg	-	-	-	-
+hre	-	3	Ottokar_me	Elisabeth	Leopold der_Starke	Kunigunde_soe von_Steiermark	-	-
+hre	-	4	Sieghard_mi von_Pongau	Ida_dgh von_Supplinburg	-	-	-	-
+hre	-	5	Hermann_ms von_Salm	Sophia_dmm von_Formbach	Otto_shs von_Salm	-	-	-
+hre	-	6	Earl_mj Waltheof	Judith von_Lens	-	-	-	-
+hre	-	7	Waleran_mj	Jutta_dfg von_Luxemburg	Hendrik_swj van_Limburg	Konrad_swj von_Merheim	-	-
+hre	-	8	Friedrich_shh von_Habsberg	Berta_mf von_Schweinfurt	Hermann_shb von_Kastl	Otto_shb von_Habsberg	Friedrich_shb von_Ammertal	-
+hre	-	9	Hermann_shh der_Jungere	Berta_mh von_Schweinfurt	-	-	-	-
+hre	-	10	Udalrich_rmm Von_Formbach	Mathilde_drm von_Cham	-	-	-	-
+hre	-	11	Ratpoto_srm von_Cham	Elisabeth_mr aus_Lothringen	-	-	-	-
+hre	-	12	Leopold_ii von_Osterreich	Ida von_Formbach-Ratelnberg	Leopold_sli	Elisabeth	Ida_dli Babenberg	-
+hre	-	13	Gebhard_mh von_Supplinburg	Hedwig_dfg von_Formbach	Lothair_sgh von_Supplinburg	Ida_dgh von_Supplinburg	-	-
+hre	-	14	Meginhard_stt von_Formbach	Mathilde_imm von_Rheinhausen	Sophia_dmm von_Formbach	-	-	-
+hre	-	15	Heinrich_stt von_Formbach	Adelheid_mh von_Sulzbach	-	-	-	-
+hre	-	16	Bela_mt von_Ungarn	Tuta_dhh von_Formbach	-	-	-	-
+hre	-	17	Sigehard_mu von_Wolfsolden	Uta_daw von_Calw	Gerhard_ssu von_Schauenburg	Gottfried_ssu von_Wolfsolden	Siegfried_ssu von_Wolfsolden	-
+hre	-	18	Lambert von_Lens	Adelaide_iii in_der_Normandie	Seier von_Lens	Walter von_Lens	-	-
+hre	-	19	Frederick_iv von_Luxemburg	Gerberge_dei von_Boulogne	Jutta_dfg von_Luxemburg	-	-	-
+hre	-	20	Gebhard_i von_Sulzbach	Irmgard	Berenger_sgi von_Sulzbach	-	-	-
+hre	-	20	Frederick_shh von_Kastl	Alberada_mf	-	-	-	-
+hre	-	21	Herman_shh von_Kastl	Hadegunde_mh von_Regensburg	Hermann_shh der_Jungere	Friedrich_shh von_Habsberg	-	-
+hre	-	22	Ratpoto von_Cham	Mathilde_ii	Ida von_Formbach-Ratelnberg	Ratpoto_srm von_Cham	Mathilde_drm von_Cham	-
+hre	-	23	Otto_saa	Eilika_mo	-	-	-	-
+hre	-	24	Berchtold	Agnes_mb	Berthold_sba	Konrad_sba	-	-
+hre	-	25	Herman_sba	Judit_mh von_Backnang-Sulichgau	Hermann_shj	-	-	-
+hre	-	26	Gerard_mh von_Vaudemont	Helwidis_mg Etichonid	-	-	-	-
+hre	-	27	Adalbert_mw von_Calw	Wiltrude_sgb von_Verdun	Gottfried_saw von_Calw	Uta_daw von_Calw	-	-
+hre	-	28	Eustace	Ida_ii von_Lothringen	Gerberge_dei von_Boulogne	Lambert von_Lens	Godfrey von_Bouillon	-
+hre	-	29	Hermann von_Peugen	Adelaide_ii von_Oesterreich	-	-	-	-
+hre	-	30	Gebhard von_Sulzbach	Heidindrudis	Gebhard_i von_Sulzbach	-	-	-
+hre	-	31	Herman_V von_Kastl	Haziga oder_Diessen	Mathilde_ii	Herman_shh von_Kastl	Frederick_shh von_Kastl	-
+hre	-	32	Adalbert_sha von_Saffenberg	Beatrice_ma	Adolf_sab von_Saffenberg	-	-	-
+hre	-	35	Friedrich_sth von_Formbach	Gertrude_mf Billung	Hedwig_dfg von_Formbach	-	-	-
+hre	-	36	Thiemo_sth von_Formbach	Tochter_mt von_Braunschweig	Heinrich_stt von_Formbach	Meginhard_stt von_Formbach	Ekbert_rmm von_Formbach	-
+hre	-	37	Meginhard_sth von_Windberg	Mathilde_mm von_Rheinhausen	Konrad_smm von_Windberg	Ulrich_smm von_Windberg	Hermann_smm von_Winzenburg	-
+hre	-	38	Heinrich_sth von_Formbach	Himiltrud_mh	Tuta_dhh von_Formbach	-	-	-
+hre	-	39	Oci_mw von_Traungau	Willibirg_dar von_Karntner	Ottokar Margraf	-	-	-
+hre	-	40	Ekbert_mm von_Formbach	Mathilde_dar von_Pitten	Eberhard_sem von_Formbach-Pitten	Ekbert_sem von_Formbach-Pitten	Dietmar_sem von_Formbach-Pitten	-
+hre	-	41	Hermann_ma Formbach	Hedwig_doa von_Weimar-Istrien	-	-	-	-
+hre	-	42	Friedrich_mai von_Dieben	Adelheid_doai von_Weimar-Istrien-Krain	-	-	-	-
+hre	-	43	Adalbert_ma	Adelheid_doa von_Weimar	Otto_saa	Siegfried_saa von_Weimar-Orlamunde	-	-
+hre	-	44	Ekbert_mo	Oda_doa	-	-	-	-
+hre	-	45	Frederick von_Staufen	Agnes_mf	-	-	-	-
+hre	-	46	Berthold_ma von_Karnten	Adelheid_dfh von_Staufen	Herman_sba	Gebhard_sba	Berchtold	-
+hre	-	47	Amedee_mj von_Savoyen	Jeanne_dgt Etichonid	-	-	-	-
+hre	-	48	Godfrey_sha von_Leuven	Ida_mgii von_Namur	-	-	-	-
+hre	-	49	Heinrich_SWE der_schwarzen	Wulfhilde_MH	-	-	-	-
+hre	-	50	Geza	Sophia_DMK	-	-	-	-
+hre	-	51	Gerhard_sht von_Egisheim	Richarda_mg	Helwidis_mg Etichonid	-	-	-
+hre	-	52	Friedrich_sfm von_Pongau	Mathilde_mfi von_Lechsgemund	-	-	-	-
+hre	-	53	Berthold_sht von_Poigen	Beatrix_mb von_Mainz	-	-	-	-
+hre	-	54	Eberhard_mmi von_Ratzenhofen	Mathilde_dbt von_Moosburg	-	-	-	-
+hre	-	55	Burkhard_sbt von_Moosburg	Acica_mb	Burchard_sba	-	-	-
+hre	-	56	Balduin_sbr	Ida_mb von_Leuven	-	-	-	-
+hre	-	57	Heinrich_sml von_Karnten	Beatrix_mh zu_Wasserburg	-	-	-	-
+hre	-	58	Frederic_sls Montbeliard	Agnes_mf von_Savoyen	-	-	-	-
+hre	-	59	Thierry_sls Montbeliard	Ermentrude_mt von_Burgund	-	-	-	-
+hre	-	60	Godfrey der_Bartige	Beatrice_i von_Bar	Godfrey_i der_Glockner	Ida_ii von_Lothringen	Wiltrude_sgb von_Verdun	Bertram_sgb von_Verdun
+hre	-	61	Herman_sei von_Schwaben	Adelaide_i von_Susa	Herman_V von_Kastl	Gebhard von_Sulzbach	Adalbert von_Windberg	Adelaide_ii von_Oesterreich
+hre	-	62	Lothar_Udo von_Stade	Oda_dhr von_Werl	Heinrich_slo von_Stade	Lothar-Udo_slo von_Stade	-	-
+hre	-	63	Konrad_sbf von_Werl-Arnsberg	Mathilde_rmk von_Northeim	Hermann_skm von_Arnsberg	Friedrich_skm von_Arnsberg	-	-
+hre	-	64	Hermann_mg von_Saffenberg	Gepa_dai von_Werl	Adalbert_sha von_Saffenberg	-	-	-
+hre	-	65	Thiemo_ma von_Schraplau	Adelheid_dem von_Ballenstedt	Esiko_sta von_Schraplau	Ekkehard_sta von_Schraplau	-	-
+hre	-	66	Thiemo_sbb von_Schweinachgau	Haziga_mt	Heinrich_sth von_Formbach	Meginhard_sth von_Windberg	Thiemo_sth von_Formbach	Friedrich_sth von_Formbach
+hre	-	67	Arnold_sah von_Karntner	Regilla_ma von_Verdun	Mathilde_dar von_Pitten	Willibirg_dar von_Karntner	-	-
+hre	-	68	Hermann_i von_Lotharingia	Siburg	Berthold_ii von_Karnten	Otto_v von_Wetterau-Rheinfelden	-	-
+hre	-	69	Egino dUrach	Kunegonde_drt von_Rheinfelden	-	-	-	-
+hre	-	70	Kuno_mk von_Northeim	Kunigunde_sem von_Weimar	-	-	-	-
+hre	-	71	Otto_SED von_Weimar	Adela_mo	Oda_doa	Adelheid_doa von_Weimar	Adelheid_doai von_Weimar-Istrien-Krain	Hedwig_doa von_Weimar-Istrien
+hre	-	72	Egilmar_mr von_Oldenburg	Richenza_dli von_Dithmarschen	Egilmar_ser von_Oldenburg	-	-	-
+hre	-	73	Sviatoslav_mo von_Kiew	Oda_dli von_Babenberg	-	-	-	-
+hre	-	74	Friedrich_mh von_Buren	Hildegard_dgb Etichonid	Adelheid_dfh von_Staufen	Otto_sfh von_Staufen	Frederick von_Staufen	-
+hre	-	75	Gerold_sgb Etichonid	Thetberge_mg von_Rheinfelden	Jeanne_dgt Etichonid	Aymon_sgt Etichonid	-	-
+hre	-	76	Etienne_mb von_Burgund	Beatrix_dgh von_Lothringen	-	-	-	-
+hre	-	77	Herman_me von_Malsen	Ermengard_dar von_Namur	Hendrik_she von_Cuijk	-	-	-
+hre	-	78	Gislebert_sol von_Loon	Erlande_mg von_Geldenaken	Emmon_rsge von_Loon	-	-	-
+hre	-	79	Heinrich_sld von_Leuven	Adela_mh von_Orthen	Heinrich_isha von_Leuven	Godfrey_sha von_Leuven	-	-
+hre	-	80	Welf_ME von_Mailand	Ethelinde_DOR	Welf_SWE das_Fett	Heinrich_SWE der_schwarzen	-	-
+hre	-	81	Magnus_AOR Billung	Kordula_MM	Gebhard_rsmk von_Supplinburg	Sophia_DMK	-	-
+hre	-	82	Egino_mb von_Urach	Berthe_daa von_Calw	Egino_rseb dUrach	-	-	-
+hre	-	83	Heinrich_shm von_Dagsburg	Tochter_mh von_Moha	Gerhard_sht von_Egisheim	-	-	-
+hre	-	84	Konrad_mh Premyslid 	Hildburg_dsb von_Chiemgau	-	-	-	-
+hre	-	85	Friedrich_ssb von_Pongau	Mathilde_mf von_Vohburg	Sieghard_rsfm von_Pongau	Heinrich_sfm von_Pongau	Friedrich_sfm von_Pongau	Kunigunde_sfm von_Pongau
+hre	-	86	Hermann_mtii von_Poigen	Tochter_idbt von_Dieben	Gebhard_sht von_Poigen	Berthold_sht von_Poigen	-	-
+hre	-	87	Burkhard_mt von_Moosburg	Tochter_dbt von_Dieben	Burkhard_sbt von_Moosburg	Berchtold_sbt von_Moosburg	Mathilde_dbt von_Moosburg	-
+hre	-	88	Arnold_ses von_Loon	Agnes_ma von_Mainz	Gerard_saa von_Loon	Arnold_saa von_Loon	Otto_saa von_Rieneck	Gottschalk_saa von_Loon
+hre	-	89	Dirk_ses von_Horn	Adela_md	Dirk_sda von_Horn	Herman_sda von_Horn	-	-
+hre	-	90	Geza_msi	Sophie_des von_Loon	-	-	-	-
+hre	-	91	Konrad_mo von_Wettin-Brehna	Othelhildis_ddb von_Katlenburg	-	-	-	-
+hre	-	92	Dietrich_sdb von_Katlenburg	Gertrud_md von_Braunschweig	-	-	-	-
+hre	-	93	Philip von_Frankreich	Bertha	-	-	-	-
+hre	-	94	Dirk_sfg	Othilde_md	Floris_sdo	-	-	-
+hre	-	95	Wilhelm_mm von_der_Normandie	Matilda_dba von_Flandern	-	-	-	-
+hre	-	96	Balduin_sba von_Flandern	Richilde_mb	Arnulf_sbr von_Flandern	Balduin_sbr	-	-
+hre	-	97	Renaud_mr von_Burgund	Regina_dkt von_Oltigen	-	-	-	-
+hre	-	98	Dedi_sdt von_Ammensleben	Bia_md von_Ammensleben	-	-	-	-
+hre	-	99	Dietrich_sdt von_Ammensleben	Amelrada_md von_Ammensleben	-	-	-	-
+hre	-	100	Ottokar_rmw von_Steiermark	Willibirg_sab von_Eppenstein	Adalbero_sow	Ottokar_rsow	-	-
+hre	-	101	Markwart_sab von_Eppenstein	Liutbirg_mm von_Plain	Heinrich_sml von_Karnten	Liutold_sml von_Eppenstein	Ulrich_sml von_Eppenstein	-
+hre	-	102	Louis_ms Pfirt	Sophie von_Bar	Thierry_sls Montbeliard	Frederic_sls Montbeliard	-	-
+hre	-	103	Gothelo von_Lothringen	Alberada_mg	Mathild_dga von_Verdun	Godfrey der_Bartige	-	-
+hre	-	104	Ernest von_Schwaben	Ida_me	Herman_sei von_Schwaben	Ernest_sei von_Schwaben	Leopold_sei	-
+hre	-	105	Hermann_sra von_Werl	Richeza_DOT von_Lotharingia	Oda_dhr von_Werl	Kuno_rshr von_Northeim	-	-
+hre	-	110	Bernhard_shg von_Werl	Fridewiga_mb	Konrad_sbf von_Werl-Arnsberg	Hermann_sbf zur_Lippe	Heinrich_sbf von_Werl	-
+hre	-	111	Adalbert_shg von_Werl-Emegau	Irmgard_ma	Gepa_dai von_Werl	-	-	-
+hre	-	112	Esiko_mm von_Ballenstedt	Mathilde_dhg von_Werl	Adelheid_dem von_Ballenstedt	Adalbert_rsem	-	-
+hre	-	113	Berthold_suk von_Schweinachgau	Beatrice_mb	Thiemo_sbb von_Schweinachgau	-	-	-
+hre	-	114	Arnold_suk von_Rottgau	Hiltiburg_ma von_Bayern	Arnold_sah von_Karntner	-	-	-
+hre	-	115	Sanctus Stephanus	Gisela von_Ungarn	-	-	-	-
+hre	-	116	Heinrich_ii Furiosus	Mathild von_Verdun	Hermann_i von_Lotharingia	-	-	-
+hre	-	117	Heinrich_i	Bertha von_Turin	Konrad_iii von_Italien	Henry_i	-	-
+hre	-	118	Rudolf von_Rheinfelden	Matilda	Kunegonde_drt von_Rheinfelden	Berthold von_Rheinfelden	-	-
+hre	-	119	Ekkehard_sha	Mechthild_mei	Otto_SED von_Weimar	Kunigunde_sem von_Weimar	-	-
+hre	-	120	Leopold_mi von_Ungarnmark	Ida_dlg von_Elsdorf	Oda_dli von_Babenberg	Richenza_dli von_Dithmarschen	-	-
+hre	-	121	Ekbert_slg von_Meiben	Immula_me von_Turin	Ekbert_sei von_Meiben	-	-	-
+hre	-	122	Henry_mg von_Frankreich	Mathilde_dlg von_Friesland	-	-	-	-
+hre	-	123	Gerhard_slg von_Egisheim	Bertha_mg von_Flandern	Gerold_sgb Etichonid	Hildegard_dgb Etichonid	Konon_sgb Etichonid	-
+hre	-	124	Otto_swr von_Habsburg	Hilla_mo von_Pfirt	Werner_soh von_Habsburg	-	-	-
+hre	-	125	Fulbert_mo von_Oudenaarde	Oda_dae von_Namur	Arnold_sfo von_Soissons	-	-	-
+hre	-	126	Gerard_rmh von_Lothringen	Hedwige_dae von_Namur	Dirk_sgh von_Elsass-Lothringen	Beatrix_dgh von_Lothringen	Gerard_rsgh von_Vaudemont	-
+hre	-	127	Albert_sae von_Namur	Regelinde_ma von_Lothringen	Albert_sar von_Namur	Heinrich_sar von_Namur-Durbuy	Ermengard_dar von_Namur	-
+hre	-	128	Otto_ml von_Loon	Liutgard_dae von_Namur	Gislebert_sol von_Loon	-	-	-
+hre	-	129	Lambert_slg von_Leuven	Dorothea	Reginar_sld	Heinrich_sld von_Leuven	-	-
+hre	-	130	Eckard_mr von_Scheyern	Richgard_dos	Otto_ser von_Scheyern	-	-	-
+hre	-	131	Konrad_maii von_Dachau	Adelaide_dos	Willibirg_ska	Konrad_ska	-	-
+hre	-	132	Otto_MR von_Northeim	Richeza_DOE	Magnus_AOR Billung	Heinrich_SOR das_Fett	Ida_DOR	Ethelinde_DOR
+hre	-	133	Adalbert_mai von_Calw	Adelheid_dhi Etichonid	Berthe_daa von_Calw	Adalbert_rsaa von_Calw	-	-
+hre	-	134	Richwin_mh von_Scarponnois	Hildegard_dhi Etichonid	Louis_rsrh Pfirt	-	-	-
+hre	-	135	Hugo_shi Etichonid	Mechtild_mb	Heinrich_shm von_Dagsburg	-	-	-
+hre	-	136	Adalbert_mb von_Ortenburg	Bertha_dos zu_Wasserburg	-	-	-	-
+hre	-	137	Berthold_sfi von_Schwarzenburg	Tochter_mb von_Schwarzenburg	Frederick von_Koln	-	-	-
+hre	-	138	Adalbert_sea von_Bogen	Liutgard_mai von_Dieben	Adalbert_sal von_Bogen	Berthold_sal von_Bogen	Friedrich_sal von_Bogen	-
+hre	-	139	Sieghard_mb von_Chiemgau	Bilihild_sfh von_Dieben	Friedrich_ssb von_Pongau	Hildburg_dsb von_Chiemgau	-	-
+hre	-	140	Berthold_rmt von_Dieben	Tochter_dkm von_Hohenwart	Otto_mjrr von_Dieben	Tochter_dbt von_Dieben	Tochter_idbt von_Dieben	-
+hre	-	141	Otto_mjr von_Dieben	Justizia_dea Babenberg	Liutpold_soj von_Dieben	Otto_soj von_Wolfratshausen	-	-
+hre	-	142	Engelbert_mh von_Spanheim	Hadwig_dbe von_Sachsen	Bernhard_seh	Heinrich_seh von_Spanheim	Siegfried_seh von_Spanheim-Lebenau	Hartwig_seh von_Spanheim
+hre	-	143	Albert_rmi von_Namur	Ida_dbe von_Sachsen	Godefroi_sai von_Namur	Heinrich_sai von_Namur	Friedrich_sai von_Namur	Albert_sai von_Jaffa
+hre	-	144	Arnold_mg von_Dieben	Gisela_iii	Berthold_sag von_Andechs	Otto_sag von_Wassserburg	-	-
+hre	-	145	Heinrich_mbi	Beatrice_ii	-	-	-	-
+hre	-	146	Cuno_i von_Bayern	Judith von_Schweinfurt_Nordgau	Botto_scj von_Pottenstein	-	-	-
+hre	-	147	Eustace von_Boulogne	Matilda von_Leuven	Eustace_i aux_Gernons	-	-	-
+hre	-	148	Emmon_ms von_Loon	Swanhilde_ddo von_Holland	Sophie_des von_Loon	Dirk_ses von_Horn	Arnold_ses von_Loon	-
+hre	-	149	Dietrich_mb von_Katlenburg	Bertrade_ddo von_Holland	Dietrich_sdb von_Katlenburg	Othelhildis_ddb von_Katlenburg	-	-
+hre	-	150	Floris von_Holland	Gertrud_mf von_Sachsen	Dirk_sfg	Bertha	-	-
+hre	-	151	Balduin_sbo von_Flandern	Adele_mb von_Frankreich	Balduin_sba von_Flandern	Matilda_dba von_Flandern	-	-
+hre	-	152	Konrad_sgh von_Luxembourg	Clemence_mk von_Aquitanien	Wilhelm_skc von_Luxembourg	-	-	-
+hre	-	153	Kuno_mt von_Oltigen	Tochter_idgh von_Luxembourg	Regina_dkt von_Oltigen	-	-	-
+hre	-	154	Dietrich_mt von_Ammensleben	Tochter_dgh von_Luxembourg	Dietrich_sdt von_Ammensleben	Dedi_sdt von_Ammensleben	-	-
+hre	-	155	Adalbero von_Eppenstein	Beatrix_dhg von_Schwaben	Markwart_sab von_Eppenstein	Willibirg_sab von_Eppenstein	-	-
+hre	-	156	Frederick_iii von_Ober-Lothringen	Matilde von_Schwaben	Gothelo von_Lothringen	Beatrice_ii von_Bar	Sophie von_Bar	-
+hre	-	157	Hermann_iii von_Schwaben	Irmgard_mhi	Ernest von_Schwaben	-	-	-
+hre	-	158	Rudolf_shg von_Werl	Adelheid_mr	Hermann_sra von_Werl	-	-	-
+hre	-	159	Hermann_shg von_Werl	Godila_mh von_Rothenburg	Mathilde_dhg von_Werl	Adalbert_shg von_Werl-Emegau	Bernhard_ishg von_Werl	-
+hre	-	160	Stephan_mg von_Ungarn	Gisela_dhg von_Bayern	-	-	-	-
+hre	-	161	Udalrich_mk von_Schweinachgau	Kunigunde_dhg von_Bayern	Arnold_suk von_Rottgau	Berthold_suk von_Schweinachgau	-	-
+hre	-	162	Heinrich_Rex_i	Kunigunde von_Luxembourg	Gisela von_Ungarn	-	-	-
+hre	-	163	Hezzelin im_Zulpichgau	Othilda	Heinrich_ii Furiosus	Konrad_vi	-	-
+hre	-	164	Henry_iii von_Frankreich	Mathilde	-	-	-	-
+hre	-	165	Heinrich	Agnes_ii von_Aquitanien	Ekkehard_sha	Matilda	Heinrich_i	Konrad_ii von_Bayern
+hre	-	166	Liudolf_skg von_Braunschweig	Gertrud_ml von_Egisheim	Gerhard_slg von_Egisheim	Mathilde_dlg von_Friesland	Ekbert_slg von_Meiben	Ida_dlg von_Elsdorf
+hre	-	167	Walram_ma von_Arlon	Adela_dtr	Walram_swa von_Arlon	Fulk_swa von_Arlon	-	-
+hre	-	168	Gerard_mg von_Bouzonville	Gisela_dtr	Gerard_sgg von_Lothringen	-	-	-
+hre	-	169	Werner_sri	Reginlinde_mw von_Nellenbourg	Otto_swr von_Habsburg	Albrecht_swr von_Habsburg	-	-
+hre	-	170	Albert_me von_Namur	Ermengarde_dci	Liutgard_dae von_Namur	Albert_sae von_Namur	Hedwige_dae von_Namur	Oda_dae von_Namur
+hre	-	171	Lambert_mg von_Leuven	Gerberga_dci von_Nieder-Lothringen	Lambert_slg von_Leuven	Matilda_rdlg	-	-
+hre	-	172	Adolf_sar von_Berg	Adelheid_maii von_Laufen	Adolf_saa	-	-	-
+hre	-	173	Odalric_sph Krain	Sophia_mo von_Ungarn	Poppo_sos	Odalric_sos	Adelaide_dos	Richgard_dos
+hre	-	174	Ernst_saf Babenberg	Adelheid_rme von_Lausitz	Justizia_dea Babenberg	Luitpold_sea	Adalbert_rsea Babenberg	-
+hre	-	175	Otto_SLM von_Schwaben	Eilika_MO von_Egisheim	Richeza_DOE	-	-	-
+hre	-	176	Walther_mh von_Chling	Hemma_dme von_Reichersbeuern	Walther_swh von_Chling	Engelbert_swh von_Hofkirchen	-	-
+hre	-	177	Konrad_sme von_Reichersbeuern	Adelheid_mk von_Sulzbach	Gebhard_ska von_Dieben	Friedrich_ska Rocho	Dietrich_ska von_Wasserburg	-
+hre	-	178	Hugo_skr Etichonid	Irmgard_mh	Gertrud_rdhi von_Egisheim	Hugo_shi Etichonid	Hildegard_dhi Etichonid	Adelheid_dhi Etichonid
+hre	-	179	Otto_sfk zu_Wasserburg	Sophia_mo von_Eppenstein	Bertha_dos zu_Wasserburg	-	-	-
+hre	-	180	Friedrich_sfki von_Regensburg	Irmgard_rmf an_der_Mangfall	Friedrich_rsfi von_Dieben	Liutgard_mai von_Dieben	Berthold_sfi von_Schwarzenburg	-
+hre	-	181	Friedrich_sfk von_Dieben	Hadamut_mf von_Eppenstein	Bilihild_sfh von_Dieben	-	-	-
+hre	-	182	Konrad_srh von_Ambras	Mechthild_mk	Tochter_dkm von_Hohenwart	-	-	-
+hre	-	183	Bernard von_Sachsen	Eilika von_Schweinfurt	Hermann_sbe von_Sachsen	Ida_dbe von_Sachsen	Hadwig_dbe von_Sachsen	-
+hre	-	184	Otto_ii von_Schwaben	Ermengard	Judith von_Schweinfurt_Nordgau	Beatrice_ii	Gisela_iii	-
+hre	-	185	Balduin von_Boulogne	Adelina von_Holland	Eustace von_Boulogne	-	-	-
+hre	-	186	Dirk von_Holland	Othelindis von_Sachsen	Dirk_i von_Holland	Floris von_Holland	Bertrade_ddo von_Holland	Swanhilde_ddo von_Holland
+hre	-	187	Balduin_mo von_Flandern	Ogive_dfi von_Luxembourg	Balduin_sbo von_Flandern	-	-	-
+hre	-	188	Giselbert_sfi von_Luxembourg	Haziga_mg	Hermann_rsgh von_Salm	Tochter_dgh von_Luxembourg	Tochter_idgh von_Luxembourg	Konrad_sgh von_Luxembourg
+hre	-	189	Welf_rmi von_Altdorf	Imiza_dfi von_Luxembourg	Welf_swi von_Karnten	Kunigunde_dwi von_Altdorf	-	-
+hre	-	200	Herman_SKF von_Schwaben	Gerberga_dkm von_Burgund	Gisela_ii von_Schwaben	-	-	-
+hre	-	201	Hermann_mg von_Werl	Gerberga_idkm von_Burgund	Hermann_shg von_Werl	Bernhard_shg von_Werl	Rudolf_shg von_Werl	-
+hre	-	202	Heinrich_SOT der_Zanker	Gisela_dkm von_Burgund	Heinrich_Rex_i	Kunigunde_dhg von_Bayern	Gisela_dhg von_Bayern	-
+hre	-	203	Ernest_mm	Matilda_dkm von_Burgund	Bertha_dem von_Flandern	-	-	-
+hre	-	204	Konrad_V von_Karnten	Jutta	Cuno	Othilda	-	-
+hre	-	205	Konrad_i	Gisela von_Schwaben	Heinrich	Mathilde	-	-
+hre	-	206	Theodoric_sfb von_Ober-Lothringen	Richilde_mt von_Blieskastel	Gisela_dtr	Adela_dtr	Frederick_rstr von_Ober-Lothringen	-
+hre	-	207	Radbot_mi von_Habsburg	Ida_dfb	Werner_sri	-	-	-
+hre	-	208	Charles_sfb von_Nieder-Lothringen	Irmgard_i	Gerberga_dci von_Nieder-Lothringen	Ermengarde_dci	-	-
+hre	-	209	Adolf_sas von_Lotharingia	Rainilda_MD	Hermann_sar	Adolf_sar von_Berg	-	-
+hre	-	210	Poppo_soo von_Weimar	Hadamut_mp	Odalric_sph Krain	-	-	-
+hre	-	211	Dedi_ASOM	Eilika_md	Adelheid_rme von_Lausitz	-	-	-
+hre	-	212	Liudolf_SEM von_Lotharingia	Mathilde_ML von_Zutphen	Cuno von_Bayern	Otto_SLM von_Schwaben	-	-
+hre	-	213	Otto_mti von_Scheyern	Tochter_daa an_der_Mangfall	Otto_sot von_Scheyern	Ekkehard_sot von_Scheyern	Bernhard_sot von_Scheyern	Arnold_sot von_Dachau
+hre	-	214	Meginhard_saa von_Reichersbeuern	Elisabeth_mmi	Konrad_sme von_Reichersbeuern	Hemma_dme von_Reichersbeuern	Meginhard_sme von_Gilching	Arnold_rsme von_Dieben
+hre	-	215	Rudolph_mi von_Altdorf	Ita_dki von_Schwaben	Welf_rsri von_Altdorf	Richardis_dri von_Altdorf	-	-
+hre	-	216	Kuno_mr von_Rheinfelden	Richilde_dki von_Schwaben	Hugo_skr Etichonid	Rudolf_r von_Rheinfelden	-	-
+hre	-	217	Friedrich_mk von_Dieben	Kunizza_dki von_Schwaben	Friedrich_sfk von_Dieben	Berthold_rsfk von_Dieben	Friedrich_sfki von_Regensburg	Otto_sfk zu_Wasserburg
+hre	-	218	Rapoto_mh von_Inn_und_Norital	Hemma_dlr von_Babenberg	Konrad_srh von_Ambras	-	-	-
+hre	-	219	Adalbert_slr der_Siegreiche	Frowila_ma Urseolo	Leopold_af von_Ungarnmark	-	-	-
+hre	-	220	Heinrich_ssh von_Schweinfurt	Gerberga	Otto_ii von_Schwaben	Eilika von_Schweinfurt	Burchard	-
+hre	-	221	Arnulf von_Holland	Lutgardis von_Luxembourg	Dirk von_Holland	Adelina von_Holland	-	-
+hre	-	222	Friedrich_ssh von_Luxembourg	Irmtrud_mf von_Gleiberg	Imiza_dfi von_Luxembourg	Friedrich_sfi von_Luxembourg	Giselbert_sfi von_Luxembourg	Ogive_dfi von_Luxembourg
+hre	-	223	Konrad_mm von_Burgund	Mathilde_imk	Matilda_dkm von_Burgund	Gerberga_dkm von_Burgund	-	-
+hre	-	224	Konrad_iiii von_Karnten	Gisela_i	Konrad_V von_Karnten	Bruno von_Wurzburg	-	-
+hre	-	225	Heinrich_ii von_Speyer	Adelaide von_Elsab	Konrad_i	-	-	-
+hre	-	226	Frederick_shj von_Ober-Lothringen	Beatrice_mfi Capet	Charles_sfb von_Nieder-Lothringen	Ida_dfb	Theodoric_sfb von_Ober-Lothringen	-
+hre	-	227	Adolf_shj von_Lotharingia	Siburg_ma	Hermann_sas von_Koln	Erenfried_sas	Adolf_sas von_Lotharingia	-
+hre	-	228	Otto_SOTREX	Oda_mo	Dedi_ASOM	Poppo_soo von_Weimar	Thietmar_soo	-
+hre	-	229	Ezzo_MM von_Lotharingia	Matilde_DOT von_Sachsen	Liudolf_SEM von_Lotharingia	-	-	-
+hre	-	230	Arnold_sli an_der_Mangfall	Adelheid_mai von_Bayern	Meginhard_saa von_Reichersbeuern	Irmgard_daa an_der_Mangfall	Tochter_daa an_der_Mangfall	-
+hre	-	231	Konrad_MF von_Schwaben	Reginlint_dli von_Sachsen	Ita_dki von_Schwaben	Herman_rskr von_Schwaben	Kunizza_dki von_Schwaben	Richilde_dki von_Schwaben
+hre	-	232	Leopold_mr Badenberg	Richwara_ml von_Zulpichgau	Adalbert_slr der_Siegreiche	Hemma_dlr von_Babenberg	-	-
+hre	-	233	Siegfried von_Luxembourg	Hedwig von_Nordgau	Friedrich_ssh von_Luxembourg	Lutgardis von_Luxembourg	Kunigunde_r von_Luxembourg	Heinrich_ssh von_Schweinfurt
+hre	-	234	Otto_ii von_Worms	Judith	Heinrich_ii von_Speyer	Wilhelm von_Strabburg	Konrad_mm von_Burgund	-
+hre	-	235	Herman von_Lotharingia	Jutta_mh	Ezzo_rshj von_Lotharingia	Hezzelin_rshj im_Zulpichgau	Adolf_shj von_Lotharingia	Frederick_shj von_Ober-Lothringen
+hre	-	236	Liudolf von_Schwaben	Ida_ML	Otto_SL von_Schwaben	Mathilda von_Essen	Reginlint_dli von_Sachsen	Arnold_sli an_der_Mangfall
+kiev	-	1	Heinrich	Eupraxia Kievskii	-	-	-	-
+kiev	-	2	Vladimir_i Monomakh	Gytha	Mstislav_i Vladimirovich	Svyatoslav Vladimirovich	Yaropolk Vladimirovich	Viacheslav Vladimirovich
+kiev	-	3	Oleg Svyatoslavich	Feofania	Vsevolod	Igor	-	-
+kiev	-	4	Vseslav Polotskii	Ksenia	Roman	Gleb	Boris	Sviatoslav
+kiev	-	5	Igor Yaroslavich	Evfrosinia	Davyd Igorevich	Vsevolod Igorevich	-	-
+kiev	-	6	Vsevolod Yaroslavich	Dushana	Vladimir_i Monomakh	Rostislav Vsevolodovich	Eupraxia Kievskii	-
+kiev	-	7	Sviatoslav Iaroslavich	Oda	Gleb Svyatoslavich	Davyd Sviatoslavich	Oleg Svyatoslavich	Yaroslav Ryazanskii
+kiev	-	8	Iziaslav Yaroslavich	Gertrude	Yaropolk_i Izyaslavich	Sviatopolk	-	-
+kiev	-	9	Bryachislav Polotskii	Ekaterina	Vseslav Polotskii	-	-	-
+kiev	-	10	Yaroslav	Ingegerd Olofsdotter	Iziaslav Yaroslavich	Sviatoslav Iaroslavich	Vsevolod Yaroslavich	Igor Yaroslavich
+kiev	-	11	Izyaslav Polotskii	Svyatoslava	Bryachislav Polotskii	-	-	-
+kiev	-	12	Vladimir	Rogneda Polotskii	Izyaslav Polotskii	Yaroslav	Mstislav	Boris Vladimirovich
+lithuania	-	1	Palemon	Danguole	Borkus	Kunos	Spera	-
+milan	-	1	Umberto	Gisela di_Borgogna	-	-	-	-
+milan	-	2	Boniface_i del_Vasto	Alice	Manfredi di_Saluzzo	-	-	-
+milan	-	3	Federico di_Susa	Agnes_i	-	-	-	-
+milan	-	4	Teuttone	Elena di_Ventimiglia	-	-	-	-
+milan	-	5	Rudolf di_Rheinfeld	Adelaide_iii	-	-	-	-
+milan	-	6	Henry_i	Bertha de_Savoia	-	-	-	-
+milan	-	7	Amadeus	Joan	Umberto	-	-	-
+milan	-	8	Peter	Agnes di_Aquitania	Agnes_i	Alice	-	-
+milan	-	9	Fulco	Marta	-	-	-	-
+milan	-	10	Otto_iii di_Vasto	Bertha_ii	Teuttone	Boniface del_Vasto	-	-
+milan	-	11	Henry_ii	Adelaide_ii	-	-	-	-
+milan	-	12	Otto di_Savoia	Adelaide_i di_Susa	Peter	Amadeus	Bertha de_Savoia	Adelaide_iii
+milan	-	13	Otto di_Svevia	Irmgard	-	-	-	-
+milan	-	14	Albert_i Azzo	Garsende	Welf di_Baviera	Fulco	Hugh del_Maine	-
+milan	-	15	Anselme della_Liguria	Simona	Otto_iiii di_Vasto	-	-	-
+milan	-	16	William_i	Waza	Henry	-	-	-
+milan	-	17	Olderico_i Manfredi	Bertha_i	Irmgard	Adelaide_i di_Susa	Adelaide_ii	Bertha_ii
+milan	-	18	Alberto Azzo	Railend	Albert_i Azzo	-	-	-
+milan	-	19	Maginfred	Prangarda	Olderico Manfredi	-	-	-
+milan	-	20	Anselm della_Liguria	Mella	Anselme della_Liguria	-	-	-
+milan	-	21	Otto_iiii	Margherita	William_i	Riprando	Otta	Gualderada
+milan	-	22	Oberto_i	Roberta	Alberto Azzo	Bertha_i	-	-
+milan	-	23	Arduin Glaber	Gisela	Maginfred	-	-	-
+milan	-	24	Aleram	Adelaide_iiii	William	Otto_iiii	Anselm della_Liguria	-
+milan	-	25	Oberto Obizzo	Giulia	Oberto_i	-	-	-
+milan	-	26	Berengar	Cristina	Oberto Obizzo	Aleram	Arduin Glaber	-
+novgorod	6th generation	1	Svyatopolk Svyatopolkich	Lyudmila Bohemiya	Yaroslav Svyatopolkich	Sbyslava Svyatopolkich	Predeslava Svyatopolkich	-
+novgorod	6th generation	2	Mstislav Mstislavich	Natalia Polotskii	Rostislav Mstislavich	-	-	-
+novgorod	6th generation	3	Yaropolk Izyaslavich	Kunehunda Mejsen	-	-	-	-
+novgorod	6th generation	4	Rostislav Rostislavich	Anna_a Uhorshhyna	Volodar Rostislavich	Ryurik Rostislavich	Vasylko Rostislavich	-
+novgorod	5th generation	5	Vyshata Vyshatich	Rostislava Fomin	Yan Vyshatich	Putiata Vyshatich	-	-
+novgorod	5th generation	6	Bryachislav Bryachislavich	Evfimia Chernigov	Vseslav Bryachislavich	-	-	-
+novgorod	5th generation	7	Vsevolod Yaroslavich	Anastasia_a Vizantiya	-	-	-	-
+novgorod	5th generation	8	Svyatoslav Yaroslavich	Kilikiya Monastyrev	-	-	-	-
+novgorod	5th generation	9	Izyaslav Izyaslavich	Hertruda Pol_shha	Yaropolk Izyaslavich	Mstislav Mstislavich	Svyatopolk Svyatopolkich	Eupraxia Izyaslavich
+novgorod	5th generation	10	Vladimir_a Vladimirovich	Aleksandra Shtade	Rostislav Rostislavich	-	-	-
+novgorod	4th generation	11	Ostromir Ostromirovich	Theofania Vladimirovich	Vyshata Vyshatich	-	-	-
+novgorod	4th generation	12	Kazymyra Pol_shha	Maria_a Vladimirovich	-	-	-	-
+novgorod	4th generation	13	Izyaslav Izyaslavich_a	Feofania Khvost	Bryachislav Bryachislavich	-	-	-
+novgorod	4th generation	14	Yaroslav Yaroslavich	Irina Shveciya	Vladimir_a Vladimirovich	Izyaslav Izyaslavich	Svyatoslav Yaroslavich	Vsevolod Yaroslavich
+novgorod	4th generation	15	Svyatopolk Vladimirovich	Agnia Pol_shha	-	-	-	-
+novgorod	3rd generation	16	Konstantin Konstantinov	Elena_a Gorodetskii	Ostromir Ostromirovich	-	-	-
+novgorod	3rd generation	17	Vladimir Vladimirovich	Radogneva Polotskii	Vyacheslav Vladimirovich	Yaroslav Yaroslavich	Izyaslav Izyaslavich_a	Maria_a Vladimirovich
+novgorod	3rd generation	18	Yaropolk Vladimirovich	Iuliania Hreciya	Svyatopolk Vladimirovich	-	-	-
+novgorod	2nd generation	19	Dobrynya Dobrynich	Lyudmila Novgorodskii	Konstantin Konstantinov	-	-	-
+novgorod	2nd generation	20	Svyatoslav Svyatoslavich	Malfrida Nikitich	Yaropolk Vladimirovich	Vladimir Vladimirovich	Oleg Svyatoslavich	-
+novgorod	1st generation	21	Igor Nikitich	Olga Kiev	Svyatoslav Svyatoslavich	Dobrynya Dobrynich	-	-
+pisa	-	1	Uberto	Elena	Ugo_iv	-	-	-
+pisa	-	2	Salusio Torchitorio	Giorgia Lacon	Marianus Torchitorio	-	-	-
+pisa	-	3	Bonefacio	Giorgia	-	-	-	-
+pisa	-	4	Alberto	Matilda	Uberto	Enrico	-	-
+pisa	-	5	Ugo_iii	Matilda di_Treviso	-	-	-	-
+pisa	-	6	Ranieri Gherardesca	Francesca	Carlo Gherardesca	Giovannangelo Gherardesca	-	-
+pisa	-	7	Orzocorre Torchitorio	Vera	Salusio Torchitorio	Torbeno_i Torchitorio	-	-
+pisa	-	8	Ugo di_Bologna	Willa_ii	Ugo_iii	Alberto	Bonefacio	Ubaldo
+pisa	-	9	Ildebrando Pannocchiescha	Berta	Uguiccio Tezici	Ranieri Pannocchiescha	-	-
+pisa	-	10	Goffredo di_Bassa-Lorena	Matilde di_Canossa	Alberto Visconti	Guido Guerra	-	-
+pisa	-	11	Diego Gherardesca	Salvaza	Ranieri Gherardesca	-	-	-
+pisa	-	12	Giacomo di Petrone	Ermengarde	-	-	-	-
+pisa	-	13	Bonifacio	Anne	Ugo di_Bologna	-	-	-
+pisa	-	14	Dante Pannocchiescha	Fiora	Ildebrando Pannocchiescha	-	-	-
+pisa	-	15	Bonifacio di_Toscana	Beatrice di_Bar	Federico di_Toscana	Matilde di_Canossa	-	-
+pisa	-	16	Gerardo Gherardesca	Lucrezia	Diego Gherardesca	-	-	-
+pisa	-	17	Adalberto di_Bologna	Bertilla	Bonifacio	Walfredo	Adalberto_i	Ermengarde
+pisa	-	18	Arduino di_Ivrea	Bertha	-	-	-	-
+pisa	-	19	Pietro Candiano	Waldrada	-	-	-	-
+pisa	-	20	Tedaldi	Willa_i	Gerardo Gherardesca	Bonifacio di_Toscana	Dante Pannocchiescha	-
+pisa	-	21	Ugo di_Toscana	Willa	Adalberto di_Bologna	-	-	-
+pisa	-	22	Hubert di_Spoleto	Willa di_Spoleto	Willa_i	Waldrada	Bertha	Ugo di_Toscana
+pisa	-	23	Ugo_i	Wandelmoda	Hubert di_Spoleto	-	-	-
+poland	5th generation	1	Wratyslaw z_Czech	Swietoslawa Kazimierzowic	-	-	-	-
+poland	5th generation	2	Wladyslaw Herman	Judyta z_Czech	Zbigniew Herman	Boleslaw Herman	-	-
+poland	5th generation	3	Boleslaw Boleslawowic_b	Wieslawa z_Kijow	Mieszko Boleslawowic	-	-	-
+poland	4th generation	4	Izaslaw z_Kijow	Gertruda Piast	-	-	-	-
+poland	4th generation	5	Bela z_Wegry	Adelajda Piast	-	-	-	-
+poland	4th generation	6	Kazimierz Kazimierzowic	Maria z_Kijow	Boleslaw Boleslawowic_b	Wladyslaw Herman	Mieszko Kazimierzowic	Swietoslawa Kazimierzowic
+poland	3rd generation	7	Herman z_Misni	Regelinda Piast	-	-	-	-
+poland	3rd generation	8	Mieszko Piast	Rycheza Lotarynska	Kazimierz Kazimierzowic	Adelajda Piast	Gertruda Piast	-
+poland	2nd generation	9	Lambert Lambert	Elzbieta Mieszkowic	Dytryk Lambert	-	-	-
+poland	2nd generation	10	Eryk ze_Szwecji	Swietoslawa Mieszkowic	-	-	-	-
+poland	2nd generation	11	Boleslaw Boleslawowic_a	Emnilda Slowianska	Bezprym Piast	Mieszko Piast	Regelinda Piast	Otto Boleslawowic_a
+poland	1st generation	12	Mieszko Mieszkowic	Dobrawa z_Czech	Boleslaw Boleslawowic_a	Swietoslawa Mieszkowic	Mieszko Piastowic	Lambert Lambert
+poland	-	13	Wilkomir Wlostowic	Lubomira	Piotr Wlostowic	-	-	-
+portugal	gen 6	1	Martinho Moniz	Elvira Sesnandes	-	-	-	-
+portugal	gen 5	2	Sesnando Sesnandes	Loba Nunes	Elvira Sesnandes	-	-	-
+portugal	gen 5	3	Odilon de_Borgonha	Sibila de_Borgonha	-	-	-	-
+portugal	gen 5	4	Hugo de_Borgonha	Sibila da_Franca	-	-	-	-
+portugal	gen 4	5	Nuno Nunes	Isabel de_Gois	Loba Nunes	-	-	-
+portugal	gen 4	6	Afonso de_Hispania	Costanca de_Borgonha	-	-	-	-
+portugal	gen 4	7	Henrique_a de_Borgonha	Sibila de_Hispania	Hugo de_Borgonha	Odilon de_Borgonha	Henrique de_Borgonha	-
+portugal	gen 3	8	Mendo Mendes	Guiomar Resende	Nuno Nunes	-	-	-
+portugal	gen 3	9	Fernando de_Hispania	Sancha de_Leao	Sibila de_Hispania	Afonso de_Hispania	-	-
+portugal	gen 3	10	Bermudo de_Leao	Jimena de_Castela	-	-	-	-
+portugal	gen 2	11	Nuno Alvites	Ilduara Menendez	Mendo Mendes	-	-	-
+portugal	gen 2	12	Afonso de_Leao	Elvira Menendez	Bermudo de_Leao	Sancha de_Leao	-	-
+portugal	gen 1	13	Mendo Menendez	Tutadona Moniz	Elvira Menendez	Goncalo Menendez	Rodrigo Menendez	Ilduara Menendez
+scotland	GEN 6	14	Donnchad_a mac_Donnchada	Octreda mac_Cospatric	Uilliam	-	-	-
+scotland	GEN 5	15	Aed mac_Ruadri	Maighread mac_Lulaich	Aengus mac_Aeda	-	-	-
+scotland	GEN 5	16	Cospatric mac_Cospatric	Seonaid mac_Maldred	Doilfin mac_Cospatric	Waltheof mac_Cospatric	Cospatric_a mac_Uilliam	-
+scotland	GEN 5	17	Mael_Muire mac_Mail Muire	Ealasaid mac_Leod	Matadin mac_Mail Muire	-	-	-
+scotland	GEN 5	18	Domnall mac_Mail Choluim	Afraig mac_Donnchada	Edmund mac_Etmoind	David mac_Dabid	-	-
+scotland	GEN 5	19	Mael_Coluim mac_Mail Choluim	Maighread na_Sasanach	Donnchad_a mac_Donnchada	Edward mac_Eideard	Edgar mac_Etgair	Alexander mac_Alaxandair
+scotland	GEN 4	20	Lulach mac_Lulaich	Fionnghuala mac_Gille_Coemgain	Mael_Snechta mac_Mail Snechta	Maighread mac_Lulaich	-	-
+scotland	GEN 4	21	Maldred mac_Maldred	Eadith mac_Dun_Chailleann	Cospatric mac_Cospatric	-	-	-
+scotland	GEN 4	22	Donnchad mac_Donnchada	Suthen mac_Cinaeda	Mael_Coluim mac_Mail Choluim	Domnall mac_Mail Choluim	Mael_Muire mac_Mail Muire	-
+scotland	GEN 3	23	Gille_Coemgain mac_Mail Brigte	Gruoch mac_Boedhe	Lulach mac_Lulaich	-	-	-
+scotland	GEN 3	24	Findlaech mac_Ruadri	Donada mac_Mail Choluim	Mac_Bethad mac_Findlaich	-	-	-
+scotland	GEN 3	25	Crinan mac_Dun_Chailleann	Bethoc mac_Mail Choluim	Donnchad mac_Donnchada	Maldred mac_Maldred	-	-
+scotland	GEN 2	26	Boite mac_Boedhe	Aileas mac_Cinaeda	Gruoch mac_Boedhe	-	-	-
+scotland	GEN 2	27	Mael_Coluim_a mac_Mail Choluim	Caitriona mac_Cinaeda	Bethoc mac_Mail Choluim	Donada mac_Mail Choluim	-	-
+scotland	GEN 1	28	Cinaed mac_Cinaeda	Ete mac_Mail Choluim	Mael_Coluim_a mac_Mail Choluim	Boite mac_Boedhe	-	-
+seljuks	-	1	Qutb_ud_din Shansabani	Hanife	Izz_ud_din Shansabani	-	-	-
+seljuks	-	2	Muhammad Shansabani	Farangis	Qutb_ud_din Shansabani	-	-	-
+seljuks	-	3	Menuchir Shaddadid	Munire	Abu-l-Asvar Shaddadid	-	-	-
+seljuks	-	4	Sokmen	Bolbol	Zahireddin Ibrahim	Ahmet	-	-
+seljuks	-	5	Balgichi Uyunid	Fateme	Yusuf Uyunid	-	-	-
+seljuks	-	6	Ali_sal	Esma	Ziyaeddin	-	-	-
+seljuks	-	7	Saltuk Saltukid	Meyli	Ali_sal Saltukid	-	-	-
+seljuks	-	8	Fereydun	Huri	Manuchehr_i	-	-	-
+seljuks	-	9	Fariburz	Harire	Fereydun	Manuchehr	-	-
+seljuks	-	11	Sallar	Rubab	Fariburz	-	-	-
+seljuks	-	12	Surkhab ibn_Badr	Firuze ibn_Badr	Abu_Mansur ibn_Surkhab	-	-	-
+seljuks	-	13	Ali_s	Sunbul	Bukhtnassar	-	-	-
+seljuks	-	14	Yazid	Pertevi-yi	Manuchihr	Ali_s	Qubadh	Sallar
+-	-	15	Cibrail	Parivash	-	-	-	-
+seljuks	-	16	Mahmud_kii	Padshah	-	-	-	-
+seljuks	-	17	Mesud_k	Nisai	-	-	-	-
+seljuks	-	18	Ahmed	Leyla	-	-	-	-
+seljuks	-	19	Suleiman_kii	Mahru	Muhammed_kii	Ibrahim_kii	-	-
+seljuks	-	20	Muhammad Kutbeddin	Firuze	Inal_Tegin	-	-	-
+seljuks	-	21	Iran Shah	Mahsa	Arslan Shah	-	-	-
+-	-	23	Tekis	Maryam	-	-	-	-
+seljuks	-	24	Tutush	Golsa	Fakhr Radwan	Duqaq	Zumurrud	Mehraban
+seljuks	-	25	Malik-Shah	Turkan	Barkyaruq	Ahmad Sanjar	Mahmoud	Nasir Mahmud
+seljuks	-	26	Al-Muktedi	Gawhat	Al-Mustazhir	-	-	-
+seljuks	-	27	Muhammad_ii	Farahzad	Yazid	-	-	-
+seljuks	-	28	Suleiman	Valide	Kilic Arslan	Kulan Arslan	-	-
+seljuks	-	29	Bayazid	Mah-Parvar	Mahmud_kii	-	-	-
+seljuks	-	30	Mehrdad	Mihri	Mesud_k	-	-	-
+seljuks	-	31	Hider	Khanish	Ahmed	-	-	-
+seljuks	-	32	Kazem	Parsbit	Suleiman_kii	-	-	-
+seljuks	-	33	Anus Tekin	Nasim	Muhammad Kutbeddin	-	-	-
+seljuks	-	34	Alp_Arslan	Mahkhatun	Malik-Shah	Tutush	Toghan_Shah	Arslan_Argun
+seljuks	-	35	Kavurt	Yasaman	Ormuzd Shah	Tahmasp Shah	 Iran Shah	Saam Shah
+seljuks	-	37	Avardin	Titi	Al-Muktedi	-	-	-
+seljuks	-	38	Burna	Feresteh	Bayazid	-	-	-
+seljuks	-	39	Ibrahim_k	Hasti	Nasr_k	Kazem	Hider	Mehrdad
+seljuks	-	40	Ahmad	Pari	Muhammad_ii	-	-	-
+seljuks	-	41	Kutalmish	Nilufer Hatun	Mansur_i	Suleiman	Vahid	Dawud
+seljuks	-	42	Cagri	Roshan	Kavurt	Alp_Arslan	Yakuti	Uthman
+seljuks	-	43	Al-Qaim	Setareh	Avardin	-	-	-
+seljuks	-	44	Mansur	Parichehr	Burna	-	-	-
+seljuks	-	45	Nasr	Jamile	Muhammed_k	Ibrahim_k	-	-
+seljuks	-	46	Muhammad_i Yazid	Zeynab	Ahmad	-	-	-
+seljuks	-	48	Musa	Mehrangiz	Ali-Hassan	-	-	-
+seljuks	-	49	Arslan Yabgu	Susanak	Kutalmish	-	-	-
+seljuks	-	50	Mikail Bey	Hayat	Tugrul	Cagri	Ibrahim Inal	-
+seljuks	-	51	Seljuk	Saharnaz	Mikail Bey	Arslan Yabgu	Musa	Yunus
+seljuks	-	52	Muhammad Yazid	Negar	Muhammad_i Yazid	-	-	-
+seljuks	-	53	Al-Qadir	Pariya	Al-Qaim	-	-	-
+seljuks	-	54	Ali	Shahrbanu	Nasr	Mansur	-	-
+seljuks	-	55	Suleiman_k	Golrukh	Ayn	-	-	-
+seljuks	-	56	Musa_k	Anahid	Ali	-	-	-
+seljuks	-	58	Khan Kaganlari	Baharbanu	Musa_k	Suleiman_k	-	-
+spain	7th generation	1	Rodrigo Diaz_de_Vivar	Jimena Diaz	Diego Diaz_de_Vivar	-	-	-
+spain	7th generation	2	Fernando Diaz	Goto Gonzalez	-	-	-	-
+spain	7th generation	3	Gonzalo de_Lara	Goto Nunez	Pedro de_Lara	Rodrigo de_Lara	-	-
+spain	6th generation	4	Pedro Ansurez	Eylo Alfonsez	-	-	-	-
+spain	6th generation	5	Martin Flainez	Sancha Fernandez	Rodrigo Flainez	Osorio Flainez	-	-
+spain	6th generation	6	Alfonso Jimenez	Constanza de_Borgona	Urraca de_Leon	Teresa	Sancho Alfonsez	-
+spain	6th generation	7	Sancho de_Monzon	Constanza de_Bigorre	Ramiro de_Monzon	-	-	-
+spain	6th generation	8	Garcia Ordonez	Urraca Garces	-	-	-	-
+spain	6th generation	9	Sancho_a de_Pamplona	Placencia de_Normandia	Garcia_a de_Pamplona	Garcia_Sanchez Sanchez	Raimundo Sanchez	Urraca Sanchez
+spain	6th generation	10	Ermengol de_Urgell	Sancha Ramirez	-	-	-	-
+spain	6th generation	11	Sancho Ramirez	Isabel de_Urgell	-	-	-	-
+spain	6th generation	12	Muno Munoz	Muniadona Moniz	-	-	-	-
+spain	6th generation	13	Diego Diaz	Cristina Alfonsez	Rodrigo Diaz	Fernando Diaz	Jimena Diaz	-
+spain	6th generation	14	Nuno Nunez_de_Lara	Mayor Munoz	Gonzalo de_Lara	Rodrigo Munoz	Enderquina Munoz	-
+spain	5th generation	15	Ansur Diaz	Justa Fernandez	Eylo Alfonsez	-	-	-
+spain	5th generation	16	Onecca Gutierrez	Oveco Fernandez	-	-	-	-
+spain	5th generation	17	Flain Flainez	Toda Fernandez	Onega Flainez	Fernando Flainez	Martin Flainez	-
+spain	5th generation	18	Ordono de_Aza	Urraca de_Aza	-	-	-	-
+spain	5th generation	19	Pelayo Froilaz	Aldonza Ordonez	-	-	-	-
+spain	5th generation	20	Alfonso Ordonez	Florinda Pereda	-	-	-	-
+spain	5th generation	21	Fernando Jimenez	Sancha de_Leon	Urraca de_Zamora	Sancho Jimenez	Alfonso Jimenez	Garcia Jimenez
+spain	5th generation	22	Garcia Garces	Estefania de_Bigorre	Sancho_a de_Pamplona	Ramiro de_Calahorra	Urraca Garces	Sancho de_Monzon
+spain	5th generation	23	Ramiro de_Aragon	Ermesenda de_Bigorre	Sancho Ramirez	Garcia Ramirez	Sancha Ramirez	-
+spain	5th generation	24	Munio del_Bierzo	Jimena Ordonez	Muno Munoz	-	-	-
+spain	5th generation	25	Fernando Gundemariz	Jimena Alfonsez	Diego Diaz	-	-	-
+spain	5th generation	26	Bermudo Bermudez	Jimena Sanchez	Alfonso Bermudez	-	-	-
+spain	5th generation	27	Gonzalo_a Gonzalez	Eylo de_Asturias	Nuno Nunez_de_Lara	-	-	-
+spain	5th generation	28	Gonzalo de_Bureba	Sancha Maceratiz	Gomez de_Bureba	Fernando de_Bureba	-	-
+spain	4th generation	29	Pedro Flainez	Brunilde Munoz	-	-	-	-
+spain	4th generation	30	Fernando Fernandez	Elvira Pelaez	Flain Flainez	Oveco Fernandez	Justa Fernandez	-
+spain	4th generation	31	Ordono_a Ordonez	Cristina Bermudez	Alfonso Ordonez	Aldonza Ordonez	Ordono de_Aza	-
+spain	4th generation	32	Sancho Sanchez	Muniadona de_Castilla	Ramiro de_Aragon	Garcia Garces	Fernando Jimenez	Gonzalo Sanchez
+spain	4th generation	33	Ordono Ordonez	Florinda Pelaez	Jimena Ordonez	-	-	-
+spain	4th generation	34	Alfonso de_Leon	Elvira Menendez	Bermudo Bermudez	Jimena Alfonsez	-	-
+spain	4th generation	35	Munio Munoz	Eugenia Froilaz	Gonzalo_a Gonzalez	-	-	-
+spain	4th generation	36	Salvador Salvadorez	Muniadona Alvarez	Alvaro Salvadorez	Gonzalo de_Bureba	-	-
+spain	4th generation	37	Berenguer Ramon	Sancha Sanchez	-	-	-	-
+spain	3rd generation	38	Flain Munoz	Justa Cea	Muno Flainez	Fernando Fernandez	Pedro Flainez	-
+spain	3rd generation	39	Pelayo Rodriguez	Gotinha Cea	-	-	-	-
+spain	3rd generation	40	Ramiro de_Leon	Sancha de_Saldana	Ordono_a Ordonez	-	-	-
+spain	3rd generation	41	Garcia de_Pamplona	Jimena Fernandez	Sancho Sanchez	Urraca de_Pamplona	-	-
+spain	3rd generation	42	Bermudo de_Leon	Elvira Garcia	Alfonso de_Leon	Teresa Bermudez	Sancha Bermudez	Ordono Ordonez
+spain	3rd generation	43	Gonzalo Gonzalez	Muawiya de_Cordoba	Salvador Salvadorez	Munio Munoz	-	-
+spain	3rd generation	44	Sancho de_Castilla	Urraca Gomez	Trigida Sanchez	Sancha Sanchez	Garcia de_Castilla	-
+spain	2nd generation	45	Fernando Cea	Elvira Diaz	Gotinha Cea	Justa Cea	-	-
+spain	2nd generation	46	Gomez de_Saldana	Muniadona Fernandez	Sancha de_Saldana	-	-	-
+spain	2nd generation	47	Sancho de_Pamplona	Urraca Fernandez	Garcia de_Pamplona	-	-	-
+spain	2nd generation	48	Garcia Garcia	Ava de_Ribagorza	Sancho de_Castilla	Urraca Garcia	Gonzalo Gonzalez	Elvira Garcia
+spain	1st generation	49	Fernan Fernandez	Sancha de_Pamplona	Garcia Garcia	Urraca Fernandez	Muniadona Fernandez	Elvira Diaz
+sweden	5th generation	1	Inge Ingesson	Helena Krona	Kristina Ingesson	Ragnvald Ingesson	Margareta Ingesson	Katarina Ingesson
+sweden	5th generation	2	Halsten Halstensson	Birgitte Saterbo	Filip Halstensson	Inge Halstensson	-	-
+sweden	4th Generation	3	Stenkil Stenkilsson	Ingamoder Emundsson	Halsten Halstensson	Inge Ingesson	-	-
+sweden	4th Generation	4	Sven av_Danmark	Gunhild Anundsson	-	-	-	-
+sweden	3rd Generation	5	Olav av_Norge	Astrid Olofsson	-	-	-	-
+sweden	3rd Generation	6	Emund Emundsson	Astrid Njalsson	Anund Emundsson	Ingvar Emundsson	Ingamoder Emundsson	-
+sweden	3rd Generation	7	Anund Anundsson	Gunhild Svensson	Gunhild Anundsson	-	-	-
+sweden	3rd Generation	8	Jaroslav av_Kiev	Ingegerd Olofsson	-	-	-	-
+sweden	2nd Generation	9	Olof Olofsson	Estrid av_Obotriterna	Ingegerd Olofsson	Anund Anundsson	Emund Emundsson	Astrid Olofsson
+sweden	1st Generation	10	Erik Bjornsson	Sighrid Storrada	Olof Olofsson	-	-	-
+syria	-	1	Mansur Abu-Kamil	Humai	Dubays_i Nur-al-Dawla	-	-	-
+syria	-	2	Dubays Nur-al-Dawla	Qabihah	Mansur Abu-Kamil	Sadaka Sayf-al-dawla	-	-
+syria	-	3	Ali Sanad-al-Dawla	Sukaynah	Dubays Nur-al-Dawla	-	-	-
+syria	-	4	Kerbogha	Hannanae	-	-	-	-
+syria	-	5	Yusuf bin_Furuz	Delaram	-	-	-	-
+syria	-	6	Dubais	Guhar Khatun	-	-	-	-
+syria	-	7	Sokmen el_Kutbi	Nasrin	Daud	-	-	-
+syria	-	8	Sabiq Mahmud	Hanifa	-	-	-	-
+syria	-	9	Jalal al-Daula Nasr	Warwar	-	-	-	-
+syria	-	10	Aq_Sunqur al-Hajib	Huchehr	Hannanae	Imad Zengi	-	-
+syria	-	11	Muin ad-Din Unur	Shekarpare	Delaram	-	-	-
+syria	-	12	Yaghi-Siyan	Roshanak	-	-	-	-
+syria	-	13	Taj al-Muluk Buri	Khatun al-Mulk Safwat	Ismail	 Shihab ad-Din Mahmud	-	-
+syria	-	14	Najm ad-Din Ilghazi	Farkhunda Khatun	Safra Khatun	Guhar Khatun	Timurtash	-
+syria	-	15	Rashid al-Daula Mahmud	Pariya	Jalal al-Daula Nasr	Sabiq Mahmud	-	-
+syria	-	16	Artuq	Mehraban	Sokmen el_Kutbi	Najm_i ad-Din Ilghazi	-	-
+syria	-	17	Toghtekin	Zumurrud	Taj_i al-Muluk Buri	Shekarpare	Huchehr	-
+syria	-	18	Fakhr al-Mulk Radwan	Lulu	Farkhunda Khatun	Khatun al-Mulk Safwat	Roshanak	Alp Arslan al-Akhras
+syria	-	19	Muslim Sharaf al-Daula	Safiyya_i	Ali	Muhammad	-	-
+syria	-	20	Atiyya Salih	Kamand	Rashid al-Daula Mahmud	-	-	-
+syria	-	21	Tutush	Golsa	Fakhr al-Mulk Radwan	Duqaq	Zumurrud	Mehraban
+syria	-	22	Quraysh Alam al-Din	Sunbul	Muslim Sharaf al-Daula	Ibrahim	-	-
+syria	-	23	Salih Mirdas	Leyla	Shibl al-Daula Nasr	Muizz al-Daula Thimal	Atiyya Salih	-
+syria	-	24	Baraka Zaim al-Daula	Nayyere	Golsa	-	-	-
+syria	-	25	Muqallad Husam al-Daula	Feresteh	Baraka Zaim al-Daula	Qirwash Mutamid al-Daula	-	-
+-	8th gen	1	Knut av_Sola	Ragnhild Svendsen	Sven av_Sola	-	-	-
+-	8th gen	2	Skofte Arnesson_Giske	Gudrun Thorsen	Ogmund Arnesson_Giske	Finn Arnesson_Giske	Tore Arnesson_Giske	Thora Arnesson_Giske
+-	7th gen	3	Thorgaut Ulfssen	Thorgunna av_Danmark	-	-	-	-
+-	7th gen	4	Erlend av_Orknoyene	Thora Sumarlidasson	Magnus av_Orknoyene	-	-	-
+-	7th gen	5	Paal av_Orknoyene	Ragnhild Ladejarl	Haakon av_Orknoyene	Thora av_Orknoyene	Ingrid av_Orknoyene	Brynjolf av_Orknoyene
+-	7th gen	6	Skule av_Godwinsson	Gudrun Hovding	Asulf av_Godwinsson	Ragnhild av_Godwinsson	-	-
+-	7th gen	7	Olav Olavsson	Ingrid av_Danmark	Magnus Harfagre	-	-	-
+-	7th gen	8	Magnus Magnusson	Frida av_Trondheim	Haakon Harfagre	-	-	-
+-	7th gen	9	Olav av_Danmark	Ingjerd Haraldsson	-	-	-	-
+-	7th gen	10	Finn av_Tjotta	Gudrun av_Moss	Haakon av_Tjotta	-	-	-
+-	7th gen	11	Svein av_Sola	Ragnhild av_Danmark	Knut av_Sola	-	-	-
+-	7th gen	12	Ulf Ospaksson	Jorunn Arnesson_Giske	Steinkel Ulfssen	Jon Ulfssen	Brigida Ulfssen	-
+-	7th gen	13	Ogmund Thorsen	Gunnhild av_Rogaland	Gudrun Thorsen	-	-	-
+-	7th gen	14	Otto av_Sachsen	Ulfhildr Olavsson	-	-	-	-
+-	6th gen	15	Hjalte av_Danmark	Sunniva av_Oppland	-	-	-	-
+-	6th gen	16	Ulf Ulfssen	Bodil Haakonsen	Thorgaut Ulfssen	-	-	-
+-	6th gen	17	Orm Eilifsson	Sigrid Arnesson	-	-	-	-
+-	6th gen	18	Torfinn av_Orknoyene	Ingebjorg Arnesson	Paal av_Orknoyene	Erlend av_Orknoyene	-	-
+-	6th gen	19	Nevstein Hovding	Ingrid Sigurdsson	Gudrun Hovding	-	-	-
+-	6th gen	20	Kjetil Kalv	Gunnhild Sigurdsson	-	-	-	-
+-	6th gen	21	Harald Haraldsson	Thora Torbergsson	Ingjerd Haraldsson	Magnus Magnusson	Olav Olavsson	-
+-	6th gen	22	Rognvald_b av_Sverige	Astrid Njalsson	-	-	-	-
+-	6th gen	23	Harek av_Tjotta	Ragnhild Arnesson	Einar av_Tjotta	Gudrun av_Moss	-	-
+-	6th gen	24	Aslak av_Sola	Sigrid Svendsen	Svein av_Sola	-	-	-
+-	6th gen	25	Torberg Arnesson_Giske	Ragnhild Erlingsson	Ogmund Thorsen	Oystein Arnesson_Giske	Jorunn Arnesson_Giske	-
+-	6th gen	26	Olav_a Olavsson	Astrid av_Sverige	Magnus_ri Olavsson	Ulfhildr Olavsson	-	-
+-	6th gen	27	Gudrod Crowan	Astrid av_Skottland	Lagmand Crowan	Harald_a Crowan	Olav Crowan	-
+-	5th gen	28	Haakon av_Oppland	Ragnhild Magnusson	Sunniva av_Oppland	-	-	-
+-	5th gen	29	Thord Folesson	Alof av_Skaun	-	-	-	-
+-	5th gen	30	Eindridi av_Skaun	Sigrid Erlingsson	Tormod	Einar	-	-
+-	5th gen	31	Svein av_Danmark	Gunnhild Svendsen	-	-	-	-
+-	5th gen	32	Haakon Haakonsen	Gunnhild av_Pommern	Bodil Haakonsen	-	-	-
+-	5th gen	33	Finn Arnesson	Bergljot Halvdansson	Ingebjorg Arnesson	Sigrid Arnesson	-	-
+-	5th gen	34	Sigurd Sigurdsson	Asta Gudbrandsson_b	Harald Haraldsson	Halvdan Sigurdsson	Gunnhild Sigurdsson	Ingrid Sigurdsson
+-	5th gen	35	Njals Njalsson	Svanhild Alstrup	Astrid Njalsson	-	-	-
+-	5th gen	36	Eivind av_Tjotta	Alfhild Ronning	Harek av_Tjotta	-	-	-
+-	5th gen	37	Olav_b Olafsson	Gyda Sigtryggsson	Trygve Olavsson	-	-	-
+-	5th gen	38	Rognvald_a av_Sverige	Ingebjorg Tryggvesen	-	-	-	-
+-	5th gen	39	Erling av_Sola	Astrid Tryggvesen	Ragnhild Erlingsson	Aslak av_Sola	Skjalg av_Sola	Lodin av_Sola
+-	5th gen	40	Harald Haraldsson_a	Asta Gudbrandsson_a	Olav_a Olavsson	-	-	-
+-	5th gen	41	Harald Crowan	Sigrid av_Orknoyene	Gudrod Crowan	-	-	-
+-	4th gen	42	Ivar av_Oppland	Sigrid Ladejarl	Haakon av_Oppland	-	-	-
+-	4th gen	43	Einar av_Skaun	Bergljot Ladejarl	Eindridi av_Skaun	Alof av_Skaun	-	-
+-	4th gen	44	Svein Svendsen	Holmfrid av_Sverige	Gunnhild Svendsen	-	-	-
+-	4th gen	45	Eirik Ladejarl	Gyda av_Danmark	Haakon Haakonsen	-	-	-
+-	4th gen	46	Halvdan Halvdansson	Thora Haugland	Sigurd Sigurdsson	Bergljot Halvdansson	-	-
+-	4th gen	47	Finn Eyvindsson	Gunnhild Halvdansson	Eivind av_Tjotta	Sigurd av_Tjotta	Thora av_Tjotta	Njals Njalsson
+-	4th gen	48	Trygve Tryggvesen	Astrid Eiriksson	Astrid Tryggvesen	Ingebjorg Tryggvesen	Olav_b Olafsson	-
+-	4th gen	49	Gudrod Grenske	Cecilia Bjornsen	Harald Haraldsson_a	-	-	-
+-	4th gen	50	Gudrod Gudrodsen	Ragnhild av_Oyene	Harald Crowan	-	-	-
+-	3rd gen	51	Haakon Ladejarl	Thora Skagesson	Eirik Ladejarl	Svein Svendsen	Bergljot Ladejarl	Sigrid Ladejarl
+-	3rd gen	52	Haakon Haraldsson	Snofrid av_Trondheim	-	-	-	-
+-	3rd gen	53	Sigurd Hadafylke	Grete Haugland	Halvdan Halvdansson	-	-	-
+-	3rd gen	54	Halvdan Gudrodsen	Ingjerd Haraldsson_a	Gunnhild Halvdansson	-	-	-
+-	3rd gen	55	Olav Olafsson	Freia Tangen	Trygve Tryggvesen	-	-	-
+-	3rd gen	56	Bjorn Bjornsen	Dorte Haraldsson	Gudrod Grenske	-	-	-
+-	3rd gen	57	Erik Eiriksson	Gunnhild av_Danmark	Gamle Eiriksson	Harald Eiriksson	Gudrod Gudrodsen	Rognvald_a Eiriksson
+-	2nd gen	58	Sigurd Ladejarl	Bergljot Toresson	Haakon Ladejarl	-	-	-
+-	2nd gen	59	Harald_b Haraldsson	Ase av_Lade	Guttorm Haraldsson	Sigrod Haraldsson	Sigurd Hadafylke	Haakon Haraldsson
+-	2nd gen	60	Harald_a Haraldsson	Svanhild av_Lade	Erik Eiriksson	Bjorn Bjornsen	Olav Olafsson	Ingjerd Haraldsson_a
+-	1st gen	61	Haakon av_Lade	Ingjerd av_Nidaros	Svanhild av_Lade	Ase av_Lade	Sigurd Ladejarl	-
+sicily	5th gen	1	Ruggero de_Bernavilla	Eliusa de_Gerace	Rocca de_Bernavilla	-	-	-
+sicily	4th gen	2	Giovanni Drengotto	Beatrice d_Altavilla	-	-	-	-
+sicily	4th gen	3	Giordano de_Capua	Gaitelgrima de_Salerno	Riccardo de_Capua	Roberto de_Capua	Giordano	-
+sicily	4th gen	4	Rainulfo de_Montescaglioso	Emma d_Altavilla	-	-	-	-
+sicily	4th gen	5	Arrigo de_Monte_SantAngelo	Adelaisa d_Altavilla	-	-	-	-
+sicily	4th gen	6	Riccardo de_Salerno	Altruda d_Altavilla	Ruggero de_Salerno	-	-	-
+sicily	4th gen	7	Roberto d_Eboli	Gilia Brittone	Guglielmo d_Eboli	-	-	-
+sicily	4th gen	8	Riccardo d_Altavilla	Altruda de_Conversano	Ruggero	-	-	-
+sicily	4th gen	9	Roberto de_Loritello	Agnese de_Vieste	Roberto de_Vieste	-	-	-
+sicily	4th gen	10	Serlo_a de_Gerace	Altruda de_Bojano	Serlo d_Enna	Eliusa de_Gerace	-	-
+sicily	3rd gen	11	Riccardo Drengotto	Fressenda d_Altavilla	Giordano de_Capua	Giovanni Drengotto	-	-
+sicily	3rd gen	12	Ruggero d_Altavilla	Adelaisa del_Vasto	Adelaisa d_Altavilla	Malgerio d_Altavilla	Simone d_Altavilla	Ruggero_i d_Altavilla
+sicily	3rd gen	13	Guglielmo d_Altavilla	Maria de_Sorrento	Roberto d_Eboli	Riccardo de_Salerno	-	-
+sicily	3rd gen	14	Roberto d_Altavilla	Sichelgaita de_Salerno	Boemundo d_Altavilla	Ruggero d_Apulia	Guido d_Altavilla	Roberto d_Apulia
+sicily	3rd gen	15	Drogo d_Altavilla	Altruda_b de_Salerno	Riccardo d_Altavilla	-	-	-
+sicily	3rd gen	16	Goffredo de_Loritello	Teodora de_Capaccio	Roberto_r de_Loritello	Rainulfo de_Loritello	Guglielmo de_Loritello	Drogone de_Loritello
+sicily	3rd gen	17	Umfredo d_Altavilla	Altruda de_Salerno	Abelardo d_Altavilla	Ermanno d_Altavilla	-	-
+sicily	3rd gen	18	Serlo d_Altavilla	Sibilla de_Pirou	Serlo_a de_Gerace	-	-	-
+sicily	2nd gen	19	Tancredi_a d_Altavilla	Fressenda de_Normandia	Roberto d_Altavilla	Guglielmo d_Altavilla	Ruggero d_Altavilla	Fressenda d_Altavilla
+sicily	2nd gen	20	Tancredi d_Altavilla	Muriella de_Normandia	Serlo d_Altavilla	Umfredo d_Altavilla	Goffredo de_Loritello	Drogo d_Altavilla
+sicily	1st gen	21	Riccardo de_Normandia	Isabella de_Canne	Muriella de_Normandia	Fressenda de_Normandia	-	-
+turks	-	1	Abul Qasim	Iffet	-	-	-	-
+-	-	2	Tanribermis	Nukhet	-	-	-	-
+-	-	3	Tzachas	Hayriye	-	-	-	-
+turks	-	5	Suleiman	Muna Hatun	Kilic Arslan	Kulan Arslan	-	-
+turks	-	6	Mansur	Behiye	-	-	-	-
+turks	-	7	Alp_Arslan	Mahkhatun	Malik-Shah_i	Tutush	Tekis	-
+turks	-	8	Kutalmish	Nilufer Hatun	Mansur	Suleiman	Vahid	Dawud
+turks	-	9	Cagri	Roshan	Kavurt	Alp_Arslan	Yakuti	-
+turks	-	10	Arslan Yabgu	Susanak	Kutalmish	-	-	-
+turks	-	11	Mikail Bey	Hayat	Tugrul	Cagri	-	-
+turks	-	12	Seljuk	Saharnaz	Mikail Bey	Arslan Yabgu	Musa	Yunus
+hungary	-	1	Vid Gutkeled	Viola	Gut Gutkeled	Keled Gutkeled	-	-
+hungary	-	2	Otto Gyor	Karold	-	-	-	-
+hungary	-	3	Lampert Hont-Pazmany	Szepa	-	-	-	-
+hungary	-	5	Baudouin Ratot	Giselle Ratot	Oliver Ratot	Ratold Ratot	-	-
+hungary	-	6	Antal Rosd	Magdolna Rosd	Miklos Rosd	Acsa Rosd	-	-
+hungary	-	7	Szaonok Szolnok	Zsejke	-	-	-	-
+hungary	-	8	Dmitar Zvonimir	Ilona	-	-	-	-
+hungary	-	9	Laszlo	Adelhaid	-	-	-	-
+hungary	-	10	Geza	Zsofia	Kalman	Almos	-	-
+hungary	-	11	Salamon	Svab_Judit	-	-	-	-
+hungary	-	12	Bela	Richeza Lengyelorszag	Geza	Laszlo	Ilona	Lampert
+hungary	-	13	Andras	Anasztaszija Jaroszlavna	Salamon	David	-	-
+hungary	-	14	Peter Orseolo	Judit Schweinfurt	-	-	-	-
+hungary	-	15	Mael Skocia	Agota	-	-	-	-
+hungary	-	16	Vazul	Bibur	Andras	Levente	Bela	-
+hungary	-	17	Ottone Orseolo	Sophia	Peter Orseolo	-	-	-
+hungary	-	18	Samuel Aba	Sarolta	Peter	-	-	-
+hungary	-	19	Istvan	Gizella	Otto	Imre	Agota	-
+hungary	-	20	Mihaly	Klara	Vazul	-	-	-
+hungary	-	21	Geza Nagyfejedelem	Mikolt	Istvan	Sarolta	Sophia	-
+hungary	-	22	Taksony	Prisca	Geza Nagyfejedelem	Mihaly	-	-
+hungary	-	23	Solt Fejedelem	Szaloka Fejedelemasszony	Taksony	-	-	-
+hungary	-	24	Arpad	Abacil	Solt Fejedelem	-	-	-
+norway	8th gen	1	Pordur Sturlungar	Hedda	-	-	-	-
+norway	8th gen	2	Erlend Thorfinnsson	Eldrid	Magnus	-	-	-
+norway	8th gen	3	Paul Thorfinnsson	Aurora	Haakon	-	-	-
+norway	8th gen	4	Thorfinn Sigurdsson	Ingibiorg Finnsdottir	Paul Thorfinnsson	Erlend Thorfinnsson	-	-
+norway	8th gen	5	Knut av_Sola	Ragnhild Svendsen	Sven av_Sola	-	-	-
+norway	8th gen	6	Skofte Arnesson_Giske	Gudrun Thorsen	Ogmund Arnesson_Giske	Finn Arnesson_Giske	Tore Arnesson_Giske	-
+norway	7th gen	7	Thorgaut Ulfssen	Thorgunna av_Danmark	-	-	-	-
+norway	7th gen	8	Erlend av_Orknoyene	Thora Sumarlidasson	Magnus av_Orknoyene	-	-	-
+norway	7th gen	9	Paal av_Orknoyene	Ragnhild Ladejarl	Haakon av_Orknoyene	Brynjolf av_Orknoyene	-	-
+norway	7th gen	10	Skule av_Godwinsson	Gudrun Hovding	Asulf av_Godwinsson	-	-	-
+norway	7th gen	11	Olav Olavsson	Ingrid av_Danmark	Magnus Harfagre	-	-	-
+norway	7th gen	12	Magnus Magnusson	Frida av_Trondheim	Haakon Harfagre	-	-	-
+norway	7th gen	13	Olav av_Danmark	Ingjerd Haraldsson	-	-	-	-
+norway	7th gen	14	Finn av_Tjotta	Gudrun av_Moss	Haakon av_Tjotta	-	-	-
+norway	7th gen	15	Svein av_Sola	Ragnhild av_Danmark	Knut av_Sola	-	-	-
+norway	7th gen	16	Ulf Ospaksson	Jorunn Arnesson_Giske	Steinkel Ulfssen	Jon Ulfssen	-	-
+norway	7th gen	17	Ogmund Thorsen	Gunnhild av_Rogaland	Gudrun Thorsen	-	-	-
+norway	7th gen	18	Otto av_Sachsen	Ulfhildr Olavsson	-	-	-	-
+norway	6th gen	19	Hjalte av_Danmark	Sunniva av_Oppland	-	-	-	-
+norway	6th gen	20	Ulf Ulfssen	Bodil Haakonsen	Thorgaut Ulfssen	-	-	-
+norway	6th gen	21	Orm Eilifsson	Sigrid Arnesson	-	-	-	-
+norway	6th gen	22	Torfinn av_Orknoyene	Ingebjorg Arnesson	Paal av_Orknoyene	Erlend av_Orknoyene	-	-
+norway	6th gen	23	Nevstein Hovding	Ingrid Sigurdsson	Gudrun Hovding	-	-	-
+norway	6th gen	24	Kjetil Kalv	Gunnhild Sigurdsson	-	-	-	-
+norway	6th gen	25	Harald Haraldsson	Thora Torbergsson	Ingjerd Haraldsson	Magnus Magnusson	Olav Olavsson	-
+norway	6th gen	26	Rognvald_b av_Sverige	Astrid Njalsson	-	-	-	-
+norway	6th gen	27	Harek av_Tjotta	Ragnhild Arnesson	Einar av_Tjotta	Gudrun av_Moss	-	-
+norway	6th gen	28	Aslak av_Sola	Sigrid Svendsen	Svein av_Sola	-	-	-
+norway	6th gen	29	Torberg Arnesson_Giske	Ragnhild Erlingsson	Ogmund Thorsen	Oystein Arnesson_Giske	Jorunn Arnesson_Giske	-
+norway	6th gen	30	Olav_a Olavsson	Astrid av_Sverige	Magnus_ri Olavsson	Ulfhildr Olavsson	-	-
+norway	6th gen	31	Gudrod Crowan	Astrid av_Skottland	Lagmand Crowan	Harald_a Crowan	Olav Crowan	-
+norway	5th gen	32	Haakon av_Oppland	Ragnhild Magnusson	Sunniva av_Oppland	-	-	-
+norway	5th gen	33	Thord Folesson	Alof av_Skaun	-	-	-	-
+norway	5th gen	34	Eindridi av_Skaun	Sigrid Erlingsson	Tormod	Einar	-	-
+norway	5th gen	35	Svein av_Danmark	Gunnhild Svendsen	-	-	-	-
+norway	5th gen	36	Haakon Haakonsen	Gunnhild av_Pommern	Bodil Haakonsen	-	-	-
+norway	5th gen	37	Finn Arnesson	Bergljot Halvdansson	Ingebjorg Arnesson	Sigrid Arnesson	-	-
+norway	5th gen	38	Sigurd Sigurdsson	Asta Gudbrandsson_b	Harald Haraldsson	Halvdan Sigurdsson	Gunnhild Sigurdsson	Ingrid Sigurdsson
+norway	5th gen	39	Njals Njalsson	Svanhild Alstrup	Astrid Njalsson	-	-	-
+norway	5th gen	40	Eivind av_Tjotta	Alfhild Ronning	Harek av_Tjotta	-	-	-
+norway	5th gen	41	Olav_b Olafsson	Gyda Sigtryggsson	Trygve Olavsson	-	-	-
+norway	5th gen	42	Rognvald_a av_Sverige	Ingebjorg Tryggvesen	-	-	-	-
+norway	5th gen	43	Erling av_Sola	Astrid Tryggvesen	Ragnhild Erlingsson	Aslak av_Sola	Skjalg av_Sola	Lodin av_Sola
+norway	5th gen	44	Harald Haraldsson_a	Asta Gudbrandsson_a	Olav_a Olavsson	-	-	-
+norway	5th gen	45	Harald Crowan	Sigrid av_Orknoyene	Gudrod Crowan	-	-	-
+norway	4th gen	46	Ivar av_Oppland	Sigrid Ladejarl	Haakon av_Oppland	-	-	-
+norway	4th gen	47	Einar av_Skaun	Bergljot Ladejarl	Eindridi av_Skaun	Alof av_Skaun	-	-
+norway	4th gen	48	Svein Svendsen	Holmfrid av_Sverige	Gunnhild Svendsen	-	-	-
+norway	4th gen	49	Eirik Ladejarl	Gyda av_Danmark	Haakon Haakonsen	-	-	-
+norway	4th gen	50	Halvdan Halvdansson	Thora Haugland	Sigurd Sigurdsson	Bergljot Halvdansson	-	-
+norway	4th gen	51	Finn Eyvindsson	Gunnhild Halvdansson	Eivind av_Tjotta	Sigurd av_Tjotta	Thora av_Tjotta	Njals Njalsson
+norway	4th gen	52	Trygve Tryggvesen	Astrid Eiriksson	Astrid Tryggvesen	Ingebjorg Tryggvesen	Olav_b Olafsson	-
+norway	4th gen	53	Gudrod Grenske	Cecilia Bjornsen	Harald Haraldsson_a	-	-	-
+norway	4th gen	54	Gudrod Gudrodsen	Ragnhild av_Oyene	Harald Crowan	-	-	-
+norway	3rd gen	55	Haakon Ladejarl	Thora Skagesson	Eirik Ladejarl	Svein Svendsen	Bergljot Ladejarl	Sigrid Ladejarl
+norway	3rd gen	56	Haakon Haraldsson	Snofrid av_Trondheim	-	-	-	-
+norway	3rd gen	57	Sigurd Hadafylke	Grete Haugland	Halvdan Halvdansson	-	-	-
+norway	3rd gen	58	Halvdan Gudrodsen	Ingjerd Haraldsson_a	Gunnhild Halvdansson	-	-	-
+norway	3rd gen	59	Olav Olafsson	Freia Tangen	Trygve Tryggvesen	-	-	-
+norway	3rd gen	60	Bjorn Bjornsen	Dorte Haraldsson	Gudrod Grenske	-	-	-
+norway	3rd gen	61	Erik Eiriksson	Gunnhild av_Danmark	Gamle Eiriksson	Harald Eiriksson	Gudrod Gudrodsen	Rognvald_a Eiriksson
+norway	2nd gen	62	Sigurd Ladejarl	Bergljot Toresson	Haakon Ladejarl	-	-	-
+norway	2nd gen	63	Harald_b Haraldsson	Ase av_Lade	Guttorm Haraldsson	Sigrod Haraldsson	Sigurd Hadafylke	Haakon Haraldsson
+norway	2nd gen	64	Harald_a Haraldsson	Svanhild av_Lade	Erik Eiriksson	Bjorn Bjornsen	Olav Olafsson	Ingjerd Haraldsson_a
+norway	1st gen	65	Haakon av_Lade	Ingjerd av_Nidaros	Svanhild av_Lade	Ase av_Lade	Sigurd Ladejarl	-

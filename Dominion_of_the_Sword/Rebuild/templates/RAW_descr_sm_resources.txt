@@ -1,0 +1,32 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles	  ;
+;trade resources.	  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+mine				data/models_strat/resource_mine.CAS
+
+;!for each resource_name in all dsr_resource_name
+;!with above each trade_value in all dsr_resource_trade_value
+;!with above each actual_resource in all strat_resource_name
+;{actual_resource}
+type				{resource_name}
+trade_value			{trade_value}
+item				data/models_strat/resource_{resource_name}.CAS
+icon				data/ui/resources/resource_{resource_name}.tga
+;!unless tooltips_resource_mine is -
+has_mine
+;!end
+;!end
+;!end
+;!end
+
+; DO NOT ADD THE FOLLOWING RESOURCE TO THE CAMPAIGN MAP. GENERIC RESOURCE USED TO REPRESENT GENERIC TRADE PIP IN TRADE SCROLL
+type				generic
+trade_value			0
+item				data/models_strat/resource_dogs.CAS	; NOT ACTUALLY USED
+icon				data/ui/resources/resource_trade_goods.tga

@@ -1,0 +1,71 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file defines the;
+;cultures and related ;
+;strat models.		  ;					 
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+symbol	data/models_strat/residences/symbol.CAS
+siege	data/models_strat/residences/siege_icon.CAS
+
+blockade			data/models_strat/residences/blockade_icon.CAS
+
+;!for each culture in all dc_culture_names
+;!with above each rebel_index in all dc_rebel_standard_index
+;!with above each abbreviation in all dc_abbreviations
+;!with above each fort_cost in all dc_fort_costs
+;!with above each watchtower_cost in all dc_watchtower_costs
+;!with above each spy_cost in all dc_spy_costs
+;!with above each assassin_cost in all dc_assassin_costs
+;!with above each diplomat_cost in all dc_diplomat_costs
+;!with above each admiral_cost in all dc_admiral_costs
+;!with above each merchant_cost in all dc_merchant_costs
+;!with above each priest_cost in all dc_priest_costs
+culture				{culture}
+portrait_mapping	{culture}
+rebel_standard_index	{rebel_standard_index}
+{
+;!-for each settlement_level in all dc_settlement_levels
+;!with above each settlement_level_id in all dc_settlement_level_ids
+{settlement_level}
+{
+	normal				data/models_strat/residences/{abbreviation}_{settlement_level}.CAS,		settlement_eastern_level_{settlement_level_id}
+	card				data/ui/southern_european/cities/{abbreviation}_{settlement_level}_card.tga
+}
+;!end
+;!end
+}
+fort				data/models_strat/residences/{abbreviation}_fort.CAS,						fort_roman
+fort_cost			{fort_cost}
+fort_wall			data/models_strat/residences/{abbreviation}_fort.CAS
+fishing_village		data/models_strat/residences/{abbreviation}_port_village.CAS,				port_roman_level_1
+;!-for each port_level in all dc_port_levels
+;!with above each port_level_id in all dc_port_level_ids
+port_land			data/models_strat/residences/{abbreviation}_{port_level}_wall.CAS,				port_roman_level_{port_level_id}
+port_sea			data/models_strat/residences/{abbreviation}_{port_level}_buildings.CAS,
+;!end
+;!end
+watchtower			data/models_strat/residences/{abbreviation}_watchtower.CAS,					watchtower_roman
+watchtower_cost		{watchtower_cost}
+spy				spy.tga				spy_info.tga			spy.tga			{spy_cost}	1	1
+assassin		assassin.tga		assassin_info.tga		assassin.tga	{assassin_cost}	1	1
+diplomat		diplomat.tga		diplomat_info.tga		diplomat.tga	{diplomat_cost}	1	1
+admiral			admiral.tga		admiral_info.tga		admiral.tga	{admiral_cost}	1	1
+merchant		merchant.tga		merchant_info.tga		merchant.tga	{merchant_cost}	1	1
+priest			priest.tga		priest_info.tga			priest.tga	{priest_cost}	1	1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end

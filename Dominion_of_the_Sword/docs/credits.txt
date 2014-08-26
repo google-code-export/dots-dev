@@ -1,0 +1,174 @@
+                         
+    ,- _~.              |\        ,        
+   (' /|                 \\   '  ||        
+  ((  ||   ,._-_  _-_   / \\ \\ =||=  _-_, 
+  ((  ||    ||   || \\ || || ||  ||  ||_.  
+   ( / |    ||   ||/   || || ||  ||   ~ || 
+    -____-  \\,  \\,/   \\/  \\  \\, ,-_-  
+                                                                        
+
+Core Team (VALHALLA)	
+
+
+Michael Vlach	Mod Leader, Production Leader, Code Generation Tool Designer, Mapper
+Ross Downing	Director & Founder
+Ed Langhorne	Music Coder, Map Support, Management
+Chris Waight	Executive 
+Sean Dugaw	Mod Leader, Units design & production
+Praneeth Sadda	Executive, Campaign Scripter, Production Tools Designer & Consultant
+Michiel Rowaan  Head of Research, Special Researcher: Historical Geography & Middle East
+Ignacio García 	Research Specialist 
+Thomas Wiggins	Tech Tree Coder
+Meneth	Campaign Scripter
+Andrija Dimitrijevic	Units coder
+Ciaran Morris	Family Trees Coder
+Jonathan Sleeman	Family Trees Coder, Characters Coder, Character Researcher
+	
+John Zunda	Cinematics
+Vartan Haghverdi	Cinematics
+	
+
+
+MODDING COMMUNITY MEMBERS
+
+Copperknickers	Former Admin, Advanced Research
+2Shy	
+ablomen	
+acegogo 	Contributor
+achilla	
+Aduellist	
+AgisTournas	
+ajak60	
+Ali	Map Research
+Alkidas	Executive Admin
+andriejj	
+AnthoniusII	Special Researcher: Byzantium
+Archaon	Former Admin
+Argent Usher	Former Admin, Consultant
+Arn	
+Ataegina	Contributor
+atlon	
+Awellesley	
+banzai_travis	Former Admin
+Basileos	Special Researcher: Iberia
+beastknight	
+billydilly	Former Admin, Artist: promotional
+blackhawk	
+blumfelds_91	
+Bowden	Contributor
+brennas	Special Researcher: Iberia, general, Senior Member
+Bucefalo	
+Cedric47	Artist: UIs, Menus
+cherchant	
+Chinggis Khan	
+codix105	Contributor
+Copperknickers	Admin
+dionisy	Special Researcher: Russia
+dynastia	
+EarendilElenthol	
+Eldgrim	Contributor
+Elphir	Special Researcher: Middle East, Senior Member, traits coder
+Figman	
+gaunty14	Portraits
+george91	Map Researcher
+Gigantus	Contributor
+Goblin	
+Göteborgare	Former Admin
+Gpower	Traits & Ancillaries coder
+GrnEyedDvl	Consultant
+Gustave 	
+Haakon	Special Researcher: Scandinavia
+Hekk	Contributor
+Helmersen	
+Hospitaller	
+Husker9.2	
+intel	
+Ivan the Terrible	Contributor
+Janice	Advisor, supporter and loving wife of Holy Spirit :-)
+jermagon	
+Jeseter_na_suchu	
+jml322	
+JonSnow	
+JorisOfHolland	Contributor
+Khorney	
+Kingbaerg	Translator - Mongolian, advisor
+Lord Faucon	
+Lord Willy	Special Researcher: Italy
+lord_calidor	Contributor
+Manuel Komnenos	Special researcher: Byzantium, original member
+mattjohndavies	
+Meneth	Senior scripter & coder
+motyc	
+Neige Noire	Cinematics
+Nerva	
+Nevada	
+nnnm	Special Researcher: Middle East
+NoahShepard	
+OdinX	Coding contributor
+pacco	Unitmaker
+pavlinter	
+peasantarcher	
+PedroL	Special Researcher: Iberia
+phunkracy	
+polak966	Special Researcher: Poland
+Pope_Fred_I	Researcher
+Procopius	Special researcher: Byzantium, original member
+r_cn	
+ratbag	
+Rayoken	Former Admin
+retep219	
+Romanos IV	
+Russ Mitchel	
+saladin	
+saruman_the_white_wizard	
+seancappone	
+sftonix	
+Silas Canmore	Researcher
+sknit	
+spamostoc	
+Starlightman	
+Suboutai	Executive Admin
+Sudcommander	Researcher
+sutman	
+Tadzreuli	Special Researcher: Georgia
+taronquinn	
+The Stranger	Former Admin
+The Turk	Researcher/Contributor 
+the_tzar 	Contributor
+theodotos	Contributor
+toboe	
+vartan	Cinematics
+Voltaire	
+walkman810i	
+xeryx	
+yahiko_n_tsubame 	Special Researcher: Baltics
+yggdrasill	
+Zapp	Contributor
+zhouhaiyang	
+Zombimode	
+raziel_eire 	Family Trees Coder, Senior Member
+Tomato_Sandwich	Family Trees Coder, Senior Member
+Bowden	Contributor
+Baerke	Administrative Assistant
+Neha	Administrative Assistant
+Jeff "Hdfisise" Whitehead	Tech contributor
+Erebus26	Special Researcher: Ottomans
+Rafal Stefanski	Main artist
+Sir Alucard 	Ancillary pictures
+Caudillo87	Units contributor
+Marco Barone	Cinematics 
+Dénes Nagy	Special Researcher: Hungary
+James McLaren	Researcher
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

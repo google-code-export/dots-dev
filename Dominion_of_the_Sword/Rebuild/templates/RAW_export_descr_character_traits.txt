@@ -1,0 +1,131 @@
+;---------------------;
+;DOMINION OF THE SWORD;
+;---------------------;
+;This file handles the;
+;traits (vices &	  ;
+;virtues).			  ;
+;					  ;
+;Created by REBUILD	  ;
+;Author: Resurrection ;
+;---------------------;
+
+;?for each trait_type in all edct_trait_type
+;?with above each trait_characters in all edct_trait_characters
+;?with above each exclude_cultures in all edct_exclude_cultures
+;?with above each no_going_back_level in all edct_no_going_back_level
+;?with above each antitraits in all edct_antitraits
+;?if edct_level_name is -
+Trait {trait_type}
+	Characters {trait_characters}
+;?if edct_hidden is yes
+	Hidden
+;?end
+;?unless edct_exclude_cultures is -
+	ExcludeCultures	{exclude_cultures}
+;?end
+;?unless edct_no_going_back_level is -
+	NoGoingBackLevel	{no_going_back_level}
+;?end
+;?unless edct_antitraits is -
+	AntiTraits	{antitraits}
+;?end
+
+;?if edct_hidden is no
+;!for each level_name in all edct_level_name
+;!with above each level_threshold in all edct_level_threshold
+;!with above unpack each effects_unpacked in edct_level_effects
+;!if edct_trait_type is {trait_type}
+;!unless edct_level_name is -
+	Level {level_name}
+		Description {level_name}_desc
+;!unless effects_unpacked is -
+		EffectsDescription {level_name}_effects_desc
+;!end
+;!if effects_unpacked is -
+		EffectsDescription No_effects_desc
+;!end
+;!unless trait_level_gain_message is -
+		GainMessage	{level_name}_gain_desc
+;!end
+;!unless trait_level_lose_message is -
+		LoseMessage	{level_name}_lose_desc
+;!end
+;!unless trait_level_epiphet is -
+		Epithet	{level_name}_epithet_desc
+;!end
+		Threshold {level_threshold}
+
+;!unless effects_unpacked is -
+;!-for each effect in all effects_unpacked
+		Effect {effect}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;?end
+;?if edct_hidden is yes
+;!for each level_name in all edct_level_name
+;!with above each level_threshold in all edct_level_threshold
+;!with above unpack each effects_unpacked in edct_level_effects
+;!if edct_trait_type is {trait_type}
+;!unless edct_level_name is -
+	Level {level_name}
+		Description Hidden_desc
+		EffectsDescription Hidden_effects_desc
+		Threshold {level_threshold}
+
+;!unless effects_unpacked is -
+;!-for each effect in all effects_unpacked
+		Effect {effect}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+;?end
+
+;--------;
+;TRIGGERS;
+;--------;
+
+;!for each trigger in all edct_trigger
+;!with above each Trigger_Description in all edct_Trigger_Description
+;!with above each event in all edct_event 
+;!with above each base_condition in all edct_base_condition
+;!with above unpack each traits_unpacked in edct_traits
+;!with above unpack each conditions_unpacked in edct_conditions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;{Trigger_Description}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Trigger {trigger}
+	WhenToTest {event}
+
+;!unless edct_base_condition is -
+	Condition {base_condition}
+;!end
+;!-for each condition in all conditions_unpacked
+;!unless conditions_unpacked is -
+		and	{condition}
+;!end
+;!end
+
+;!-for each trait in all traits_unpacked
+	Affects	{trait}
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
+;!end
